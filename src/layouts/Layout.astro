@@ -1,0 +1,25 @@
+---
+import { getLangFromUrl } from "../i18n/utils";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+const lang = getLangFromUrl(Astro.url);
+const { title } = Astro.props;
+---
+
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>{title}</title>
+  </head>
+  <body class="bg-slate-50 text-gray-800 min-h-screen flex flex-col">
+    <Header />
+    <main class="p-4 flex-1 flex max-w-[1440px] w-full mx-auto">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

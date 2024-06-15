@@ -1,0 +1,34 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import {
+  getLangFromUrl,
+  getRouteFromUrl,
+  useTranslations,
+} from "../../i18n/utils";
+
+import { Lessons } from "../../i18n/ui";
+import VerseCard from "../../components/VerseCard.astro";
+import PreviousNextButtons from "../../components/PreviousNextButtons.astro";
+
+const lang = getLangFromUrl(Astro.url);
+const route = getRouteFromUrl(Astro.url);
+
+const data = Lessons[lang].find(({ link }) => link === route?.replace("/", ""));
+const t = useTranslations(lang);
+---
+
+<Layout title={t("home.title") + " | " + data?.title}>
+  <div class="flex flex-col w-full justify-between gap-4 md:gap-12">
+    <div class="flex justify-center gap-4 flex-wrap">
+     {data?.verses.map(({book,chapter,verse,content})=> <VerseCard
+        title={data?.title}
+        book={book}
+        chapter={chapter}
+        verse={verse}
+        content={content}
+      />)}
+    </div>
+
+    <PreviousNextButtons previousLink={data?.previous} nextLink={data?.next} />
+  </div>
+</Layout>

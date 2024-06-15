@@ -1,0 +1,14 @@
+---
+const { title, book, chapter, verse, content } = Astro.props;
+---
+
+<div class="border p-4 rounded-md shadow-sm bg-green-50 max-w-[70ch]">
+  <h2 class="text-2xl font-semibold text-gray-500 mb-4">{title}</h2>
+  <p class="font-bold text-lg">
+    {book}
+    {chapter}:{verse}
+  </p>
+  <p class="text-lg font-semibold text-gray-700">
+    {content}
+  </p>
+</div>

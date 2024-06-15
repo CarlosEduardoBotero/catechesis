@@ -1,0 +1,26 @@
+---
+import { languages } from "../i18n/ui";
+import {
+  getLangFromUrl,
+  useTranslatedPath,
+  getRouteFromUrl,
+  type LangType,
+} from "../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const translatePath = useTranslatedPath(lang);
+const route = getRouteFromUrl(Astro.url);
+console.log(translatePath(`/${route ? route : ""}`, lang as LangType), route);
+---
+
+<ul class="flex gap-2">
+  {
+    Object.entries(languages).map(([lang]) => (
+      <li>
+        <a href={translatePath(`/${route ? route : ""}`, lang as LangType)}>
+          <img src={`/icons/${lang}.svg`} alt="flag" />
+        </a>
+      </li>
+    ))
+  }
+</ul>
