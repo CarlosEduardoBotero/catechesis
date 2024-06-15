@@ -1,0 +1,21 @@
+---
+import {
+  getLangFromUrl,
+  useTranslations,
+} from "../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+
+const t = useTranslations(lang);
+---
+
+<footer class="p-4 bg-sky-950">
+  <p class="text-gray-200 text-center">
+    {t("footer.createWith")} ❤️ {t("footer.by")}
+    <a
+      class="font-semibold text-white"
+      target="_blank"
+      href="https://www.linkedin.com/in/carlos-eduardo-botero/">Carlos Botero</a
+    >
+  </p>
+</footer>

@@ -1,0 +1,49 @@
+---
+import {
+  useTranslatedPath,
+  getLangFromUrl,
+  useTranslations,
+} from "../i18n/utils";
+import RightChevron from "../../public/rightChevron.svg?raw";
+import LeftChevron from "../../public/leftChevron.svg?raw";
+
+const lang = getLangFromUrl(Astro.url);
+const translatePath = useTranslatedPath(lang);
+const t = useTranslations(lang);
+const { previousLink, nextLink } = Astro.props;
+---
+
+<div class="flex flex-col-reverse md:flex-row gap-4">
+  {
+    previousLink ? (
+      <a
+        class="py-8 pr-20 pl-6 md:mr-auto capitalize flex items-center gap-6 hover:bg-sky-100 rounded-md"
+        href={translatePath(previousLink)}
+      >
+        <Fragment set:html={LeftChevron} />
+        <div class="flex flex-col gap-2">
+          <p class="font-semibold text-gray-500">{t("previous")}</p>
+          <p class="text-lg font-semibold text-gray-700">
+            {previousLink.replace(/[\/-]/g, " ")}
+          </p>
+        </div>
+      </a>
+    ) : null
+  }
+  {
+    nextLink ? (
+      <a
+        class="py-8 pl-20 pr-6 md:ml-auto capitalize flex items-center gap-6 hover:bg-sky-100 rounded-md justify-end"
+        href={translatePath(nextLink)}
+      >
+        <div class="flex flex-col gap-2">
+          <p class="font-semibold text-gray-500 self-end">{t("next")}</p>
+          <p class="text-lg font-semibold text-gray-700">
+            {nextLink.replace(/[\/-]/g, " ")}
+          </p>
+        </div>
+        <Fragment set:html={RightChevron} />
+      </a>
+    ) : null
+  }
+</div>

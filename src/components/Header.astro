@@ -1,0 +1,24 @@
+---
+import {
+  getLangFromUrl,
+  useTranslatedPath,
+  getRouteFromUrl,
+  useTranslations,
+} from "../i18n/utils";
+import LanguagePicker from "./LanguagePicker.astro";
+
+const lang = getLangFromUrl(Astro.url);
+const translatePath = useTranslatedPath(lang);
+
+const t = useTranslations(lang);
+---
+
+<header class="border flex items-center justify-between p-4 bg-white">
+  <div class="flex items-center gap-4">
+    <img src="/main-logo.png" class="h-10 md:h-16" />
+
+    <a href={translatePath("/")}
+    class="text-xl md:text-2xl">{t("home.title")}</a>
+  </div>
+  <LanguagePicker />
+</header>
