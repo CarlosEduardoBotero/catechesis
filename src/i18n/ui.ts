@@ -9,7 +9,6 @@ export const showDefaultLang = false;
 
 export const routes = {
   en: {
-    catechesis: "catechesis",
     "jesus-exist-before-all-things": "jesus-exist-before-all-things",
     "he-became-a-man": "he-became-a-man",
     "his-life-was-perfect-and-blameless": "his-life-was-perfect-and-blameless",
@@ -20,7 +19,6 @@ export const routes = {
     "he-will-return": "he-will-return",
   },
   es: {
-    catechesis: "catequesis",
     "jesus-exist-before-all-things": "jesus-existia-antes-de-todas-las-cosas",
     "he-became-a-man": "el-se-hizo-hombre",
     "his-life-was-perfect-and-blameless":
@@ -32,7 +30,6 @@ export const routes = {
     "he-will-return": "el-volvera",
   },
   pt: {
-    catechesis: "catequese",
     "jesus-exist-before-all-things": "jesus-existia-antes-de-todas-as-coisas",
     "he-became-a-man": "tornou-se-homem",
     "his-life-was-perfect-and-blameless":
@@ -211,7 +208,7 @@ export const Lessons = {
   ],
   es: [
     {
-      link: "jesus-exist-before-all-things",
+      link: "jesus-existia-antes-de-todas-las-cosas",
       title: "Jesús existía antes de todas las cosas",
       verses: [
         {
@@ -226,7 +223,7 @@ export const Lessons = {
       next: "/el-se-hizo-hombre",
     },
     {
-      link: "he-became-a-man",
+      link: "el-se-hizo-hombre",
       title: "Él se hizo hombre",
       verses: [
         {
@@ -241,7 +238,7 @@ export const Lessons = {
       next: "/su-vida-fue-perfecta-e-inrreprensible",
     },
     {
-      link: "his-life-was-perfect-and-blameless",
+      link: "su-vida-fue-perfecta-e-inrreprensible",
       title: "Su vida fue perfecta e inrreprensible",
       verses: [
         {
@@ -255,7 +252,7 @@ export const Lessons = {
       next: "/su-obra-fue-tremenda-y-grandiosa",
     },
     {
-      link: "his-work-was-great-and-glorious",
+      link: "su-obra-fue-tremenda-y-grandiosa",
       title: "Su obra fue tremenda y grandiosa",
       verses: [
         {
@@ -270,7 +267,7 @@ export const Lessons = {
       next: "/murio-por-nuestros-pecados",
     },
     {
-      link: "he-died-for-our-sins",
+      link: "murio-por-nuestros-pecados",
       title: "Murió por nuestros pecados",
       verses: [
         {
@@ -292,7 +289,7 @@ export const Lessons = {
       next: "/resucito",
     },
     {
-      link: "he-rose-again",
+      link: "resucito",
       title: "Resucitó",
 
       verses: [
@@ -308,7 +305,7 @@ export const Lessons = {
       next: "/fue-exaltado",
     },
     {
-      link: "he-was-exalted",
+      link: "fue-exaltado",
       title: "Fue exaltado",
       verses: [
         {
@@ -330,7 +327,7 @@ export const Lessons = {
       next: "/el-volvera",
     },
     {
-      link: "he-will-return",
+      link: "el-volvera",
       title: "Él Volverá",
       verses: [
         {
@@ -347,7 +344,7 @@ export const Lessons = {
   ],
   pt: [
     {
-      link: "jesus-exist-before-all-things",
+      link: "jesus-existia-antes-de-todas-as-coisas",
       title: "Jesus existia antes de todas as coisas",
       verses: [
         {
@@ -362,7 +359,7 @@ export const Lessons = {
       next: "/tornou-se-homem",
     },
     {
-      link: "he-became-a-man",
+      link: "tornou-se-homem",
       title: "Tornou-se homem",
       verses: [
         {
@@ -377,7 +374,7 @@ export const Lessons = {
       next: "/sua-vida-foi-perfeita-e-irrepreensivel",
     },
     {
-      link: "his-life-was-perfect-and-blameless",
+      link: "sua-vida-foi-perfeita-e-irrepreensivel",
       title: "Sua vida foi perfeita e irrepreensível ",
       verses: [
         {
@@ -392,7 +389,7 @@ export const Lessons = {
       next: "/sua-obra-foi-tremenda-e-grandiosa",
     },
     {
-      link: "his-work-was-great-and-glorious",
+      link: "sua-obra-foi-tremenda-e-grandiosa",
       title: "Sua obra foi tremenda e grandiosa",
       verses: [
         {
@@ -407,7 +404,7 @@ export const Lessons = {
       next: "/morreu-pelos-nossos-pecados",
     },
     {
-      link: "he-died-for-our-sins",
+      link: "morreu-pelos-nossos-pecados",
       title: "Morreu pelos nossos pecados",
       verses: [
         {
@@ -429,7 +426,7 @@ export const Lessons = {
       next: "/ressuscitou",
     },
     {
-      link: "he-rose-again",
+      link: "ressuscitou",
       title: "Ressuscitou  ",
 
       verses: [
@@ -444,7 +441,7 @@ export const Lessons = {
       next: "/foi-exaltado",
     },
     {
-      link: "he-was-exalted",
+      link: "foi-exaltado",
       title: "Foi exaltado",
       verses: [
         {
@@ -466,7 +463,7 @@ export const Lessons = {
       next: "/he-will-return",
     },
     {
-      link: "he-will-return",
+      link: "e-voltara",
       title: "E voltará",
       verses: [
         {

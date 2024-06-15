@@ -3,7 +3,9 @@ import Layout from "../../layouts/Layout.astro";
 import {
   getLangFromUrl,
   getRouteFromUrl,
+  useTranslatedPath,
   useTranslations,
+  type LangType,
 } from "../../i18n/utils";
 
 import { Lessons } from "../../i18n/ui";
@@ -13,9 +15,10 @@ import PreviousNextButtons from "../../components/PreviousNextButtons.astro";
 const lang = getLangFromUrl(Astro.url);
 const route = getRouteFromUrl(Astro.url);
 
-const data = Lessons[lang].find(({ link }) => link === route?.replace("/", ""));
+const translatePath = useTranslatedPath(lang);
+const path = translatePath(`/${route ? route : ""}`, lang as LangType)
+const data = Lessons[lang].find(({ link }) => link === path.replace(/^\/[a-zA-Z]{2}\//g, ""));
 const t = useTranslations(lang);
-console.log(lang,route,data)
 ---
 
 <Layout title={t("home.title") + " | " + data?.title}>
