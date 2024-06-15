@@ -15,7 +15,6 @@ const route = getRouteFromUrl(Astro.url);
 
 const data = Lessons[lang].find(({ link }) => link === route?.replace("/", ""));
 const t = useTranslations(lang);
-console.log(data, route, Astro.url, "here");
 ---
 
 <Layout title={t("home.title") + " | " + data?.title}>
