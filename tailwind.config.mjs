@@ -6,6 +6,9 @@ export default {
       gridTemplateColumns: {
         "auto-fill-350": "repeat(auto-fill, minmax(350px, 1fr))",
       },
+      minHeight: {
+        screen: ["100vh", "100svh"],
+      },
     },
   },
   plugins: [],
