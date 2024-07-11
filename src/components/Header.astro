@@ -15,10 +15,9 @@ const t = useTranslations(lang);
 
 <header class="border flex items-center justify-between p-4 bg-white">
   <div class="flex items-center gap-4">
-    <img src="/main-logo.png" class="h-10 md:h-16" />
-
-    <a href={translatePath("/")}
-    class="text-xl md:text-2xl">{t("home.title")}</a>
+    <a href={translatePath("/")}>
+      <img src="/main-icon-lg.png" class="h-10 md:h-16" />
+    </a>
   </div>
   <LanguagePicker />
 </header>
