@@ -54,7 +54,6 @@ export function getRouteFromUrl(url: URL): string | undefined {
     obj: Record<string, string>,
     value: string
   ): string | undefined => {
-    console.log({obj,value, objKeys:Object.keys(obj)})
     return Object.keys(obj).find((key) => obj[key] === value);
   };
 

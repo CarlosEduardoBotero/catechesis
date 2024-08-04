@@ -11,9 +11,9 @@ const t = useTranslations(lang);
 <Layout title={t("home.title")}>
   <section id="catequesis" class="grid grid-cols-auto-fill-300 gap-4 w-full">
     {
-      Lessons[lang].map(({ title, link }, i) => (
+      Lessons[lang].map(({ title, pathname }, i) => (
         <a
-          href={link}
+          href={`/${lang}${pathname}`}
           class="flex flex-col border p-4 rounded-md shadow-sm hover:shadow-md transition-all duration-200 bg-white"
         >
           <span class="text-gray-600 font-semibold">

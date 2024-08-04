@@ -9,8 +9,7 @@ export const showDefaultLang = false;
 
 export const routes = {
   en: {
-    "/catechesis/": "/catechesis/",
-    "/who-we-are/": "/who-we-are/",
+    "/catechesis": "/catechesis",
     "/teaching": "/teaching",
     "/catechesis/jesus-exist-before-all-things":
     "/catechesis/jesus-exist-before-all-things",
@@ -25,8 +24,7 @@ export const routes = {
       "/catechesis/he-will-return": "/catechesis/he-will-return",
     },
     es: {
-      "/catechesis/": "/catequesis/",
-      "/who-we-are/": "/quienes-somos/",
+      "/catechesis": "/catequesis",
       "/teaching": "/enseñanza",
       "/catechesis/jesus-exist-before-all-things":
       "/catequesis/jesus-existia-antes-de-todas-las-cosas",
@@ -42,8 +40,7 @@ export const routes = {
     "/catechesis/he-will-return": "/catequesis/el-volvera",
   },
   pt: {
-    "/catechesis/": "/catequese/",
-    "/who-we-are/": "/quem-nos-somos/",
+    "/catechesis": "/catequese",
     "/teaching": "/ensino",
     "/catechesis/jesus-exist-before-all-things":
       "/catequese/jesus-existia-antes-de-todas-as-coisas",
@@ -226,7 +223,6 @@ export const Lessons = {
   en: [
     {
       pathname: "/catechesis/jesus-exist-before-all-things",
-      link: "jesus-exist-before-all-things",
       title: "Jesus exist before all things",
       verses: [
         {
@@ -242,7 +238,6 @@ export const Lessons = {
     },
     {
       pathname: "/catechesis/he-became-a-man",
-      link: "he-became-a-man",
       title: "He became a man",
       verses: [
         {
@@ -258,7 +253,6 @@ export const Lessons = {
     },
     {
       pathname: "/catechesis/his-life-was-perfect-and-blameless",
-      link: "his-life-was-perfect-and-blameless",
       title: "His life was perfect and blameless",
       verses: [
         {
@@ -273,7 +267,6 @@ export const Lessons = {
     },
     {
       pathname: "/catechesis/his-work-was-great-and-glorious",
-      link: "his-work-was-great-and-glorious",
       title: "His work was great and glorious",
       verses: [
         {
@@ -289,7 +282,6 @@ export const Lessons = {
     },
     {
       pathname: "/catechesis/he-died-for-our-sins",
-      link: "he-died-for-our-sins",
       title: "He died for our sins",
       verses: [
         {
@@ -312,7 +304,6 @@ export const Lessons = {
     },
     {
       pathname: "/catechesis/he-rose-again",
-      link: "he-rose-again",
       title: "He rose again",
 
       verses: [
@@ -329,7 +320,6 @@ export const Lessons = {
     },
     {
       pathname: "/catechesis/he-was-exalted",
-      link: "he-was-exalted",
       title: "He was exalted",
       verses: [
         {
@@ -352,7 +342,6 @@ export const Lessons = {
     },
     {
       pathname: "/catechesis/he-will-return",
-      link: "he-will-return",
       title: "He will return",
       verses: [
         {
@@ -370,7 +359,6 @@ export const Lessons = {
   es: [
     {
       pathname: "/catequesis/jesus-existia-antes-de-todas-las-cosas",
-      link: "jesus-existia-antes-de-todas-las-cosas",
       title: "Jesús existía antes de todas las cosas",
       verses: [
         {
@@ -386,7 +374,6 @@ export const Lessons = {
     },
     {
       pathname: "/catequesis/el-se-hizo-hombre",
-      link: "el-se-hizo-hombre",
       title: "Él se hizo hombre",
       verses: [
         {
@@ -402,7 +389,6 @@ export const Lessons = {
     },
     {
       pathname: "/catequesis/su-vida-fue-perfecta-e-inrreprensible",
-      link: "su-vida-fue-perfecta-e-inrreprensible",
       title: "Su vida fue perfecta e inrreprensible",
       verses: [
         {
@@ -417,7 +403,6 @@ export const Lessons = {
     },
     {
       pathname: "/catequesis/su-obra-fue-tremenda-y-grandiosa",
-      link: "su-obra-fue-tremenda-y-grandiosa",
       title: "Su obra fue tremenda y grandiosa",
       verses: [
         {
@@ -433,7 +418,6 @@ export const Lessons = {
     },
     {
       pathname: "/catequesis/murio-por-nuestros-pecados",
-      link: "murio-por-nuestros-pecados",
       title: "Murió por nuestros pecados",
       verses: [
         {
@@ -456,7 +440,6 @@ export const Lessons = {
     },
     {
       pathname: "/catequesis/resucito",
-      link: "resucito",
       title: "Resucitó",
 
       verses: [
@@ -473,7 +456,6 @@ export const Lessons = {
     },
     {
       pathname: "/catequesis/fue-exaltado",
-      link: "fue-exaltado",
       title: "Fue exaltado",
       verses: [
         {
@@ -496,7 +478,6 @@ export const Lessons = {
     },
     {
       pathname: "/catequesis/el-volvera",
-      link: "el-volvera",
       title: "Él Volverá",
       verses: [
         {
@@ -514,7 +495,6 @@ export const Lessons = {
   pt: [
     {
       pathname: "/catequese/jesus-existia-antes-de-todas-as-coisas",
-      link: "jesus-existia-antes-de-todas-as-coisas",
       title: "Jesus existia antes de todas as coisas",
       verses: [
         {
@@ -530,7 +510,6 @@ export const Lessons = {
     },
     {
       pathname: "/catequese/tornou-se-homem",
-      link: "tornou-se-homem",
       title: "Tornou-se homem",
       verses: [
         {
@@ -546,7 +525,6 @@ export const Lessons = {
     },
     {
       pathname: "/catequese/sua-vida-foi-perfeita-e-irrepreensivel",
-      link: "sua-vida-foi-perfeita-e-irrepreensivel",
       title: "Sua vida foi perfeita e irrepreensível ",
       verses: [
         {
@@ -562,7 +540,6 @@ export const Lessons = {
     },
     {
       pathname: "/catequese/sua-obra-foi-tremenda-e-grandiosa",
-      link: "sua-obra-foi-tremenda-e-grandiosa",
       title: "Sua obra foi tremenda e grandiosa",
       verses: [
         {
@@ -578,7 +555,6 @@ export const Lessons = {
     },
     {
       pathname: "/catequese/morreu-pelos-nossos-pecados",
-      link: "morreu-pelos-nossos-pecados",
       title: "Morreu pelos nossos pecados",
       verses: [
         {
@@ -601,7 +577,6 @@ export const Lessons = {
     },
     {
       pathname: "/catequese/ressuscitou",
-      link: "ressuscitou",
       title: "Ressuscitou  ",
 
       verses: [
@@ -617,7 +592,6 @@ export const Lessons = {
     },
     {
       pathname: "/catequese/foi-exaltado",
-      link: "foi-exaltado",
       title: "Foi exaltado",
       verses: [
         {
@@ -640,7 +614,6 @@ export const Lessons = {
     },
     {
       pathname: "/catequese/e-voltara",
-      link: "e-voltara",
       title: "E voltará",
       verses: [
         {
