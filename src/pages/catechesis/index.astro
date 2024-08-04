@@ -1,16 +1,11 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 
-import {
-  getLangFromUrl,
-  useTranslatedPath,
-  useTranslations,
-} from "../../i18n/utils";
+import { getLangFromUrl, useTranslations } from "../../i18n/utils";
 import { Lessons } from "../../i18n/ui";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
-const translatePath = useTranslatedPath(lang);
 ---
 
 <Layout title={t("home.title")}>
