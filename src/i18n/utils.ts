@@ -35,7 +35,8 @@ export function useTranslatedPath(lang: keyof typeof ui) {
 
 export function getRouteFromUrl(url: URL): string | undefined {
   const path = decodeURI(new URL(url).pathname);
-  
+  console.log({path})
+
   if (path === undefined) {
     return undefined;
   }
@@ -54,6 +55,7 @@ export function getRouteFromUrl(url: URL): string | undefined {
     obj: Record<string, string>,
     value: string
   ): string | undefined => {
+    console.log({obj,value, objKeys:Object.keys(obj)})
     return Object.keys(obj).find((key) => obj[key] === value);
   };
 
