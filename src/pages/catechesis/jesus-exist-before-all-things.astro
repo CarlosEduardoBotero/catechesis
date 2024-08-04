@@ -14,7 +14,6 @@ const lang = getLangFromUrl(Astro.url);
 const route = getRouteFromUrl(Astro.url);
 
 const data = Lessons[lang].find(({ pathname }) => pathname === route);
-console.log({ route, data });
 const t = useTranslations(lang);
 ---
 

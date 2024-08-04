@@ -34,8 +34,7 @@ export function useTranslatedPath(lang: keyof typeof ui) {
 }
 
 export function getRouteFromUrl(url: URL): string | undefined {
-  const path = decodeURI(new URL(url).pathname);
-  console.log({path})
+  const path = decodeURI(new URL(url).pathname).replace(/\/$/,"");
 
   if (path === undefined) {
     return undefined;
