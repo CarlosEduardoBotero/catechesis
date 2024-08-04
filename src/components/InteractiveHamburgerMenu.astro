@@ -1,0 +1,52 @@
+<div class="flex flex-col gap-1 md:hidden" id="hamburger-menu">
+  <div class="h-[3px] w-5 bg-gray-700 rounded-sm"></div>
+  <div class="h-[3px] w-5 bg-gray-700 rounded-sm"></div>
+  <div class="h-[3px] w-5 bg-gray-700 rounded-sm"></div>
+</div>
+
+<script>
+  const menuIcon = document.getElementById("hamburger-menu");
+  const backdrop = document.getElementById("backdrop");
+  const drawer = document.getElementById("drawer");
+  const drawerContainer = document.querySelector("[role='presentation']");
+  const transitionDuration = 150;
+
+  const handleClickMenuIcon = () => {
+    if (backdrop) {
+      backdrop.classList.toggle("invisible");
+      backdrop.classList.toggle("opacity-0");
+    }
+    if (drawerContainer) {
+      drawerContainer.classList.toggle("invisible");
+    }
+    if (drawer) {
+      drawer.classList.toggle("invisible");
+      drawer.classList.toggle("-translate-x-72");
+    }
+  };
+
+  const handleClickBackdrop = () => {
+    if (backdrop) {
+      backdrop.classList.toggle("opacity-0");
+      setTimeout(() => {
+        backdrop.classList.toggle("invisible");
+      }, transitionDuration);
+    }
+
+    if (drawerContainer) {
+      setTimeout(() => {
+        drawerContainer.classList.toggle("invisible");
+      }, transitionDuration);
+    }
+
+    if (drawer) {
+      drawer.classList.toggle("-translate-x-72");
+      setTimeout(() => {
+        drawer.classList.toggle("invisible");
+      }, transitionDuration);
+    }
+  };
+
+  if (menuIcon) menuIcon.addEventListener("click", handleClickMenuIcon);
+  if (backdrop) backdrop.addEventListener("click", handleClickBackdrop);
+</script>

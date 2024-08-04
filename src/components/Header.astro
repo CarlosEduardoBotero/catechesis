@@ -6,18 +6,58 @@ import {
   useTranslations,
 } from "../i18n/utils";
 import LanguagePicker from "./LanguagePicker.astro";
+import InteractiveHamburgerMenu from "./InteractiveHamburgerMenu.astro";
+import { routes } from "../i18n/ui";
 
 const lang = getLangFromUrl(Astro.url);
 const translatePath = useTranslatedPath(lang);
+const route = getRouteFromUrl(Astro.url);
 
 const t = useTranslations(lang);
+
+const catechesisRoute = routes[lang]["/catechesis/"];
+const teachingRoute = routes[lang]["/teaching"];
+const catechesisRouteEnglish = routes["en"]["/catechesis/"];
+const teachingRouteEnglish = routes["en"]["/teaching"];
 ---
 
-<header class="border flex items-center justify-between p-4 bg-white">
+<header class="border flex items-center gap-4 md:justify-between p-4 bg-white">
   <div class="flex items-center gap-4">
     <a href={translatePath("/")}>
-      <img src="/main-icon-lg.png" class="h-10 md:h-16" />
+      <img src="/main-icon-lg.png" class="hidden h-10 sm:block md:h-16" />
+      <img src="/main-icon-sm.png" class="h-10 sm:hidden" />
     </a>
   </div>
+  <nav class="hidden md:block" id="drawer-nav">
+    <ul class="flex gap-4 ml-auto text-xl">
+      <li>
+        <a
+          href={translatePath(teachingRoute)}
+          class={route?.startsWith(teachingRouteEnglish) ? "text-blue-600" : ""}
+        >
+          {t("nav.teaching")}
+        </a>
+      </li>
+      <li>
+        <a
+          href={translatePath(catechesisRoute)}
+          class={route?.startsWith(catechesisRouteEnglish)
+            ? "text-blue-600"
+            : ""}
+        >
+          {t("nav.catechesis")}
+        </a>
+      </li>
+      <li>
+        <a
+          href={translatePath("/")}
+          class={route === undefined ? "text-blue-600" : ""}
+        >
+          {t("nav.whoWeAre")}
+        </a>
+      </li>
+    </ul>
+  </nav>
   <LanguagePicker />
+  <InteractiveHamburgerMenu />
 </header>

@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       gridTemplateColumns: {
-        "auto-fill-350": "repeat(auto-fill, minmax(350px, 1fr))",
+        "auto-fill-300": "repeat(auto-fill, minmax(300px, 1fr))",
       },
       minHeight: {
         screen: ["100vh", "100svh"],

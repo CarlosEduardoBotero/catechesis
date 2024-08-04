@@ -1,0 +1,70 @@
+---
+import {
+  getLangFromUrl,
+  useTranslatedPath,
+  useTranslations,
+  getRouteFromUrl,
+} from "../i18n/utils";
+import { routes } from "../i18n/ui";
+
+const lang = getLangFromUrl(Astro.url);
+const translatePath = useTranslatedPath(lang);
+
+const t = useTranslations(lang);
+
+const route = getRouteFromUrl(Astro.url);
+
+const catechesisRoute = routes[lang]["/catechesis/"];
+const teachingRoute = routes[lang]["/teaching"];
+const catechesisRouteEnglish = routes["en"]["/catechesis/"];
+const teachingRouteEnglish = routes["en"]["/teaching"];
+---
+
+<div role="presentation" class="fixed z-50 inset-0 invisible">
+  <div
+    id="backdrop"
+    class="fixed invisible opacity-0 -z-[1] inset-0 transition-opacity bg-black bg-opacity-50"
+  >
+  </div>
+  <div
+    id="drawer"
+    class="fixed invisible inset-0 transition-transform w-72 h-full z-50 bg-white -translate-x-72 shadow-md p-4"
+  >
+    <!-- <ul class="flex gap-4 ml-auto">
+    <li><a href={translatePath("/catechesis")}>{t("nav.teaching")}</a></li>
+    <li><a href={translatePath(catechesisLink)}>{t("nav.catechesis")}</a></li>
+    <li><a href={translatePath("/catechesis")}>{t("nav.whoWeAre")}</a></li>
+  </ul> -->
+    <div class="mb-6">
+      <img src="/main-icon-lg.png" class="h-16" />
+    </div>
+    <nav class="h-full">
+      <ul class="flex flex-col gap-4 ml-auto text-xl">
+        <li>
+          <a
+            href={translatePath(teachingRoute)}
+            class={route?.startsWith(teachingRouteEnglish)
+              ? "text-blue-600 bg-blue-100 w-full px-2 py-1 rounded"
+              : "ml-2"}>{t("nav.teaching")}</a
+          >
+        </li>
+        <li>
+          <a
+            href={translatePath(catechesisRoute)}
+            class={route?.startsWith(catechesisRouteEnglish)
+              ? "text-blue-600 bg-blue-100 w-full px-2 py-1 rounded"
+              : "ml-2"}>{t("nav.catechesis")}</a
+          >
+        </li>
+        <li>
+          <a
+            href={translatePath("/")}
+            class={route === undefined
+              ? "text-blue-600 bg-blue-100 w-full px-2 py-1 rounded"
+              : "ml-2"}>{t("nav.whoWeAre")}</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>

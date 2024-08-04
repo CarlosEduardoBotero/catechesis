@@ -2,26 +2,52 @@
 import Layout from "../../layouts/Layout.astro";
 
 import { getLangFromUrl, useTranslations } from "../../i18n/utils";
-import { Lessons } from "../../i18n/ui";
-
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
-<Layout title={t("home.title")}>
-  <section id="catequesis" class="grid grid-cols-auto-fill-350 gap-4 w-full">
-    {
-      Lessons[lang].map(({ title, link }, i) => (
-        <a
-          href={link}
-          class="flex flex-col border p-4 rounded-md shadow-sm hover:shadow-md transition-all duration-200 bg-white"
-        >
-          <span class="text-gray-600 font-semibold">
-            {t("home.lesson")} {i + 1}
-          </span>
-          <span class="text-xl font-semibold">{title}</span>
-        </a>
-      ))
-    }
+<Layout title={t("who-we-are.title")}>
+  <section
+    id="who-we-are"
+    class="mx-4 my-4 flex flex-col gap-8 text-xl text-gray-600 sm:mx-12 md:mx-28"
+  >
+    <h1 class="text-5xl text-gray-800">{t("who-we-are.title")}</h1>
+    <p>
+      <span class="font-semibold">{t("who-we-are.weBeliveGod")}</span>
+      {t("who-we-are.thisPurposeWasDesign")}
+    </p>
+    <p>
+      {t("who-we-are.aFamilyMeansUnity")}<sup>1</sup>.
+    </p>
+    <p>
+      {t("who-we-are.ofManyChildren")}<sup>2</sup>. {
+        t("who-we-are.whereThereIsNatural")
+      }
+    </p>
+    <p>
+      {t("who-we-are.likeJesusMeansEdification")}<sup>3</sup>. {
+        t("who-we-are.wivesThatDoNotSubmit")
+      }<sup>4</sup>. {t("who-we-are.singlesThatDoNotSeek")}<sup>5</sup>.
+      {t("who-we-are.childrenThatDoNotObey")}<sup>6</sup>. {
+        t("who-we-are.preachingThatDie")
+      }<sup>7</sup>.
+    </p>
+    <blockquote>
+      {t("who-we-are.untilWeAllAttain")}
+    </blockquote>
+    <p class="font-semibold">{t("who-we-are.thatIsWhatWeBelieve")}</p>
+    <div>
+      {t("who-we-are.references")}:<ul>
+        <li>
+          <sup>1</sup>{t("who-we-are.firstReference")}
+        </li>
+        <li><sup>2</sup>{t("who-we-are.secondReference")}</li>
+        <li><sup>3</sup>{t("who-we-are.thirdReference")}</li>
+        <li><sup>4</sup>{t("who-we-are.fourthReference")}</li>
+        <li><sup>5</sup>{t("who-we-are.fifthReference")}</li>
+        <li><sup>6</sup>{t("who-we-are.sixthReference")}</li>
+        <li><sup>7</sup>{t("who-we-are.seventhReference")}</li>
+      </ul>
+    </div>
   </section>
 </Layout>

@@ -1,0 +1,190 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+import { getLangFromUrl, useTranslations } from "../../i18n/utils";
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<Layout title={t("teaching.title")}>
+  <section
+    id="teaching"
+    class="mx-4 my-4 flex flex-col gap-8 text-xl text-gray-600 sm:mx-12 md:mx-28"
+  >
+    <h1 class="text-5xl text-gray-800">{t("teaching.title")}</h1>
+    <p>{t("teaching.basicMaterialToSupport")}</p>
+    <ul class="flex flex-col gap-6">
+      <li>
+        <a
+          class="text-blue-600 hover:underline cursor-pointer"
+          target="_blank"
+          href={`../../public/teaching/${lang}/a-general-view-v2.pdf`}
+        >
+          {t("teaching.aGeneralView")}
+        </a>
+      </li>
+      <li>
+        <a
+          class="text-blue-600 hover:underline cursor-pointer"
+          target="_blank"
+          href={`../../public/teaching/${lang}/absolute-principles-of-the-work-of-god-v2.pdf`}
+        >
+          {t("teaching.absolutePrinciples")}
+        </a>
+      </li>
+      <li>
+        <a
+          class="text-blue-600 hover:underline cursor-pointer"
+          target="_blank"
+          href={`../../public/teaching/${lang}/the-unity-of-the-church-v1.pdf`}
+        >
+          {t("teaching.churchUnity")}
+        </a>
+      </li>
+      <li>
+        <a
+          class="text-blue-600 hover:underline cursor-pointer"
+          target="_blank"
+          href={`../../public/teaching/${lang}/communion-with-god-v1.pdf`}
+        >
+          {t("teaching.communionWithGod")}
+        </a>
+      </li>
+      <li>
+        <a
+          class="text-blue-600 hover:underline cursor-pointer"
+          target="_blank"
+          href={`../../public/teaching/${lang}/elementary-principles.pdf`}
+        >
+          {t("teaching.elementaryPrinciples")}
+        </a>
+      </li>
+      <li>
+        <a
+          class="text-blue-600 hover:underline cursor-pointer"
+          target="_blank"
+          href={`../../public/teaching/${lang}/finances-generosity-v2.pdf`}
+        >
+          {t("teaching.financesGenerosity")}
+        </a>
+      </li>
+      <li>
+        <a
+          class="text-blue-600 hover:underline cursor-pointer"
+          target="_blank"
+          href={`../../public/teaching/${lang}/ministry-of-teaching-in-the-church-v2.pdf`}
+        >
+          {t("teaching.ministryTeachingInTheChurch")}
+        </a>
+      </li>
+      <li>
+        <a
+          class="text-blue-600 hover:underline cursor-pointer"
+          target="_blank"
+          href={`../../public/teaching/${lang}/proclamation-v1.pdf`}
+        >
+          {t("teaching.proclamation")}
+        </a>
+      </li>
+      <li>
+        <a
+          class="text-blue-600 hover:underline cursor-pointer"
+          target="_blank"
+          href={`../../public/teaching/${lang}/11-relations-amongst-brothers-and-sisters-v1.pdf`}
+        >
+          {t("teaching.relationshipAmongstBrothers")}
+        </a>
+      </li>
+      <li>
+        <a
+          class="text-blue-600 hover:underline cursor-pointer"
+          target="_blank"
+          href={`../../public/teaching/${lang}/restoration-of-the-truth-v1.pdf`}
+        >
+          {t("teaching.restorationOfTheTruth")}
+        </a>
+      </li>
+      <li>
+        <a
+          class="text-blue-600 hover:underline cursor-pointer"
+          target="_blank"
+          href={`../../public/teaching/${lang}/the-character-of-a-disciple-v3.pdf`}
+        >
+          {t("teaching.theCharacterOfADisciple")}
+        </a>
+      </li>
+      <li>
+        <a
+          class="text-blue-600 hover:underline cursor-pointer"
+          target="_blank"
+          href={`../../public/teaching/${lang}/the-family-2019.pdf`}
+        >
+          {t("teaching.theFamily")}
+        </a>
+      </li>
+      <li>
+        <a
+          class="text-blue-600 hover:underline cursor-pointer"
+          target="_blank"
+          href={`../../public/teaching/${lang}/eternal-purpose-2014-v1.2.pdf`}
+        >
+          {t("teaching.theGodsEternalPurpose")}
+        </a>
+      </li>
+      <li>
+        <a
+          class="text-blue-600 hover:underline cursor-pointer"
+          target="_blank"
+          href={`../../public/teaching/${lang}/the-gospel-of-the-kingdom-2013-v2.pdf`}
+        >
+          {t("teaching.theGospelOfTheKingdom")}
+        </a>
+      </li>
+      <li>
+        <a
+          class="text-blue-600 hover:underline cursor-pointer"
+          target="_blank"
+          href={`../../public/teaching/${lang}/the-life-in-christ-2014-v1.pdf`}
+        >
+          {t("teaching.theLifeInChrist")}
+        </a>
+      </li>
+      <li>
+        <a
+          class="text-blue-600 hover:underline cursor-pointer"
+          target="_blank"
+          href={`../../public/teaching/${lang}/14-3-the-lords-supper-v1.pdf`}
+        >
+          {t("teaching.theLordsSupper")}
+        </a>
+      </li>
+      <li>
+        <a
+          class="text-blue-600 hover:underline cursor-pointer"
+          target="_blank"
+          href={`../../public/teaching/${lang}/15-the-spiritual-gifts-v1.pdf`}
+        >
+          {t("teaching.theSpiritualGifts")}
+        </a>
+      </li>
+      <li>
+        <a
+          class="text-blue-600 hover:underline cursor-pointer"
+          target="_blank"
+          href={`../../public/teaching/${lang}/walk-in-the-light-v1.5.pdf`}
+        >
+          {t("teaching.walkInTheLight")}
+        </a>
+      </li>
+      <li>
+        <a
+          class="text-blue-600 hover:underline cursor-pointer"
+          target="_blank"
+          href={`../../public/teaching/${lang}/12-work-v1.1.pdf`}
+        >
+          {t("teaching.work")}
+        </a>
+      </li>
+    </ul>
+  </section>
+</Layout>
