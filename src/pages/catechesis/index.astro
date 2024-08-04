@@ -1,7 +1,11 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 
-import { getLangFromUrl, useTranslatedPath, useTranslations, type LangType } from "../../i18n/utils";
+import {
+  getLangFromUrl,
+  useTranslatedPath,
+  useTranslations,
+} from "../../i18n/utils";
 import { Lessons } from "../../i18n/ui";
 
 const lang = getLangFromUrl(Astro.url);
@@ -20,7 +24,7 @@ const translatePath = useTranslatedPath(lang);
           <span class="text-gray-600 font-semibold">
             {t("home.lesson")} {i + 1}
           </span>
-          <span class="text-xl font-semibold">{title} {link}</span>
+          <span class="text-xl font-semibold">{title}</span>
         </a>
       ))
     }
