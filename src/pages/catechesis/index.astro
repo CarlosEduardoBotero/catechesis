@@ -2,7 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 
 import { getLangFromUrl, useTranslations } from "../../i18n/utils";
-import { Lessons } from "../../i18n/ui";
+import { ELEMENTARY_PRINCIPLES_CATECHESIS } from "../../i18n/catechesis/elementary-principles";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -11,7 +11,7 @@ const t = useTranslations(lang);
 <Layout title={t("home.title")}>
   <section id="catequesis" class="grid grid-cols-auto-fill-300 gap-4 w-full">
     {
-      Lessons[lang].map(({ title, pathname }, i) => (
+      ELEMENTARY_PRINCIPLES_CATECHESIS[lang].map(({ title, pathname }, i) => (
         <a
           href={`${pathname}`}
           class="flex flex-col border p-4 rounded-md shadow-sm hover:shadow-md transition-all duration-200 bg-white"

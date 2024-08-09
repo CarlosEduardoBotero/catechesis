@@ -8,7 +8,7 @@ import {
   type LangType,
 } from "../../../i18n/utils";
 
-import { Lessons } from "../../../i18n/ui";
+import { ELEMENTARY_PRINCIPLES_CATECHESIS } from "../../../i18n/catechesis/elementary-principles";
 import VerseCard from "../../../components/VerseCard.astro";
 import PreviousNextButtons from "../../../components/PreviousNextButtons.astro";
 
@@ -17,7 +17,7 @@ const route = getRouteFromUrl(Astro.url);
 
 const translatePath = useTranslatedPath(lang);
 const path = translatePath(`${route ? route : ""}`, lang as LangType);
-const data = Lessons[lang].find(
+const data = ELEMENTARY_PRINCIPLES_CATECHESIS[lang].find(
   ({ pathname }) => pathname === path.replace(/^\/[a-zA-Z]{2}/g, "")
 );
 const t = useTranslations(lang);

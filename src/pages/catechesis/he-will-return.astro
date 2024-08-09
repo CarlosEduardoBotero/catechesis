@@ -6,14 +6,16 @@ import {
   useTranslations,
 } from "../../i18n/utils";
 
-import { Lessons } from "../../i18n/ui";
+import { ELEMENTARY_PRINCIPLES_CATECHESIS } from "../../i18n/catechesis/elementary-principles";
 import VerseCard from "../../components/VerseCard.astro";
 import PreviousNextButtons from "../../components/PreviousNextButtons.astro";
 
 const lang = getLangFromUrl(Astro.url);
 const route = getRouteFromUrl(Astro.url);
 
-const data = Lessons[lang].find(({ pathname }) => pathname === route);
+const data = ELEMENTARY_PRINCIPLES_CATECHESIS[lang].find(
+  ({ pathname }) => pathname === route
+);
 const t = useTranslations(lang);
 ---
 

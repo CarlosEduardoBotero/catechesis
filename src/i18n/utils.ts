@@ -1,4 +1,5 @@
-import { ui, defaultLang, showDefaultLang, routes } from "./ui";
+import { ui, defaultLang, showDefaultLang } from "./ui";
+import { routes } from "./routes";
 
 export function getLangFromUrl(url: URL) {
   const [, lang] = url.pathname.split("/");
@@ -34,7 +35,7 @@ export function useTranslatedPath(lang: keyof typeof ui) {
 }
 
 export function getRouteFromUrl(url: URL): string | undefined {
-  const path = decodeURI(new URL(url).pathname).replace(/\/$/,"");
+  const path = decodeURI(new URL(url).pathname).replace(/\/$/, "");
 
   if (path === undefined) {
     return undefined;
