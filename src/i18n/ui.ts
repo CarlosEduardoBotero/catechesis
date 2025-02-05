@@ -20,23 +20,29 @@ export const ui = {
     "who-we-are.weBeliveGod":
       "We believe that God created the man with a purpose very clear.",
     "who-we-are.thisPurposeWasDesign":
-      "This purpose was designed by Him before the foundation of the world. We can define it like this: God wants a family of many children in Jesus’ likeness.",
-    "who-we-are.aFamilyMeansUnity":
-      "A family means unity. This is an indispensable requirement for the fulfillment of God’s purpose. Although unity is not emphasized in the text above, we know that children in Jesus’ likeness cannot be quarrelsome, factious or sectarian. The unity of the family is emphasized very well in passages like Joh 17:20-22; 1Cor 1:10-12; 3:1-4; 10:16-17",
-    "who-we-are.ofManyChildren":
-      "Of many children means multiplication. Disciples that make more disciples",
+      "He designed this purpose before the foundation of the world. We can define it as follows: God wants a family of many children in Jesus’ likeness.",
+    "who-we-are.GodWantsAFamily":
+      "Dios quiere una familia de muchos hijos a semejanza de Jesús.",
+    "who-we-are.thisIsAnIndispensableRequirement":
+      "This is an indispensable requirement for the fulfillment of God’s purpose. Although unity is not emphasized in the text above, we know that children in Jesus’ likeness cannot be quarrelsome, factious or sectarian. The unity of the family is emphasized very well in passages like Joh 17:20-22; 1Cor 1:10-12; 3:1-4; 10:16-17",
+    "who-we-are.aFamilyMeansUnity": "A family means unity. ",
+    "who-we-are.ofManyChildren": "Of many children means multiplication. ",
+    "who-we-are.disciplesThatMakeMoreDisciples":
+      "Disciples that make more disciples",
     "who-we-are.whereThereIsNatural":
       "Where there is natural life, there’s always multiplication. Spiritual life should also be like that. He who has the life of Christ, is fruitful and multiplies this life in the others.",
-    "who-we-are.likeJesusMeansEdification":
-      "Like Jesus means edification. God has no contentment in quantity, nor is satisfied with numbers. It is necessary that his children have quality of life. That they live like Jesus and walk as Jesus walked. This understanding have brought a new hope in the hart of many Christians that by years were seated on pews inside temples, faced the conflict in their hearts thinking in a heaven and a God so distant. Living in a middle where the God’s name is much talked, but God is forgotten in the life of husbands that do not take care of his wife as the weaker vessel",
+    "who-we-are.inJesusLikenessMeansEdification":
+      "In Jesus’ likeness means edification",
+    "who-we-are.godHasNoContentmentInQuantity":
+      "God has no contentment in quantity, nor is satisfied with numbers. He wants quality. That His children live like Jesus and walk as Jesus walked. Husbands that take care of their wives as the weaker vessel",
     "who-we-are.wivesThatDoNotSubmit":
-      "Wives that do not submit to their own husbands",
+      "Wives that submit to their own husbands",
     "who-we-are.singlesThatDoNotSeek":
-      "Singles that do not seek for sanctification, the will of God",
+      "Singles that seek sanctification, the will of God",
     "who-we-are.childrenThatDoNotObey":
-      "Children that do not obey nor honor their parents",
-    "who-we-are.preachingThatDie":
-      "Preachings that die in the pulpits in an environment where the glory of men has been more sought than the glory of God. We seek in a family relationship, without separation among people and priests, but everyone work together to growing (Act 1:8) and edifying of the body of Christ",
+      "Children that obey and honor their parents",
+    "who-we-are.weSeekAFamilyRelationship":
+      "We seek a family relationship, without separation among people and priests, but everyone working together to grow (Act 1:8) and edify the body of Christ.",
     "who-we-are.untilWeAllAttain":
       "Until we all attain to the unity of the faith and of the knowledge of the Son of God, to mature manhood, to the measure of the stature of the fullness of Christ. (Eph 4:13)",
     "who-we-are.thatIsWhatWeBelieve":
@@ -87,31 +93,36 @@ export const ui = {
     "who-we-are.weBeliveGod":
       "Creemos que Dios creó al hombre con un propósito muy claro.",
     "who-we-are.thisPurposeWasDesign":
-      "Este propósito fue diseñado por Él antes de la fundación del mundo. Podemos definirlo así: Dios quiere una familia de muchos hijos a semejanza de Jesús.",
-    "who-we-are.aFamilyMeansUnity":
-      "Una familia significa unidad. Este es un requisito indispensable para el cumplimiento del propósito de Dios. Aunque la unidad no se enfatiza en el texto anterior, sabemos que los hijos a semejanza de Jesús no pueden ser pendencieros, facciosos o sectarios. La unidad de la familia se enfatiza muy bien en pasajes como Jn 17:20-22; 1Co 1:10-12; 3:1-4; 10:16-17",
-    "who-we-are.ofManyChildren":
-      "De muchos hijos significa multiplicación. Discípulos que hacen más discípulos",
+      "Este propósito fue diseñado por Él antes de la fundación del mundo. Podemos definirlo así:",
+    "who-we-are.GodWantsAFamily":
+      "Dios quiere una familia de muchos hijos a semejanza de Jesús.",
+    "who-we-are.thisIsAnIndispensableRequirement":
+      "Este es un requisito indispensable para el cumplimiento del propósito de Dios. Aunque la unidad no se enfatiza en el texto arriba, sabemos que los hijos semejantes a Jesús no pueden ser pendencieros, facciosos o sectarios. La unidad de la familia se enfatiza muy bien en pasajes como Jn 17:20-22; 1Co 1:10-12; 3:1-4; 10:16-17",
+    "who-we-are.aFamilyMeansUnity": "Una familia significa unidad. ",
+    "who-we-are.ofManyChildren": "De muchos hijos significa multiplicación. ",
+    "who-we-are.disciplesThatMakeMoreDisciples":
+      "Discípulos que hacen más discípulos",
     "who-we-are.whereThereIsNatural":
-      "Donde hay vida natural, siempre hay multiplicación. Así debe ser también la vida espiritual. El que tiene la vida de Cristo, es fecundo y multiplica esta vida en los demás.",
-    "who-we-are.likeJesusMeansEdification":
-      "Como Jesús significa edificación. Dios no se contenta con la cantidad, ni se satisface con los números. Es necesario que sus hijos tengan calidad de vida. Que vivan como Jesús y anden como Jesús anduvo. Este entendimiento ha traído una nueva esperanza en el corazón de muchos cristianos que por años sentados en bancas dentro de templos, enfrentaban el conflicto en sus corazones pensando en un cielo y un Dios tan lejano. Viviendo en un medio donde se habla mucho del nombre de Dios, pero Dios es olvidado en la vida de esposos que no cuidan a su esposa como vaso más frágil",
-    "who-we-are.wivesThatDoNotSubmit":
-      "Esposas que no se someten a sus propios maridos",
+      "Donde hay vida natural, siempre hay multiplicación. Así debe ser también la vida espiritual. El que tiene la vida de Cristo, es fructífero y multiplica esta vida en los demás.",
+    "who-we-are.inJesusLikenessMeansEdification":
+      "Semejantes a Jesús significa edificación",
+    "who-we-are.godHasNoContentmentInQuantity":
+      "Dios no se contenta con la cantidad, ni se satisface con los números. Él quiere calidad. Que Sus hijos vivan como Jesús y anden como Jesús anduvo. Maridos que cuidan a su esposa como vaso más frágil.",
+    "who-we-are.wivesThatDoNotSubmit": "Esposas sujetas a sus propios maridos",
     "who-we-are.singlesThatDoNotSeek":
-      "Solteros que no buscan la santificación, la voluntad de Dios",
+      "Solteros que buscan la santificación, la voluntad de Dios",
     "who-we-are.childrenThatDoNotObey":
-      "Hijos que no obedecen ni honran a sus padres",
-    "who-we-are.preachingThatDie":
-      "Predicaciones que mueren en los púlpitos en un ambiente donde se ha buscado más la gloria de los hombres que la gloria de Dios. Buscamos en una relación de familia, sin separación entre personas y sacerdotes, sino que todos trabajen juntos para el crecimiento (Hechos 1:8) y la edificación del cuerpo de Cristo",
+      "Hijos que obedecen y honran a sus padres.",
+    "who-we-are.weSeekAFamilyRelationship":
+      "Buscamos um relacionamento familiar, sem separação entre povo e sacerdote, mas todos trabalhando juntos para o crescimento (Atos 1:8) e edificação do corpo de Cristo.",
     "who-we-are.untilWeAllAttain":
-      "Hasta que todos lleguemos a la unidad de la fe y del conocimiento del Hijo de Dios, a un varón perfecto, a la medida de la estatura de la plenitud de Cristo. (Efesios 4:13)",
+      "Hasta que todos lleguemos a la unidad de la fe y del conocimiento del Hijo de Dios, a un varón perfecto, a la medida de la estatura de la plenitud de Cristo. (Ef 4:13)",
     "who-we-are.thatIsWhatWeBelieve":
       "¡Eso es lo que creemos y lo que buscamos!",
     "who-we-are.references": "Referencias",
     "who-we-are.firstReference":
-      "Efe 2:14-16; 3:15; 4:1-6; 4:12-16; fi 1:27; 2:1-4; y muchos otros;",
-    "who-we-are.secondReference": "Mat 28:18-20;",
+      "Ef 2:14-16; 3:15; 4:1-6; 4:12-16; fi 1:27; 2:1-4; y muchos otros;",
+    "who-we-are.secondReference": "Mt 28:18-20;",
     "who-we-are.thirdReference": "1Pe 3:7;",
     "who-we-are.fourthReference": "Ef 5:22;",
     "who-we-are.fifthReference": "1Ts 4:3;",
@@ -155,25 +166,31 @@ export const ui = {
     "who-we-are.weBeliveGod":
       "Acreditamos que Deus criou o homem com um propósito muito claro.",
     "who-we-are.thisPurposeWasDesign":
-      "Este propósito foi projetado por Ele antes da fundação do mundo. Podemos defini-lo assim: Deus quer uma família de muitos filhos à semelhança de Jesus.",
-    "who-we-are.aFamilyMeansUnity":
-      "Uma família significa unidade. Este é um requisito indispensável para o cumprimento do propósito de Deus. Embora a unidade não seja enfatizada no texto acima, sabemos que as crianças à semelhança de Jesus não podem ser briguentas, facciosas ou sectárias. A unidade da família é enfatizada muito bem em passagens como Jo 17:20-22; 1Co 1:10-12; 3:1-4; 10:16-17",
-    "who-we-are.ofManyChildren":
-      "De muitos filhos significa multiplicação. Discípulos que fazem mais discípulos",
+      "Este propósito foi projetado por Ele antes da fundação do mundo. Podemos defini-lo assim:",
+    "who-we-are.GodWantsAFamily":
+      "Deus quer uma família de muitos filhos semelhantes a Jesus.",
+    "who-we-are.thisIsAnIndispensableRequirement":
+      "Este é um requisito indispensável para o cumprimento do propósito de Deus. Embora a unidade não seja enfatizada no texto acima, sabemos que crianças semelhantes a Jesus não podem ser briguentas, facciosas ou sectárias. A unidade da família é enfatizada muito bem em passagens como Jo 17:20-22; 1Co 1:10-12; 3:1-4; 10:16-17",
+    "who-we-are.aFamilyMeansUnity": "Uma família significa unidade. ",
+    "who-we-are.ofManyChildren": "De muitos filhos significa multiplicação. ",
+    "who-we-are.disciplesThatMakeMoreDisciples":
+      "Discípulos que fazem mais discípulos",
     "who-we-are.whereThereIsNatural":
-      "Onde há vida natural, há sempre multiplicação. A vida espiritual também deve ser assim. Aquele que tem a vida de Cristo, é fecundo e multiplica esta vida nos outros.",
-    "who-we-are.likeJesusMeansEdification":
-      "Como Jesus significa edificação. Deus não tem contentamento em quantidade, nem se satisfaz com números. É necessário que seus filhos tenham qualidade de vida. Que vivam como Jesus e andem como Jesus andou. Esse entendimento trouxe uma nova esperança no coração de muitos cristãos que por anos estavam sentados em bancos dentro de templos, enfrentavam o conflito em seus corações pensando em um céu e um Deus tão distante. Vivendo em um meio onde o nome de Deus é muito falado, mas Deus é esquecido na vida de maridos que não cuidam de sua esposa como o vaso mais fraco",
+      "Onde há vida natural, há sempre multiplicação. A vida espiritual também deve ser assim. Aquele que tem a vida de Cristo, é frutífero e multiplica esta vida nos outros.",
+    "who-we-are.inJesusLikenessMeansEdification":
+      "Semelhantes a Jesus significa edificação",
+    "who-we-are.godHasNoContentmentInQuantity":
+      "Deus não se contenta com quantidade, nem se satisfaz com números. Ele quer qualidade. Que Seus filhos vivam como Jesus e andem como Jesus andou. Maridos que cuidam de sua esposa como vaso frágil.",
     "who-we-are.wivesThatDoNotSubmit":
-      "Esposas que não se submetem aos seus próprios maridos",
+      "Esposas que se submetem aos seus próprios maridos.",
     "who-we-are.singlesThatDoNotSeek":
-      "Solteiros que não buscam a santificação, a vontade de Deus",
+      "Solteiros que buscam a santificação, a vontade de Deus",
     "who-we-are.childrenThatDoNotObey":
-      "Crianças que não obedecem nem honram seus pais",
-    "who-we-are.preachingThatDie":
-      "Pregações que morrem nos púlpitos em um ambiente onde a glória dos homens foi mais buscada do que a glória de Deus. Buscamos em um relacionamento familiar, sem separação entre pessoas e sacerdotes, mas todos trabalham juntos para crescimento (Atos 1:8) e edificação do corpo de Cristo",
+      "Crianças que obedecem e honram seus pais.",
+    "who-we-are.weSeekAFamilyRelationship":
+      "Buscamos um relacionamento familiar, sem separação entre povo e sacerdote, mas todos trabalhando juntos para o crescimento (Atos 1:8) e edificação do corpo de Cristo.",
     "who-we-are.untilWeAllAttain":
-      "Até que todos cheguemos à unidade da fé e do conhecimento do Filho de Deus, à perfeita varonilidade, à medida da estatura da plenitude de Cristo. (Ef 4:13)",
+      "Até que todos cheguemos à unidade da fé e do pleno conhecimento do Filho de Deus, à perfeita varonilidade, à medida da estatura da plenitude de Cristo. (Ef 4:13)",
     "who-we-are.thatIsWhatWeBelieve":
       "É nisso que acreditamos e o que buscamos!",
     "who-we-are.references": "Referências",
