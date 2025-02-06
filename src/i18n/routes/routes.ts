@@ -1,21 +1,31 @@
+import { ETERNAL_PURPOSE_ROUTES } from "./catechesis/eternal-purpose";
+
 export const routes = {
   en: {
     "/catechesis": "/catechesis",
+    "/catechesis/elementary-principles": "/catechesis/elementary-principles",
     "/teaching": "/teaching",
-    "/catechesis/jesus-exist-before-all-things":
-      "/catechesis/jesus-exist-before-all-things",
-    "/catechesis/he-became-a-man": "/catechesis/he-became-a-man",
-    "/catechesis/his-life-was-perfect-and-blameless":
-      "/catechesis/his-life-was-perfect-and-blameless",
-    "/catechesis/his-work-was-great-and-glorious":
-      "/catechesis/his-work-was-great-and-glorious",
-    "/catechesis/he-died-for-our-sins": "/catechesis/he-died-for-our-sins",
-    "/catechesis/he-rose-again": "/catechesis/he-rose-again",
-    "/catechesis/he-was-exalted": "/catechesis/he-was-exalted",
-    "/catechesis/he-will-return": "/catechesis/he-will-return",
+    "/catechesis/elementary-principles/jesus-exist-before-all-things":
+      "/catechesis/elementary-principles/jesus-exist-before-all-things",
+    "/catechesis/elementary-principles/he-became-a-man":
+      "/catechesis/elementary-principles/he-became-a-man",
+    "/catechesis/elementary-principles/his-life-was-perfect-and-blameless":
+      "/catechesis/elementary-principles/his-life-was-perfect-and-blameless",
+    "/catechesis/elementary-principles/his-work-was-great-and-glorious":
+      "/catechesis/elementary-principles/his-work-was-great-and-glorious",
+    "/catechesis/elementary-principles/he-died-for-our-sins":
+      "/catechesis/elementary-principles/he-died-for-our-sins",
+    "/catechesis/elementary-principles/he-rose-again":
+      "/catechesis/elementary-principles/he-rose-again",
+    "/catechesis/elementary-principles/he-was-exalted":
+      "/catechesis/elementary-principles/he-was-exalted",
+    "/catechesis/elementary-principles/he-will-return":
+      "/catechesis/elementary-principles/he-will-return",
+    ...ETERNAL_PURPOSE_ROUTES.en,
   },
   es: {
     "/catechesis": "/catequesis",
+    "/catechesis/elementary-principles": "/catequesis/principios-elementales",
     "/teaching": "/enseñanza",
     "/catechesis/jesus-exist-before-all-things":
       "/catequesis/jesus-existia-antes-de-todas-las-cosas",
@@ -32,6 +42,7 @@ export const routes = {
   },
   pt: {
     "/catechesis": "/catequese",
+    "/catechesis/elementary-principles": "/catequese/principios-elementares",
     "/teaching": "/ensino",
     "/catechesis/jesus-exist-before-all-things":
       "/catequese/jesus-existia-antes-de-todas-as-coisas",

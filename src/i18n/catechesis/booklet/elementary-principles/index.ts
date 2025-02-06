@@ -1,7 +1,8 @@
 export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
   en: [
     {
-      pathname: "/catechesis/jesus-exist-before-all-things",
+      pathname:
+        "/catechesis/elementary-principles/jesus-exist-before-all-things",
       title: "Jesus exist before all things",
       verses: [
         {
@@ -13,10 +14,10 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
         },
       ],
       previous: null,
-      next: "/catechesis/he-became-a-man",
+      next: "/catechesis/elementary-principles/he-became-a-man",
     },
     {
-      pathname: "/catechesis/he-became-a-man",
+      pathname: "/catechesis/elementary-principles/he-became-a-man",
       title: "He became a man",
       verses: [
         {
@@ -28,10 +29,11 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
         },
       ],
       previous: "/catechesis/jesus-exist-before-all-things",
-      next: "/catechesis/his-life-was-perfect-and-blameless",
+      next: "/catechesis/elementary-principles/his-life-was-perfect-and-blameless",
     },
     {
-      pathname: "/catechesis/his-life-was-perfect-and-blameless",
+      pathname:
+        "/catechesis/elementary-principles/his-life-was-perfect-and-blameless",
       title: "His life was perfect and blameless",
       verses: [
         {
@@ -42,10 +44,11 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
         },
       ],
       previous: "/catechesis/he-became-a-man",
-      next: "/catechesis/his-work-was-great-and-glorious",
+      next: "/catechesis/elementary-principles/his-work-was-great-and-glorious",
     },
     {
-      pathname: "/catechesis/his-work-was-great-and-glorious",
+      pathname:
+        "/catechesis/elementary-principles/his-work-was-great-and-glorious",
       title: "His work was great and glorious",
       verses: [
         {
@@ -57,10 +60,10 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
         },
       ],
       previous: "/catechesis/his-life-was-perfect-and-blameless",
-      next: "/catechesis/he-died-for-our-sins",
+      next: "/catechesis/elementary-principles/he-died-for-our-sins",
     },
     {
-      pathname: "/catechesis/he-died-for-our-sins",
+      pathname: "/catechesis/elementary-principles/he-died-for-our-sins",
       title: "He died for our sins",
       verses: [
         {
@@ -79,10 +82,10 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
         },
       ],
       previous: "/catechesis/his-work-was-great-and-glorious",
-      next: "/catechesis/he-rose-again",
+      next: "/catechesis/elementary-principles/he-rose-again",
     },
     {
-      pathname: "/catechesis/he-rose-again",
+      pathname: "/catechesis/elementary-principles/he-rose-again",
       title: "He rose again",
 
       verses: [
@@ -95,10 +98,10 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
         },
       ],
       previous: "/catechesis/he-died-for-our-sins",
-      next: "/catechesis/he-was-exalted",
+      next: "/catechesis/elementary-principles/he-was-exalted",
     },
     {
-      pathname: "/catechesis/he-was-exalted",
+      pathname: "/catechesis/elementary-principles/he-was-exalted",
       title: "He was exalted",
       verses: [
         {
@@ -117,10 +120,10 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
         },
       ],
       previous: "/catechesis/he-rose-again",
-      next: "/catechesis/he-will-return",
+      next: "/catechesis/elementary-principles/he-will-return",
     },
     {
-      pathname: "/catechesis/he-will-return",
+      pathname: "/catechesis/elementary-principles/he-will-return",
       title: "He will return",
       verses: [
         {
@@ -132,7 +135,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
         },
       ],
       previous: "/catechesis/he-was-exalted",
-      next: "/catechesis/jesus-exist-before-all-things",
+      next: "/catechesis/elementary-principles/jesus-exist-before-all-things",
     },
   ],
   es: [

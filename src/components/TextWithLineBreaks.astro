@@ -1,0 +1,14 @@
+---
+const { text } = Astro.props;
+
+const textWithBreaks: string[] = text.split("\n");
+---
+
+{
+  textWithBreaks.map((text) => (
+    <>
+      {text}
+      <br />
+    </>
+  ))
+}

@@ -1,21 +1,22 @@
 ---
-import Layout from "../../layouts/Layout.astro";
+import Layout from "../../../layouts/Layout.astro";
 import {
   getLangFromUrl,
   getRouteFromUrl,
   useTranslations,
-} from "../../i18n/utils";
+} from "../../../i18n/utils";
 
-import { ELEMENTARY_PRINCIPLES_CATECHESIS } from "../../i18n/catechesis/elementary-principles";
-import VerseCard from "../../components/VerseCard.astro";
-import PreviousNextButtons from "../../components/PreviousNextButtons.astro";
+import { ETERNAL_PURPOSE_CATECHESIS } from "../../../i18n/catechesis/booklet/eternal-purpose";
+import VerseCard from "../../../components/VerseCard.astro";
+import PreviousNextButtons from "../../../components/PreviousNextButtons.astro";
 
 const lang = getLangFromUrl(Astro.url);
 const route = getRouteFromUrl(Astro.url);
 
-const data = ELEMENTARY_PRINCIPLES_CATECHESIS[lang].find(
+const data = ETERNAL_PURPOSE_CATECHESIS[lang].find(
   ({ pathname }) => pathname === route
 );
+
 const t = useTranslations(lang);
 ---
 
@@ -26,6 +27,7 @@ const t = useTranslations(lang);
         data?.verses.map(({ book, chapter, verse, content }) => (
           <VerseCard
             title={data?.title}
+            subtitle={data?.subtitle}
             book={book}
             chapter={chapter}
             verse={verse}

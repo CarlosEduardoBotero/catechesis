@@ -1,5 +1,5 @@
 import { ui, defaultLang, showDefaultLang } from "./ui";
-import { routes } from "./routes";
+import { routes } from "./routes/routes";
 
 export function getLangFromUrl(url: URL) {
   const [, lang] = url.pathname.split("/");

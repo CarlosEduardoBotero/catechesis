@@ -7,7 +7,7 @@ import {
 } from "../i18n/utils";
 import LanguagePicker from "./LanguagePicker.astro";
 import InteractiveHamburgerMenu from "./InteractiveHamburgerMenu.astro";
-import { routes } from "../i18n/routes";
+import { routes } from "../i18n/routes/routes";
 
 const lang = getLangFromUrl(Astro.url);
 const translatePath = useTranslatedPath(lang);
