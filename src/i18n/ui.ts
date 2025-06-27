@@ -15,7 +15,7 @@ export const ui = {
     "footer.by": "by",
     "nav.teaching": "Teaching",
     "nav.catechesis": "Catechesis",
-    "nav.whoWeAre": "Who we are test",
+    "nav.whoWeAre": "Who we are test carlos gente boa",
     "who-we-are.title": "Who we are",
     "who-we-are.weBeliveGod":
       "We believe that God created the man with a purpose very clear.",
