@@ -15,7 +15,7 @@ export const ui = {
     "footer.by": "by",
     "nav.teaching": "Teaching",
     "nav.catechesis": "Catechesis",
-    "nav.whoWeAre": "Who we are test carlos gente boa",
+    "nav.whoWeAre": "Who we are",
     "who-we-are.title": "Who we are",
     "who-we-are.weBeliveGod":
       "We believe that God created the man with a purpose very clear.",
@@ -32,7 +32,7 @@ export const ui = {
     "who-we-are.whereThereIsNatural":
       "Where there is natural life, there’s always multiplication. Spiritual life should also be like that. He who has the life of Christ, is fruitful and multiplies this life in the others.",
     "who-we-are.inJesusLikenessMeansEdification":
-      "In Jesus’ likeness means edification",
+      "In Jesus’ likeness means edification.",
     "who-we-are.godHasNoContentmentInQuantity":
       "God has no contentment in quantity, nor is satisfied with numbers. He wants quality. That His children live like Jesus and walk as Jesus walked. Husbands that take care of their wives as the weaker vessel",
     "who-we-are.wivesThatDoNotSubmit":
@@ -105,7 +105,7 @@ export const ui = {
     "who-we-are.whereThereIsNatural":
       "Donde hay vida natural, siempre hay multiplicación. Así debe ser también la vida espiritual. El que tiene la vida de Cristo, es fructífero y multiplica esta vida en los demás.",
     "who-we-are.inJesusLikenessMeansEdification":
-      "Semejantes a Jesús significa edificación",
+      "Semejantes a Jesús significa edificación.",
     "who-we-are.godHasNoContentmentInQuantity":
       "Dios no se contenta con la cantidad, ni se satisface con los números. Él quiere calidad. Que Sus hijos vivan como Jesús y anden como Jesús anduvo. Maridos que cuidan a su esposa como vaso más frágil.",
     "who-we-are.wivesThatDoNotSubmit": "Esposas sujetas a sus propios maridos",
@@ -178,7 +178,7 @@ export const ui = {
     "who-we-are.whereThereIsNatural":
       "Onde há vida natural, há sempre multiplicação. A vida espiritual também deve ser assim. Aquele que tem a vida de Cristo, é frutífero e multiplica esta vida nos outros.",
     "who-we-are.inJesusLikenessMeansEdification":
-      "Semelhantes a Jesus significa edificação",
+      "Semelhantes a Jesus significa edificação.",
     "who-we-are.godHasNoContentmentInQuantity":
       "Deus não se contenta com quantidade, nem se satisfaz com números. Ele quer qualidade. Que Seus filhos vivam como Jesus e andem como Jesus andou. Maridos que cuidam de sua esposa como vaso frágil.",
     "who-we-are.wivesThatDoNotSubmit":
