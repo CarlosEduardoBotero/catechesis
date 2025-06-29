@@ -42,7 +42,7 @@ export const ui = {
     "who-we-are.childrenThatDoNotObey":
       "Children that obey and honor their parents",
     "who-we-are.weSeekAFamilyRelationship":
-      "We seek a family relationship, without separation among people and priests, but everyone working together to grow (Act 1:8) and edify the body of Christ.",
+      "We seek a family relationship, without separation among people and priests, but everyone working together to grow and edify the body of Christ",
     "who-we-are.untilWeAllAttain":
       "Until we all attain to the unity of the faith and of the knowledge of the Son of God, to mature manhood, to the measure of the stature of the fullness of Christ. (Eph 4:13)",
     "who-we-are.thatIsWhatWeBelieve":
@@ -97,7 +97,7 @@ export const ui = {
     "who-we-are.GodWantsAFamily":
       "Dios quiere una familia de muchos hijos a semejanza de Jesús.",
     "who-we-are.thisIsAnIndispensableRequirement":
-      "Este es un requisito indispensable para el cumplimiento del propósito de Dios. Aunque la unidad no se enfatiza en el texto arriba, sabemos que los hijos semejantes a Jesús no pueden ser pendencieros, facciosos o sectarios. La unidad de la familia se enfatiza muy bien en pasajes como Jn 17:20-22; 1Co 1:10-12; 3:1-4; 10:16-17",
+      "Este es un requisito indispensable para el cumplimiento del propósito de Dios. Aunque la unidad no se enfatiza en el texto arriba, sabemos que hijos semejantes a Jesús no pueden ser pendencieros, facciosos o sectarios. La unidad de la familia se enfatiza muy bien en pasajes como Jn 17:20-22; 1Co 1:10-12; 3:1-4; 10:16-17",
     "who-we-are.aFamilyMeansUnity": "Una familia significa unidad. ",
     "who-we-are.ofManyChildren": "De muchos hijos significa multiplicación. ",
     "who-we-are.disciplesThatMakeMoreDisciples":
@@ -114,7 +114,7 @@ export const ui = {
     "who-we-are.childrenThatDoNotObey":
       "Hijos que obedecen y honran a sus padres.",
     "who-we-are.weSeekAFamilyRelationship":
-      "Buscamos um relacionamento familiar, sem separação entre povo e sacerdote, mas todos trabalhando juntos para o crescimento (Atos 1:8) e edificação do corpo de Cristo.",
+      "Buscamos una relación de familia, sin separación entre pueblo y sacerdotes, sino que todos trabajen juntos para el crecimiento y la edificación del cuerpo de Cristo",
     "who-we-are.untilWeAllAttain":
       "Hasta que todos lleguemos a la unidad de la fe y del conocimiento del Hijo de Dios, a un varón perfecto, a la medida de la estatura de la plenitud de Cristo. (Ef 4:13)",
     "who-we-are.thatIsWhatWeBelieve":
@@ -170,7 +170,7 @@ export const ui = {
     "who-we-are.GodWantsAFamily":
       "Deus quer uma família de muitos filhos semelhantes a Jesus.",
     "who-we-are.thisIsAnIndispensableRequirement":
-      "Este é um requisito indispensável para o cumprimento do propósito de Deus. Embora a unidade não seja enfatizada no texto acima, sabemos que crianças semelhantes a Jesus não podem ser briguentas, facciosas ou sectárias. A unidade da família é enfatizada muito bem em passagens como Jo 17:20-22; 1Co 1:10-12; 3:1-4; 10:16-17",
+      "Este é um requisito indispensável para o cumprimento do propósito de Deus. Embora a unidade não seja enfatizada no texto acima, sabemos que filhos semelhantes a Jesus não podem ser briguentas, facciosas ou sectárias. A unidade da família é enfatizada muito bem em passagens como Jo 17:20-22; 1Co 1:10-12; 3:1-4; 10:16-17",
     "who-we-are.aFamilyMeansUnity": "Uma família significa unidade. ",
     "who-we-are.ofManyChildren": "De muitos filhos significa multiplicação. ",
     "who-we-are.disciplesThatMakeMoreDisciples":
@@ -188,7 +188,7 @@ export const ui = {
     "who-we-are.childrenThatDoNotObey":
       "Crianças que obedecem e honram seus pais.",
     "who-we-are.weSeekAFamilyRelationship":
-      "Buscamos um relacionamento familiar, sem separação entre povo e sacerdote, mas todos trabalhando juntos para o crescimento (Atos 1:8) e edificação do corpo de Cristo.",
+      "Buscamos um relacionamento familiar, sem separação entre povo e sacerdote, mas todos trabalhando juntos para o crescimento e edificação do corpo de Cristo",
     "who-we-are.untilWeAllAttain":
       "Até que todos cheguemos à unidade da fé e do pleno conhecimento do Filho de Deus, à perfeita varonilidade, à medida da estatura da plenitude de Cristo. (Ef 4:13)",
     "who-we-are.thatIsWhatWeBelieve":
