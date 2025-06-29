@@ -86,7 +86,7 @@ export const ui = {
     "home.lesson": "Lección",
     "footer.createWith": "Creado con",
     "footer.by": "por",
-    "nav.teaching": "Estudios",
+    "nav.teaching": "Enseñanza",
     "nav.catechesis": "Catequesis",
     "nav.whoWeAre": "Quienes somos",
     "who-we-are.title": "Quienes somos",
