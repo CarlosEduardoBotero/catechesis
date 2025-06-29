@@ -28,7 +28,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
             "Let this mind be in you which was also in Christ Jesus, who, being in the form of God, did not consider it robbery to be equal with God, but made Himself of no reputation, taking the form of a bondservant, and coming in the likeness of men. And being found in appearance as a man, He humbled Himself and became obedient to the point of death, even the death of the cross.",
         },
       ],
-      previous: "/catechesis/jesus-exist-before-all-things",
+      previous: "/catechesis/elementary-principles/jesus-exist-before-all-things",
       next: "/catechesis/elementary-principles/his-life-was-perfect-and-blameless",
     },
     {
@@ -43,7 +43,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
           content: "Who committed no sin, nor was deceit found in His mouth.",
         },
       ],
-      previous: "/catechesis/he-became-a-man",
+      previous: "/catechesis/elementary-principles/he-became-a-man",
       next: "/catechesis/elementary-principles/his-work-was-great-and-glorious",
     },
     {
@@ -59,7 +59,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
             "How God anointed Jesus of Nazareth with the Holy Spirit and with power, who went about doing good and healing all who were oppressed by the devil, for God was with Him.",
         },
       ],
-      previous: "/catechesis/his-life-was-perfect-and-blameless",
+      previous: "/catechesis/elementary-principles/his-life-was-perfect-and-blameless",
       next: "/catechesis/elementary-principles/he-died-for-our-sins",
     },
     {
@@ -81,7 +81,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
             "But He was wounded for our transgressions, He was bruised for our iniquities; the chastisement for our peace was upon Him, and by His stripes we are healed. All we like sheep have gone astray; we have turned, every one, to his own way; and the Lord has laid on Him the iniquity of us all.",
         },
       ],
-      previous: "/catechesis/his-work-was-great-and-glorious",
+      previous: "/catechesis/elementary-principles/his-work-was-great-and-glorious",
       next: "/catechesis/elementary-principles/he-rose-again",
     },
     {
@@ -97,7 +97,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
             "Whom God raised up, having loosed the pains of death, because it was not possible that He should be held by it.",
         },
       ],
-      previous: "/catechesis/he-died-for-our-sins",
+      previous: "/catechesis/elementary-principles/he-died-for-our-sins",
       next: "/catechesis/elementary-principles/he-was-exalted",
     },
     {
@@ -119,7 +119,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
             "Therefore God also has highly exalted Him and given Him the name which is above every name, that at the name of Jesus every knee should bow, of those in heaven, and of those on earth, and of those under the earth, and that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father.",
         },
       ],
-      previous: "/catechesis/he-rose-again",
+      previous: "/catechesis/elementary-principles/he-rose-again",
       next: "/catechesis/elementary-principles/he-will-return",
     },
     {
@@ -134,7 +134,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
             "Then the sign of the Son of Man will appear in heaven, and then all the tribes of the earth will mourn, and they will see the Son of Man coming on the clouds of heaven with power and great glory.",
         },
       ],
-      previous: "/catechesis/he-was-exalted",
+      previous: "/catechesis/elementary-principles/he-was-exalted",
       next: "/catechesis/elementary-principles/jesus-exist-before-all-things",
     },
   ],
