@@ -21,7 +21,7 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     {
       pathname: "/catechesis/eternal-purpose/what-happened-when-man-sinned",
       title: "What happened when man sinned?",
-      subtitle: "Man became worthless for God’s purpose",
+      subtitle: "Man became worthless for God’s purpose.",
       lesson: "2",
       verses: [
         {
@@ -29,7 +29,7 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
           chapter: "3",
           verse: "12",
           content:
-            "They have all turned aside; they have together become unprofitable; there is none who does good, no, not one.”",
+            "They have all turned aside; they have together become unprofitable; there is none who does good, no, not one.",
         },
       ],
       previous:
@@ -194,7 +194,7 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     {
       pathname: "/catechesis/eternal-purpose/to-be-meek-and-humble-like-jesus",
       title: "To be meek...",
-      subtitle: "To be meek and humble like Jesus",
+      subtitle: "To be meek and humble like Jesus.",
       lesson: "5.1.a",
       verses: [
         {
@@ -212,7 +212,7 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     {
       pathname: "/catechesis/eternal-purpose/to-be-holy-like-jesus",
       title: "To be holy...",
-      subtitle: "To be holy like Jesus",
+      subtitle: "To be holy like Jesus.",
       lesson: "5.1.b",
       verses: [
         {
@@ -229,7 +229,7 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     {
       pathname: "/catechesis/eternal-purpose/to-serve-like-jesus",
       title: "To serve...",
-      subtitle: "To serve like Jesus",
+      subtitle: "To serve like Jesus.",
       lesson: "5.1.c",
       verses: [
         {
@@ -246,7 +246,7 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     {
       pathname: "/catechesis/eternal-purpose/to-preach-to-the-world-like-jesus",
       title: "To preach...",
-      subtitle: "To preach to the world like Jesus",
+      subtitle: "To preach to the world like Jesus.",
       lesson: "5.1.d",
       verses: [
         {
@@ -264,7 +264,7 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     {
       pathname: "/catechesis/eternal-purpose/to-forgive-like-jesus",
       title: "To forgive...",
-      subtitle: "To forgive like Jesus",
+      subtitle: "To forgive like Jesus.",
       lesson: "5.1.e",
       verses: [
         {
@@ -281,7 +281,7 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     {
       pathname: "/catechesis/eternal-purpose/to-love-like-jesus",
       title: "To love...",
-      subtitle: "To love like Jesus",
+      subtitle: "To love like Jesus.",
       lesson: "5.1.f",
       verses: [
         {
@@ -333,7 +333,7 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
       pathname:
         "/catechesis/eternal-purpose/how-do-we-begin-the-work-of-making-disciples",
       title: "How do we begin the work of making disciples?",
-      subtitle: "By being witnesses and proclaimers",
+      subtitle: "By being witnesses and proclaimers.",
       lesson: "8/9",
       verses: [
         {
@@ -341,7 +341,7 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
           chapter: "1",
           verse: "8",
           content:
-            "But you shall receive power when the Holy Spirit has come upon you; and you shall be witnesses to Me in Jerusalem, and in all Judea and Samaria, and to the end of the earth.”",
+            "But you shall receive power when the Holy Spirit has come upon you; and you shall be witnesses to Me in Jerusalem, and in all Judea and Samaria, and to the end of the earth.",
         },
       ],
       previous: "/catechesis/eternal-purpose/who-builds-up-the-body-of-christ",
@@ -378,7 +378,7 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
           chapter: "4",
           verse: "15-16",
           content:
-            "[Ephesians 4:15-16] But, speaking the truth in love, may grow up in all things into Him who is the head —Christ— from whom the whole body, joined and knit together by what every joint supplies, according to the effective working by which every part does its share, causes growth of the body for the edifying of itself in love.",
+            "But, speaking the truth in love, may grow up in all things into Him who is the head —Christ— from whom the whole body, joined and knit together by what every joint supplies, according to the effective working by which every part does its share, causes growth of the body for the edifying of itself in love.",
         },
       ],
       previous:
@@ -1100,16 +1100,16 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     {
       pathname:
         "/catechesis/eternal-purpose/what-was-gods-purpose-when-he-created-man",
-      title: "What was God’s purpose when he created man?",
-      subtitle: "God wanted a family of men in His likeness.",
+      title: "Qual o propósito de Deus quando criou o homem?",
+      subtitle: "Deus queria uma família de homens semelhantes a Ele.",
       lesson: "1",
       verses: [
         {
-          book: "Genesis",
+          book: "Gêneses",
           chapter: "1",
           verse: "26",
           content:
-            "Then God said, “Let Us make man in Our image, according to Our likeness[…].”",
+            "Também disse Deus; Façamos o homem à nossa imagem conforme a nossa semelhança[…].”",
         },
       ],
       previous: null,
@@ -1117,27 +1117,27 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     },
     {
       pathname: "/catechesis/eternal-purpose/what-happened-when-man-sinned",
-      title: "What happened when man sinned?",
-      subtitle: "Man became worthless for God’s purpose",
+      title: "O que aconteceu quando o homem pecou?",
+      subtitle: "O homem se tornou inútil para o propósito de Deus.",
       lesson: "2",
       verses: [
         {
-          book: "Romans",
+          book: "Romanos",
           chapter: "3",
           verse: "12",
           content:
-            "They have all turned aside; they have together become unprofitable; there is none who does good, no, not one.”",
+            "Todos se extraviaram e juntamente se fizeram inúteis.",
         },
       ],
       previous:
         "/catechesis/eternal-purpose/what-was-gods-purpose-when-he-created-man",
       next: "/catechesis/eternal-purpose/did-god-give-up-his-purpose-because-of-sin",
     },
-    {
+    {        
       pathname:
         "/catechesis/eternal-purpose/did-god-give-up-his-purpose-because-of-sin",
-      title: "Did God give up His purpose because of sin?",
-      subtitle: "No, God did not give up His purpose.",
+      title: "Deus desistiu do seu propósito por causa do pecado?",
+      subtitle: "Não. Deus não desistiu do seu propósito.",
       lesson: "2.1",
       verses: [
         {
@@ -1154,24 +1154,24 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
       pathname:
         "/catechesis/eternal-purpose/if-man-became-worthless-how-does-god-hope-to-achieve-his-purpose",
       title:
-        "If man became worthless, how does God hope to achieve His purpose?",
+        "Se o homem se tornou inútil, como Deus tem esperança de realizar o Seu propósito?",
       subtitle:
-        "He gives us a new life in Christ. God’s hope is the life of Christ in us.",
+        "Ele nos dá uma nova vida em Cristo. A esperança de Deus é a vida de Cristo em nós.",
       lesson: "3",
       verses: [
         {
-          book: "2 Corinthians",
+          book: "2 Coríntios",
           chapter: "5",
           verse: "17",
           content:
-            "Therefore, if anyone is in Christ, he is a new creation; old things have passed away; behold, all things have become new.",
+            "E, assim, se alguém está em Cristo, é nova criatura; as coisas antigas já passaram; eis que se fizeram novas.",
         },
         {
-          book: "Colossians",
+          book: "Colossenses",
           chapter: "1",
           verse: "27",
           content:
-            "To them God willed to make known what are the riches of the glory of this mystery among the Gentiles: which is Christ in you, the hope of glory.",
+            "... Cristo em vós, a esperança da glória.",
         },
       ],
       previous:
@@ -1180,8 +1180,8 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     },
     {
       pathname: "/catechesis/eternal-purpose/what-is-gods-purpose-today",
-      title: "What is God’s purpose today?",
-      subtitle: "God wants a family of many children in Jesus’ likeness.",
+      title: "Qual é o propósito de Deus hoje?",
+      subtitle: "Deus quer uma família de muitos filhos semelhantes a Jesus.",
       lesson: "4",
       verses: [
         {
@@ -1189,7 +1189,7 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
           chapter: "8",
           verse: "28-29",
           content:
-            "And we know that all things work together for good to those who love God, to those who are the called according to His purpose. For whom He foreknew, He also predestined to be conformed to the image of His Son, that He might be the firstborn among many brethren.",
+            "Sabemos que todas as coisas cooperam para o bem daqueles que amam a Deus, daqueles que são chamados segundo o seu propósito. Porquanto aos que de antemão conheceu, também os predestinou para serem conformes à imagem de seu Filho, a fim de que ele seja o primogênito entre muitos irmãos.",
         },
         {
           book: "Ephesians",
@@ -1203,10 +1203,10 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
         "/catechesis/eternal-purpose/if-man-became-worthless-how-does-god-hope-to-achieve-his-purpose",
       next: "/catechesis/eternal-purpose/why-a-family",
     },
-    {
+    {   
       pathname: "/catechesis/eternal-purpose/why-a-family",
-      title: "Why a family? ",
-      subtitle: "Because God wants unity.",
+      title: "Por que uma família?",
+      subtitle: "Porque Deus quer unidade.",
       lesson: "4.1",
       verses: [
         {
@@ -1219,10 +1219,10 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
       previous: "/catechesis/he-died-for-our-sins",
       next: "/catechesis/eternal-purpose/why-many-children",
     },
-    {
+    {    
       pathname: "/catechesis/eternal-purpose/why-many-children",
-      title: "Why many children?",
-      subtitle: "Because God wants quantity.",
+      title: "Por que muitos filhos?",
+      subtitle: "Porque Deus quer quantidade.",
       lesson: "4.2",
       verses: [
         {
@@ -1237,8 +1237,8 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     },
     {
       pathname: "/catechesis/eternal-purpose/why-in-jesus-likeness",
-      title: "Why in Jesus’ likeness?",
-      subtitle: "Because God wants quality",
+      title: "Por que semelhantes a Jesus?",
+      subtitle: "Porque Deus quer qualidade",
       lesson: "4.3",
       verses: [
         {
@@ -1251,30 +1251,32 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
       previous: "/catechesis/eternal-purpose/why-many-children",
       next: "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
     },
-    {
+    {   
       pathname:
         "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
-      title: "But the purpose of God is not man's salvation?",
+      title: "Mas o propósito de Deus não é a salvação do homem?",
       subtitle:
-        "No. Salvation is the way to achieve this purpose. His purpose is that we must be like Jesus.",
+        "Não, a salvação é o meio para alcançar o propósito. Seu propósito é que sejamos semelhantes a Jesus.",
       lesson: "5",
       verses: [
         {
-          book: "1 John",
+          book: "1 João",
           chapter: "2",
           verse: "6",
           content:
-            "He who says he abides in Him ought himself also to walk just as He walked.",
+            "Aquele que diz que está nele, deve andar como ele andou.",
         },
       ],
       previous: "/catechesis/eternal-purpose/why-in-jesus-likeness",
       next: "/catechesis/eternal-purpose/in-what-should-we-be-like-jesus",
     },
     {
+	
+	    
       pathname: "/catechesis/eternal-purpose/in-what-should-we-be-like-jesus",
-      title: "In what ways should we be like Jesus?",
+      title: "Em que devemos ser como Jesus?",
       subtitle:
-        "a - To be meek and humble like Jesus\n\nb - To be holy like Jesus\n\nc - To serve like Jesus\n\nd - To preach to the world like Jesus\n\ne - To forgive like Jesus\n\nf - To love like Jesus",
+        "a - Ser mansos e humildes como Jesus\n\nb - Ser santos como Jesus\n\nc - Servir como Jesus\n\nd - Pregar ao mundo como Jesus\n\ne - Perdoar como Jesus\n\nf - Amar como Jesus",
       lesson: "5.1",
       verses: [
         {
@@ -1290,16 +1292,16 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     },
     {
       pathname: "/catechesis/eternal-purpose/to-be-meek-and-humble-like-jesus",
-      title: "To be meek...",
-      subtitle: "To be meek and humble like Jesus",
+      title: "Ser mansos...",
+      subtitle: "Ser mansos e humildes como Jesus.",
       lesson: "5.1.a",
       verses: [
         {
-          book: "Matthew",
+          book: "Mateus",
           chapter: "11",
           verse: "29",
           content:
-            "Take My yoke upon you and learn from Me, for I am gentle and lowly in heart, and you will find rest for your souls.",
+            "Tomai sobre vós o meu jugo e aprendei de mim que sou manso e humilde de coração e achareis descanso para vossas almas.",
         },
       ],
       previous:
@@ -1308,16 +1310,16 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     },
     {
       pathname: "/catechesis/eternal-purpose/to-be-holy-like-jesus",
-      title: "To be holy...",
-      subtitle: "To be holy like Jesus",
+      title: "Ser santos...",
+      subtitle: "Ser santos como Jesus.",
       lesson: "5.1.b",
       verses: [
         {
-          book: "1 Peter",
+          book: "1 Pedro",
           chapter: "1",
           verse: "15",
           content:
-            "But as He who called you is holy, you also be holy in all your conduct.",
+            "Como é santo aquele que vos chamou, sede vós também santos em todo o vosso procedimento.",
         },
       ],
       previous: "/catechesis/eternal-purpose/to-be-meek-and-humble-like-jesus",
@@ -1325,16 +1327,16 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     },
     {
       pathname: "/catechesis/eternal-purpose/to-serve-like-jesus",
-      title: "To serve...",
-      subtitle: "To serve like Jesus",
+      title: "Servir...",
+      subtitle: "Servir como Jesus.",
       lesson: "5.1.c",
       verses: [
         {
-          book: "John",
+          book: "João",
           chapter: "13",
           verse: "14",
           content:
-            "If I then, your Lord and Teacher, have washed your feet, you also ought to wash one another’s feet.",
+            "Ora, se eu, sendo o Senhor e o Mestre, vos lavei os pés, também vós deveis lavar os pés uns dos outros.",
         },
       ],
       previous: "/catechesis/eternal-purpose/to-be-holy-like-jesus",
@@ -1342,16 +1344,16 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     },
     {
       pathname: "/catechesis/eternal-purpose/to-preach-to-the-world-like-jesus",
-      title: "To preach...",
-      subtitle: "To preach to the world like Jesus",
+      title: "Pregar...",
+      subtitle: "Pregar ao mundo como Jesus.",
       lesson: "5.1.d",
       verses: [
         {
-          book: "John",
+          book: "João",
           chapter: "17",
           verse: "18",
           content:
-            "As You sent Me into the world, I also have sent them into the world. ",
+            "Assim como tu me enviaste ao mundo, também eu os enviei ao mundo.",
         },
       ],
       previous:
@@ -1360,16 +1362,16 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     },
     {
       pathname: "/catechesis/eternal-purpose/to-forgive-like-jesus",
-      title: "To forgive...",
-      subtitle: "To forgive like Jesus",
+      title: "Perdoar...",
+      subtitle: "Perdoar como Jesus.",
       lesson: "5.1.e",
       verses: [
         {
-          book: "Colossians",
+          book: "Colossenses",
           chapter: "3",
           verse: "13",
           content:
-            "Bearing with one another, and forgiving one another, if anyone has a complaint against another; even as Christ forgave you, so you also must do.",
+            "Assim como o Senhor vos perdoou, assim também perdoai vós.",
         },
       ],
       previous: "/catechesis/eternal-purpose/to-preach-to-the-world-like-jesus",
@@ -1377,8 +1379,8 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     },
     {
       pathname: "/catechesis/eternal-purpose/to-love-like-jesus",
-      title: "To love...",
-      subtitle: "To love like Jesus",
+      title: "Amar...",
+      subtitle: "Amar como Jesus.",
       lesson: "5.1.f",
       verses: [
         {
@@ -1386,7 +1388,7 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
           chapter: "13",
           verse: "34",
           content:
-            "A new commandment I give to you, that you love one another; as I have loved you, that you also love one another.",
+            "Novo mandamento vos dou: que vos ameis uns aos outros; assim como eu vos amei, que também vos ameis uns aos outros.",
         },
       ],
       previous: "/catechesis/eternal-purpose/to-forgive-like-jesus",
@@ -1394,16 +1396,16 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     },
     {
       pathname: "/catechesis/eternal-purpose/who-are-the-priests-in-the-church",
-      title: "Who are the priests in the church?",
-      subtitle: "All of the saints are priests.",
+      title: "Quem são os sacerdotes na igreja?",
+      subtitle: "Todos os santos são sacerdotes.",
       lesson: "6",
       verses: [
         {
-          book: "1 Peter",
+          book: "1 Pedro",
           chapter: "2",
           verse: "9",
           content:
-            "But you are a chosen generation, a royal priesthood, a holy nation, His own special people, that you may proclaim the praises of Him who called you out of darkness into His marvelous light.",
+            "Vós, porém, sois raça eleita, sacerdócio real, nação santa, povo de propriedade exclusiva de Deus, a fim de proclamardes as virtudes daquele que vos chamou das trevas para a sua maravilhosa luz.",
         },
       ],
       previous: "/catechesis/eternal-purpose/to-love-like-jesus",
@@ -1411,16 +1413,16 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     },
     {
       pathname: "/catechesis/eternal-purpose/who-builds-up-the-body-of-christ",
-      title: "Who builds up the body of Christ?",
-      subtitle: "The body of Christ builds up the body of Christ.",
+      title: "Quem edifica o corpo de Cristo?",
+      subtitle: "O corpo de Cristo edifica o corpo de Cristo.",
       lesson: "7",
       verses: [
         {
-          book: "Ephesians",
+          book: "Efésios",
           chapter: "4",
           verse: "11-12",
           content:
-            "And He Himself gave some to be apostles, some prophets, some evangelists, and some pastors and teachers, for the equipping of the saints for the work of ministry, for the [a]edifying of the body of Christ,",
+            "E ele mesmo concedeu uns para apóstolos, outros para profetas, outros para evangelistas e outros para pastores e mestres, com vistas ao correto ordenamento dos santos para o desempenho do seu serviço, para a edificação do corpo de Cristo.",
         },
       ],
       previous: "/catechesis/eternal-purpose/who-are-the-priests-in-the-church",
@@ -1429,16 +1431,16 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     {
       pathname:
         "/catechesis/eternal-purpose/how-do-we-begin-the-work-of-making-disciples",
-      title: "How do we begin the work of making disciples?",
-      subtitle: "By being witnesses and proclaimers",
+      title: "Como iniciamos o serviço de fazer discípulos?",
+      subtitle: "BSendo testemunhas e proclamadores",
       lesson: "8/9",
       verses: [
         {
-          book: "Acts",
+          book: "Atos",
           chapter: "1",
           verse: "8",
           content:
-            "But you shall receive power when the Holy Spirit has come upon you; and you shall be witnesses to Me in Jerusalem, and in all Judea and Samaria, and to the end of the earth.”",
+            "Mas recebereis poder, ao descer sobre vós o Espírito Santo, e sereis minhas testemunhas tanto em Jerusalém, como em toda a Judéia e Samaria, e até aos confins da terra.”",
         },
       ],
       previous: "/catechesis/eternal-purpose/who-builds-up-the-body-of-christ",
@@ -1447,17 +1449,17 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     {
       pathname:
         "/catechesis/eternal-purpose/what-are-joints-and-ligaments-in-the-body-of-christ",
-      title: "What are joints and ligaments in the body of Christ?",
+      title: "O que são juntas e ligamentos no corpo de Cristo?",
       subtitle:
-        "Joints and ligaments in the body of Christ are strong and resistant relationships between its members.",
+        "Juntas e ligamentos no corpo de Cristo são relações fortes e resistentes entre os seus membros.",
       lesson: "10",
       verses: [
         {
-          book: "Ephesians",
+          book: "Efésios",
           chapter: "4",
           verse: "15-16",
           content:
-            "But, speaking the truth in love, may grow up in all things into Him who is the head —Christ— from whom the whole body, joined and knit together by what every joint supplies, according to the effective working by which every part does its share, causes growth of the body for the edifying of itself in love.",
+            "Mas, seguindo a verdade em amor, cresçamos em tudo naquele que é o cabeça, Cristo, de quem todo o corpo, bem ajustado e ligado pelo auxílio de todas as juntas, segundo a justa cooperação de cada parte, efetua o seu próprio aumento para a edificação de si mesmo em amor.",
         },
       ],
       previous:
@@ -1466,8 +1468,8 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     },
     {
       pathname: "/catechesis/eternal-purpose/what-are-joints-and-ligaments-for",
-      title: "What are joints and ligaments for?",
-      subtitle: "To unite, nourish, and build up the body of Christ.",
+      title: "Para que servem as juntas e ligamentos?",
+      subtitle: "Para unir, alimentar e edificar o corpo de Cristo.",
       lesson: "10.1",
       verses: [
         {
@@ -1484,17 +1486,17 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     },
     {
       pathname: "/catechesis/eternal-purpose/what-is-the-discipler-role",
-      title: "What is the discipler’s role?",
+      title: "Qual é a função do discipulador?",
       subtitle:
-        "To teach the disciple to obey all of the things Jesus commanded.",
+        "Ensinar a guardar todas as coisas que Jesus ordenou.",
       lesson: "11",
       verses: [
         {
-          book: "Matthew",
+          book: "Mateus",
           chapter: "28",
           verse: "18-20",
           content:
-            "And Jesus came and spoke to them, saying, “All authority has been given to Me in heaven and on earth. Go therefore and make disciples of all the nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all things that I have commanded you; and lo, I am with you always, even to the end of the age.” Amen.",
+            "Ide, portanto, fazei discípulos de todas as nações, batizando-os em nome do Pai e do Filho e do Espírito Santo, ensinando-os a guardar todas as coisas que vos tenho ordenado. E eis que estou convosco todos os dias até à consumação dos séculos.",
         },
       ],
       previous: "/catechesis/eternal-purpose/what-are-joints-and-ligaments-for",
@@ -1502,15 +1504,15 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     },
     {
       pathname: "/catechesis/eternal-purpose/what-is-necessary-to-be-discipled",
-      title: "What is necessary to be discipled?",
-      subtitle: "To be meek, humble, and submissive.",
+      title: "O que é necessário para ser discipulado?",
+      subtitle: "Ser manso, humilde e submisso.",
       lesson: "12",
       verses: [
         {
-          book: "Ephesians",
+          book: "Efésios",
           chapter: "5",
           verse: "21",
-          content: "Submitting to one another in the fear of God.",
+          content: "(...) sujeitando-vos uns aos outros no temor de Cristo.",
         },
       ],
       previous: "/catechesis/eternal-purpose/what-is-the-discipler-role",
@@ -1519,8 +1521,8 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     {
       pathname:
         "/catechesis/eternal-purpose/why-are-discipleship-and-companionship-so-important",
-      title: "Why are discipleship and companionship so important?",
-      subtitle: "Because they unite the body with joints and ligaments.",
+      title: "Porque o discipulado e o companheirismo são tão importantes?",
+      subtitle: "Porque unem o corpo por juntas e ligamentos.",
       lesson: "13",
       verses: [
         {
@@ -1536,16 +1538,16 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     {
       pathname:
         "/catechesis/eternal-purpose/what-are-the-main-attitudes-in-companionship",
-      title: "What are the main attitudes in companionship?",
-      subtitle: "Love, submission, transparency, and forgiveness.",
+      title: "Quais são as principais atitudes no companheirismo?",
+      subtitle: "Amor, submissão, transparência e perdão.",
       lesson: "13.1",
       verses: [
         {
-          book: "John",
+          book: "João",
           chapter: "13",
           verse: "34",
           content:
-            "A new commandment I give to you, that you love one another; as I have loved you, that you also love one another.",
+            "Novo mandamento vos dou: que vos ameis uns aos outros; assim como eu vos amei, que também vos ameis uns aos outros.",
         },
       ],
       previous:
@@ -1555,16 +1557,16 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     {
       pathname:
         "/catechesis/eternal-purpose/what-are-the-main-activities-in-the-companionship",
-      title: "What are the main activities in the companionship?",
-      subtitle: "Pray, advise, serve, and make disciples.",
+      title: "Quais são as principais atividades no companheirismo?",
+      subtitle: "Orar, aconselhar, servir e fazer discípulos.",
       lesson: "14",
       verses: [
         {
-          book: "Colossians",
+          book: "Colossenses",
           chapter: "3",
           verse: "16",
           content:
-            "Let the word of Christ dwell in you richly in all wisdom, teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord.",
+            "Habite ricamente em vós a palavra de Cristo; Instrui-vos e aconselhai-vos mutuamente em toda a sabedoria.",
         },
       ],
       previous:
@@ -1573,8 +1575,8 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     },
     {
       pathname: "/catechesis/eternal-purpose/what-is-the-fruit-of-all-that",
-      title: "What is the fruit of all that?",
-      subtitle: "The building up of the body in love.",
+      title: "Qual é o fruto de tudo isto?",
+      subtitle: "A edificação do corpo em amor.",
       lesson: "14.1",
       verses: [
         {
@@ -1591,16 +1593,16 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     {
       pathname:
         "/catechesis/eternal-purpose/what-does-the-gardener-demand-from-the-branch",
-      title: "What does the gardener demand from the branch?",
-      subtitle: "Every branch must bear fruit.",
+      title: "O que o agricultor exige do ramo?",
+      subtitle: "Todo ramo deve dar frutos.",
       lesson: "15",
       verses: [
         {
-          book: "John",
+          book: "João",
           chapter: "15",
           verse: "16",
           content:
-            "You did not choose Me, but I chose you and appointed you that you should go and bear fruit, and that your fruit should remain, that whatever you ask the Father in My name He may give you.",
+            "Eu vos escolhi a vós outros e vos designei para que vades e deis frutos, e o vosso fruto permaneça.",
         },
       ],
       previous: "/catechesis/eternal-purpose/what-is-the-fruit-of-all-that",
@@ -1609,8 +1611,8 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     {
       pathname:
         "/catechesis/eternal-purpose/what-is-the-fruit-that-the-branch-should-bear",
-      title: "What is the fruit that the branch should bear?",
-      subtitle: "The multiplication of Christ’s life.",
+      title: "Qual é o fruto que o ramo deve dar?",
+      subtitle: "A multiplicação da vida de Cristo.",
       lesson: "15.1",
       verses: [
         {
@@ -1627,9 +1629,9 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
     {
       pathname:
         "/catechesis/eternal-purpose/what-is-the-reason-for-the-home-group-meeting",
-      title: "What is the reason for the home group meeting?",
+      title: "Qual é o motivo do encontro do grupo caseiro?",
       subtitle:
-        "The home group’s function is to develop the saints’ works of service.",
+        "A obra do grupo caseiro é o desenvolvimento do serviço dos santos.",
       lesson: "16",
       verses: [
         {
