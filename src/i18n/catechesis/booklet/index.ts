@@ -11,70 +11,22 @@ export const BOOKLETS = {
   ],
   es: [
     {
-      pathname: "/catequesis/jesus-existia-antes-de-todas-las-cosas",
-      title: "Jesús existía antes de todas las cosas",
+      pathname: "/catequesis/principios-elementales",
+      title: "Principios Elementales",
     },
     {
-      pathname: "/catequesis/el-se-hizo-hombre",
-      title: "Él se hizo hombre",
-    },
-    {
-      pathname: "/catequesis/su-vida-fue-perfecta-e-inrreprensible",
-      title: "Su vida fue perfecta e inrreprensible",
-    },
-    {
-      pathname: "/catequesis/su-obra-fue-tremenda-y-grandiosa",
-      title: "Su obra fue tremenda y grandiosa",
-    },
-    {
-      pathname: "/catequesis/murio-por-nuestros-pecados",
-      title: "Murió por nuestros pecados",
-    },
-    {
-      pathname: "/catequesis/resucito",
-      title: "Resucitó",
-    },
-    {
-      pathname: "/catequesis/fue-exaltado",
-      title: "Fue exaltado",
-    },
-    {
-      pathname: "/catequesis/el-volvera",
-      title: "Él Volverá",
+      pathname: "/catequesis/proposito-eterno-de-dios",
+      title: "Propósito Eterno",
     },
   ],
   pt: [
     {
-      pathname: "/catequese/jesus-existia-antes-de-todas-as-coisas",
-      title: "Jesus existia antes de todas as coisas",
+      pathname: "/catechesis/principios-elementais",
+      title: "Principios Elementais",
     },
     {
-      pathname: "/catequese/tornou-se-homem",
-      title: "Tornou-se homem",
-    },
-    {
-      pathname: "/catequese/sua-vida-foi-perfeita-e-irrepreensivel",
-      title: "Sua vida foi perfeita e irrepreensível ",
-    },
-    {
-      pathname: "/catequese/sua-obra-foi-tremenda-e-grandiosa",
-      title: "Sua obra foi tremenda e grandiosa",
-    },
-    {
-      pathname: "/catequese/morreu-pelos-nossos-pecados",
-      title: "Morreu pelos nossos pecados",
-    },
-    {
-      pathname: "/catequese/ressuscitou",
-      title: "Ressuscitou  ",
-    },
-    {
-      pathname: "/catequese/foi-exaltado",
-      title: "Foi exaltado",
-    },
-    {
-      pathname: "/catequese/e-voltara",
-      title: "E voltará",
+      pathname: "/catechesis/proposito-eterno",
+      title: "Proposito Eterno",
     },
   ],
 };

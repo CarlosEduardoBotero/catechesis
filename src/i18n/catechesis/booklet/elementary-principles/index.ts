@@ -140,7 +140,8 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
   ],
   es: [
     {
-      pathname: "/catequesis/jesus-existia-antes-de-todas-las-cosas",
+      pathname:
+        "/catequesis/principios-elementales/jesus-existia-antes-de-todas-las-cosas",
       title: "Jesús existía antes de todas las cosas",
       verses: [
         {
@@ -152,10 +153,10 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
         },
       ],
       previous: null,
-      next: "/catequesis/el-se-hizo-hombre",
+      next: "/catequesis/principios-elementales/el-se-hizo-hombre",
     },
     {
-      pathname: "/catequesis/el-se-hizo-hombre",
+      pathname: "/catequesis/principios-elementales/el-se-hizo-hombre",
       title: "Él se hizo hombre",
       verses: [
         {
@@ -166,11 +167,13 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
             "Cristo Jesús, el cual, siendo en forma de Dios, no estimó el ser igual a Dios como cosa a que aferrarse, sino que se despojó a sí mismo, tomando forma de siervo, hecho semejante a los hombres; y estando en la condición de hombre, se humilló a sí mismo, haciéndose obediente hasta la muerte, y muerte de cruz.",
         },
       ],
-      previous: "/catequesis/jesus-existia-antes-de-todas-las-cosas",
-      next: "/catequesis/su-vida-fue-perfecta-e-inrreprensible",
+      previous:
+        "/catequesis/principios-elementales/jesus-existia-antes-de-todas-las-cosas",
+      next: "/catequesis/principios-elementales/su-vida-fue-perfecta-e-inrreprensible",
     },
     {
-      pathname: "/catequesis/su-vida-fue-perfecta-e-inrreprensible",
+      pathname:
+        "/catequesis/principios-elementales/su-vida-fue-perfecta-e-inrreprensible",
       title: "Su vida fue perfecta e inrreprensible",
       verses: [
         {
@@ -180,11 +183,12 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
           content: "El cual no hizo pecado, ni se halló engaño en su boca.",
         },
       ],
-      previous: "/catequesis/el-se-hizo-hombre",
-      next: "/catequesis/su-obra-fue-tremenda-y-grandiosa",
+      previous: "/catequesis/principios-elementales/el-se-hizo-hombre",
+      next: "/catequesis/principios-elementales/su-obra-fue-tremenda-y-grandiosa",
     },
     {
-      pathname: "/catequesis/su-obra-fue-tremenda-y-grandiosa",
+      pathname:
+        "/catequesis/principios-elementales/su-obra-fue-tremenda-y-grandiosa",
       title: "Su obra fue tremenda y grandiosa",
       verses: [
         {
@@ -195,11 +199,12 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
             "Cómo Dios ungió con el Espíritu Santo y con poder a Jesús de Nazaret, y como éste anduvo haciendo bienes y sanando a todos los oprimidos por el diablo, porque Dios estaba con él.",
         },
       ],
-      previous: "/catequesis/su-vida-fue-perfecta-e-inrreprensible",
-      next: "/catequesis/murio-por-nuestros-pecados",
+      previous:
+        "/catequesis/principios-elementales/su-vida-fue-perfecta-e-inrreprensible",
+      next: "/catequesis/principios-elementales/murio-por-nuestros-pecados",
     },
     {
-      pathname: "/catequesis/murio-por-nuestros-pecados",
+      pathname: "/catequesis/principios-elementales/murio-por-nuestros-pecados",
       title: "Murió por nuestros pecados",
       verses: [
         {
@@ -217,11 +222,12 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
             "Mas él herido fue por nuestras rebeliones, molido por nuestros pecados; el castigo de nuestra paz fue sobre él, y por su llaga fuimos nosotros curados. Todos nosotros nos descarriamos como ovejas, cada cual se apartó por su camino; mas Jehová cargó en él el pecado de todos nosotros.",
         },
       ],
-      previous: "/catequesis/su-obra-fue-tremenda-y-grandiosa",
-      next: "/catequesis/resucito",
+      previous:
+        "/catequesis/principios-elementales/su-obra-fue-tremenda-y-grandiosa",
+      next: "/catequesis/principios-elementales/resucito",
     },
     {
-      pathname: "/catequesis/resucito",
+      pathname: "/catequesis/principios-elementales/resucito",
       title: "Resucitó",
 
       verses: [
@@ -233,11 +239,11 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
             "Al cual Dios levantó, sueltos los dolores de la muerte, por cuanto era imposible que fuese retenido por ella.",
         },
       ],
-      previous: "/catequesis/murio-por-nuestros-pecados",
-      next: "/catequesis/fue-exaltado",
+      previous: "/catequesis/principios-elementales/murio-por-nuestros-pecados",
+      next: "/catequesis/principios-elementales/fue-exaltado",
     },
     {
-      pathname: "/catequesis/fue-exaltado",
+      pathname: "/catequesis/principios-elementales/fue-exaltado",
       title: "Fue exaltado",
       verses: [
         {
@@ -255,11 +261,11 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
             "Por lo cual Dios también lo exaltó hasta lo sumo, y le dio un nombre sobre todo nombre, para que en el nombre de Jesús se doble toda rodilla de los que están en los cielos, y en la tierra, y debajo de la tierra; y toda lengua confiese que Jesucristo es el Señor, para gloria de Dios Padre.",
         },
       ],
-      previous: "/catequesis/resucito",
-      next: "/catequesis/el-volvera",
+      previous: "/catequesis/principios-elementales/resucito",
+      next: "/catequesis/principios-elementales/el-volvera",
     },
     {
-      pathname: "/catequesis/el-volvera",
+      pathname: "/catequesis/principios-elementales/el-volvera",
       title: "Él Volverá",
       verses: [
         {
@@ -270,8 +276,8 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
             "Entonces aparecerá la señal del Hijo del Hombre en el cielo; y entonces lamentarán todas las tribus de la tierra, y verán al Hijo del Hombre viniendo sobre las nubes del cielo, con poder y gran gloria.",
         },
       ],
-      previous: "/catequesis/fue-exaltado",
-      next: "/catequesis/jesus-existia-antes-de-todas-las-cosas",
+      previous: "/catequesis/principios-elementales/fue-exaltado",
+      next: "/catequesis/principios-elementales/jesus-existia-antes-de-todas-las-cosas",
     },
   ],
   pt: [

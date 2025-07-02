@@ -1,5 +1,6 @@
 export const ETERNAL_PURPOSE_ROUTES = {
   en: {
+    "/catechesis/eternal-purpose": "/catechesis/eternal-purpose",
     "/catechesis/eternal-purpose/what-was-gods-purpose-when-he-created-man":
       "/catechesis/eternal-purpose/what-was-gods-purpose-when-he-created-man",
     "/catechesis/eternal-purpose/what-happened-when-man-sinned":
@@ -62,37 +63,129 @@ export const ETERNAL_PURPOSE_ROUTES = {
       "/catechesis/eternal-purpose/what-is-the-reason-for-the-home-group-meeting",
   },
   es: {
-    "/catechesis": "/catequesis",
-    "/catechesis/elementary-principles": "/catequesis/principios-elementales",
-    "/teaching": "/enseñanza",
-    "/catechesis/jesus-exist-before-all-things":
-      "/catequesis/jesus-existia-antes-de-todas-las-cosas",
-    "/catechesis/he-became-a-man": "/catequesis/el-se-hizo-hombre",
-    "/catechesis/his-life-was-perfect-and-blameless":
-      "/catequesis/su-vida-fue-perfecta-e-inrreprensible",
-    "/catechesis/his-work-was-great-and-glorious":
-      "/catequesis/su-obra-fue-tremenda-y-grandiosa",
-    "/catechesis/he-died-for-our-sins":
-      "/catequesis/murio-por-nuestros-pecados",
-    "/catechesis/he-rose-again": "/catequesis/resucito",
-    "/catechesis/he-was-exalted": "/catequesis/fue-exaltado",
-    "/catechesis/he-will-return": "/catequesis/el-volvera",
+    "/catechesis/eternal-purpose": "/catequesis/proposito-eterno-de-dios",
+    "/catechesis/eternal-purpose/what-was-gods-purpose-when-he-created-man":
+      "/catequesis/proposito-eterno-de-dios/cual-fue-el-proposito-de-dios-cuando-creo-al-hombre",
+    "/catechesis/eternal-purpose/what-happened-when-man-sinned":
+      "/catequesis/proposito-eterno-de-dios/que-acontecio-cuando-el-hombre-peco",
+    "/catechesis/eternal-purpose/did-god-give-up-his-purpose-because-of-sin":
+      "/catequesis/proposito-eterno-de-dios/dios-desistio-de-su-proposito-por-el-pecado",
+    "/catechesis/eternal-purpose/if-man-became-worthless-how-does-god-hope-to-achieve-his-purpose":
+      "/catequesis/proposito-eterno-de-dios/si-el-hombre-se-volvio-inutil-como-dios-tenia-la-esperanza-de-lograr-su-proposito",
+    "/catechesis/eternal-purpose/what-is-gods-purpose-today":
+      "/catequesis/proposito-eterno-de-dios/cual-es-el-proposito-de-dios-hoy",
+    "/catechesis/eternal-purpose/why-a-family":
+      "/catequesis/proposito-eterno-de-dios/por-que-una-familia",
+    "/catechesis/eternal-purpose/why-many-children":
+      "/catequesis/proposito-eterno-de-dios/por-que-muchos-hijos",
+    "/catechesis/eternal-purpose/why-in-jesus-likeness":
+      "/catequesis/proposito-eterno-de-dios/por-que-semejantes-a-jesus",
+    "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation":
+      "/catequesis/proposito-eterno-de-dios/pero-el-proposito-de-dios-no-es-la-salvacion-del-hombre",
+    "/catechesis/eternal-purpose/in-what-should-we-be-like-jesus":
+      "/catequesis/proposito-eterno-de-dios/en-que-debemos-ser-como-jesus",
+    "/catechesis/eternal-purpose/to-be-meek-and-humble-like-jesus":
+      "/catequesis/proposito-eterno-de-dios/ser-mansos-y-humildes-como-jesus",
+    "/catechesis/eternal-purpose/to-be-holy-like-jesus":
+      "/catequesis/proposito-eterno-de-dios/ser-santos-como-jesus",
+    "/catechesis/eternal-purpose/to-serve-like-jesus":
+      "/catequesis/proposito-eterno-de-dios/servir-como-jesus",
+    "/catechesis/eternal-purpose/to-preach-to-the-world-like-jesus":
+      "/catequesis/proposito-eterno-de-dios/predicar-como-jesus",
+    "/catechesis/eternal-purpose/to-forgive-like-jesus":
+      "/catequesis/proposito-eterno-de-dios/perdonar-como-jesus",
+    "/catechesis/eternal-purpose/to-love-like-jesus":
+      "/catequesis/proposito-eterno-de-dios/amar-como-jesus",
+    "/catechesis/eternal-purpose/what-are-joints-and-ligaments-for":
+      "/catequesis/proposito-eterno-de-dios/para-que-sirven-las-coyunturas-y-ligamentos",
+    "/catechesis/eternal-purpose/what-are-the-main-activities-in-the-companionship":
+      "/catequesis/proposito-eterno-de-dios/cuales-son-las-principales-actividades-en-el-compañerismo",
+    "/catechesis/eternal-purpose/who-are-the-priests-in-the-church":
+      "/catequesis/proposito-eterno-de-dios/quienes-son-los-sacerdotes-en-la-iglesia",
+    "/catechesis/eternal-purpose/who-builds-up-the-body-of-christ":
+      "/catequesis/proposito-eterno-de-dios/quien-edifica-el-cuerpo-de-cristo",
+    "/catechesis/eternal-purpose/how-do-we-begin-the-work-of-making-disciples":
+      "/catequesis/proposito-eterno-de-dios/como-iniciamos-el-servicio-de-hacer-discipulos",
+    "/catechesis/eternal-purpose/what-are-joints-and-ligaments-in-the-body-of-christ":
+      "/catequesis/proposito-eterno-de-dios/que-son-las-coyunturas-y-ligamentos-del-cuerpo-de-cristo",
+    "/catechesis/eternal-purpose/what-is-the-discipler-role":
+      "/catequesis/proposito-eterno-de-dios/cual-es-la-funcion-del-discipulador",
+    "/catechesis/eternal-purpose/what-is-necessary-to-be-discipled":
+      "/catequesis/proposito-eterno-de-dios/que-es-necesario-para-ser-discipulado",
+    "/catechesis/eternal-purpose/why-are-discipleship-and-companionship-so-important":
+      "/catequesis/proposito-eterno-de-dios/por-que-el-discipulado-y-el-compañerismo-son-tan-importantes",
+    "/catechesis/eternal-purpose/what-are-the-main-attitudes-in-companionship":
+      "/catequesis/proposito-eterno-de-dios/cuales-son-las-principales-actitudes-en-el-compañerismo",
+    "/catechesis/eternal-purpose/what-is-the-fruit-of-all-that":
+      "/catequesis/proposito-eterno-de-dios/cual-es-el-fruto-de-todo-esto",
+    "/catechesis/eternal-purpose/what-does-the-gardener-demand-from-the-branch":
+      "/catequesis/proposito-eterno-de-dios/que-exige-el-agricultor-de-la-rama",
+    "/catechesis/eternal-purpose/what-is-the-fruit-that-the-branch-should-bear":
+      "/catequesis/proposito-eterno-de-dios/cual-es-el-fruto-que-la-rama-debe-dar",
+    "/catechesis/eternal-purpose/what-is-the-reason-for-the-home-group-meeting":
+      "/catequesis/proposito-eterno-de-dios/cual-es-el-motivo-del-encuentro-del-grupo-casero",
   },
   pt: {
-    "/catechesis": "/catequese",
-    "/catechesis/elementary-principles": "/catequese/principios-elementares",
-    "/teaching": "/ensino",
-    "/catechesis/jesus-exist-before-all-things":
-      "/catequese/jesus-existia-antes-de-todas-as-coisas",
-    "/catechesis/he-became-a-man": "/catequese/tornou-se-homem",
-    "/catechesis/his-life-was-perfect-and-blameless":
-      "/catequese/sua-vida-foi-perfeita-e-irrepreensivel",
-    "/catechesis/his-work-was-great-and-glorious":
-      "/catequese/sua-obra-foi-tremenda-e-grandiosa",
-    "/catechesis/he-died-for-our-sins":
-      "/catequese/morreu-pelos-nossos-pecados",
-    "/catechesis/he-rose-again": "/catequese/ressuscitou",
-    "/catechesis/he-was-exalted": "/catequese/foi-exaltado",
-    "/catechesis/he-will-return": "/catequese/e-voltara",
+    "/catechesis/eternal-purpose": "/catechesis/eternal-purpose",
+    "/catechesis/eternal-purpose/what-was-gods-purpose-when-he-created-man":
+      "/catechesis/proposito-eterno-de-dios/qual-o-proposito-de-deus-quando-criou-o-homem",
+    "/catechesis/eternal-purpose/what-happened-when-man-sinned":
+      "/catechesis/proposito-eterno-de-dios/o-que-aconteceu-quando-o-homem-pecou",
+    "/catechesis/eternal-purpose/did-god-give-up-his-purpose-because-of-sin":
+      "/catechesis/proposito-eterno-de-dios/deus-desistiu-do-seu-proposito-por-causa-do-pecado",
+    "/catechesis/eternal-purpose/if-man-became-worthless-how-does-god-hope-to-achieve-his-purpose":
+      "/catechesis/proposito-eterno-de-dios/se-o-homem-se-tornou-inutil-como-deus-tem-esperanca-de-realizar-o-seu-proposito",
+    "/catechesis/eternal-purpose/what-is-gods-purpose-today":
+      "/catechesis/proposito-eterno-de-dios/qual-e-o-proposito-de-deus-hoje",
+    "/catechesis/eternal-purpose/why-a-family":
+      "/catechesis/proposito-eterno-de-dios/por-que-uma-familia",
+    "/catechesis/eternal-purpose/why-many-children":
+      "/catechesis/proposito-eterno-de-dios/por-que-muitos-filhos",
+    "/catechesis/eternal-purpose/why-in-jesus-likeness":
+      "/catechesis/proposito-eterno-de-dios/por-que-semelhantes-a-jesus",
+    "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation":
+      "/catechesis/proposito-eterno-de-dios/mas-o-proposito-de-deus-nao-e-a-salvacao-do-homem",
+    "/catechesis/eternal-purpose/in-what-should-we-be-like-jesus":
+      "/catechesis/proposito-eterno-de-dios/em-que-devemos-ser-como-jesus",
+    "/catechesis/eternal-purpose/to-be-meek-and-humble-like-jesus":
+      "/catechesis/proposito-eterno-de-dios/ser-mansos-e-humildes-como-jesus",
+    "/catechesis/eternal-purpose/to-be-holy-like-jesus":
+      "/catechesis/proposito-eterno-de-dios/ser-santos-como-jesus",
+    "/catechesis/eternal-purpose/to-serve-like-jesus":
+      "/catechesis/proposito-eterno-de-dios/servir-como-jesus",
+    "/catechesis/eternal-purpose/to-preach-to-the-world-like-jesus":
+      "/catechesis/proposito-eterno-de-dios/pregar-como-jesus",
+    "/catechesis/eternal-purpose/to-forgive-like-jesus":
+      "/catechesis/proposito-eterno-de-dios/perdoar-como-jesus",
+    "/catechesis/eternal-purpose/to-love-like-jesus":
+      "/catechesis/proposito-eterno-de-dios/amar-como-jesus",
+    "/catechesis/eternal-purpose/what-are-joints-and-ligaments-for":
+      "/catechesis/proposito-eterno-de-dios/para-que-servem-as-coyunturas-e-ligamentos",
+    "/catechesis/eternal-purpose/what-are-the-main-activities-in-the-companionship":
+      "/catechesis/proposito-eterno-de-dios/quais-sao-as-principais-atividades-no-companheirismo",
+    "/catechesis/eternal-purpose/who-are-the-priests-in-the-church":
+      "/catechesis/proposito-eterno-de-dios/quem-sao-os-sacerdotes-na-igreja",
+    "/catechesis/eternal-purpose/who-builds-up-the-body-of-christ":
+      "/catechesis/proposito-eterno-de-dios/quem-edifica-o-corpo-de-cristo",
+    "/catechesis/eternal-purpose/how-do-we-begin-the-work-of-making-disciples":
+      "/catechesis/proposito-eterno-de-dios/como-iniciamos-o-servico-de-fazer-discipulos",
+    "/catechesis/eternal-purpose/what-are-joints-and-ligaments-in-the-body-of-christ":
+      "/catechesis/proposito-eterno-de-dios/o-que-sao-as-coyunturas-e-ligamentos-no-corpo-de-cristo",
+    "/catechesis/eternal-purpose/what-is-the-discipler-role":
+      "/catechesis/proposito-eterno-de-dios/cual-es-la-funcion-del-discipulador",
+    "/catechesis/eternal-purpose/what-is-necessary-to-be-discipled":
+      "/catechesis/proposito-eterno-de-dios/que-es-necesario-para-ser-discipulado",
+    "/catechesis/eternal-purpose/why-are-discipleship-and-companionship-so-important":
+      "/catechesis/proposito-eterno-de-dios/por-que-el-discipulado-y-el-compañerismo-son-tan-importantes",
+    "/catechesis/eternal-purpose/what-are-the-main-attitudes-in-companionship":
+      "/catechesis/proposito-eterno-de-dios/cuales-son-las-principales-actitudes-en-el-compañerismo",
+    "/catechesis/eternal-purpose/what-is-the-fruit-of-all-that":
+      "/catechesis/proposito-eterno-de-dios/cual-es-el-fruto-de-todo-esto",
+    "/catechesis/eternal-purpose/what-does-the-gardener-demand-from-the-branch":
+      "/catechesis/proposito-eterno-de-dios/que-exige-el-agricultor-de-la-rama",
+    "/catechesis/eternal-purpose/what-is-the-fruit-that-the-branch-should-bear":
+      "/catechesis/proposito-eterno-de-dios/cual-es-el-fruto-que-la-rama-debe-dar",
+    "/catechesis/eternal-purpose/what-is-the-reason-for-the-home-group-meeting":
+      "/catechesis/proposito-eterno-de-dios/cual-es-el-motivo-del-encuentro-del-grupo-casero",
   },
 };
