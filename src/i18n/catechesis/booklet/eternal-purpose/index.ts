@@ -1115,7 +1115,7 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
   pt: [
     {
       pathname:
-        "/catechesis/eternal-purpose/what-was-gods-purpose-when-he-created-man",
+        "/catequese/proposito-eterno-de-deus/qual-era-o-proposito-de-deus-quando-ele-criou-o-homem",
       title: "Qual o propósito de Deus quando criou o homem?",
       subtitle: "Deus queria uma família de homens semelhantes a Ele.",
       lesson: "1",
@@ -1129,10 +1129,11 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
         },
       ],
       previous: null,
-      next: "/catechesis/eternal-purpose/what-happened-when-man-sinned",
+      next: "/catequese/proposito-eterno-de-deus/o-que-aconteceu-quando-o-homem-pecou",
     },
     {
-      pathname: "/catechesis/eternal-purpose/what-happened-when-man-sinned",
+      pathname:
+        "/catequese/proposito-eterno-de-deus/o-que-aconteceu-quando-o-homem-pecou",
       title: "O que aconteceu quando o homem pecou?",
       subtitle: "O homem se tornou inútil para o propósito de Deus.",
       lesson: "2",
@@ -1145,12 +1146,12 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/what-was-gods-purpose-when-he-created-man",
-      next: "/catechesis/eternal-purpose/did-god-give-up-his-purpose-because-of-sin",
+        "/catequese/proposito-eterno-de-deus/qual-era-o-proposito-de-deus-quando-ele-criou-o-homem",
+      next: "/catequese/proposito-eterno-de-deus/deus-desistiu-do-seu-proposito-por-causa-do-pecado",
     },
     {
       pathname:
-        "/catechesis/eternal-purpose/did-god-give-up-his-purpose-because-of-sin",
+        "/catequese/proposito-eterno-de-deus/deus-desistiu-do-seu-proposito-por-causa-do-pecado",
       title: "Deus desistiu do seu propósito por causa do pecado?",
       subtitle: "Não. Deus não desistiu do seu propósito.",
       lesson: "2.1",
@@ -1162,12 +1163,13 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
           content: "",
         },
       ],
-      previous: "/catechesis/eternal-purpose/what-happened-when-man-sinned",
-      next: "/catechesis/eternal-purpose/if-man-became-worthless-how-does-god-hope-to-achieve-his-purpose",
+      previous:
+        "/catequese/proposito-eterno-de-deus/o-que-aconteceu-quando-o-homem-pecou",
+      next: "/catequese/proposito-eterno-de-deus/se-o-homem-se-tornou-inutil-como-deus-tem-esperanca-de-realizar-o-seu-proposito",
     },
     {
       pathname:
-        "/catechesis/eternal-purpose/if-man-became-worthless-how-does-god-hope-to-achieve-his-purpose",
+        "/catequese/proposito-eterno-de-deus/se-o-homem-se-tornou-inutil-como-deus-tem-esperanca-de-realizar-o-seu-proposito",
       title:
         "Se o homem se tornou inútil, como Deus tem esperança de realizar o Seu propósito?",
       subtitle:
@@ -1189,11 +1191,12 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/did-god-give-up-his-purpose-because-of-sin",
-      next: "/catechesis/eternal-purpose/what-is-gods-purpose-today",
+        "/catequese/proposito-eterno-de-deus/deus-desistiu-do-seu-proposito-por-causa-do-pecado",
+      next: "/catequese/proposito-eterno-de-deus/qual-e-o-proposito-de-deus-hoje",
     },
     {
-      pathname: "/catechesis/eternal-purpose/what-is-gods-purpose-today",
+      pathname:
+        "/catequese/proposito-eterno-de-deus/qual-e-o-proposito-de-deus-hoje",
       title: "Qual é o propósito de Deus hoje?",
       subtitle: "Deus quer uma família de muitos filhos semelhantes a Jesus.",
       lesson: "4",
@@ -1214,11 +1217,11 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/if-man-became-worthless-how-does-god-hope-to-achieve-his-purpose",
-      next: "/catechesis/eternal-purpose/why-a-family",
+        "/catequese/proposito-eterno-de-deus/se-o-homem-se-tornou-inutil-como-deus-tem-esperanca-de-realizar-o-seu-proposito",
+      next: "/catequese/proposito-eterno-de-deus/por-que-uma-familia",
     },
     {
-      pathname: "/catechesis/eternal-purpose/why-a-family",
+      pathname: "/catequese/proposito-eterno-de-deus/por-que-uma-familia",
       title: "Por que uma família?",
       subtitle: "Porque Deus quer unidade.",
       lesson: "4.1",
@@ -1230,11 +1233,12 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
           content: "",
         },
       ],
-      previous: "/catechesis/he-died-for-our-sins",
-      next: "/catechesis/eternal-purpose/why-many-children",
+      previous:
+        "/catequese/proposito-eterno-de-deus/qual-e-o-proposito-de-deus-hoje",
+      next: "/catequese/proposito-eterno-de-deus/por-que-muitos-filhos",
     },
     {
-      pathname: "/catechesis/eternal-purpose/why-many-children",
+      pathname: "/catequese/proposito-eterno-de-deus/por-que-muitos-filhos",
       title: "Por que muitos filhos?",
       subtitle: "Porque Deus quer quantidade.",
       lesson: "4.2",
@@ -1246,11 +1250,12 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
           content: "",
         },
       ],
-      previous: "/catechesis/eternal-purpose/what-is-gods-purpose-today",
-      next: "/catechesis/eternal-purpose/why-in-jesus-likeness",
+      previous: "/catequese/proposito-eterno-de-deus/por-que-uma-familia",
+      next: "/catequese/proposito-eterno-de-deus/por-que-semelhantes-a-jesus",
     },
     {
-      pathname: "/catechesis/eternal-purpose/why-in-jesus-likeness",
+      pathname:
+        "/catequese/proposito-eterno-de-deus/por-que-semelhantes-a-jesus",
       title: "Por que semelhantes a Jesus?",
       subtitle: "Porque Deus quer qualidade",
       lesson: "4.3",
@@ -1262,12 +1267,12 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
           content: "",
         },
       ],
-      previous: "/catechesis/eternal-purpose/why-many-children",
-      next: "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
+      previous: "/catequese/proposito-eterno-de-deus/por-que-muitos-filhos",
+      next: "/catequese/proposito-eterno-de-deus/mas-o-proposito-de-deus-nao-e-a-salvacao-do-homem",
     },
     {
       pathname:
-        "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
+        "/catequese/proposito-eterno-de-deus/mas-o-proposito-de-deus-nao-e-a-salvacao-do-homem",
       title: "Mas o propósito de Deus não é a salvação do homem?",
       subtitle:
         "Não, a salvação é o meio para alcançar o propósito. Seu propósito é que sejamos semelhantes a Jesus.",
@@ -1280,11 +1285,13 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
           content: "Aquele que diz que está nele, deve andar como ele andou.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/why-in-jesus-likeness",
-      next: "/catechesis/eternal-purpose/in-what-should-we-be-like-jesus",
+      previous:
+        "/catequese/proposito-eterno-de-deus/por-que-semelhantes-a-jesus",
+      next: "/catequese/proposito-eterno-de-deus/em-que-devemos-ser-como-jesus",
     },
     {
-      pathname: "/catechesis/eternal-purpose/in-what-should-we-be-like-jesus",
+      pathname:
+        "/catequese/proposito-eterno-de-deus/em-que-devemos-ser-como-jesus",
       title: "Em que devemos ser como Jesus?",
       subtitle:
         "a - Ser mansos e humildes como Jesus\n\nb - Ser santos como Jesus\n\nc - Servir como Jesus\n\nd - Pregar ao mundo como Jesus\n\ne - Perdoar como Jesus\n\nf - Amar como Jesus",
@@ -1298,11 +1305,12 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
-      next: "/catechesis/eternal-purpose/to-be-meek-and-humble-like-jesus",
+        "/catequese/proposito-eterno-de-deus/mas-o-proposito-de-deus-nao-e-a-salvacao-do-homem",
+      next: "/catequese/proposito-eterno-de-deus/ser-mansos-e-humildes-como-jesus",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-be-meek-and-humble-like-jesus",
+      pathname:
+        "/catequese/proposito-eterno-de-deus/ser-mansos-e-humildes-como-jesus",
       title: "Ser mansos...",
       subtitle: "Ser mansos e humildes como Jesus.",
       lesson: "5.1.a",
@@ -1316,11 +1324,11 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
-      next: "/catechesis/eternal-purpose/to-be-holy-like-jesus",
+        "/catequese/proposito-eterno-de-deus/em-que-devemos-ser-como-jesus",
+      next: "/catequese/proposito-eterno-de-deus/ser-santos-como-jesus",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-be-holy-like-jesus",
+      pathname: "/catequese/proposito-eterno-de-deus/ser-santos-como-jesus",
       title: "Ser santos...",
       subtitle: "Ser santos como Jesus.",
       lesson: "5.1.b",
@@ -1333,11 +1341,12 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
             "Como é santo aquele que vos chamou, sede vós também santos em todo o vosso procedimento.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/to-be-meek-and-humble-like-jesus",
-      next: "/catechesis/eternal-purpose/to-serve-like-jesus",
+      previous:
+        "/catequese/proposito-eterno-de-deus/ser-mansos-e-humildes-como-jesus",
+      next: "/catequese/proposito-eterno-de-deus/servir-como-jesus",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-serve-like-jesus",
+      pathname: "/catequese/proposito-eterno-de-deus/servir-como-jesus",
       title: "Servir...",
       subtitle: "Servir como Jesus.",
       lesson: "5.1.c",
@@ -1350,11 +1359,11 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
             "Ora, se eu, sendo o Senhor e o Mestre, vos lavei os pés, também vós deveis lavar os pés uns dos outros.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/to-be-holy-like-jesus",
-      next: "/catechesis/eternal-purpose/to-preach-to-the-world-like-jesus",
+      previous: "/catequese/proposito-eterno-de-deus/ser-santos-como-jesus",
+      next: "/catequese/proposito-eterno-de-deus/pregar-como-jesus",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-preach-to-the-world-like-jesus",
+      pathname: "/catequese/proposito-eterno-de-deus/pregar-como-jesus",
       title: "Pregar...",
       subtitle: "Pregar ao mundo como Jesus.",
       lesson: "5.1.d",
@@ -1367,12 +1376,11 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
             "Assim como tu me enviaste ao mundo, também eu os enviei ao mundo.",
         },
       ],
-      previous:
-        "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
-      next: "/catechesis/eternal-purpose/to-forgive-like-jesus",
+      previous: "/catequese/proposito-eterno-de-deus/servir-como-jesus",
+      next: "/catequese/proposito-eterno-de-deus/perdoar-como-jesus",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-forgive-like-jesus",
+      pathname: "/catequese/proposito-eterno-de-deus/perdoar-como-jesus",
       title: "Perdoar...",
       subtitle: "Perdoar como Jesus.",
       lesson: "5.1.e",
@@ -1384,11 +1392,11 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
           content: "Assim como o Senhor vos perdoou, assim também perdoai vós.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/to-preach-to-the-world-like-jesus",
-      next: "/catechesis/eternal-purpose/to-love-like-jesus",
+      previous: "/catequese/proposito-eterno-de-deus/pregar-como-jesus",
+      next: "/catequese/proposito-eterno-de-deus/amar-como-jesus",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-love-like-jesus",
+      pathname: "/catequese/proposito-eterno-de-deus/amar-como-jesus",
       title: "Amar...",
       subtitle: "Amar como Jesus.",
       lesson: "5.1.f",
@@ -1401,11 +1409,12 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
             "Novo mandamento vos dou: que vos ameis uns aos outros; assim como eu vos amei, que também vos ameis uns aos outros.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/to-forgive-like-jesus",
-      next: "/catechesis/eternal-purpose/who-are-the-priests-in-the-church",
+      previous: "/catequese/proposito-eterno-de-deus/perdoar-como-jesus",
+      next: "/catequese/proposito-eterno-de-deus/quem-sao-os-sacerdotes-na-igreja",
     },
     {
-      pathname: "/catechesis/eternal-purpose/who-are-the-priests-in-the-church",
+      pathname:
+        "/catequese/proposito-eterno-de-deus/quem-sao-os-sacerdotes-na-igreja",
       title: "Quem são os sacerdotes na igreja?",
       subtitle: "Todos os santos são sacerdotes.",
       lesson: "6",
@@ -1418,11 +1427,12 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
             "Vós, porém, sois raça eleita, sacerdócio real, nação santa, povo de propriedade exclusiva de Deus, a fim de proclamardes as virtudes daquele que vos chamou das trevas para a sua maravilhosa luz.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/to-love-like-jesus",
-      next: "/catechesis/eternal-purpose/who-builds-up-the-body-of-christ",
+      previous: "/catequese/proposito-eterno-de-deus/amar-como-jesus",
+      next: "/catequese/proposito-eterno-de-deus/quem-edifica-o-corpo-de-cristo",
     },
     {
-      pathname: "/catechesis/eternal-purpose/who-builds-up-the-body-of-christ",
+      pathname:
+        "/catequese/proposito-eterno-de-deus/quem-edifica-o-corpo-de-cristo",
       title: "Quem edifica o corpo de Cristo?",
       subtitle: "O corpo de Cristo edifica o corpo de Cristo.",
       lesson: "7",
@@ -1435,12 +1445,13 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
             "E ele mesmo concedeu uns para apóstolos, outros para profetas, outros para evangelistas e outros para pastores e mestres, com vistas ao correto ordenamento dos santos para o desempenho do seu serviço, para a edificação do corpo de Cristo.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/who-are-the-priests-in-the-church",
-      next: "/catechesis/eternal-purpose/how-do-we-begin-the-work-of-making-disciples",
+      previous:
+        "/catequese/proposito-eterno-de-deus/quem-sao-os-sacerdotes-na-igreja",
+      next: "/catequese/proposito-eterno-de-deus/como-iniciamos-o-servico-de-fazer-discipulos",
     },
     {
       pathname:
-        "/catechesis/eternal-purpose/how-do-we-begin-the-work-of-making-disciples",
+        "/catequese/proposito-eterno-de-deus/como-iniciamos-o-servico-de-fazer-discipulos",
       title: "Como iniciamos o serviço de fazer discípulos?",
       subtitle: "BSendo testemunhas e proclamadores",
       lesson: "8/9",
@@ -1453,12 +1464,13 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
             "Mas recebereis poder, ao descer sobre vós o Espírito Santo, e sereis minhas testemunhas tanto em Jerusalém, como em toda a Judéia e Samaria, e até aos confins da terra.”",
         },
       ],
-      previous: "/catechesis/eternal-purpose/who-builds-up-the-body-of-christ",
-      next: "/catechesis/eternal-purpose/what-are-joints-and-ligaments-in-the-body-of-christ",
+      previous:
+        "/catequese/proposito-eterno-de-deus/quem-edifica-o-corpo-de-cristo",
+      next: "/catequese/proposito-eterno-de-deus/o-que-sao-as-coyunturas-e-ligamentos-no-corpo-de-cristo",
     },
     {
       pathname:
-        "/catechesis/eternal-purpose/what-are-joints-and-ligaments-in-the-body-of-christ",
+        "/catequese/proposito-eterno-de-deus/o-que-sao-as-coyunturas-e-ligamentos-no-corpo-de-cristo",
       title: "O que são juntas e ligamentos no corpo de Cristo?",
       subtitle:
         "Juntas e ligamentos no corpo de Cristo são relações fortes e resistentes entre os seus membros.",
@@ -1473,11 +1485,12 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/how-do-we-begin-the-work-of-making-disciples",
-      next: "/catechesis/eternal-purpose/what-are-joints-and-ligaments-for",
+        "/catequese/proposito-eterno-de-deus/como-iniciamos-o-servico-de-fazer-discipulos",
+      next: "/catequese/proposito-eterno-de-deus/para-que-servem-as-coyunturas-e-ligamentos",
     },
     {
-      pathname: "/catechesis/eternal-purpose/what-are-joints-and-ligaments-for",
+      pathname:
+        "/catequese/proposito-eterno-de-deus/para-que-servem-as-coyunturas-e-ligamentos",
       title: "Para que servem as juntas e ligamentos?",
       subtitle: "Para unir, alimentar e edificar o corpo de Cristo.",
       lesson: "10.1",
@@ -1491,11 +1504,12 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/what-are-joints-and-ligaments-in-the-body-of-christ",
-      next: "/catechesis/eternal-purpose/what-is-the-discipler-role",
+        "/catequese/proposito-eterno-de-deus/o-que-sao-as-coyunturas-e-ligamentos-no-corpo-de-cristo",
+      next: "/catequese/proposito-eterno-de-deus/qual-e-o-papel-do-discipulador",
     },
     {
-      pathname: "/catechesis/eternal-purpose/what-is-the-discipler-role",
+      pathname:
+        "/catequese/proposito-eterno-de-deus/qual-e-o-papel-do-discipulador",
       title: "Qual é a função do discipulador?",
       subtitle: "Ensinar a guardar todas as coisas que Jesus ordenou.",
       lesson: "11",
@@ -1508,11 +1522,13 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
             "Ide, portanto, fazei discípulos de todas as nações, batizando-os em nome do Pai e do Filho e do Espírito Santo, ensinando-os a guardar todas as coisas que vos tenho ordenado. E eis que estou convosco todos os dias até à consumação dos séculos.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/what-are-joints-and-ligaments-for",
-      next: "/catechesis/eternal-purpose/what-is-necessary-to-be-discipled",
+      previous:
+        "/catequese/proposito-eterno-de-deus/para-que-servem-as-coyunturas-e-ligamentos",
+      next: "/catequese/proposito-eterno-de-deus/o-que-e-necessario-para-ser-discipulado",
     },
     {
-      pathname: "/catechesis/eternal-purpose/what-is-necessary-to-be-discipled",
+      pathname:
+        "/catequese/proposito-eterno-de-deus/o-que-e-necessario-para-ser-discipulado",
       title: "O que é necessário para ser discipulado?",
       subtitle: "Ser manso, humilde e submisso.",
       lesson: "12",
@@ -1524,12 +1540,13 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
           content: "(...) sujeitando-vos uns aos outros no temor de Cristo.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/what-is-the-discipler-role",
-      next: "/catechesis/eternal-purpose/why-are-discipleship-and-companionship-so-important",
+      previous:
+        "/catequese/proposito-eterno-de-deus/qual-e-o-papel-do-discipulador",
+      next: "/catequese/proposito-eterno-de-deus/por-que-o-discipulado-e-o-companheirismo-sao-tao-importantes",
     },
     {
       pathname:
-        "/catechesis/eternal-purpose/why-are-discipleship-and-companionship-so-important",
+        "/catequese/proposito-eterno-de-deus/por-que-o-discipulado-e-o-companheirismo-sao-tao-importantes",
       title: "Porque o discipulado e o companheirismo são tão importantes?",
       subtitle: "Porque unem o corpo por juntas e ligamentos.",
       lesson: "13",
@@ -1541,12 +1558,13 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
           content: "",
         },
       ],
-      previous: "/catechesis/eternal-purpose/what-is-necessary-to-be-discipled",
-      next: "/catechesis/eternal-purpose/what-are-the-main-attitudes-in-companionship",
+      previous:
+        "/catequese/proposito-eterno-de-deus/o-que-e-necessario-para-ser-discipulado",
+      next: "/catequese/proposito-eterno-de-deus/quais-sao-as-principais-atitudes-no-companheirismo",
     },
     {
       pathname:
-        "/catechesis/eternal-purpose/what-are-the-main-attitudes-in-companionship",
+        "/catequese/proposito-eterno-de-deus/quais-sao-as-principais-atitudes-no-companheirismo",
       title: "Quais são as principais atitudes no companheirismo?",
       subtitle: "Amor, submissão, transparência e perdão.",
       lesson: "13.1",
@@ -1560,12 +1578,12 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/why-are-discipleship-and-companionship-so-important",
-      next: "/catechesis/eternal-purpose/what-are-the-main-activities-in-the-companionship",
+        "/catequese/proposito-eterno-de-deus/por-que-o-discipulado-e-o-companheirismo-sao-tao-importantes",
+      next: "/catequese/proposito-eterno-de-deus/quais-sao-as-principais-atividades-no-companheirismo",
     },
     {
       pathname:
-        "/catechesis/eternal-purpose/what-are-the-main-activities-in-the-companionship",
+        "/catequese/proposito-eterno-de-deus/quais-sao-as-principais-atividades-no-companheirismo",
       title: "Quais são as principais atividades no companheirismo?",
       subtitle: "Orar, aconselhar, servir e fazer discípulos.",
       lesson: "14",
@@ -1579,11 +1597,12 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/what-are-the-main-attitudes-in-companionship",
-      next: "/catechesis/eternal-purpose/what-is-the-fruit-of-all-that",
+        "/catequese/proposito-eterno-de-deus/quais-sao-as-principais-atitudes-no-companheirismo",
+      next: "/catequese/proposito-eterno-de-deus/qual-e-o-fruto-de-tudo-isso",
     },
     {
-      pathname: "/catechesis/eternal-purpose/what-is-the-fruit-of-all-that",
+      pathname:
+        "/catequese/proposito-eterno-de-deus/qual-e-o-fruto-de-tudo-isso",
       title: "Qual é o fruto de tudo isto?",
       subtitle: "A edificação do corpo em amor.",
       lesson: "14.1",
@@ -1596,12 +1615,12 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/what-are-the-main-activities-in-the-companionship",
-      next: "/catechesis/eternal-purpose/what-does-the-gardener-demand-from-the-branch",
+        "/catequese/proposito-eterno-de-deus/quais-sao-as-principais-atividades-no-companheirismo",
+      next: "/catequese/proposito-eterno-de-deus/o-que-o-jardineiro-exige-do-galho",
     },
     {
       pathname:
-        "/catechesis/eternal-purpose/what-does-the-gardener-demand-from-the-branch",
+        "/catequese/proposito-eterno-de-deus/o-que-o-jardineiro-exige-do-galho",
       title: "O que o agricultor exige do ramo?",
       subtitle: "Todo ramo deve dar frutos.",
       lesson: "15",
@@ -1614,12 +1633,13 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
             "Eu vos escolhi a vós outros e vos designei para que vades e deis frutos, e o vosso fruto permaneça.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/what-is-the-fruit-of-all-that",
-      next: "/catechesis/eternal-purpose/what-is-the-fruit-that-the-branch-should-bear",
+      previous:
+        "/catequese/proposito-eterno-de-deus/qual-e-o-fruto-de-tudo-isso",
+      next: "/catequese/proposito-eterno-de-deus/qual-e-o-fruto-que-a-rama-deve-dar",
     },
     {
       pathname:
-        "/catechesis/eternal-purpose/what-is-the-fruit-that-the-branch-should-bear",
+        "/catequese/proposito-eterno-de-deus/qual-e-o-fruto-que-a-rama-deve-dar",
       title: "Qual é o fruto que o ramo deve dar?",
       subtitle: "A multiplicação da vida de Cristo.",
       lesson: "15.1",
@@ -1632,12 +1652,12 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/what-does-the-gardener-demand-from-the-branch",
-      next: "/catechesis/eternal-purpose/what-is-the-reason-for-the-home-group-meeting",
+        "/catequese/proposito-eterno-de-deus/o-que-o-jardineiro-exige-do-galho",
+      next: "/catequese/proposito-eterno-de-deus/qual-e-o-motivo-do-encontro-do-grupo-caseiro",
     },
     {
       pathname:
-        "/catechesis/eternal-purpose/what-is-the-reason-for-the-home-group-meeting",
+        "/catequese/proposito-eterno-de-deus/qual-e-o-motivo-do-encontro-do-grupo-caseiro",
       title: "Qual é o motivo do encontro do grupo caseiro?",
       subtitle:
         "A obra do grupo caseiro é o desenvolvimento do serviço dos santos.",
@@ -1651,8 +1671,8 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/what-is-the-fruit-that-the-branch-should-bear",
-      next: "/catechesis/eternal-purpose/what-was-gods-purpose-when-he-created-man",
+        "/catequese/proposito-eterno-de-deus/qual-e-o-fruto-que-a-rama-deve-dar",
+      next: "/catequese/proposito-eterno-de-deus/qual-era-o-proposito-de-deus-quando-ele-criou-o-homem",
     },
   ],
 };

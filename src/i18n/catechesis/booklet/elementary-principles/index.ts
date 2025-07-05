@@ -282,7 +282,8 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
   ],
   pt: [
     {
-      pathname: "/catequese/jesus-existia-antes-de-todas-as-coisas",
+      pathname:
+        "/catequese/principios-elementares/jesus-existia-antes-de-todas-as-coisas",
       title: "Jesus existia antes de todas as coisas",
       verses: [
         {
@@ -294,10 +295,10 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
         },
       ],
       previous: null,
-      next: "/catequese/tornou-se-homem",
+      next: "/catequese/principios-elementares/tornou-se-homem",
     },
     {
-      pathname: "/catequese/tornou-se-homem",
+      pathname: "/catequese/principios-elementares/tornou-se-homem",
       title: "Tornou-se homem",
       verses: [
         {
@@ -308,11 +309,13 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
             "Cristo Jesus, subsistindo em forma de Deus, não considerou o ser igual a Deus coisa a que se devia aferrar; antes, a si mesmo se esvaziou, assumindo a forma de servo, tornando-se em semelhança de homens; e, reconhecido em figura humana, a si mesmo se humilhou, tornando-se obediente até à morte e morte de cruz.",
         },
       ],
-      previous: "/catequese/jesus-existia-antes-de-todas-as-coisas",
-      next: "/catequese/sua-vida-foi-perfeita-e-irrepreensivel",
+      previous:
+        "/catequese/principios-elementares/jesus-existia-antes-de-todas-as-coisas",
+      next: "/catequese/principios-elementares/sua-vida-foi-perfeita-e-irrepreensivel",
     },
     {
-      pathname: "/catequese/sua-vida-foi-perfeita-e-irrepreensivel",
+      pathname:
+        "/catequese/principios-elementares/sua-vida-foi-perfeita-e-irrepreensivel",
       title: "Sua vida foi perfeita e irrepreensível ",
       verses: [
         {
@@ -323,11 +326,12 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
             "O qual não cometeu pecado, nem na sua boca se achou engano.",
         },
       ],
-      previous: "/catequese/tornou-se-homem",
-      next: "/catequese/sua-obra-foi-tremenda-e-grandiosa",
+      previous: "/catequese/principios-elementares/tornou-se-homem",
+      next: "/catequese/principios-elementares/sua-obra-foi-tremenda-e-grandiosa",
     },
     {
-      pathname: "/catequese/sua-obra-foi-tremenda-e-grandiosa",
+      pathname:
+        "/catequese/principios-elementares/sua-obra-foi-tremenda-e-grandiosa",
       title: "Sua obra foi tremenda e grandiosa",
       verses: [
         {
@@ -338,11 +342,12 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
             "Como Deus ungiu a Jesus de Nazaré com o Espírito Santo e com poder, o qual andou por toda parte, fazendo o bem e curando a todos os oprimidos do diabo, porque Deus era com ele.",
         },
       ],
-      previous: "/catequese/sua-vida-foi-perfeita-e-irrepreensivel",
-      next: "/catequese/morreu-pelos-nossos-pecados",
+      previous:
+        "/catequese/principios-elementares/sua-vida-foi-perfeita-e-irrepreensivel",
+      next: "/catequese/principios-elementares/morreu-pelos-nossos-pecados",
     },
     {
-      pathname: "/catequese/morreu-pelos-nossos-pecados",
+      pathname: "/catequese/principios-elementares/morreu-pelos-nossos-pecados",
       title: "Morreu pelos nossos pecados",
       verses: [
         {
@@ -360,12 +365,13 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
             "Mas ele foi ferido pelas nossas transgressões, e moído pelas nossas iniquidades; o castigo que nos traz a paz estava sobre ele, e pelas suas pisaduras fomos sarados. Todos nós andávamos desgarrados como ovelhas; cada um se desviava pelo caminho, mas o Senhor fez cair sobre ele a iniquidade de nós todos.",
         },
       ],
-      previous: "/catequese/sua-obra-foi-tremenda-e-grandiosa",
-      next: "/catequese/ressuscitou",
+      previous:
+        "/catequese/principios-elementares/sua-obra-foi-tremenda-e-grandiosa",
+      next: "/catequese/principios-elementares/ressuscitou",
     },
     {
-      pathname: "/catequese/ressuscitou",
-      title: "Ressuscitou  ",
+      pathname: "/catequese/principios-elementares/ressuscitou",
+      title: "Ressuscitou",
 
       verses: [
         {
@@ -375,11 +381,11 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
           content: "Ao qual Deus ressuscitou, rompendo os grilhões da morte...",
         },
       ],
-      previous: "/catequese/morreu-pelos-nossos-pecados",
-      next: "/catequese/foi-exaltado",
+      previous: "/catequese/principios-elementares/morreu-pelos-nossos-pecados",
+      next: "/catequese/principios-elementares/foi-exaltado",
     },
     {
-      pathname: "/catequese/foi-exaltado",
+      pathname: "/catequese/principios-elementares/foi-exaltado",
       title: "Foi exaltado",
       verses: [
         {
@@ -397,11 +403,11 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
             "Pelo que também Deus o exaltou sobremaneira e lhe deu o nome que está acima de todo nome, para que ao nome de Jesus se dobre todo joelho, nos céus, na terra e debaixo da terra, e toda língua confesse que Jesus Cristo é Senhor, para glória de Deus Pai.",
         },
       ],
-      previous: "/catequese/ressuscitou",
-      next: "/catequese/e-voltara",
+      previous: "/catequese/principios-elementares/ressuscitou",
+      next: "/catequese/principios-elementares/e-voltara",
     },
     {
-      pathname: "/catequese/e-voltara",
+      pathname: "/catequese/principios-elementares/e-voltara",
       title: "E voltará",
       verses: [
         {
@@ -412,8 +418,8 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
             "Então, aparecerá no céu o sinal do Filho do Homem: todos os povos da terra se lamentarão e verão o Filho do Homem vindo sobre as nuvens do céu, com poder e muita glória.",
         },
       ],
-      previous: "/catequese/foi-exaltado",
-      next: "/catequese/jesus-existia-antes-de-todas-as-coisas",
+      previous: "/catequese/principios-elementares/foi-exaltado",
+      next: "/catequese/principios-elementares/jesus-existia-antes-de-todas-as-coisas",
     },
   ],
 };

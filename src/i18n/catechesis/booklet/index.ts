@@ -21,12 +21,12 @@ export const BOOKLETS = {
   ],
   pt: [
     {
-      pathname: "/catechesis/principios-elementais",
-      title: "Principios Elementais",
+      pathname: "/catequese/principios-elementares",
+      title: "Princípios Elementares",
     },
     {
-      pathname: "/catechesis/proposito-eterno",
-      title: "Proposito Eterno",
+      pathname: "/catequese/proposito-eterno-de-deus",
+      title: "Propósito Eterno",
     },
   ],
 };

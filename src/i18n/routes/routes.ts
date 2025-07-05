@@ -47,23 +47,24 @@ export const routes = {
   },
   pt: {
     "/catechesis": "/catequese",
-    "/catechesis/elementary-principles/elementary-principles":
-      "/catequese/principios-elementares",
+    "/catechesis/elementary-principles": "/catequese/principios-elementares",
     "/teaching": "/ensino",
     "/catechesis/elementary-principles/jesus-exist-before-all-things":
-      "/catequese/jesus-existia-antes-de-todas-as-coisas",
+      "/catequese/principios-elementares/jesus-existia-antes-de-todas-as-coisas",
     "/catechesis/elementary-principles/he-became-a-man":
-      "/catequese/tornou-se-homem",
+      "/catequese/principios-elementares/tornou-se-homem",
     "/catechesis/elementary-principles/his-life-was-perfect-and-blameless":
-      "/catequese/sua-vida-foi-perfeita-e-irrepreensivel",
+      "/catequese/principios-elementares/sua-vida-foi-perfeita-e-irrepreensivel",
     "/catechesis/elementary-principles/his-work-was-great-and-glorious":
-      "/catequese/sua-obra-foi-tremenda-e-grandiosa",
+      "/catequese/principios-elementares/sua-obra-foi-tremenda-e-grandiosa",
     "/catechesis/elementary-principles/he-died-for-our-sins":
-      "/catequese/morreu-pelos-nossos-pecados",
-    "/catechesis/elementary-principles/he-rose-again": "/catequese/ressuscitou",
+      "/catequese/principios-elementares/morreu-pelos-nossos-pecados",
+    "/catechesis/elementary-principles/he-rose-again":
+      "/catequese/principios-elementares/ressuscitou",
     "/catechesis/elementary-principles/he-was-exalted":
-      "/catequese/foi-exaltado",
-    "/catechesis/elementary-principles/he-will-return": "/catequese/e-voltara",
+      "/catequese/principios-elementares/foi-exaltado",
+    "/catechesis/elementary-principles/he-will-return":
+      "/catequese/principios-elementares/e-voltara",
     ...ETERNAL_PURPOSE_ROUTES.pt,
   },
 };
