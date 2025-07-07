@@ -5,7 +5,7 @@ import Drawer from "../components/Drawer.astro";
 import clsx from "clsx";
 
 const lang = getLangFromUrl(Astro.url);
-const { title, noFullPage } = Astro.props;
+const { title, noFullPage, description, keywords } = Astro.props;
 ---
 
 <html lang={lang}>
@@ -14,7 +14,9 @@ const { title, noFullPage } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon-16x16.png" />
     <link rel="icon" type="image/svg+xml" href="/favicon-32x32.png" />
     <meta name="viewport" content="width=device-width" />
-
+    <meta name="author" content="Carlos Eduardo Botero Viloria" />
+    <meta name="description" content={description} />
+    <meta name="keywords" content={keywords} />
     <title>{title}</title>
   </head>
   <body class="bg-slate-50 text-gray-800 min-h-screen flex flex-col">
