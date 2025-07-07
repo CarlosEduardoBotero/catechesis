@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer utility {
+  .grid-cols-auto-fill-300 {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  .grid-rows-auto-fill-150 {
+    grid-template-rows: repeat(auto-fill, minmax(150px, 1fr));
+  }
+  .min-h-screen-svh {
+    min-height: 100svh;
+  }
+}
