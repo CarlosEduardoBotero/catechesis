@@ -3,6 +3,7 @@ import { getLangFromUrl } from "../i18n/utils";
 import Header from "../components/Header.astro";
 import Drawer from "../components/Drawer.astro";
 import clsx from "clsx";
+import "../styles/global.css";
 
 const lang = getLangFromUrl(Astro.url);
 const { title, noFullPage, description, keywords } = Astro.props;
@@ -19,7 +20,7 @@ const { title, noFullPage, description, keywords } = Astro.props;
     <meta name="keywords" content={keywords} />
     <title>{title}</title>
   </head>
-  <body class="bg-slate-50 text-gray-800 min-h-screen flex flex-col">
+  <body class="bg-slate-100 text-gray-800 min-h-screen-svh flex flex-col">
     <Header />
     <main
       class={clsx("p-4 max-w-[1440px] w-full mx-auto", {

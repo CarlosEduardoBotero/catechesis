@@ -8,6 +8,7 @@ import {
 import LanguagePicker from "./LanguagePicker.astro";
 import InteractiveHamburgerMenu from "./InteractiveHamburgerMenu.astro";
 import { routes } from "../i18n/routes/routes";
+import clsx from "clsx";
 
 const lang = getLangFromUrl(Astro.url);
 const translatePath = useTranslatedPath(lang);
@@ -21,7 +22,7 @@ const catechesisRouteEnglish = routes["en"]["/catechesis"];
 const teachingRouteEnglish = routes["en"]["/teaching"];
 ---
 
-<header class="border flex items-center gap-4 md:justify-between p-4 bg-white">
+<header class="border border-gray-200 flex items-center gap-4 md:justify-between p-4 bg-white">
   <div class="flex items-center gap-4">
     <a href={translatePath("/")} aria-label={t("home.title")}>
       <img src="/main-icon-lg.webp" class="hidden h-10 sm:block md:h-16" alt="catechesis book" width="261" height="64" />
@@ -33,7 +34,7 @@ const teachingRouteEnglish = routes["en"]["/teaching"];
       <li>
         <a
           href={translatePath(teachingRoute)}
-          class={route?.startsWith(teachingRouteEnglish) ? "text-blue-600" : ""}
+          class={clsx({ "text-blue-600 bg-blue-50 py-2 px-4 rounded-md": route?.startsWith(teachingRouteEnglish) }, "hover:text-blue-600")}
         >
           {t("nav.teaching")}
         </a>
@@ -41,9 +42,7 @@ const teachingRouteEnglish = routes["en"]["/teaching"];
       <li>
         <a
           href={translatePath(catechesisRoute)}
-          class={route?.startsWith(catechesisRouteEnglish)
-            ? "text-blue-600"
-            : ""}
+          class={clsx({ "text-blue-600 bg-blue-50 py-2 px-4 rounded-md": route?.startsWith(catechesisRouteEnglish) }, "hover:text-blue-600")}
         >
           {t("nav.catechesis")}
         </a>
@@ -51,7 +50,7 @@ const teachingRouteEnglish = routes["en"]["/teaching"];
       <li>
         <a
           href={translatePath("/")}
-          class={route === undefined ? "text-blue-600" : ""}
+          class={clsx({ "text-blue-600 bg-blue-50 py-2 px-4 rounded-md": route === undefined }, "hover:text-blue-600")}
         >
           {t("nav.whoWeAre")}
         </a>

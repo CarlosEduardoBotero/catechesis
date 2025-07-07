@@ -6,6 +6,7 @@ import {
   getRouteFromUrl,
 } from "../i18n/utils";
 import { routes } from "../i18n/routes/routes";
+import clsx from "clsx";
 
 const lang = getLangFromUrl(Astro.url);
 const translatePath = useTranslatedPath(lang);
@@ -23,7 +24,7 @@ const teachingRouteEnglish = routes["en"]["/teaching"];
 <div role="presentation" class="fixed z-50 inset-0 invisible">
   <div
     id="backdrop"
-    class="fixed invisible opacity-0 -z-[1] inset-0 transition-opacity bg-black bg-opacity-50"
+    class="fixed invisible opacity-0 -z-[1] inset-0 transition-opacity bg-black bg-black/50"
   >
   </div>
   <div
@@ -39,27 +40,22 @@ const teachingRouteEnglish = routes["en"]["/teaching"];
           <a
             href={translatePath(teachingRoute)}
             aria-label={t("nav.teaching")}
-            class={route?.startsWith(teachingRouteEnglish)
-              ? "text-blue-600 bg-blue-100 w-full px-2 py-1 rounded"
-              : "ml-2"}>{t("nav.teaching")}</a
+            class={clsx({ "text-blue-600 bg-blue-50 w-full px-2 py-1 rounded-sm": route?.startsWith(teachingRouteEnglish), "ml-2": !route?.startsWith(teachingRouteEnglish) })}>{t("nav.teaching")}</a
           >
         </li>
         <li>
           <a
             href={translatePath(catechesisRoute)}
             aria-label={t("nav.catechesis")}
-            class={route?.startsWith(catechesisRouteEnglish)
-              ? "text-blue-600 bg-blue-100 w-full px-2 py-1 rounded"
-              : "ml-2"}>{t("nav.catechesis")}</a
+            class={clsx({ "text-blue-600 bg-blue-50 w-full px-2 py-1 rounded-sm": route?.startsWith(catechesisRouteEnglish), "ml-2": !route?.startsWith(catechesisRouteEnglish) })}>{t("nav.catechesis")}</a
           >
         </li>
         <li>
           <a
             href={translatePath("/")}
             aria-label={t("nav.whoWeAre")}
-            class={route === undefined
-              ? "text-blue-600 bg-blue-100 w-full px-2 py-1 rounded"
-              : "ml-2"}>{t("nav.whoWeAre")}</a
+            class={clsx({ "text-blue-600 bg-blue-50 w-full px-2 py-1 rounded-sm": route === undefined ,
+            "ml-2": !Boolean(route === undefined)})}>{t("nav.whoWeAre")}</a
           >
         </li>
       </ul>

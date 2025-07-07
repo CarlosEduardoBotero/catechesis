@@ -21,7 +21,7 @@ console.log(THE_LIFE_IN_CHRIST_CATECHESIS[lang].map(({ title, pathname, lesson }
       THE_LIFE_IN_CHRIST_CATECHESIS[lang].map(({ title, pathname, lesson }) => (
         <a
           href={`${pathname}`}
-          class="flex flex-col border p-4 rounded-md shadow-xs hover:shadow-md transition-all duration-200 bg-white"
+          class="flex flex-col border border-gray-200 p-4 rounded-md shadow-xs hover:shadow-md transition-all duration-200 bg-white"
         >
           <span class="text-gray-600 font-semibold">
             {t("home.lesson")} {lesson}

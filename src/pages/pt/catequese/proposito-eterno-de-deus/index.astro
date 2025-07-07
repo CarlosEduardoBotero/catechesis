@@ -17,7 +17,7 @@ const t = useTranslations(lang);
       ETERNAL_PURPOSE_CATECHESIS[lang].map(({ title, pathname, lesson }) => (
         <a
           href={`/${lang}${pathname}`}
-          class="flex flex-col border p-4 rounded-md shadow-sm hover:shadow-md transition-all duration-200 bg-white"
+          class="flex flex-col border border-gray-200 p-4 rounded-md shadow-xs hover:shadow-md transition-all duration-200 bg-white"
         >
           <span class="text-gray-600 font-semibold">
             {t("home.lesson")} {lesson}

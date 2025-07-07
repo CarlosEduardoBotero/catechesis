@@ -17,7 +17,7 @@ const t = useTranslations(lang);
       BOOKLETS[lang].map(({ title, pathname }, i) => (
         <a
           href={`/${lang}${pathname}`}
-          class="flex flex-col border p-4 rounded-md shadow-sm hover:shadow-md transition-all duration-200 bg-white"
+          class="flex flex-col border border-gray-200 p-4 rounded-md shadow-xs hover:shadow-md transition-all duration-200 bg-white"
         >
           <span class="text-xl font-semibold">{title}</span>
         </a>
