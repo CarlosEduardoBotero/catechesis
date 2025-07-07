@@ -8,6 +8,10 @@ export const BOOKLETS = {
       pathname: "/catechesis/eternal-purpose",
       title: "Eternal Purpose",
     },
+    {
+      pathname: "/catechesis/the-life-in-christ",
+      title: "The Life in Christ",
+    },
   ],
   es: [
     {
@@ -18,6 +22,10 @@ export const BOOKLETS = {
       pathname: "/catequesis/proposito-eterno-de-dios",
       title: "Propósito Eterno",
     },
+    {
+      pathname: "/catequesis/la-vida-en-cristo",
+      title: "La Vida en Cristo",
+    },
   ],
   pt: [
     {
@@ -27,6 +35,10 @@ export const BOOKLETS = {
     {
       pathname: "/catequese/proposito-eterno-de-deus",
       title: "Propósito Eterno",
+    },
+    {
+      pathname: "/catequese/a-vida-em-cristo",
+      title: "A Vida em Cristo",
     },
   ],
 };

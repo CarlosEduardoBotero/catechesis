@@ -1,4 +1,5 @@
 import { ETERNAL_PURPOSE_ROUTES } from "./catechesis/eternal-purpose";
+import { THE_LIFE_IN_CHRIST_ROUTES } from "./catechesis/the-life-in-christ";
 
 export const routes = {
   en: {
@@ -22,6 +23,7 @@ export const routes = {
     "/catechesis/elementary-principles/he-will-return":
       "/catechesis/elementary-principles/he-will-return",
     ...ETERNAL_PURPOSE_ROUTES.en,
+    ...THE_LIFE_IN_CHRIST_ROUTES.en,
   },
   es: {
     "/catechesis": "/catequesis",
@@ -44,6 +46,7 @@ export const routes = {
     "/catechesis/elementary-principles/he-will-return":
       "/catequesis/principios-elementales/el-volvera",
     ...ETERNAL_PURPOSE_ROUTES.es,
+    ...THE_LIFE_IN_CHRIST_ROUTES.es,
   },
   pt: {
     "/catechesis": "/catequese",
@@ -66,5 +69,6 @@ export const routes = {
     "/catechesis/elementary-principles/he-will-return":
       "/catequese/principios-elementares/e-voltara",
     ...ETERNAL_PURPOSE_ROUTES.pt,
+    ...THE_LIFE_IN_CHRIST_ROUTES.pt,
   },
 };
