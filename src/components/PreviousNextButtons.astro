@@ -24,7 +24,7 @@ const { previousLink, nextLink } = Astro.props;
         <div class="flex flex-col gap-2">
           <p class="font-semibold text-gray-500">{t("previous")}</p>
           <p class="text-lg font-semibold text-gray-700">
-            {previousLink.replace(/^\/\w+|[\/-]/g, " ")}
+            {previousLink.split("/").at(-1).replace(/-/g, " ")}
           </p>
         </div>
       </a>
@@ -39,7 +39,7 @@ const { previousLink, nextLink } = Astro.props;
         <div class="flex flex-col gap-2">
           <p class="font-semibold text-gray-500 self-end">{t("next")}</p>
           <p class="text-lg font-semibold text-gray-700 text-right">
-            {nextLink.replace(/^\/\w+|[\/-]/g, " ")}
+            {nextLink.split("/").at(-1).replace(/-/g, " ")}
           </p>
         </div>
         <Fragment set:html={RightChevron} />
