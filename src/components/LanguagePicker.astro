@@ -17,7 +17,7 @@ const route = getRouteFromUrl(Astro.url);
     Object.entries(languages).map(([lang]) => (
       <li>
         <a href={translatePath(`${route ? route : "/"}`, lang as LangType)}>
-          <img src={`/icons/${lang}.svg`} alt="flag" />
+          <img src={`/icons/${lang}.svg`} alt="flag" width="32" height="32"  />
         </a>
       </li>
     ))
