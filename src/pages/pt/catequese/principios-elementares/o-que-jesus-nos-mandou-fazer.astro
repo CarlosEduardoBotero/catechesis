@@ -18,7 +18,7 @@ const route = getRouteFromUrl(Astro.url);
 const translatePath = useTranslatedPath(lang);
 const path = translatePath(`${route ? route : ""}`, lang as LangType);
 
-console.log({ path, lang, route });
+
 const data = ELEMENTARY_PRINCIPLES_CATECHESIS[lang].find(
   ({ pathname }) => pathname === path.replace(/^\/[a-zA-Z]{2}/g, "")
 );

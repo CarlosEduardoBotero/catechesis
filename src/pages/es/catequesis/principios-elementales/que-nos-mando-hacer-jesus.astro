@@ -20,7 +20,6 @@ const path = translatePath(`${route ? route : ""}`, lang as LangType);
 const data = ELEMENTARY_PRINCIPLES_CATECHESIS[lang].find(
   ({ pathname }) => pathname === path.replace(/^\/[a-zA-Z]{2}/g, "")
 );
-console.log(path,data)
 const t = useTranslations(lang);
 ---
 
