@@ -1,0 +1,45 @@
+---
+import Layout from "../../../../layouts/Layout.astro";
+import {
+  getLangFromUrl,
+  getRouteFromUrl,
+  useTranslatedPath,
+  useTranslations,
+  type LangType,
+} from "../../../../i18n/utils";
+
+import { ELEMENTARY_PRINCIPLES_CATECHESIS } from "../../../../i18n/catechesis/booklet/elementary-principles";
+import VerseCard from "../../../../components/VerseCard.astro";
+import PreviousNextButtons from "../../../../components/PreviousNextButtons.astro";
+
+const lang = getLangFromUrl(Astro.url);
+const route = getRouteFromUrl(Astro.url);
+
+const translatePath = useTranslatedPath(lang);
+const path = translatePath(`${route ? route : ""}`, lang as LangType);
+const data = ELEMENTARY_PRINCIPLES_CATECHESIS[lang].find(
+  ({ pathname }) => pathname === path.replace(/^\/[a-zA-Z]{2}/g, "")
+);
+console.log(path,data)
+const t = useTranslations(lang);
+---
+
+<Layout title={t("home.title") + " | " + data?.title}>
+  <div class="flex flex-col w-full justify-between gap-4 md:gap-12">
+    <div class="flex justify-center gap-4 flex-wrap">
+      {
+        data?.verses.map(({ book, chapter, verse, content }) => (
+          <VerseCard
+            title={data?.title}
+            book={book}
+            chapter={chapter}
+            verse={verse}
+            content={content}
+          />
+        ))
+      }
+    </div>
+
+    <PreviousNextButtons previousLink={data?.previous} nextLink={data?.next} />
+  </div>
+</Layout>

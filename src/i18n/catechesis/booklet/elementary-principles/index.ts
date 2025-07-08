@@ -138,6 +138,165 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
         },
       ],
       previous: "/catechesis/elementary-principles/he-was-exalted",
+      next: "/catechesis/elementary-principles/what-did-jesus-command-us-to-do",
+    },
+    {
+      pathname:
+        "/catechesis/elementary-principles/what-did-jesus-command-us-to-do",
+      title: "What did Jesus command us to do?",
+      subtitle: "Jesus commanded us to make disciples.",
+      verses: [
+        {
+          book: "Matthew",
+          chapter: "28",
+          verse: "18-20",
+          content:
+            "And Jesus came and spoke to them, saying, “All authority has been given to Me in heaven and on earth. Go therefore and make disciples of all the nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all things that I have commanded you; and lo, I am with you always, even to the end of the age.” Amen.",
+        },
+      ],
+      previous: "/catechesis/elementary-principles/he-will-return",
+      next: "/catechesis/elementary-principles/what-should-we-talk-about-to-make-disciples",
+    },
+    {
+      pathname:
+        "/catechesis/elementary-principles/what-should-we-talk-about-to-make-disciples",
+      title: "What should we talk about to make disciples?",
+      subtitle: "We should talk about Jesus and the door to the kingdom.",
+      verses: [
+        {
+          book: "Acts",
+          chapter: "2",
+          verse: "38",
+          content:
+            "Then Peter said to them, “Repent, and let every one of you be baptized in the name of Jesus Christ for the remission of sins; and you shall receive the gift of the Holy Spirit.",
+        },
+      ],
+      previous:
+        "/catechesis/elementary-principles/what-did-jesus-command-us-to-do",
+      next: "/catechesis/elementary-principles/what-is-the-door-to-the-kingdom",
+    },
+    {
+      pathname:
+        "/catechesis/elementary-principles/what-is-the-door-to-the-kingdom",
+      title: "What is the door to the kingdom?",
+      subtitle:
+        "Repentance, Baptism in Christ, and the gift of the Holy Spirit.",
+      verses: [
+        {
+          book: "Acts",
+          chapter: "2",
+          verse: "38",
+          content:
+            "Then Peter said to them, “Repent, and let every one of you be baptized in the name of Jesus Christ for the remission of sins; and you shall receive the gift of the Holy Spirit.",
+        },
+      ],
+      previous:
+        "/catechesis/elementary-principles/what-should-we-talk-about-to-make-disciples",
+      next: "/catechesis/elementary-principles/what-is-the-way-of-the-kingdom",
+    },
+    {
+      pathname:
+        "/catechesis/elementary-principles/what-is-the-way-of-the-kingdom",
+      title: "What is the way (road) of the kingdom?",
+      subtitle: "To obey everything Jesus commanded.",
+      verses: [
+        {
+          book: "Acts",
+          chapter: "2",
+          verse: "38",
+          content:
+            "Then Peter said to them, “Repent, and let every one of you be baptized in the name of Jesus Christ for the remission of sins; and you shall receive the gift of the Holy Spirit.",
+        },
+      ],
+      previous:
+        "/catechesis/elementary-principles/what-is-the-door-to-the-kingdom",
+      next: "/catechesis/elementary-principles/what-is-repentance",
+    },
+    {
+      pathname: "/catechesis/elementary-principles/what-is-repentance",
+      title: "What is repentance?",
+      subtitle: "Repentance is an inner change of attitude.",
+      verses: [
+        {
+          book: "Mark",
+          chapter: "8",
+          verse: "34-36",
+          content:
+            "When He had called the people to Himself, with His disciples also, He said to them, “Whoever desires to come after Me, let him deny himself, and take up his cross, and follow Me. For whoever desires to save his life will lose it, but whoever loses his life for My sake and the gospel’s will save it.",
+        },
+      ],
+      previous:
+        "/catechesis/elementary-principles/what-is-the-way-of-the-kingdom",
+      next: "/catechesis/elementary-principles/what-is-the-inner-change-that-happens-in-repentance",
+    },
+    {
+      pathname:
+        "/catechesis/elementary-principles/what-is-the-inner-change-that-happens-in-repentance",
+      title: "What is the inner change that happens in repentance?",
+      subtitle: "To give up being independent to become dependent on God.",
+      verses: [
+        {
+          book: "Mark",
+          chapter: "8",
+          verse: "34-36",
+          content:
+            "When He had called the people to Himself, with His disciples also, He said to them, “Whoever desires to come after Me, let him deny himself, and take up his cross, and follow Me. For whoever desires to save his life will lose it, but whoever loses his life for My sake and the gospel’s will save it.",
+        },
+      ],
+      previous: "/catechesis/elementary-principles/what-is-repentance",
+      next: "/catechesis/elementary-principles/what-is-necessary-for-change-of-attitude",
+    },
+    {
+      pathname:
+        "/catechesis/elementary-principles/what-is-necessary-for-change-of-attitude",
+      title: "What is necessary for change of attitude?",
+      subtitle:
+        "Deny yourself, Take up your cross, Lose your life and Give up everything.",
+      verses: [
+        {
+          book: "Luke",
+          chapter: "14",
+          verse: "33",
+          content:
+            "So likewise, whoever of you does not forsake all that he has cannot be My disciple.",
+        },
+      ],
+      previous:
+        "/catechesis/elementary-principles/what-is-the-inner-change-that-happens-in-repentance",
+      next: "/catechesis/elementary-principles/what-happens-in-baptism",
+    },
+    {
+      pathname: "/catechesis/elementary-principles/what-happens-in-baptism",
+      title: "What happens in baptism?",
+      subtitle: "We are put into Christ.",
+      verses: [
+        {
+          book: "Galatians",
+          chapter: "3",
+          verse: "27",
+          content:
+            "For as many of you as were baptized into Christ have put on Christ.",
+        },
+      ],
+      previous:
+        "/catechesis/elementary-principles/what-is-necessary-for-change-of-attitude",
+      next: "/catechesis/elementary-principles/what-happens-in-baptism-with-the-holy-spirit",
+    },
+    {
+      pathname:
+        "/catechesis/elementary-principles/what-happens-in-baptism-with-the-holy-spirit",
+      title: "What happens in baptism with the Holy Spirit?",
+      subtitle: "We receive power to witness and we can manifest the gifts.",
+      verses: [
+        {
+          book: "Acts",
+          chapter: "1",
+          verse: "8",
+          content:
+            "But you shall receive power when the Holy Spirit has come upon you; and you shall be witnesses to Me in Jerusalem, and in all Judea and Samaria, and to the end of the earth.",
+        },
+      ],
+      previous: "/catechesis/elementary-principles/what-happens-in-baptism",
       next: "/catechesis/elementary-principles/jesus-exist-before-all-things",
     },
   ],
@@ -280,6 +439,163 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
         },
       ],
       previous: "/catequesis/principios-elementales/fue-exaltado",
+      next: "/catequesis/principios-elementales/que-nos-mando-hacer-jesus",
+    },
+    {
+      pathname: "/catequesis/principios-elementales/que-nos-mando-hacer-jesus",
+      title: "Que nos mandó a hacer Jesús?",
+      subtitle: "Jesús nos mandó a hacer discípulos.",
+      verses: [
+        {
+          book: "Mateo",
+          chapter: "28",
+          verse: "18-20",
+          content:
+            "Y Jesús se acercó y les habló diciendo: Toda potestad me es dada en el cielo y en la tierra. Por tanto, id, y haced discípulos a todas las naciones, bautizándolos en el nombre del Padre, y del Hijo, y del Espíritu Santo; enseñándoles que guarden todas las cosas que os he mandado; y he aquí yo estoy con vosotros todos los días, hasta el fin del mundo. Amén.",
+        },
+      ],
+      previous: "/catequesis/principios-elementales/el-volvera",
+      next: "/catequesis/principios-elementales/que-debemos-hablar-para-hacer-discipulos",
+    },
+    {
+      pathname:
+        "/catequesis/principios-elementales/que-debemos-hablar-para-hacer-discipulos",
+      title: "Qué debemos hablar para hacer discípulos?",
+      subtitle: "Hablar de Jesús y de la puerta del reino.",
+      verses: [
+        {
+          book: "Hechos",
+          chapter: "2",
+          verse: "38",
+          content:
+            "Pedro les dijo: Arrepentíos, y bautícese cada uno de vosotros en el nombre de Jesucristo para perdón de los pecados; y recibiréis el don del Espíritu Santo.",
+        },
+      ],
+      previous: "/catequesis/principios-elementales/que-nos-mando-hacer-jesus",
+      next: "/catequesis/principios-elementales/cual-es-la-puerta-del-reino",
+    },
+    {
+      pathname:
+        "/catequesis/principios-elementales/cual-es-la-puerta-del-reino",
+      title: "Cuál es la puerta del reino?",
+      subtitle: "Arrepentimiento, bautismo en Cristo y don del Espíritu Santo.",
+      verses: [
+        {
+          book: "Hechos",
+          chapter: "2",
+          verse: "38",
+          content:
+            "Pedro les dijo: Arrepentíos, y bautícese cada uno de vosotros en el nombre de Jesucristo para perdón de los pecados; y recibiréis el don del Espíritu Santo.",
+        },
+      ],
+      previous:
+        "/catequesis/principios-elementales/que-debemos-hablar-para-hacer-discipulos",
+      next: "/catequesis/principios-elementales/cual-es-el-camino-del-reino",
+    },
+    {
+      pathname:
+        "/catequesis/principios-elementales/cual-es-el-camino-del-reino",
+      title: "Cuál es el camino del reino?",
+      subtitle: "Guardar todas las cosas que Jesús ordenó.",
+      verses: [
+        {
+          book: "Hechos",
+          chapter: "2",
+          verse: "38",
+          content:
+            "Pedro les dijo: Arrepentíos, y bautícese cada uno de vosotros en el nombre de Jesucristo para perdón de los pecados; y recibiréis el don del Espíritu Santo.",
+        },
+      ],
+      previous:
+        "/catequesis/principios-elementales/cual-es-la-puerta-del-reino",
+      next: "/catequesis/principios-elementales/que-es-el-arrepentimiento",
+    },
+    {
+      pathname: "/catequesis/principios-elementales/que-es-el-arrepentimiento",
+      title: "Qué es el arrepentimiento?",
+      subtitle: "Arrepentimiento es un cambio de actitud interior.",
+      verses: [
+        {
+          book: "Marcos",
+          chapter: "8",
+          verse: "34-36",
+          content:
+            "Y llamando a la gente y a sus discípulos, les dijo: Si alguno quiere venir en pos de mí, niéguese a sí mismo, y tome su cruz, y sígame. Porque todo el que quiera salvar su vida, la perderá; y todo el que pierda su vida por causa de mí y del evangelio, la salvará. Porque ¿qué aprovechará al hombre si ganare todo el mundo, y perdiere su alma?",
+        },
+      ],
+      previous:
+        "/catequesis/principios-elementales/cual-es-el-camino-del-reino",
+      next: "/catequesis/principios-elementales/cual-es-el-cambio-interior-que-acontece-en-el-arrepentimiento",
+    },
+    {
+      pathname:
+        "/catequesis/principios-elementales/cual-es-el-cambio-interior-que-acontece-en-el-arrepentimiento",
+      title: "Cuál es el cambio interior que acontece en el arrepentimiento?",
+      subtitle: "Dejar de ser independiente para ser dependiente de Dios.",
+      verses: [
+        {
+          book: "Marcos",
+          chapter: "8",
+          verse: "34-36",
+          content:
+            "Y llamando a la gente y a sus discípulos, les dijo: Si alguno quiere venir en pos de mí, niéguese a sí mismo, y tome su cruz, y sígame. Porque todo el que quiera salvar su vida, la perderá; y todo el que pierda su vida por causa de mí y del evangelio, la salvará. Porque ¿qué aprovechará al hombre si ganare todo el mundo, y perdiere su alma?",
+        },
+      ],
+      previous: "/catequesis/principios-elementales/que-es-el-arrepentimiento",
+      next: "/catequesis/principios-elementales/que-es-necesario-para-cambiar-de-actitud",
+    },
+    {
+      pathname:
+        "/catequesis/principios-elementales/que-es-necesario-para-cambiar-de-actitud",
+      title: "Qué es necesario para cambiar de actitud?",
+      subtitle:
+        "Negarse a sí mismo, tomar la cruz, perder la vida y renunciar a todo.",
+      verses: [
+        {
+          book: "Lucas",
+          chapter: "14",
+          verse: "33",
+          content:
+            "Así, pues, cualquiera de vosotros que no renuncia a todo lo que posee, no puede ser mi discípulo.",
+        },
+      ],
+      previous:
+        "/catequesis/principios-elementales/cual-es-el-cambio-interior-que-acontece-en-el-arrepentimiento",
+      next: "/catequesis/principios-elementales/que-sucede-en-el-bautismo",
+    },
+    {
+      pathname: "/catequesis/principios-elementales/que-sucede-en-el-bautismo",
+      title: "Qué sucede en el bautismo?",
+      subtitle: "Somos colocados en Cristo.",
+      verses: [
+        {
+          book: "Gálatas",
+          chapter: "3",
+          verse: "27",
+          content:
+            "Porque todos los que habéis sido bautizados en Cristo, de Cristo estáis revestidos.",
+        },
+      ],
+      previous:
+        "/catequesis/principios-elementales/que-es-necesario-para-cambiar-de-actitud",
+      next: "/catequesis/principios-elementales/que-acontece-en-el-bautismo-con-el-espiritu-santo",
+    },
+    {
+      pathname:
+        "/catequesis/principios-elementales/que-acontece-en-el-bautismo-con-el-espiritu-santo",
+      title: "Qué acontece en el bautismo con el Espíritu Santo?",
+      subtitle:
+        "Recibimos poder para testimoniar y podemos manifestar los dones.",
+      verses: [
+        {
+          book: "Hechos",
+          chapter: "1",
+          verse: "8",
+          content:
+            "Pero recibiréis poder, cuando haya venido sobre vosotros el Espíritu Santo, y me seréis testigos en Jerusalén, en toda Judea, en Samaria, y hasta lo último de la tierra.",
+        },
+      ],
+      previous: "/catequesis/principios-elementales/que-sucede-en-el-bautismo",
       next: "/catequesis/principios-elementales/jesus-existia-antes-de-todas-las-cosas",
     },
   ],
@@ -422,6 +738,161 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
         },
       ],
       previous: "/catequese/principios-elementares/foi-exaltado",
+      next: "/catequese/principios-elementares/o-que-jesus-nos-mandou-fazer",
+    },
+    {
+      pathname:
+        "/catequese/principios-elementares/o-que-jesus-nos-mandou-fazer",
+      title: "O que Jesus nos mandou fazer?",
+      subtitle: "Jesus nos mandou fazer discípulos.",
+      verses: [
+        {
+          book: "Mateus",
+          chapter: "28",
+          verse: "18-20",
+          content:
+            "Jesus, aproximando-se, falou-lhes, dizendo: Toda a autoridade me foi dada no céu e na terra. Ide, portanto, fazei discípulos de todas as nações, batizando-os em nome do Pai, e do Filho, e do Espírito Santo; ensinando-os a guardar todas as coisas que vos tenho ordenado. E eis que estou convosco todos os dias até à consumação dos séculos.",
+        },
+      ],
+      previous: "/catequese/principios-elementares/e-voltara",
+      next: "/catequese/principios-elementares/do-que-devemos-falar-para-fazer-discipulos",
+    },
+    {
+      pathname:
+        "/catequese/principios-elementares/do-que-devemos-falar-para-fazer-discipulos",
+      title: "Do que devemos falar para fazer discípulos?",
+      subtitle: "Falar de Jesus e da porta do reino.",
+      verses: [
+        {
+          book: "Atos",
+          chapter: "2",
+          verse: "38",
+          content:
+            "Respondeu-lhes Pedro: Arrependei-vos, e cada um de vós seja batizado em nome de Jesus Cristo para remissão dos vossos pecados, e recebereis o dom do Espírito Santo.",
+        },
+      ],
+      previous:
+        "/catequese/principios-elementares/o-que-jesus-nos-mandou-fazer",
+      next: "/catequese/principios-elementares/qual-e-a-porta-do-reino",
+    },
+    {
+      pathname: "/catequese/principios-elementares/qual-e-a-porta-do-reino",
+      title: "Qual é a porta do reino?",
+      subtitle: "Arrependimento, Batismo em Cristo e o Dom do Espírito Santo.",
+      verses: [
+        {
+          book: "Atos",
+          chapter: "2",
+          verse: "38",
+          content:
+            "Respondeu-lhes Pedro: Arrependei-vos, e cada um de vós seja batizado em nome de Jesus Cristo para remissão dos vossos pecados, e recebereis o dom do Espírito Santo.",
+        },
+      ],
+      previous:
+        "/catequese/principios-elementares/do-que-devemos-falar-para-fazer-discipulos",
+      next: "/catequese/principios-elementares/qual-e-o-caminho-do-reino",
+    },
+    {
+      pathname: "/catequese/principios-elementares/qual-e-o-caminho-do-reino",
+      title: "Qual é o caminho do reino?",
+      subtitle: "Guardar todas as coisas que Jesus ordenou.",
+      verses: [
+        {
+          book: "Atos",
+          chapter: "2",
+          verse: "38",
+          content:
+            "Respondeu-lhes Pedro: Arrependei-vos, e cada um de vós seja batizado em nome de Jesus Cristo para remissão dos vossos pecados, e recebereis o dom do Espírito Santo.",
+        },
+      ],
+      previous: "/catequese/principios-elementares/qual-e-a-porta-do-reino",
+      next: "/catequese/principios-elementares/o-que-e-arrependimento",
+    },
+    {
+      pathname: "/catequese/principios-elementares/o-que-e-arrependimento",
+      title: "O que é arrependimento?",
+      subtitle: "Arrependimento é uma mudança de atitude interior.",
+      verses: [
+        {
+          book: "Marcos",
+          chapter: "8",
+          verse: "34-36",
+          content:
+            "Então, convocando a multidão e juntamente os seus discípulos, disse-lhes: Se alguém quer vir após mim, a si mesmo se negue, tome a sua cruz e siga-me. Quem quiser, pois, salvar a sua vida perdê-la-á; e quem perder a vida por causa de mim e do evangelho salva-la-á. Que aproveita ao homem ganhar o mundo inteiro e perder a sua alma?",
+        },
+      ],
+      previous: "/catequese/principios-elementares/qual-e-o-caminho-do-reino",
+      next: "/catequese/principios-elementares/qual-a-mudanca-interior-que-acontece-no-arrependimento",
+    },
+    {
+      pathname:
+        "/catequese/principios-elementares/qual-a-mudanca-interior-que-acontece-no-arrependimento",
+      title: "Qual a mudança interior que acontece no arrependimento?",
+      subtitle: "Deixar de ser independente para ser dependente de Deus.",
+      verses: [
+        {
+          book: "Marcos",
+          chapter: "8",
+          verse: "34-36",
+          content:
+            "Então, convocando a multidão e juntamente os seus discípulos, disse-lhes: Se alguém quer vir após mim, a si mesmo se negue, tome a sua cruz e siga-me. Quem quiser, pois, salvar a sua vida perdê-la-á; e quem perder a vida por causa de mim e do evangelho salva-la-á. Que aproveita ao homem ganhar o mundo inteiro e perder a sua alma?",
+        },
+      ],
+      previous: "/catequese/principios-elementares/o-que-e-arrependimento",
+      next: "/catequese/principios-elementares/o-que-e-necessario-para-mudar-de-atitude",
+    },
+    {
+      pathname:
+        "/catequese/principios-elementares/o-que-e-necessario-para-mudar-de-atitude",
+      title: "O que é necessário para mudar de atitude?",
+      subtitle:
+        "Negar a si mesmo, tomar a cruz, perder a vida e renunciar a tudo.",
+      verses: [
+        {
+          book: "Lucas",
+          chapter: "14",
+          verse: "33",
+          content:
+            "Assim, pois, todo aquele que dentre vós não renuncia a tudo quanto tem não pode ser meu discípulo.",
+        },
+      ],
+      previous:
+        "/catequese/principios-elementares/qual-a-mudanca-interior-que-acontece-no-arrependimento",
+      next: "/catequese/principios-elementares/o-que-acontece-no-batismo",
+    },
+    {
+      pathname: "/catequese/principios-elementares/o-que-acontece-no-batismo",
+      title: "O que acontece no batismo?",
+      subtitle: "Somos colocados em Cristo.",
+      verses: [
+        {
+          book: "Gálatas",
+          chapter: "3",
+          verse: "27",
+          content:
+            "Porque todos quantos fostes batizados em Cristo de Cristo vos revestistes.",
+        },
+      ],
+      previous:
+        "/catequese/principios-elementares/o-que-e-necessario-para-mudar-de-atitude",
+      next: "/catequese/principios-elementares/o-que-acontece-no-batismo-com-o-espiritu-santo",
+    },
+    {
+      pathname:
+        "/catequese/principios-elementares/o-que-acontece-no-batismo-com-o-espiritu-santo",
+      title: "O que acontece no Batismo com o Espírito Santo?",
+      subtitle:
+        "Recebemos poder para testemunhar e podemos manifestar os dons.",
+      verses: [
+        {
+          book: "Atos",
+          chapter: "1",
+          verse: "8",
+          content:
+            "Mas recebereis poder, ao descer sobre vós o Espírito Santo, e sereis minhas testemunhas tanto em Jerusalém como em toda a Judéia e Samaria e até aos confins da terra.",
+        },
+      ],
+      previous: "/catequese/principios-elementares/o-que-acontece-no-batismo",
       next: "/catequese/principios-elementares/jesus-existia-antes-de-todas-as-coisas",
     },
   ],
