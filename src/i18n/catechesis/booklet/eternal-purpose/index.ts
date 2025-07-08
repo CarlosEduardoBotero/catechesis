@@ -135,7 +135,7 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
           content: "",
         },
       ],
-      previous: "/catechesis/eternal-purpose/what-is-gods-purpose-today",
+      previous: "/catechesis/eternal-purpose/why-a-family",
       next: "/catechesis/eternal-purpose/why-in-jesus-likeness",
     },
     {
@@ -205,8 +205,7 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
             "Take My yoke upon you and learn from Me, for I am gentle and lowly in heart, and you will find rest for your souls.",
         },
       ],
-      previous:
-        "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
+      previous: "/catechesis/eternal-purpose/in-what-should-we-be-like-jesus",
       next: "/catechesis/eternal-purpose/to-be-holy-like-jesus",
     },
     {
@@ -257,8 +256,7 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
             "As You sent Me into the world, I also have sent them into the world. ",
         },
       ],
-      previous:
-        "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
+      previous: "/catechesis/eternal-purpose/to-serve-like-jesus",
       next: "/catechesis/eternal-purpose/to-forgive-like-jesus",
     },
     {
