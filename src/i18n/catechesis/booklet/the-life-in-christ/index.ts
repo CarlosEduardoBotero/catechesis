@@ -15,10 +15,11 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
         },
       ],
       previous: null,
-      next: "/catechesis/eternal-purpose/what-happened-when-man-sinned",
+      next: "/catechesis/the-life-in-christ/what-are-the-three-aspects-of-sin-in-man",
     },
     {
-      pathname: "/catechesis/eternal-purpose/what-happened-when-man-sinned",
+      pathname:
+        "/catechesis/the-life-in-christ/what-are-the-three-aspects-of-sin-in-man",
       title: "What are the three aspects of sin in man?",
       subtitle: "Man became worthless for God’s purpose.",
       lesson: "2",
@@ -31,13 +32,12 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "They have all turned aside; they have together become unprofitable; there is none who does good, no, not one.",
         },
       ],
-      previous:
-        "/catechesis/eternal-purpose/what-was-gods-purpose-when-he-created-man",
-      next: "/catechesis/eternal-purpose/did-god-give-up-his-purpose-because-of-sin",
+      previous: "/catechesis/the-life-in-christ/who-is-jesus-to-us",
+      next: "/catechesis/the-life-in-christ/what-are-the-three-aspects-of-salvation-in-christ",
     },
     {
       pathname:
-        "/catechesis/eternal-purpose/did-god-give-up-his-purpose-because-of-sin",
+        "/catechesis/the-life-in-christ/what-are-the-three-aspects-of-salvation-in-christ",
       title: "What are the three aspects of salvation in Christ?",
       subtitle: "No, God did not give up His purpose.",
       lesson: "2.1",
@@ -49,12 +49,13 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
           content: "",
         },
       ],
-      previous: "/catechesis/eternal-purpose/what-happened-when-man-sinned",
-      next: "/catechesis/eternal-purpose/if-man-became-worthless-how-does-god-hope-to-achieve-his-purpose",
+      previous:
+        "/catechesis/the-life-in-christ/what-are-the-three-aspects-of-sin-in-man",
+      next: "/catechesis/the-life-in-christ/how-does-god-see-the-sins-of-men",
     },
     {
       pathname:
-        "/catechesis/eternal-purpose/if-man-became-worthless-how-does-god-hope-to-achieve-his-purpose",
+        "/catechesis/the-life-in-christ/how-does-god-see-the-sins-of-men",
       title: "How does God see the sins of men?",
       subtitle:
         "He gives us a new life in Christ. God’s hope is the life of Christ in us.",
@@ -76,11 +77,12 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/did-god-give-up-his-purpose-because-of-sin",
-      next: "/catechesis/eternal-purpose/what-is-gods-purpose-today",
+        "/catechesis/the-life-in-christ/what-are-the-three-aspects-of-salvation-in-christ",
+      next: "/catechesis/the-life-in-christ/what-is-the-first-aspect-of-sin",
     },
     {
-      pathname: "/catechesis/eternal-purpose/what-is-gods-purpose-today",
+      pathname:
+        "/catechesis/the-life-in-christ/what-is-the-first-aspect-of-sin",
       title: "What is the first aspect of sin",
       subtitle: "What is the first aspect of sin?",
       lesson: "4",
@@ -101,11 +103,12 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/if-man-became-worthless-how-does-god-hope-to-achieve-his-purpose",
-      next: "/catechesis/eternal-purpose/why-a-family",
+        "/catechesis/the-life-in-christ/how-does-god-see-the-sins-of-men",
+      next: "/catechesis/the-life-in-christ/what-liberated-us-from-the-condemnation-of-sin",
     },
     {
-      pathname: "/catechesis/eternal-purpose/why-a-family",
+      pathname:
+        "/catechesis/the-life-in-christ/what-liberated-us-from-the-condemnation-of-sin",
       title: "What liberated us from the condemnation of sin?",
       subtitle: "What liberated us from the condemnation of sin?",
       lesson: "4.1",
@@ -117,11 +120,12 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
           content: "",
         },
       ],
-      previous: "/catechesis/he-died-for-our-sins",
-      next: "/catechesis/eternal-purpose/why-many-children",
+      previous:
+        "/catechesis/the-life-in-christ/what-is-the-first-aspect-of-sin",
+      next: "/catechesis/the-life-in-christ/how-are-we-justified",
     },
     {
-      pathname: "/catechesis/eternal-purpose/why-many-children",
+      pathname: "/catechesis/the-life-in-christ/how-are-we-justified",
       title: "How are we justified?",
       subtitle: "How are we justified?",
       lesson: "4.2",
@@ -133,11 +137,13 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
           content: "",
         },
       ],
-      previous: "/catechesis/eternal-purpose/what-is-gods-purpose-today",
-      next: "/catechesis/eternal-purpose/why-in-jesus-likeness",
+      previous:
+        "/catechesis/the-life-in-christ/what-liberated-us-from-the-condemnation-of-sin",
+      next: "/catechesis/the-life-in-christ/if-justification-is-by-faith-can-we-continue-in-the-practice-of-sin",
     },
     {
-      pathname: "/catechesis/eternal-purpose/why-in-jesus-likeness",
+      pathname:
+        "/catechesis/the-life-in-christ/if-justification-is-by-faith-can-we-continue-in-the-practice-of-sin",
       title:
         "If justification is by faith, can we continue in the practice of sin?",
       subtitle: "Because God wants quality.",
@@ -150,12 +156,12 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
           content: "",
         },
       ],
-      previous: "/catechesis/eternal-purpose/why-many-children",
-      next: "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
+      previous: "/catechesis/the-life-in-christ/how-are-we-justified",
+      next: "/catechesis/the-life-in-christ/what-is-the-key-for-the-life-in-abundance",
     },
     {
       pathname:
-        "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
+        "/catechesis/the-life-in-christ/what-is-the-key-for-the-life-in-abundance",
       title: "What is the key for the life in abundance?",
       subtitle:
         "No. Salvation is the way to achieve this purpose. His purpose is that we must be like Jesus.",
@@ -169,11 +175,13 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "He who says he abides in Him ought himself also to walk just as He walked.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/why-in-jesus-likeness",
-      next: "/catechesis/eternal-purpose/in-what-should-we-be-like-jesus",
+      previous:
+        "/catechesis/the-life-in-christ/if-justification-is-by-faith-can-we-continue-in-the-practice-of-sin",
+      next: "/catechesis/the-life-in-christ/what-is-the-second-aspect-of-sin",
     },
     {
-      pathname: "/catechesis/eternal-purpose/in-what-should-we-be-like-jesus",
+      pathname:
+        "/catechesis/the-life-in-christ/what-is-the-second-aspect-of-sin",
       title: "What is the second aspect of sin?",
       subtitle:
         "a - To be meek and humble like Jesus\n\nb - To be holy like Jesus\n\nc - To serve like Jesus\n\nd - To preach to the world like Jesus\n\ne - To forgive like Jesus\n\nf - To love like Jesus",
@@ -187,11 +195,12 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
-      next: "/catechesis/eternal-purpose/to-be-meek-and-humble-like-jesus",
+        "/catechesis/the-life-in-christ/what-is-the-key-for-the-life-in-abundance",
+      next: "/catechesis/the-life-in-christ/what-liberates-us-from-the-slavery-of-sin",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-be-meek-and-humble-like-jesus",
+      pathname:
+        "/catechesis/the-life-in-christ/what-liberates-us-from-the-slavery-of-sin",
       title: "What liberates us from the slavery of sin?",
       subtitle: "To be meek and humble like Jesus.",
       lesson: "5.1.a",
@@ -205,11 +214,12 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
-      next: "/catechesis/eternal-purpose/to-be-holy-like-jesus",
+        "/catechesis/the-life-in-christ/what-is-the-second-aspect-of-sin",
+      next: "/catechesis/the-life-in-christ/how-does-this-life-manifest-itself",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-be-holy-like-jesus",
+      pathname:
+        "/catechesis/the-life-in-christ/how-does-this-life-manifest-itself",
       title: "How does this life manifest itself?",
       subtitle: "To be holy like Jesus.",
       lesson: "5.1.b",
@@ -222,11 +232,12 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "But as He who called you is holy, you also be holy in all your conduct.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/to-be-meek-and-humble-like-jesus",
-      next: "/catechesis/eternal-purpose/to-serve-like-jesus",
+      previous:
+        "/catechesis/the-life-in-christ/what-liberates-us-from-the-slavery-of-sin",
+      next: "/catechesis/the-life-in-christ/why-do-we-still-sin",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-serve-like-jesus",
+      pathname: "/catechesis/the-life-in-christ/why-do-we-still-sin",
       title: "Why do we still sin?",
       subtitle: "To serve like Jesus.",
       lesson: "5.1.c",
@@ -239,11 +250,13 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "If I then, your Lord and Teacher, have washed your feet, you also ought to wash one another’s feet.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/to-be-holy-like-jesus",
-      next: "/catechesis/eternal-purpose/to-preach-to-the-world-like-jesus",
+      previous:
+        "/catechesis/the-life-in-christ/how-does-this-life-manifest-itself",
+      next: "/catechesis/the-life-in-christ/what-happens-when-we-walk-in-the-spirit",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-preach-to-the-world-like-jesus",
+      pathname:
+        "/catechesis/the-life-in-christ/what-happens-when-we-walk-in-the-spirit",
       title: "What happens when we walk in the Spirit?",
       subtitle: "To preach to the world like Jesus.",
       lesson: "5.1.d",
@@ -256,12 +269,11 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "As You sent Me into the world, I also have sent them into the world. ",
         },
       ],
-      previous:
-        "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
-      next: "/catechesis/eternal-purpose/to-forgive-like-jesus",
+      previous: "/catechesis/the-life-in-christ/why-do-we-still-sin",
+      next: "/catechesis/the-life-in-christ/how-do-we-walk-in-the-spirit",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-forgive-like-jesus",
+      pathname: "/catechesis/the-life-in-christ/how-do-we-walk-in-the-spirit",
       title: "How do we walk in the Spirit?",
       subtitle: "To forgive like Jesus.",
       lesson: "5.1.e",
@@ -274,11 +286,13 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "Bearing with one another, and forgiving one another, if anyone has a complaint against another; even as Christ forgave you, so you also must do.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/to-preach-to-the-world-like-jesus",
-      next: "/catechesis/eternal-purpose/to-love-like-jesus",
+      previous:
+        "/catechesis/the-life-in-christ/what-happens-when-we-walk-in-the-spirit",
+      next: "/catechesis/the-life-in-christ/what-is-the-third-aspect-of-sin",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-love-like-jesus",
+      pathname:
+        "/catechesis/the-life-in-christ/what-is-the-third-aspect-of-sin",
       title: "What is the third aspect of sin?",
       subtitle: "To love like Jesus.",
       lesson: "5.1.f",
@@ -291,11 +305,12 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "A new commandment I give to you, that you love one another; as I have loved you, that you also love one another.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/to-forgive-like-jesus",
-      next: "/catechesis/eternal-purpose/who-are-the-priests-in-the-church",
+      previous: "/catechesis/the-life-in-christ/how-do-we-walk-in-the-spirit",
+      next: "/catechesis/the-life-in-christ/how-will-we-be-freed-from-the-indwelling-of-sin",
     },
     {
-      pathname: "/catechesis/eternal-purpose/who-are-the-priests-in-the-church",
+      pathname:
+        "/catechesis/the-life-in-christ/how-will-we-be-freed-from-the-indwelling-of-sin",
       title: "How will we be freed from the indwelling of sin?",
       subtitle: "All of the saints are priests.",
       lesson: "6",
@@ -308,14 +323,14 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "But you are a chosen generation, a royal priesthood, a holy nation, His own special people, that you may proclaim the praises of Him who called you out of darkness into His marvelous light.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/to-love-like-jesus",
-      next: "/catechesis/eternal-purpose/who-builds-up-the-body-of-christ",
+      previous:
+        "/catechesis/the-life-in-christ/what-is-the-third-aspect-of-sin",
+      next: "/catechesis/the-life-in-christ/who-is-jesus-to-us",
     },
   ],
   es: [
     {
-      pathname:
-        "/catechesis/eternal-purpose/what-was-gods-purpose-when-he-created-man",
+      pathname: "/catequesis/la-vida-en-cristo/quien-es-jesus-para-nosotros",
       title: "Who is Jesus to us?",
       subtitle: "God wanted a family of men in His likeness.",
       lesson: "1",
@@ -329,10 +344,11 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
         },
       ],
       previous: null,
-      next: "/catechesis/eternal-purpose/what-happened-when-man-sinned",
+      next: "/catequesis/la-vida-en-cristo/cuales-son-los-tres-aspectos-del-pecado-en-el-hombre",
     },
     {
-      pathname: "/catechesis/eternal-purpose/what-happened-when-man-sinned",
+      pathname:
+        "/catequesis/la-vida-en-cristo/cuales-son-los-tres-aspectos-del-pecado-en-el-hombre",
       title: "What are the three aspects of sin in man?",
       subtitle: "Man became worthless for God’s purpose.",
       lesson: "2",
@@ -345,13 +361,12 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "They have all turned aside; they have together become unprofitable; there is none who does good, no, not one.",
         },
       ],
-      previous:
-        "/catechesis/eternal-purpose/what-was-gods-purpose-when-he-created-man",
-      next: "/catechesis/eternal-purpose/did-god-give-up-his-purpose-because-of-sin",
+      previous: "/catequesis/la-vida-en-cristo/quien-es-jesus-para-nosotros",
+      next: "/catequesis/la-vida-en-cristo/cuales-son-los-tres-aspectos-de-la-salvacion-en-cristo",
     },
     {
       pathname:
-        "/catechesis/eternal-purpose/did-god-give-up-his-purpose-because-of-sin",
+        "/catequesis/la-vida-en-cristo/cuales-son-los-tres-aspectos-de-la-salvacion-en-cristo",
       title: "What are the three aspects of salvation in Christ?",
       subtitle: "No, God did not give up His purpose.",
       lesson: "2.1",
@@ -363,12 +378,13 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
           content: "",
         },
       ],
-      previous: "/catechesis/eternal-purpose/what-happened-when-man-sinned",
-      next: "/catechesis/eternal-purpose/if-man-became-worthless-how-does-god-hope-to-achieve-his-purpose",
+      previous:
+        "/catequesis/la-vida-en-cristo/cuales-son-los-tres-aspectos-del-pecado-en-el-hombre",
+      next: "/catequesis/la-vida-en-cristo/como-ve-dios-los-pecados-de-los-hombres",
     },
     {
       pathname:
-        "/catechesis/eternal-purpose/if-man-became-worthless-how-does-god-hope-to-achieve-his-purpose",
+        "/catequesis/la-vida-en-cristo/como-ve-dios-los-pecados-de-los-hombres",
       title: "How does God see the sins of men?",
       subtitle:
         "He gives us a new life in Christ. God’s hope is the life of Christ in us.",
@@ -390,12 +406,13 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/did-god-give-up-his-purpose-because-of-sin",
-      next: "/catechesis/eternal-purpose/what-is-gods-purpose-today",
+        "/catequesis/la-vida-en-cristo/cuales-son-los-tres-aspectos-de-la-salvacion-en-cristo",
+      next: "/catequesis/la-vida-en-cristo/cual-es-el-primer-aspecto-del-pecado",
     },
     {
-      pathname: "/catechesis/eternal-purpose/what-is-gods-purpose-today",
-      title: "What is God’s purpose today?",
+      pathname:
+        "/catequesis/la-vida-en-cristo/cual-es-el-primer-aspecto-del-pecado",
+      title: "What is the first aspect of sin",
       subtitle: "What is the first aspect of sin?",
       lesson: "4",
       verses: [
@@ -415,12 +432,13 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/if-man-became-worthless-how-does-god-hope-to-achieve-his-purpose",
-      next: "/catechesis/eternal-purpose/why-a-family",
+        "/catequesis/la-vida-en-cristo/como-ve-dios-los-pecados-de-los-hombres",
+      next: "/catequesis/la-vida-en-cristo/que-nos-libero-de-la-condenacion-del-pecado",
     },
     {
-      pathname: "/catechesis/eternal-purpose/why-a-family",
-      title: "Why a family? ",
+      pathname:
+        "/catequesis/la-vida-en-cristo/que-nos-libero-de-la-condenacion-del-pecado",
+      title: "What liberated us from the condemnation of sin?",
       subtitle: "What liberated us from the condemnation of sin?",
       lesson: "4.1",
       verses: [
@@ -431,12 +449,13 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
           content: "",
         },
       ],
-      previous: "/catechesis/he-died-for-our-sins",
-      next: "/catechesis/eternal-purpose/why-many-children",
+      previous:
+        "/catequesis/la-vida-en-cristo/cual-es-el-primer-aspecto-del-pecado",
+      next: "/catequesis/la-vida-en-cristo/como-somos-justificados",
     },
     {
-      pathname: "/catechesis/eternal-purpose/why-many-children",
-      title: "Why many children?",
+      pathname: "/catequesis/la-vida-en-cristo/como-somos-justificados",
+      title: "How are we justified?",
       subtitle: "How are we justified?",
       lesson: "4.2",
       verses: [
@@ -447,11 +466,13 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
           content: "",
         },
       ],
-      previous: "/catechesis/eternal-purpose/what-is-gods-purpose-today",
-      next: "/catechesis/eternal-purpose/why-in-jesus-likeness",
+      previous:
+        "/catequesis/la-vida-en-cristo/que-nos-libero-de-la-condenacion-del-pecado",
+      next: "/catequesis/la-vida-en-cristo/si-la-justificacion-es-por-la-fe-podemos-continuar-en-la-practica-del-pecado",
     },
     {
-      pathname: "/catechesis/eternal-purpose/why-in-jesus-likeness",
+      pathname:
+        "/catequesis/la-vida-en-cristo/si-la-justificacion-es-por-la-fe-podemos-continuar-en-la-practica-del-pecado",
       title:
         "If justification is by faith, can we continue in the practice of sin?",
       subtitle: "Because God wants quality.",
@@ -464,12 +485,12 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
           content: "",
         },
       ],
-      previous: "/catechesis/eternal-purpose/why-many-children",
-      next: "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
+      previous: "/catequesis/la-vida-en-cristo/como-somos-justificados",
+      next: "/catequesis/la-vida-en-cristo/cual-es-la-clave-para-la-vida-en-abundancia",
     },
     {
       pathname:
-        "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
+        "/catequesis/la-vida-en-cristo/cual-es-la-clave-para-la-vida-en-abundancia",
       title: "What is the key for the life in abundance?",
       subtitle:
         "No. Salvation is the way to achieve this purpose. His purpose is that we must be like Jesus.",
@@ -483,11 +504,13 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "He who says he abides in Him ought himself also to walk just as He walked.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/why-in-jesus-likeness",
-      next: "/catechesis/eternal-purpose/in-what-should-we-be-like-jesus",
+      previous:
+        "/catequesis/la-vida-en-cristo/si-la-justificacion-es-por-la-fe-podemos-continuar-en-la-practica-del-pecado",
+      next: "/catequesis/la-vida-en-cristo/cual-es-el-segundo-aspecto-del-pecado",
     },
     {
-      pathname: "/catechesis/eternal-purpose/in-what-should-we-be-like-jesus",
+      pathname:
+        "/catequesis/la-vida-en-cristo/cual-es-el-segundo-aspecto-del-pecado",
       title: "What is the second aspect of sin?",
       subtitle:
         "a - To be meek and humble like Jesus\n\nb - To be holy like Jesus\n\nc - To serve like Jesus\n\nd - To preach to the world like Jesus\n\ne - To forgive like Jesus\n\nf - To love like Jesus",
@@ -501,11 +524,12 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
-      next: "/catechesis/eternal-purpose/to-be-meek-and-humble-like-jesus",
+        "/catequesis/la-vida-en-cristo/cual-es-la-clave-para-la-vida-en-abundancia",
+      next: "/catequesis/la-vida-en-cristo/que-nos-libera-de-la-esclavitud-del-pecado",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-be-meek-and-humble-like-jesus",
+      pathname:
+        "/catequesis/la-vida-en-cristo/que-nos-libera-de-la-esclavitud-del-pecado",
       title: "What liberates us from the slavery of sin?",
       subtitle: "To be meek and humble like Jesus.",
       lesson: "5.1.a",
@@ -519,11 +543,11 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
-      next: "/catechesis/eternal-purpose/to-be-holy-like-jesus",
+        "/catequesis/la-vida-en-cristo/cual-es-el-segundo-aspecto-del-pecado",
+      next: "/catequesis/la-vida-en-cristo/como-se-manifiesta-esta-vida",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-be-holy-like-jesus",
+      pathname: "/catequesis/la-vida-en-cristo/como-se-manifiesta-esta-vida",
       title: "How does this life manifest itself?",
       subtitle: "To be holy like Jesus.",
       lesson: "5.1.b",
@@ -536,11 +560,12 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "But as He who called you is holy, you also be holy in all your conduct.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/to-be-meek-and-humble-like-jesus",
-      next: "/catechesis/eternal-purpose/to-serve-like-jesus",
+      previous:
+        "/catequesis/la-vida-en-cristo/que-nos-libera-de-la-esclavitud-del-pecado",
+      next: "/catequesis/la-vida-en-cristo/por-que-aun-pecamos",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-serve-like-jesus",
+      pathname: "/catequesis/la-vida-en-cristo/por-que-aun-pecamos",
       title: "Why do we still sin?",
       subtitle: "To serve like Jesus.",
       lesson: "5.1.c",
@@ -553,11 +578,12 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "If I then, your Lord and Teacher, have washed your feet, you also ought to wash one another’s feet.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/to-be-holy-like-jesus",
-      next: "/catechesis/eternal-purpose/to-preach-to-the-world-like-jesus",
+      previous: "/catequesis/la-vida-en-cristo/como-se-manifiesta-esta-vida",
+      next: "/catequesis/la-vida-en-cristo/que-sucede-cuando-andamos-en-el-espiritu",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-preach-to-the-world-like-jesus",
+      pathname:
+        "/catequesis/la-vida-en-cristo/que-sucede-cuando-andamos-en-el-espiritu",
       title: "What happens when we walk in the Spirit?",
       subtitle: "To preach to the world like Jesus.",
       lesson: "5.1.d",
@@ -570,12 +596,11 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "As You sent Me into the world, I also have sent them into the world. ",
         },
       ],
-      previous:
-        "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
-      next: "/catechesis/eternal-purpose/to-forgive-like-jesus",
+      previous: "/catequesis/la-vida-en-cristo/por-que-aun-pecamos",
+      next: "/catequesis/la-vida-en-cristo/como-se-camina-en-el-espiritu",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-forgive-like-jesus",
+      pathname: "/catequesis/la-vida-en-cristo/como-se-camina-en-el-espiritu",
       title: "How do we walk in the Spirit?",
       subtitle: "To forgive like Jesus.",
       lesson: "5.1.e",
@@ -588,11 +613,13 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "Bearing with one another, and forgiving one another, if anyone has a complaint against another; even as Christ forgave you, so you also must do.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/to-preach-to-the-world-like-jesus",
-      next: "/catechesis/eternal-purpose/to-love-like-jesus",
+      previous:
+        "/catequesis/la-vida-en-cristo/que-sucede-cuando-andamos-en-el-espiritu",
+      next: "/catequesis/la-vida-en-cristo/cual-es-el-tercer-aspecto-del-pecado",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-love-like-jesus",
+      pathname:
+        "/catequesis/la-vida-en-cristo/cual-es-el-tercer-aspecto-del-pecado",
       title: "What is the third aspect of sin?",
       subtitle: "To love like Jesus.",
       lesson: "5.1.f",
@@ -605,11 +632,12 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "A new commandment I give to you, that you love one another; as I have loved you, that you also love one another.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/to-forgive-like-jesus",
-      next: "/catechesis/eternal-purpose/who-are-the-priests-in-the-church",
+      previous: "/catequesis/la-vida-en-cristo/como-se-camina-en-el-espiritu",
+      next: "/catequesis/la-vida-en-cristo/como-seremos-liberados-de-la-maldad-del-pecado",
     },
     {
-      pathname: "/catechesis/eternal-purpose/who-are-the-priests-in-the-church",
+      pathname:
+        "/catequesis/la-vida-en-cristo/como-seremos-liberados-de-la-maldad-del-pecado",
       title: "How will we be freed from the indwelling of sin?",
       subtitle: "All of the saints are priests.",
       lesson: "6",
@@ -622,14 +650,14 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "But you are a chosen generation, a royal priesthood, a holy nation, His own special people, that you may proclaim the praises of Him who called you out of darkness into His marvelous light.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/to-love-like-jesus",
-      next: "/catechesis/eternal-purpose/who-builds-up-the-body-of-christ",
+      previous:
+        "/catequesis/la-vida-en-cristo/cual-es-el-tercer-aspecto-del-pecado",
+      next: "/catequesis/la-vida-en-cristo/quien-es-jesus-para-nosotros",
     },
   ],
   pt: [
     {
-      pathname:
-        "/catechesis/eternal-purpose/what-was-gods-purpose-when-he-created-man",
+      pathname: "/catequese/a-vida-em-cristo/quem-e-jesus-para-nos",
       title: "Who is Jesus to us?",
       subtitle: "God wanted a family of men in His likeness.",
       lesson: "1",
@@ -643,10 +671,11 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
         },
       ],
       previous: null,
-      next: "/catechesis/eternal-purpose/what-happened-when-man-sinned",
+      next: "/catequese/a-vida-em-cristo/quais-sao-os-tres-aspectos-do-pecado-no-homem",
     },
     {
-      pathname: "/catechesis/eternal-purpose/what-happened-when-man-sinned",
+      pathname:
+        "/catequese/a-vida-em-cristo/quais-sao-os-tres-aspectos-do-pecado-no-homem",
       title: "What are the three aspects of sin in man?",
       subtitle: "Man became worthless for God’s purpose.",
       lesson: "2",
@@ -659,13 +688,12 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "They have all turned aside; they have together become unprofitable; there is none who does good, no, not one.",
         },
       ],
-      previous:
-        "/catechesis/eternal-purpose/what-was-gods-purpose-when-he-created-man",
-      next: "/catechesis/eternal-purpose/did-god-give-up-his-purpose-because-of-sin",
+      previous: "/catequese/a-vida-em-cristo/quem-e-jesus-para-nos",
+      next: "/catequese/a-vida-em-cristo/quais-sao-os-tres-aspectos-da-salvacao-em-cristo",
     },
     {
       pathname:
-        "/catechesis/eternal-purpose/did-god-give-up-his-purpose-because-of-sin",
+        "/catequese/a-vida-em-cristo/quais-sao-os-tres-aspectos-da-salvacao-em-cristo",
       title: "What are the three aspects of salvation in Christ?",
       subtitle: "No, God did not give up His purpose.",
       lesson: "2.1",
@@ -677,12 +705,13 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
           content: "",
         },
       ],
-      previous: "/catechesis/eternal-purpose/what-happened-when-man-sinned",
-      next: "/catechesis/eternal-purpose/if-man-became-worthless-how-does-god-hope-to-achieve-his-purpose",
+      previous:
+        "/catequese/a-vida-em-cristo/quais-sao-os-tres-aspectos-do-pecado-no-homem",
+      next: "/catequese/a-vida-em-cristo/como-deus-ve-os-pecados-dos-homens",
     },
     {
       pathname:
-        "/catechesis/eternal-purpose/if-man-became-worthless-how-does-god-hope-to-achieve-his-purpose",
+        "/catequese/a-vida-em-cristo/como-deus-ve-os-pecados-dos-homens",
       title: "How does God see the sins of men?",
       subtitle:
         "He gives us a new life in Christ. God’s hope is the life of Christ in us.",
@@ -704,12 +733,13 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/did-god-give-up-his-purpose-because-of-sin",
-      next: "/catechesis/eternal-purpose/what-is-gods-purpose-today",
+        "/catequese/a-vida-em-cristo/quais-sao-os-tres-aspectos-da-salvacao-em-cristo",
+      next: "/catequese/a-vida-em-cristo/qual-e-o-primeiro-aspecto-do-pecado",
     },
     {
-      pathname: "/catechesis/eternal-purpose/what-is-gods-purpose-today",
-      title: "What is God’s purpose today?",
+      pathname:
+        "/catequese/a-vida-em-cristo/qual-e-o-primeiro-aspecto-do-pecado",
+      title: "What is the first aspect of sin",
       subtitle: "What is the first aspect of sin?",
       lesson: "4",
       verses: [
@@ -729,12 +759,13 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/if-man-became-worthless-how-does-god-hope-to-achieve-his-purpose",
-      next: "/catechesis/eternal-purpose/why-a-family",
+        "/catequese/a-vida-em-cristo/como-deus-ve-os-pecados-dos-homens",
+      next: "/catequese/a-vida-em-cristo/o-que-nos-libertou-da-condenacao-do-pecado",
     },
     {
-      pathname: "/catechesis/eternal-purpose/why-a-family",
-      title: "Why a family? ",
+      pathname:
+        "/catequese/a-vida-em-cristo/o-que-nos-libertou-da-condenacao-do-pecado",
+      title: "What liberated us from the condemnation of sin?",
       subtitle: "What liberated us from the condemnation of sin?",
       lesson: "4.1",
       verses: [
@@ -745,12 +776,13 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
           content: "",
         },
       ],
-      previous: "/catechesis/he-died-for-our-sins",
-      next: "/catechesis/eternal-purpose/why-many-children",
+      previous:
+        "/catequese/a-vida-em-cristo/qual-e-o-primeiro-aspecto-do-pecado",
+      next: "/catequese/a-vida-em-cristo/como-somos-justificados",
     },
     {
-      pathname: "/catechesis/eternal-purpose/why-many-children",
-      title: "Why many children?",
+      pathname: "/catequese/a-vida-em-cristo/como-somos-justificados",
+      title: "How are we justified?",
       subtitle: "How are we justified?",
       lesson: "4.2",
       verses: [
@@ -761,11 +793,13 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
           content: "",
         },
       ],
-      previous: "/catechesis/eternal-purpose/what-is-gods-purpose-today",
-      next: "/catechesis/eternal-purpose/why-in-jesus-likeness",
+      previous:
+        "/catequese/a-vida-em-cristo/o-que-nos-libertou-da-condenacao-do-pecado",
+      next: "/catequese/a-vida-em-cristo/se-a-justificacao-e-por-fe-podemos-continuar-na-pratica-do-pecado",
     },
     {
-      pathname: "/catechesis/eternal-purpose/why-in-jesus-likeness",
+      pathname:
+        "/catequese/a-vida-em-cristo/se-a-justificacao-e-por-fe-podemos-continuar-na-pratica-do-pecado",
       title:
         "If justification is by faith, can we continue in the practice of sin?",
       subtitle: "Because God wants quality.",
@@ -778,12 +812,12 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
           content: "",
         },
       ],
-      previous: "/catechesis/eternal-purpose/why-many-children",
-      next: "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
+      previous: "/catequese/a-vida-em-cristo/como-somos-justificados",
+      next: "/catequese/a-vida-em-cristo/qual-e-a-chave-para-a-vida-em-abundancia",
     },
     {
       pathname:
-        "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
+        "/catequese/a-vida-em-cristo/qual-e-a-chave-para-a-vida-em-abundancia",
       title: "What is the key for the life in abundance?",
       subtitle:
         "No. Salvation is the way to achieve this purpose. His purpose is that we must be like Jesus.",
@@ -797,11 +831,13 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "He who says he abides in Him ought himself also to walk just as He walked.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/why-in-jesus-likeness",
-      next: "/catechesis/eternal-purpose/in-what-should-we-be-like-jesus",
+      previous:
+        "/catequese/a-vida-em-cristo/se-a-justificacao-e-por-fe-podemos-continuar-na-pratica-do-pecado",
+      next: "/catequese/a-vida-em-cristo/qual-e-o-segundo-aspecto-do-pecado",
     },
     {
-      pathname: "/catechesis/eternal-purpose/in-what-should-we-be-like-jesus",
+      pathname:
+        "/catequese/a-vida-em-cristo/qual-e-o-segundo-aspecto-do-pecado",
       title: "What is the second aspect of sin?",
       subtitle:
         "a - To be meek and humble like Jesus\n\nb - To be holy like Jesus\n\nc - To serve like Jesus\n\nd - To preach to the world like Jesus\n\ne - To forgive like Jesus\n\nf - To love like Jesus",
@@ -815,11 +851,12 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
-      next: "/catechesis/eternal-purpose/to-be-meek-and-humble-like-jesus",
+        "/catequese/a-vida-em-cristo/qual-e-a-chave-para-a-vida-em-abundancia",
+      next: "/catequese/a-vida-em-cristo/o-que-nos-liberta-da-escravidao-do-pecado",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-be-meek-and-humble-like-jesus",
+      pathname:
+        "/catequese/a-vida-em-cristo/o-que-nos-liberta-da-escravidao-do-pecado",
       title: "What liberates us from the slavery of sin?",
       subtitle: "To be meek and humble like Jesus.",
       lesson: "5.1.a",
@@ -833,11 +870,11 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
         },
       ],
       previous:
-        "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
-      next: "/catechesis/eternal-purpose/to-be-holy-like-jesus",
+        "/catequese/a-vida-em-cristo/qual-e-o-segundo-aspecto-do-pecado",
+      next: "/catequese/a-vida-em-cristo/como-esta-vida-se-manifesta",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-be-holy-like-jesus",
+      pathname: "/catequese/a-vida-em-cristo/como-esta-vida-se-manifesta",
       title: "How does this life manifest itself?",
       subtitle: "To be holy like Jesus.",
       lesson: "5.1.b",
@@ -850,11 +887,12 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "But as He who called you is holy, you also be holy in all your conduct.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/to-be-meek-and-humble-like-jesus",
-      next: "/catechesis/eternal-purpose/to-serve-like-jesus",
+      previous:
+        "/catequese/a-vida-em-cristo/o-que-nos-liberta-da-escravidao-do-pecado",
+      next: "/catequese/a-vida-em-cristo/por-que-ainda-pecamos",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-serve-like-jesus",
+      pathname: "/catequese/a-vida-em-cristo/por-que-ainda-pecamos",
       title: "Why do we still sin?",
       subtitle: "To serve like Jesus.",
       lesson: "5.1.c",
@@ -867,11 +905,12 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "If I then, your Lord and Teacher, have washed your feet, you also ought to wash one another’s feet.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/to-be-holy-like-jesus",
-      next: "/catechesis/eternal-purpose/to-preach-to-the-world-like-jesus",
+      previous: "/catequese/a-vida-em-cristo/como-esta-vida-se-manifesta",
+      next: "/catequese/a-vida-em-cristo/o-que-acontece-quando-andamos-no-espirito",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-preach-to-the-world-like-jesus",
+      pathname:
+        "/catequese/a-vida-em-cristo/o-que-acontece-quando-andamos-no-espirito",
       title: "What happens when we walk in the Spirit?",
       subtitle: "To preach to the world like Jesus.",
       lesson: "5.1.d",
@@ -884,12 +923,11 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "As You sent Me into the world, I also have sent them into the world. ",
         },
       ],
-      previous:
-        "/catechesis/eternal-purpose/but-the-purpose-of-god-is-not-man-salvation",
-      next: "/catechesis/eternal-purpose/to-forgive-like-jesus",
+      previous: "/catequese/a-vida-em-cristo/por-que-ainda-pecamos",
+      next: "/catequese/a-vida-em-cristo/como-andamos-no-espirito",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-forgive-like-jesus",
+      pathname: "/catequese/a-vida-em-cristo/como-andamos-no-espirito",
       title: "How do we walk in the Spirit?",
       subtitle: "To forgive like Jesus.",
       lesson: "5.1.e",
@@ -902,11 +940,13 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "Bearing with one another, and forgiving one another, if anyone has a complaint against another; even as Christ forgave you, so you also must do.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/to-preach-to-the-world-like-jesus",
-      next: "/catechesis/eternal-purpose/to-love-like-jesus",
+      previous:
+        "/catequese/a-vida-em-cristo/o-que-acontece-quando-andamos-no-espirito",
+      next: "/catequese/a-vida-em-cristo/qual-e-o-terceiro-aspecto-do-pecado",
     },
     {
-      pathname: "/catechesis/eternal-purpose/to-love-like-jesus",
+      pathname:
+        "/catequese/a-vida-em-cristo/qual-e-o-terceiro-aspecto-do-pecado",
       title: "What is the third aspect of sin?",
       subtitle: "To love like Jesus.",
       lesson: "5.1.f",
@@ -919,11 +959,12 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "A new commandment I give to you, that you love one another; as I have loved you, that you also love one another.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/to-forgive-like-jesus",
-      next: "/catechesis/eternal-purpose/who-are-the-priests-in-the-church",
+      previous: "/catequese/a-vida-em-cristo/como-andamos-no-espirito",
+      next: "/catequese/a-vida-em-cristo/como-seremos-libertados-da-habitacao-do-pecado",
     },
     {
-      pathname: "/catechesis/eternal-purpose/who-are-the-priests-in-the-church",
+      pathname:
+        "/catequese/a-vida-em-cristo/como-seremos-libertados-da-habitacao-do-pecado",
       title: "How will we be freed from the indwelling of sin?",
       subtitle: "All of the saints are priests.",
       lesson: "6",
@@ -936,8 +977,9 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
             "But you are a chosen generation, a royal priesthood, a holy nation, His own special people, that you may proclaim the praises of Him who called you out of darkness into His marvelous light.",
         },
       ],
-      previous: "/catechesis/eternal-purpose/to-love-like-jesus",
-      next: "/catechesis/eternal-purpose/who-builds-up-the-body-of-christ",
+      previous:
+        "/catequese/a-vida-em-cristo/qual-e-o-terceiro-aspecto-do-pecado",
+      next: "/catequese/a-vida-em-cristo/quem-e-jesus-para-nos",
     },
   ],
 };

@@ -16,7 +16,7 @@ const route = getRouteFromUrl(Astro.url);
 const data = THE_LIFE_IN_CHRIST_CATECHESIS[lang].find(
   ({ pathname }) => pathname === route
 );
-console.log(route, data);
+ 
 const t = useTranslations(lang);
 ---
 
