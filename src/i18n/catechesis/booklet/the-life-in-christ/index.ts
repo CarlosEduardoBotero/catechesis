@@ -100,7 +100,7 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
         {
           book: "Rom",
           chapter: "5",
-          verse: "8-9]",
+          verse: "8-9",
           content: "But God demonstrates His own love toward us, in that while we were still sinners, Christ died for us. Much more then, having now been justified by His blood, we shall be saved from wrath through Him.",
         },
       ],
@@ -314,16 +314,16 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
   es: [
     {
       pathname: "/catequesis/la-vida-en-cristo/quien-es-jesus-para-nosotros",
-      title: "Who is Jesus to us?",
-      subtitle: "God wanted a family of men in His likeness.",
+      title: "Quien es  Jesús para nosotros?",
+      subtitle: "Jesús es la propia vida en nosotros.",
       lesson: "1",
       verses: [
         {
-          book: "Genesis",
-          chapter: "1",
-          verse: "26",
+          book: "Jn",
+          chapter: "14",
+          verse: "6",
           content:
-            "Then God said, “Let Us make man in Our image, according to Our likeness[…].”",
+            "Jesús le dijo: Yo soy el camino, y la verdad, y la vida; nadie viene al Padre, sino por mí. ",
         },
       ],
       previous: null,
@@ -332,16 +332,15 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequesis/la-vida-en-cristo/cuales-son-los-tres-aspectos-del-pecado-en-el-hombre",
-      title: "What are the three aspects of sin in man?",
-      subtitle: "Man became worthless for God’s purpose.",
+      title: "Cuáles son los tres aspectos del pecado en el hombre?",
+      subtitle: "Los tres aspectos del pecado en el hombre son: la condenación, la esclavitud y la habitación.",
       lesson: "2",
       verses: [
         {
-          book: "Romans",
-          chapter: "3",
-          verse: "12",
-          content:
-            "They have all turned aside; they have together become unprofitable; there is none who does good, no, not one.",
+          book: "",
+          chapter: "",
+          verse: "",
+          content: "",
         },
       ],
       previous: "/catequesis/la-vida-en-cristo/quien-es-jesus-para-nosotros",
@@ -350,8 +349,8 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequesis/la-vida-en-cristo/cuales-son-los-tres-aspectos-de-la-salvacion-en-cristo",
-      title: "What are the three aspects of salvation in Christ?",
-      subtitle: "No, God did not give up His purpose.",
+      title: "Cuáles son los tres aspectos de la salvación en Cristo?",
+      subtitle: "En Cristo tenemos salvación completa: el perdón, la liberación y la glorificación.",
       lesson: "3",
       verses: [
         {
@@ -368,24 +367,17 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequesis/la-vida-en-cristo/como-ve-dios-los-pecados-de-los-hombres",
-      title: "How does God see the sins of men?",
+      title: "¿Como Dios ve los pecados de los hombres?",
       subtitle:
-        "He gives us a new life in Christ. God’s hope is the life of Christ in us.",
+        "Dios es Santo y Justo, Él ama el pecador, pero abomina el pecado.",
       lesson: "4",
       verses: [
         {
-          book: "2 Corinthians",
-          chapter: "5",
-          verse: "17",
-          content:
-            "Therefore, if anyone is in Christ, he is a new creation; old things have passed away; behold, all things have become new.",
-        },
-        {
-          book: "Colossians",
+          book: "Ro",
           chapter: "1",
-          verse: "27",
+          verse: "8",
           content:
-            "To them God willed to make known what are the riches of the glory of this mystery among the Gentiles: which is Christ in you, the hope of glory.",
+            "Porque la ira de Dios se revela desde el cielo contra toda impiedad e injusticia de los hombres que detienen con injusticia la verdad.",
         },
       ],
       previous:
@@ -395,24 +387,18 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequesis/la-vida-en-cristo/cual-es-el-primer-aspecto-del-pecado",
-      title: "What is the first aspect of sin",
-      subtitle: "What is the first aspect of sin?",
+      title: "¿Cuál es el primero aspecto del pecado?",
+      subtitle: "Todo hombre está condenado al castigo eterno.",
       lesson: "5",
       verses: [
         {
-          book: "Romans",
-          chapter: "8",
-          verse: "28-29",
+          book: "Ro",
+          chapter: "1",
+          verse: "32",
           content:
-            "And we know that all things work together for good to those who love God, to those who are the called according to His purpose. For whom He foreknew, He also predestined to be conformed to the image of His Son, that He might be the firstborn among many brethren.",
+            "Quienes habiendo entendido el juicio de Dios, que los que practican tales cosas son dignos de muerte, no sólo las hacen, sino que también se complacen con los que las practican.",
         },
         {
-          book: "Ephesians",
-          chapter: "4",
-          verse: "13",
-          content:
-            "Till we all come to the unity of the faith and of the knowledge of the Son of God, to a perfect man, to the measure of the stature of the fullness of Christ.",
-        },
       ],
       previous:
         "/catequesis/la-vida-en-cristo/como-ve-dios-los-pecados-de-los-hombres",
@@ -421,15 +407,15 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequesis/la-vida-en-cristo/que-nos-libero-de-la-condenacion-del-pecado",
-      title: "What liberated us from the condemnation of sin?",
-      subtitle: "What liberated us from the condemnation of sin?",
+      title: "Qué nos libertó de la condenación del pecado?",
+      subtitle: "La muerte de Cristo, en nuestro lugar, nos libertó de la condenación. Así somos justificados.",
       lesson: "6",
       verses: [
         {
-          book: "",
-          chapter: "",
-          verse: "",
-          content: "",
+          book: "Ro",
+          chapter: "5",
+          verse: "8-9",
+          content: "Mas Dios muestra su amor para con nosotros, en que siendo aún pecadores, Cristo murió por nosotros. Pues mucho más, estando ya justificados en su sangre, por él seremos salvos de la ira.",
         },
       ],
       previous:
@@ -438,15 +424,15 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     },
     {
       pathname: "/catequesis/la-vida-en-cristo/como-somos-justificados",
-      title: "How are we justified?",
-      subtitle: "How are we justified?",
+      title: "¿Cómo somos justificados?",
+      subtitle: "Somos justificados por la fe, e no por nuestro procedimiento.",
       lesson: "7",
       verses: [
         {
-          book: "",
-          chapter: "",
-          verse: "",
-          content: "",
+          book: "Ro",
+          chapter: "5",
+          verse: "1",
+          content: "Justificados, pues, por la fe, tenemos paz para con Dios por medio de nuestro Señor Jesucristo.",
         },
       ],
       previous:
@@ -457,15 +443,15 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
       pathname:
         "/catequesis/la-vida-en-cristo/si-la-justificacion-es-por-la-fe-podemos-continuar-en-la-practica-del-pecado",
       title:
-        "If justification is by faith, can we continue in the practice of sin?",
-      subtitle: "Because God wants quality.",
+        "¿Si la justificación es por la fe, podemos continuar en la práctica del pecado?",
+      subtitle: "Se alguien vive en práctica del pecado, tiene una fe falsa. La fe que justifica es la misma que santifica.",
       lesson: "8",
       verses: [
         {
-          book: "",
-          chapter: "",
-          verse: "",
-          content: "",
+          book: "Stg",
+          chapter: "2",
+          verse: "17",
+          content: "Así también la fe, si no tiene obras, es muerta en sí misma.",
         },
       ],
       previous: "/catequesis/la-vida-en-cristo/como-somos-justificados",
@@ -474,17 +460,17 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequesis/la-vida-en-cristo/cual-es-la-clave-para-la-vida-en-abundancia",
-      title: "What is the key for the life in abundance?",
+      title: "¿Cuál es la llave para la vida en abundancia?",
       subtitle:
-        "No. Salvation is the way to achieve this purpose. His purpose is that we must be like Jesus.",
+        "La llave da vida en abundancia es vivir por medio de Cristo.",
       lesson: "9",
       verses: [
         {
-          book: "1 John",
-          chapter: "2",
-          verse: "6",
+          book: "1Jn",
+          chapter: "4",
+          verse: "9",
           content:
-            "He who says he abides in Him ought himself also to walk just as He walked.",
+            "En esto se mostró el amor de Dios para con nosotros, en que Dios envió a su Hijo unigénito al mundo, para que vivamos por él.",
         },
       ],
       previous:
@@ -494,16 +480,15 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequesis/la-vida-en-cristo/cual-es-el-segundo-aspecto-del-pecado",
-      title: "What is the second aspect of sin?",
-      subtitle:
-        "a - To be meek and humble like Jesus\n\nb - To be holy like Jesus\n\nc - To serve like Jesus\n\nd - To preach to the world like Jesus\n\ne - To forgive like Jesus\n\nf - To love like Jesus",
+      title: "¿Cuál es el segundo aspecto del pecado?",
+      subtitle: "Todo hombre es esclavo del pecado.",
       lesson: "10",
       verses: [
         {
-          book: "",
-          chapter: "",
-          verse: "",
-          content: "",
+          book: "Jn",
+          chapter: "8",
+          verse: "34",
+          content: "Jesús les respondió: De cierto, de cierto os digo, que todo aquel que hace pecado, esclavo es del pecado.",
         },
       ],
       previous:
@@ -513,16 +498,16 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequesis/la-vida-en-cristo/que-nos-libera-de-la-esclavitud-del-pecado",
-      title: "What liberates us from the slavery of sin?",
-      subtitle: "To be meek and humble like Jesus.",
+      title: "¿Qué nos liberta de la esclavitud del pecado?",
+      subtitle: "La vida de Cristo en nosotros nos liberta de la esclavitud.",
       lesson: "11",
       verses: [
         {
-          book: "Matthew",
-          chapter: "11",
-          verse: "29",
+          book: "Gl",
+          chapter: "2",
+          verse: "20a",
           content:
-            "Take My yoke upon you and learn from Me, for I am gentle and lowly in heart, and you will find rest for your souls.",
+            "Así somos santificados.	Con Cristo estoy juntamente crucificado, y ya no vivo yo, mas vive Cristo en mí …",
         },
       ],
       previous:
@@ -531,16 +516,16 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     },
     {
       pathname: "/catequesis/la-vida-en-cristo/como-se-manifiesta-esta-vida",
-      title: "How does this life manifest itself?",
-      subtitle: "To be holy like Jesus.",
+      title: "¿Cómo se manifiesta esta vida?",
+      subtitle: "Cristo vive en nosotros por la fe. La fe que "recibe - tomando".",
       lesson: "12",
       verses: [
         {
-          book: "1 Peter",
-          chapter: "1",
-          verse: "15",
+          book: "Gl",
+          chapter: "2",
+          verse: "20",
           content:
-            "But as He who called you is holy, you also be holy in all your conduct.",
+            "Con Cristo estoy juntamente crucificado, y ya no vivo yo, mas vive Cristo en mí; y lo que ahora vivo en la carne, lo vivo en la fe del Hijo de Dios, el cual me amó y se entregó a sí mismo por mí.",
         },
       ],
       previous:
@@ -549,16 +534,16 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     },
     {
       pathname: "/catequesis/la-vida-en-cristo/por-que-aun-pecamos",
-      title: "Why do we still sin?",
-      subtitle: "To serve like Jesus.",
+      title: "¿Por qué aún pecamos?",
+      subtitle: "Aún pecamos porque hay un conflicto entre la carne y el Espíritu. Pero tenemos poder para no pecar.",
       lesson: "13",
       verses: [
         {
-          book: "John",
-          chapter: "13",
-          verse: "14",
+          book: "Gl",
+          chapter: "5",
+          verse: "16-17",
           content:
-            "If I then, your Lord and Teacher, have washed your feet, you also ought to wash one another’s feet.",
+            "Digo, pues: Andad en el Espíritu, y no satisfagáis los deseos de la carne. Porque el deseo de la carne es contra el Espíritu, y el del Espíritu es contra la carne; y éstos se oponen entre sí, para que no hagáis lo que quisiereis.",
         },
       ],
       previous: "/catequesis/la-vida-en-cristo/como-se-manifiesta-esta-vida",
@@ -567,16 +552,16 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequesis/la-vida-en-cristo/que-sucede-cuando-andamos-en-el-espiritu",
-      title: "What happens when we walk in the Spirit?",
-      subtitle: "To preach to the world like Jesus.",
+      title: "¿Qué acontece cuando andamos en el Espíritu?",
+      subtitle: "Cuando andamos en el Espíritu, se manifiesta la plenitud de la vida de Cristo en nosotros.",
       lesson: "14",
       verses: [
         {
-          book: "John",
-          chapter: "17",
-          verse: "18",
+          book: "Gl",
+          chapter: "5",
+          verse: "22-23",
           content:
-            "As You sent Me into the world, I also have sent them into the world. ",
+            "Mas el fruto del Espíritu es amor, gozo, paz, paciencia, benignidad, bondad, fe, mansedumbre, templanza; contra tales cosas no hay ley.",
         },
       ],
       previous: "/catequesis/la-vida-en-cristo/por-que-aun-pecamos",
@@ -584,16 +569,16 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     },
     {
       pathname: "/catequesis/la-vida-en-cristo/como-se-camina-en-el-espiritu",
-      title: "How do we walk in the Spirit?",
-      subtitle: "To forgive like Jesus.",
+      title: "¿Cómo andamos en el Espíritu?",
+      subtitle: "Andamos en el Espíritu por medio de la comunión permanente con Dios.",
       lesson: "15",
       verses: [
         {
-          book: "Colossians",
-          chapter: "3",
-          verse: "13",
+          book: "Ef",
+          chapter: "5",
+          verse: "18-21",
           content:
-            "Bearing with one another, and forgiving one another, if anyone has a complaint against another; even as Christ forgave you, so you also must do.",
+            "… sed llenos del Espíritu, hablando entre vosotros con salmos, con himnos y cánticos espirituales, cantando y alabando al Señor en vuestros corazones; dando siempre gracias por todo al Dios y Padre, en el nombre de nuestro Señor Jesucristo. Someteos unos a otros en el temor de Dios.",
         },
       ],
       previous:
@@ -603,16 +588,15 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequesis/la-vida-en-cristo/cual-es-el-tercer-aspecto-del-pecado",
-      title: "What is the third aspect of sin?",
-      subtitle: "To love like Jesus.",
+      title: "¿Cuál es el tercero aspecto del pecado?",
+      subtitle: "El pecado habita en todo hombre.",
       lesson: "16",
       verses: [
         {
-          book: "John",
-          chapter: "13",
-          verse: "34",
-          content:
-            "A new commandment I give to you, that you love one another; as I have loved you, that you also love one another.",
+          book: "",
+          chapter: "",
+          verse: "",
+          content: "",
         },
       ],
       previous: "/catequesis/la-vida-en-cristo/como-se-camina-en-el-espiritu",
@@ -621,16 +605,16 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequesis/la-vida-en-cristo/como-seremos-liberados-de-la-maldad-del-pecado",
-      title: "How will we be freed from the indwelling of sin?",
-      subtitle: "All of the saints are priests.",
+      title: "¿Cómo seremos libertados de la habitación del pecado?",
+      subtitle: "Cuando Jesús volver, recibiremos nuevos cuerpos libres de la presencia del pecado. Así seremos glorificados en Cristo.",
       lesson: "16.1",
       verses: [
         {
-          book: "1 Peter",
-          chapter: "2",
-          verse: "9",
+          book: "Flp",
+          chapter: "3",
+          verse: "20-21",
           content:
-            "But you are a chosen generation, a royal priesthood, a holy nation, His own special people, that you may proclaim the praises of Him who called you out of darkness into His marvelous light.",
+            "Mas nuestra ciudadanía está en los cielos, de donde también esperamos al Salvador, al Señor Jesucristo; el cual transformará el cuerpo de la humillación nuestra, para que sea semejante al cuerpo de la gloria suya, por el poder con el cual puede también sujetar a sí mismo todas las cosas.",
         },
       ],
       previous:
@@ -641,16 +625,16 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
   pt: [
     {
       pathname: "/catequese/a-vida-em-cristo/quem-e-jesus-para-nos",
-      title: "Who is Jesus to us?",
-      subtitle: "God wanted a family of men in His likeness.",
+      title: "Quem é Jesus para nós?",
+      subtitle: "Jesus é a própria vida em nós.",
       lesson: "1",
       verses: [
         {
-          book: "Genesis",
-          chapter: "1",
-          verse: "26",
+          book: "Jo",
+          chapter: "14",
+          verse: "6",
           content:
-            "Then God said, “Let Us make man in Our image, according to Our likeness[…].”",
+            "Respondeu-lhe Jesus: Eu sou o caminho, e a verdade, e a vida; ninguém vem ao Pai senão por mim.",
         },
       ],
       previous: null,
@@ -659,16 +643,15 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequese/a-vida-em-cristo/quais-sao-os-tres-aspectos-do-pecado-no-homem",
-      title: "What are the three aspects of sin in man?",
-      subtitle: "Man became worthless for God’s purpose.",
+      title: "Quais são os três aspectos do pecado no homem?.",
+      subtitle: "Os três aspectos do pecado no homem são: a condenação, a escravidão e a habitação.",
       lesson: "2",
       verses: [
         {
-          book: "Romans",
-          chapter: "3",
-          verse: "12",
-          content:
-            "They have all turned aside; they have together become unprofitable; there is none who does good, no, not one.",
+          book: "",
+          chapter: "",
+          verse: "",
+          content: "",
         },
       ],
       previous: "/catequese/a-vida-em-cristo/quem-e-jesus-para-nos",
@@ -677,8 +660,8 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequese/a-vida-em-cristo/quais-sao-os-tres-aspectos-da-salvacao-em-cristo",
-      title: "What are the three aspects of salvation in Christ?",
-      subtitle: "No, God did not give up His purpose.",
+      title: "Quais são os três aspectos da salvação em Cristo?",
+      subtitle: "Em Cristo temos salvação completa: o perdão, a libertação e a glorificação.",
       lesson: "3",
       verses: [
         {
@@ -695,24 +678,17 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequese/a-vida-em-cristo/como-deus-ve-os-pecados-dos-homens",
-      title: "How does God see the sins of men?",
+      title: "Como Deus vê os pecados dos homens?",
       subtitle:
-        "He gives us a new life in Christ. God’s hope is the life of Christ in us.",
+        "Deus é Santo e Justo, Ele ama o pecador, mas abomina o pecado.",
       lesson: "4",
       verses: [
         {
-          book: "2 Corinthians",
-          chapter: "5",
-          verse: "17",
-          content:
-            "Therefore, if anyone is in Christ, he is a new creation; old things have passed away; behold, all things have become new.",
-        },
-        {
-          book: "Colossians",
+          book: "Ro",
           chapter: "1",
-          verse: "27",
+          verse: "18",
           content:
-            "To them God willed to make known what are the riches of the glory of this mystery among the Gentiles: which is Christ in you, the hope of glory.",
+            "A ira de Deus se revela do céu contra toda impiedade e perversão dos homens que detêm a verdade pela injustiça.",
         },
       ],
       previous:
@@ -722,23 +698,16 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequese/a-vida-em-cristo/qual-e-o-primeiro-aspecto-do-pecado",
-      title: "What is the first aspect of sin",
-      subtitle: "What is the first aspect of sin?",
+      title: "Qual é o primeiro aspecto do pecado?",
+      subtitle: "Todo homem está condenado ao castigo eterno.",
       lesson: "5",
       verses: [
         {
-          book: "Romans",
-          chapter: "8",
-          verse: "28-29",
+          book: "Rm",
+          chapter: "1",
+          verse: "32",
           content:
-            "And we know that all things work together for good to those who love God, to those who are the called according to His purpose. For whom He foreknew, He also predestined to be conformed to the image of His Son, that He might be the firstborn among many brethren.",
-        },
-        {
-          book: "Ephesians",
-          chapter: "4",
-          verse: "13",
-          content:
-            "Till we all come to the unity of the faith and of the knowledge of the Son of God, to a perfect man, to the measure of the stature of the fullness of Christ.",
+            "Ora, conhecendo eles a sentença de Deus, de que são passíveis de morte os que tais coisas praticam, não somente as fazem, mas também aprovam os que assim procedem.",
         },
       ],
       previous:
@@ -748,15 +717,15 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequese/a-vida-em-cristo/o-que-nos-libertou-da-condenacao-do-pecado",
-      title: "What liberated us from the condemnation of sin?",
-      subtitle: "What liberated us from the condemnation of sin?",
+      title: "O que nos libertou dacondenação do pecado?",
+      subtitle: "A morte de Cristo, em nosso lugar, nos libertou da condenação. Assim somos justificados.",
       lesson: "6",
       verses: [
         {
-          book: "",
-          chapter: "",
-          verse: "",
-          content: "",
+          book: "Rm",
+          chapter: "5",
+          verse: "8-9",
+          content: "Mas Deus prova o seu próprio amor para conosco pelo fato de ter Cristo morrido por nós, sendo nós ainda pecadores. Logo, muito mais agora, sendo justificados pelo seu sangue, seremos por ele salvos da ira.",
         },
       ],
       previous:
@@ -765,15 +734,15 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     },
     {
       pathname: "/catequese/a-vida-em-cristo/como-somos-justificados",
-      title: "How are we justified?",
-      subtitle: "How are we justified?",
+      title: "Como somos justificados?",
+      subtitle: "Somos justificados pela fé, e não pelo nosso procedimento.",
       lesson: "7",
       verses: [
         {
-          book: "",
-          chapter: "",
-          verse: "",
-          content: "",
+          book: "Rm",
+          chapter: "5",
+          verse: "1",
+          content: "Justificados, pois, mediante a fé, temos paz com Deus por meio de nosso Senhor Jesus Cristo.",
         },
       ],
       previous:
@@ -784,15 +753,15 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
       pathname:
         "/catequese/a-vida-em-cristo/se-a-justificacao-e-por-fe-podemos-continuar-na-pratica-do-pecado",
       title:
-        "If justification is by faith, can we continue in the practice of sin?",
-      subtitle: "Because God wants quality.",
+        "Se a justificação é pela fé, podemos continuar na prática do pecado?",
+      subtitle: "Se alguém vive na prática do pecado, tem uma fé falsa. A fé que justifica é a mesma que santifica.",
       lesson: "8",
       verses: [
         {
-          book: "",
-          chapter: "",
-          verse: "",
-          content: "",
+          book: "Tg",
+          chapter: "2",
+          verse: "17",
+          content: "Assim, também a fé, se não tiver obras, por si só está morta.",
         },
       ],
       previous: "/catequese/a-vida-em-cristo/como-somos-justificados",
@@ -801,17 +770,17 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequese/a-vida-em-cristo/qual-e-a-chave-para-a-vida-em-abundancia",
-      title: "What is the key for the life in abundance?",
+      title: "Qual é a chave para a vida em abundância?",
       subtitle:
-        "No. Salvation is the way to achieve this purpose. His purpose is that we must be like Jesus.",
+        "A chave da vida em abundância é viver por meio de Cristo.",
       lesson: "9",
       verses: [
         {
-          book: "1 John",
-          chapter: "2",
-          verse: "6",
+          book: "1Jo",
+          chapter: "4",
+          verse: "9",
           content:
-            "He who says he abides in Him ought himself also to walk just as He walked.",
+            "Nisto se manifestou o amor de Deus em nós: em haver Deus enviado o seu Filho unigênito ao mundo, para vivermos por meio dele.",
         },
       ],
       previous:
@@ -821,16 +790,16 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequese/a-vida-em-cristo/qual-e-o-segundo-aspecto-do-pecado",
-      title: "What is the second aspect of sin?",
+      title: "Qual é o segundo aspecto do pecado?",
       subtitle:
-        "a - To be meek and humble like Jesus\n\nb - To be holy like Jesus\n\nc - To serve like Jesus\n\nd - To preach to the world like Jesus\n\ne - To forgive like Jesus\n\nf - To love like Jesus",
+        "Todo homem é escravo do pecado.",
       lesson: "10",
       verses: [
         {
-          book: "",
-          chapter: "",
-          verse: "",
-          content: "",
+          book: "Jo",
+          chapter: "8",
+          verse: "34",
+          content: "Replicou-lhes Jesus: Em verdade, em verdade vos digo: todo o que comete pecado é escravo do pecado.",
         },
       ],
       previous:
@@ -840,16 +809,16 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequese/a-vida-em-cristo/o-que-nos-liberta-da-escravidao-do-pecado",
-      title: "What liberates us from the slavery of sin?",
-      subtitle: "To be meek and humble like Jesus.",
+      title: "O que nos liberta da escravidão do pecado?",
+      subtitle: "A vida de Cristo em nós, nos liberta da escravidão. Assim somos santificados.",
       lesson: "11",
       verses: [
         {
-          book: "Matthew",
-          chapter: "11",
-          verse: "29",
+          book: "Gl",
+          chapter: "2",
+          verse: "20a",
           content:
-            "Take My yoke upon you and learn from Me, for I am gentle and lowly in heart, and you will find rest for your souls.",
+            "Estou crucificado com Cristo, logo já não sou eu quem vive, mas Cristo vive em mim…",
         },
       ],
       previous:
@@ -858,16 +827,16 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     },
     {
       pathname: "/catequese/a-vida-em-cristo/como-esta-vida-se-manifesta",
-      title: "How does this life manifest itself?",
-      subtitle: "To be holy like Jesus.",
+      title: "Como se manifesta essa vida?",
+      subtitle: "Cristo vive em nós pela fé. A fé que “recebe – pegando”.",
       lesson: "12",
       verses: [
         {
-          book: "1 Peter",
-          chapter: "1",
-          verse: "15",
+          book: "Gl",
+          chapter: "2",
+          verse: "20",
           content:
-            "But as He who called you is holy, you also be holy in all your conduct.",
+            "Estou crucificado com Cristo, logo já não sou eu quem vive, mas Cristo vive em mim; e esse viver que, agora tenho na carne, vivo pela fé no Filho de Deus, que me amou e a si mesmo se entregou por mim.",
         },
       ],
       previous:
@@ -876,16 +845,16 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     },
     {
       pathname: "/catequese/a-vida-em-cristo/por-que-ainda-pecamos",
-      title: "Why do we still sin?",
-      subtitle: "To serve like Jesus.",
+      title: "Por que ainda pecamos?",
+      subtitle: "Ainda pecamos porque há um conflito entre a carne e o Espírito. Mas temos poder para não pecar.",
       lesson: "13",
       verses: [
         {
-          book: "John",
-          chapter: "13",
-          verse: "14",
+          book: "Gl",
+          chapter: "5",
+          verse: "16-17",
           content:
-            "If I then, your Lord and Teacher, have washed your feet, you also ought to wash one another’s feet.",
+            "Digo, porém: andai no Espírito e jamais satisfareis à concupiscência da carne. Porque a carne milita contra o Espírito, e o Espírito, contra a carne, porque são opostos entre si; para que não façais o que, porventura, seja do vosso querer.",
         },
       ],
       previous: "/catequese/a-vida-em-cristo/como-esta-vida-se-manifesta",
@@ -894,16 +863,16 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequese/a-vida-em-cristo/o-que-acontece-quando-andamos-no-espirito",
-      title: "What happens when we walk in the Spirit?",
-      subtitle: "To preach to the world like Jesus.",
+      title: "O que acontece quando andamos no Espírito?",
+      subtitle: "Quando andamos no Espírito, manifesta-se a plenitude da vida de Cristo em nós.",
       lesson: "14",
       verses: [
         {
-          book: "John",
-          chapter: "17",
-          verse: "18",
+          book: "Gl",
+          chapter: "5",
+          verse: "22-23",
           content:
-            "As You sent Me into the world, I also have sent them into the world. ",
+            "Mas o fruto do Espírito é: amor, alegria, paz, longanimidade, benignidade, bondade, fidelidade,  mansidão, domínio próprio. Contra estas coisas não há lei.",
         },
       ],
       previous: "/catequese/a-vida-em-cristo/por-que-ainda-pecamos",
@@ -911,16 +880,16 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     },
     {
       pathname: "/catequese/a-vida-em-cristo/como-andamos-no-espirito",
-      title: "How do we walk in the Spirit?",
-      subtitle: "To forgive like Jesus.",
+      title: "Como andamos no Espírito?",
+      subtitle: "Andamos no Espírito por meio da comunhão permanente com Deus.",
       lesson: "15",
       verses: [
         {
-          book: "Colossians",
-          chapter: "3",
-          verse: "13",
+          book: "Ef",
+          chapter: "5",
+          verse: "18-21",
           content:
-            "Bearing with one another, and forgiving one another, if anyone has a complaint against another; even as Christ forgave you, so you also must do.",
+            "... enchei-vos do Espírito, falando entre vós com salmos, entoando e louvando de coração ao Senhor com hinos e cânticos espirituais,  dando sempre graças por tudo a nosso Deus e Pai, em nome de nosso Senhor Jesus Cristo, sujeitando-vos uns aos outros no temor de Cristo.",
         },
       ],
       previous:
@@ -930,16 +899,16 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequese/a-vida-em-cristo/qual-e-o-terceiro-aspecto-do-pecado",
-      title: "What is the third aspect of sin?",
-      subtitle: "To love like Jesus.",
+      title: "Qual é o terceiro aspecto do pecado?",
+      subtitle: "O pecado habita em todo homem.",
       lesson: "16",
       verses: [
         {
-          book: "John",
-          chapter: "13",
-          verse: "34",
+          book: "Fp",
+          chapter: "3",
+          verse: "20-21",
           content:
-            "A new commandment I give to you, that you love one another; as I have loved you, that you also love one another.",
+            "Pois a nossa pátria está nos céus, de onde também aguardamos o Salvador, o Senhor Jesus Cristo, o qual transformará o nosso corpo de humilhação, para ser igual ao corpo da sua glória, segundo a eficácia do poder que ele tem de até subordinar a si todas as coisas.",
         },
       ],
       previous: "/catequese/a-vida-em-cristo/como-andamos-no-espirito",
@@ -948,16 +917,16 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname:
         "/catequese/a-vida-em-cristo/como-seremos-libertados-da-habitacao-do-pecado",
-      title: "How will we be freed from the indwelling of sin?",
-      subtitle: "All of the saints are priests.",
+      title: "Como seremos libertados da habitação do pecado?",
+      subtitle: "Quando Jesus voltar, receberemos novos corpos livres da presença do pecado. Assim seremos glorificados em Cristo.",
       lesson: "16.1",
       verses: [
         {
-          book: "1 Peter",
-          chapter: "2",
-          verse: "9",
+          book: "Fp",
+          chapter: "3",
+          verse: "20-21",
           content:
-            "But you are a chosen generation, a royal priesthood, a holy nation, His own special people, that you may proclaim the praises of Him who called you out of darkness into His marvelous light.",
+            "Pois a nossa pátria está nos céus, de onde também aguardamos o Salvador, o Senhor Jesus Cristo, o qual transformará o nosso corpo de humilhação, para ser igual ao corpo da sua glória, segundo a eficácia do poder que ele tem de até subordinar a si todas as coisas.",
         },
       ],
       previous:
