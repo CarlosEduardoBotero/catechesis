@@ -398,7 +398,6 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
           content:
             "Quienes habiendo entendido el juicio de Dios, que los que practican tales cosas son dignos de muerte, no sólo las hacen, sino que también se complacen con los que las practican.",
         },
-        {
       ],
       previous:
         "/catequesis/la-vida-en-cristo/como-ve-dios-los-pecados-de-los-hombres",
