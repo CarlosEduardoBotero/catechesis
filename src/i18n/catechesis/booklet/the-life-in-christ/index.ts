@@ -516,7 +516,7 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname: "/catequesis/la-vida-en-cristo/como-se-manifiesta-esta-vida",
       title: "¿Cómo se manifiesta esta vida?",
-      subtitle: "Cristo vive en nosotros por la fe. La fe que "recibe - tomando".",
+      subtitle: "Cristo vive en nosotros por la fe. La fe que 'recibe - tomando'.",
       lesson: "12",
       verses: [
         {
@@ -827,7 +827,7 @@ export const THE_LIFE_IN_CHRIST_CATECHESIS = {
     {
       pathname: "/catequese/a-vida-em-cristo/como-esta-vida-se-manifesta",
       title: "Como se manifesta essa vida?",
-      subtitle: "Cristo vive em nós pela fé. A fé que “recebe – pegando”.",
+      subtitle: "Cristo vive em nós pela fé. A fé que 'recebe – pegando'.",
       lesson: "12",
       verses: [
         {
