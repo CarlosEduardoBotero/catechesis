@@ -17,13 +17,13 @@ const { previousLink, nextLink } = Astro.props;
   {
     previousLink ? (
       <a
-        class="py-8 pr-20 pl-6 md:mr-auto capitalize flex items-center gap-6 hover:bg-sky-100 rounded-md"
+        class="py-8 pr-20 pl-6 md:mr-auto capitalize flex items-center gap-6 group hover:bg-sky-100 rounded-md"
         href={translatePath(previousLink)}
       >
         <Fragment set:html={LeftChevron} />
         <div class="flex flex-col gap-2">
           <p class="font-semibold text-gray-500">{t("previous")}</p>
-          <p class="text-lg font-semibold text-gray-700">
+          <p class="text-lg font-semibold text-gray-700 group-hover:text-blue-600">
             {previousLink.split("/").at(-1).replace(/-/g, " ")}
           </p>
         </div>
@@ -33,12 +33,12 @@ const { previousLink, nextLink } = Astro.props;
   {
     nextLink ? (
       <a
-        class="py-8 pl-20 pr-6 md:ml-auto capitalize flex items-center gap-6 hover:bg-sky-100 rounded-md justify-end"
+        class="py-8 pl-20 pr-6 md:ml-auto capitalize flex items-center gap-6 group hover:bg-sky-100 rounded-md justify-end"
         href={translatePath(nextLink)}
       >
         <div class="flex flex-col gap-2">
           <p class="font-semibold text-gray-500 self-end">{t("next")}</p>
-          <p class="text-lg font-semibold text-gray-700 text-right">
+          <p class="text-lg font-semibold text-gray-700 text-right group-hover:text-blue-600">
             {nextLink.split("/").at(-1).replace(/-/g, " ")}
           </p>
         </div>
