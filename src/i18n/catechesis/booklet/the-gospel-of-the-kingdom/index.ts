@@ -1,10 +1,11 @@
 export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
   en: [
-    { 
+    {
       pathname:
         "/catechesis/the-gospel-of-the-kingdom/what-is-the-only-preaching-that-makes-disciples",
       title: "What is the only preaching that makes disciples?",
-      subtitle: "The only preaching that makes disciples is the preaching of the gospel of the kingdom.",
+      subtitle:
+        "The only preaching that makes disciples is the preaching of the gospel of the kingdom.",
       lesson: "1",
       verses: [
         {
@@ -30,7 +31,8 @@ export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
           book: "Rom",
           chapter: "10",
           verse: "9",
-          content: "That if you confess with your mouth the Lord Jesus and believe in your heart that God has raised Him from the dead, you will be saved.",
+          content:
+            "That if you confess with your mouth the Lord Jesus and believe in your heart that God has raised Him from the dead, you will be saved.",
         },
       ],
       previous:
@@ -49,7 +51,8 @@ export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
           book: "Mat",
           chapter: "6",
           verse: "33",
-          content: "But seek first the kingdom of God and His righteousness, and all these things shall be added to you.",
+          content:
+            "But seek first the kingdom of God and His righteousness, and all these things shall be added to you.",
         },
       ],
       previous:
@@ -78,10 +81,11 @@ export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
   ],
   es: [
     {
-     pathname:
+      pathname:
         "/catequesis/el-evangelio-del-reino/cual-es-la-unica-predicacion-que-hace-discipulos",
       title: "¿Cuál es la única predicación que forma discípulos?",
-      subtitle: "La única predicación que forma discípulos es la predicación del Evangelio del Reino.",
+      subtitle:
+        "La única predicación que forma discípulos es la predicación del Evangelio del Reino.",
       lesson: "1",
       verses: [
         {
@@ -107,7 +111,8 @@ export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
           book: "Ro",
           chapter: "10",
           verse: "9",
-          content: "Que si confesares con tu boca que Jesús es el Señor, y creyeres en tu corazón que Dios le levantó de los muertos, serás salvo.",
+          content:
+            "Que si confesares con tu boca que Jesús es el Señor, y creyeres en tu corazón que Dios le levantó de los muertos, serás salvo.",
         },
       ],
       previous:
@@ -126,7 +131,8 @@ export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
           book: "Mat",
           chapter: "6",
           verse: "33",
-          content: "Mas buscad primeramente el reino de Dios y su justicia, y todas estas cosas os serán añadidas.",
+          content:
+            "Mas buscad primeramente el reino de Dios y su justicia, y todas estas cosas os serán añadidas.",
         },
       ],
       previous:
@@ -158,7 +164,8 @@ export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
       pathname:
         "/catequese/o-evangelho-do-reino/qual-e-a-unica-pregacao-que-faz-discipulos",
       title: "Qual é a única pregação que forma discípulos?",
-      subtitle: "A única pregação que forma discípulos é a pregação do Evangelho do Reino.",
+      subtitle:
+        "A única pregação que forma discípulos é a pregação do Evangelho do Reino.",
       lesson: "1",
       verses: [
         {
@@ -184,7 +191,8 @@ export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
           book: "Rom",
           chapter: "10",
           verse: "9",
-          content: "Se, com a tua boca, confessares Jesus como Senhor e, em teu cora-ção, creres que Deus o ressuscitou dentre os mortos, serás salvo.",
+          content:
+            "Se, com a tua boca, confessares Jesus como Senhor e, em teu cora-ção, creres que Deus o ressuscitou dentre os mortos, serás salvo.",
         },
       ],
       previous:
@@ -194,8 +202,7 @@ export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
     {
       pathname:
         "/catequese/o-evangelho-do-reino/o-que-um-discipulo-deve-buscar-primeiro-acima-de-todas-as-coisas",
-      title:
-        "O que um discípulo busca em primeiro lugar?",
+      title: "O que um discípulo busca em primeiro lugar?",
       subtitle:
         "Um Discípulo busca em primeiro lugar agradar ao seu Senhor, e não a sua própria felicidade.",
       lesson: "3",
@@ -204,7 +211,8 @@ export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
           book: "Mt",
           chapter: "6",
           verse: "33",
-          content: "Buscai, pois, em primeiro lugar, o seu reino e a sua justiça, e todas estas coisas vos serão acrescentadas.",
+          content:
+            "Buscai, pois, em primeiro lugar, o seu reino e a sua justiça, e todas estas coisas vos serão acrescentadas.",
         },
       ],
       previous:
@@ -212,7 +220,7 @@ export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
       next: "/catequese/o-evangelho-do-reino/o-que-e-um-discipulo",
     },
     {
-     pathname: "/catequese/o-evangelho-do-reino/o-que-e-um-discipulo",
+      pathname: "/catequese/o-evangelho-do-reino/o-que-e-um-discipulo",
       title: "O que é um discípulo?",
       subtitle:
         "Um discípulo é alguém que crê em tudo que Cristo diz e faz tudo o que Cristo manda.",

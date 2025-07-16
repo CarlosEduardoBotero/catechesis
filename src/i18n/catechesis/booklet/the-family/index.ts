@@ -3,7 +3,8 @@ export const THE_FAMILY_CATECHESIS = {
     {
       pathname: "/catechesis/the-family/what-is-the-purpose-of-the-family",
       title: "What is the purpose of the family?",
-      subtitle: "The family was created by God to cooperate with His Eternal Purpose.",
+      subtitle:
+        "The family was created by God to cooperate with His Eternal Purpose.",
       lesson: "1",
       verses: [
         {
@@ -20,15 +21,15 @@ export const THE_FAMILY_CATECHESIS = {
     {
       pathname: "/catechesis/the-family/who-unites-husband-and-wife",
       title: "Who unites husband and wife?",
-      subtitle:
-        "The union of marriage is made by God and is for a lifetime.",
+      subtitle: "The union of marriage is made by God and is for a lifetime.",
       lesson: "2",
       verses: [
         {
           book: "Mar",
           chapter: "10",
           verse: "7-9",
-          content: "For this reason a man shall leave his father and mother and be joined to his wife, and the two shall become one flesh’; so then they are no longer two, but one flesh. Therefore what God has joined together, let not man separate.",
+          content:
+            "For this reason a man shall leave his father and mother and be joined to his wife, and the two shall become one flesh’; so then they are no longer two, but one flesh. Therefore what God has joined together, let not man separate.",
         },
       ],
       previous: "/catechesis/the-family/what-is-the-purpose-of-the-family",
@@ -38,15 +39,15 @@ export const THE_FAMILY_CATECHESIS = {
       pathname:
         "/catechesis/the-family/what-are-the-roles-of-the-husband-and-of-the-wife",
       title: "What are the roles of the husband and of the wife?",
-      subtitle:
-        "The man is the head of the woman and the wife is his helper.",
+      subtitle: "The man is the head of the woman and the wife is his helper.",
       lesson: "3",
       verses: [
         {
           book: "1Co",
           chapter: "11",
           verse: "3",
-          content: "But I want you to know that the head of every man is Christ, the head of woman is man, and the head of Christ is God.",
+          content:
+            "But I want you to know that the head of every man is Christ, the head of woman is man, and the head of Christ is God.",
         },
         {
           book: "Gen",
@@ -82,7 +83,8 @@ export const THE_FAMILY_CATECHESIS = {
       pathname:
         "/catechesis/the-family/what-is-the-command-of-god-for-the-husband",
       title: "What is the command of God for the husband?",
-      subtitle: "The husband must love his wife as Christ loved the church, treat her with dignity and not harshly.",
+      subtitle:
+        "The husband must love his wife as Christ loved the church, treat her with dignity and not harshly.",
       lesson: "5",
       verses: [
         {
@@ -107,8 +109,7 @@ export const THE_FAMILY_CATECHESIS = {
       pathname:
         "/catechesis/the-family/what-is-necessary-for-good-communication",
       title: "What is necessary for good communication?",
-      subtitle:
-        "It is necessary to listen with patience and speak in love.",
+      subtitle: "It is necessary to listen with patience and speak in love.",
       lesson: "6",
       verses: [
         {
@@ -133,7 +134,8 @@ export const THE_FAMILY_CATECHESIS = {
     {
       pathname: "/catechesis/the-family/what-is-the-purpose-of-sexual-intimacy",
       title: "What is the purpose of sexual intimacy?",
-      subtitle: "Sexual intimacy was created for procreation and pleasure of the couple. And each one must seek the satisfaction of the other.",
+      subtitle:
+        "Sexual intimacy was created for procreation and pleasure of the couple. And each one must seek the satisfaction of the other.",
       lesson: "7",
       verses: [
         {
@@ -239,8 +241,7 @@ export const THE_FAMILY_CATECHESIS = {
       pathname:
         "/catechesis/the-family/what-does-god-expect-from-children-in-relation-to-their-parents",
       title: "What does God expect from children in relation to their parents?",
-      subtitle:
-        "That the children obey and honor their parents.",
+      subtitle: "That the children obey and honor their parents.",
       lesson: "13",
       verses: [
         {
@@ -248,7 +249,7 @@ export const THE_FAMILY_CATECHESIS = {
           chapter: "6",
           verse: "1-3",
           content:
-            "Children, obey your parents in the Lord, for this is right. “Honor your father and mother,” which is the first commandment with promise: “that it may be well with you and you may live long on the earth."",
+            "Children, obey your parents in the Lord, for this is right. “Honor your father and mother,” which is the first commandment with promise: “that it may be well with you and you may live long on the earth.",
         },
       ],
       previous: "/catechesis/the-family/what-do-adolescent-children-need",
@@ -258,8 +259,7 @@ export const THE_FAMILY_CATECHESIS = {
       pathname:
         "/catechesis/the-family/what-is-the-will-of-god-for-the-relationship-of-the-single",
       title: "What is the will of God for the relationship of the single?",
-      subtitle:
-        "To develop good friendships with holiness and purity.",
+      subtitle: "To develop good friendships with holiness and purity.",
       lesson: "14",
       verses: [
         {
@@ -279,7 +279,8 @@ export const THE_FAMILY_CATECHESIS = {
         "/catechesis/the-family/what-principles-are-involved-in-the-relationship-of-the-committed",
       title:
         "What principles are involved in the relationship of the committed?",
-      subtitle: "The relationship of engagement involves two principles: the commitment to marriage and holiness.",
+      subtitle:
+        "The relationship of engagement involves two principles: the commitment to marriage and holiness.",
       lesson: "15",
       verses: [
         {
@@ -297,7 +298,8 @@ export const THE_FAMILY_CATECHESIS = {
     {
       pathname: "/catechesis/the-family/what-should-parents-do-as-priests",
       title: "What should parents do as priests?",
-      subtitle: "Parents should speak of the children to the Lord and speak of the Lord to the children.",
+      subtitle:
+        "Parents should speak of the children to the Lord and speak of the Lord to the children.",
       lesson: "16",
       verses: [
         {
@@ -356,7 +358,8 @@ export const THE_FAMILY_CATECHESIS = {
     {
       pathname: "/catequesis/la-familia/cual-es-el-proposito-de-la-familia",
       title: "¿Cuál es el propósito de la familia?",
-      subtitle: "La familia fue creada por Dios para cooperar con su Propósito Eterno.",
+      subtitle:
+        "La familia fue creada por Dios para cooperar con su Propósito Eterno.",
       lesson: "1",
       verses: [
         {
@@ -381,7 +384,8 @@ export const THE_FAMILY_CATECHESIS = {
           book: "Mt",
           chapter: "10",
           verse: "7-9",
-          content: "Por esto dejará el hombre a su padre y a su madre, y se unirá a su mujer, y los dos serán una sola carne; así que no son ya más dos, sino uno. Por tanto, lo que Dios juntó, no lo separe el hombre.",
+          content:
+            "Por esto dejará el hombre a su padre y a su madre, y se unirá a su mujer, y los dos serán una sola carne; así que no son ya más dos, sino uno. Por tanto, lo que Dios juntó, no lo separe el hombre.",
         },
       ],
       previous: "/catequesis/la-familia/cual-es-el-proposito-de-la-familia",
@@ -399,7 +403,8 @@ export const THE_FAMILY_CATECHESIS = {
           book: "1Co",
           chapter: "11",
           verse: "3",
-          content: "Pero quiero que sepáis que Cristo es la cabeza de todo varón, y el varón es la cabeza de la mujer, y Dios la cabeza de Cristo.",
+          content:
+            "Pero quiero que sepáis que Cristo es la cabeza de todo varón, y el varón es la cabeza de la mujer, y Dios la cabeza de Cristo.",
         },
         {
           book: "Gn",
@@ -436,15 +441,16 @@ export const THE_FAMILY_CATECHESIS = {
       pathname:
         "/catequesis/la-familia/cual-es-el-mandato-de-dios-para-el-esposo",
       title: "¿Cuál es la orden de Dios para el esposo?",
-      subtitle: "El esposo debe amar a su esposa como Cristo amo a la Iglesia, tratarla con dignidad y no duramente.	",
+      subtitle:
+        "El esposo debe amar a su esposa como Cristo amo a la Iglesia, tratarla con dignidad y no duramente.	",
       lesson: "5",
       verses: [
-        {
         {
           book: "Ef",
           chapter: "5",
           verse: "25",
-          content: "Maridos, amad a vuestras mujeres, así como Cristo amó a la iglesia, y se entregó a sí mismo por ella.",
+          content:
+            "Maridos, amad a vuestras mujeres, así como Cristo amó a la iglesia, y se entregó a sí mismo por ella.",
         },
         {
           book: "Cl",
@@ -462,16 +468,15 @@ export const THE_FAMILY_CATECHESIS = {
       pathname:
         "/catequesis/la-familia/que-es-necesario-para-una-buena-comunicacion",
       title: "¿Qué es necesario para una buena comunicación?",
-      subtitle:
-        "Es necesario oír con paciencia y hablar en amor.",
+      subtitle: "Es necesario oír con paciencia y hablar en amor.",
       lesson: "6",
       verses: [
-        {
         {
           book: "Stg",
           chapter: "1",
           verse: "19",
-          content: "Todo hombre sea pronto para oír, tardo para hablar, tardo para airarse.",
+          content:
+            "Todo hombre sea pronto para oír, tardo para hablar, tardo para airarse.",
         },
         {
           book: "Ef",
@@ -489,7 +494,8 @@ export const THE_FAMILY_CATECHESIS = {
       pathname:
         "/catequesis/la-familia/cual-es-el-proposito-de-la-intimidad-sexual",
       title: "¿Cuál es el propósito de la intimidad sexual?",
-      subtitle: "La intimidad sexual fue creada para la procreación y placer del matrimonio. Y cada uno debe procurar la satisfacción del otro.",
+      subtitle:
+        "La intimidad sexual fue creada para la procreación y placer del matrimonio. Y cada uno debe procurar la satisfacción del otro.",
       lesson: "7",
       verses: [
         {
@@ -533,8 +539,7 @@ export const THE_FAMILY_CATECHESIS = {
           book: "",
           chapter: "",
           verse: "",
-          content:
-            "",
+          content: "",
         },
       ],
       previous: "/catequesis/la-familia/que-implica-criar-a-los-hijos",
@@ -543,7 +548,8 @@ export const THE_FAMILY_CATECHESIS = {
     {
       pathname: "/catequesis/la-familia/que-produce-la-instruccion",
       title: "¿Qué produce la instrucción?",
-      subtitle: "La instrucción llevará a los hijos a conocer a Dios y su voluntad.",
+      subtitle:
+        "La instrucción llevará a los hijos a conocer a Dios y su voluntad.",
       lesson: "10",
       verses: [
         {
@@ -558,7 +564,7 @@ export const THE_FAMILY_CATECHESIS = {
       next: "/catequesis/la-familia/cuales-son-los-frutos-de-la-disciplina",
     },
     {
-     pathname: "/catequesis/la-familia/cuales-son-los-frutos-de-la-disciplina",
+      pathname: "/catequesis/la-familia/cuales-son-los-frutos-de-la-disciplina",
       title: "¿Cuáles son los frutos de la disciplina?",
       subtitle:
         "La disciplina da sabiduría, quita la necedad, conduce a la obediencia y libra de la muerte.",
@@ -576,7 +582,7 @@ export const THE_FAMILY_CATECHESIS = {
       next: "/catequesis/la-familia/que-necesitan-los-hijos-adolescentes",
     },
     {
-     pathname: "/catequesis/la-familia/que-necesitan-los-hijos-adolescentes",
+      pathname: "/catequesis/la-familia/que-necesitan-los-hijos-adolescentes",
       title: "¿Qué necesitan los hijos adolescentes?",
       subtitle:
         "Los hijos adolescentes necesitan dirección, firmeza, amistad y cariño de los padres.",
@@ -596,9 +602,9 @@ export const THE_FAMILY_CATECHESIS = {
     {
       pathname:
         "/catequesis/la-familia/que-espera-dios-de-los-hijos-en-relacion-con-sus-padres",
-      title: "¿Qué es lo que Dios espera de los hijos en relación a los padres?",
-      subtitle:
-        "Que los hijos obedezcan y honren a sus padres.",
+      title:
+        "¿Qué es lo que Dios espera de los hijos en relación a los padres?",
+      subtitle: "Que los hijos obedezcan y honren a sus padres.",
       lesson: "13",
       verses: [
         {
@@ -616,8 +622,7 @@ export const THE_FAMILY_CATECHESIS = {
       pathname:
         "/catequesis/la-familia/cual-es-la-voluntad-de-dios-para-la-relacion-de-los-solteros",
       title: "¿Cuál la voluntad de Dios para la relación de los solteros?",
-      subtitle:
-        "Que desenvuelven buenas amistades con santidad y pureza.",
+      subtitle: "Que desenvuelven buenas amistades con santidad y pureza.",
       lesson: "14",
       verses: [
         {
@@ -637,7 +642,8 @@ export const THE_FAMILY_CATECHESIS = {
         "/catequesis/la-familia/que-principios-estan-involucrados-en-la-relacion-de-los-comprometidos",
       title:
         "¿Qué principios están involucrados en la relación de los comprometidos?",
-      subtitle: "La relación de los comprometidos involucra dos principios: el compromiso para el matrimonio y la santidad.",
+      subtitle:
+        "La relación de los comprometidos involucra dos principios: el compromiso para el matrimonio y la santidad.",
       lesson: "15",
       verses: [
         {
@@ -656,7 +662,8 @@ export const THE_FAMILY_CATECHESIS = {
       pathname:
         "/catequesis/la-familia/que-deben-hacer-los-padres-como-sacerdotes",
       title: "¿Qué deben hacer los padres como sacerdotes?",
-      subtitle: "Los padres deben hablar de los hijos al Señor, y hablar del Señor a los hijos.",
+      subtitle:
+        "Los padres deben hablar de los hijos al Señor, y hablar del Señor a los hijos.",
       lesson: "16",
       verses: [
         {
@@ -716,7 +723,8 @@ export const THE_FAMILY_CATECHESIS = {
     {
       pathname: "/catequese/a-familia/qual-e-o-proposito-da-familia",
       title: "Qual é o propósito da família?",
-      subtitle: "A família foi criada por Deus para cooperar com o seu Propósito Eterno.",
+      subtitle:
+        "A família foi criada por Deus para cooperar com o seu Propósito Eterno.",
       lesson: "1",
       verses: [
         {
@@ -733,15 +741,15 @@ export const THE_FAMILY_CATECHESIS = {
     {
       pathname: "/catequese/a-familia/quem-une-o-marido-e-a-esposa",
       title: "Quem une marido e mulher?",
-      subtitle:
-        "A união do casamento é feita por Deus e é por toda a vida.",
+      subtitle: "A união do casamento é feita por Deus e é por toda a vida.",
       lesson: "2",
       verses: [
         {
           book: "Mc",
           chapter: "10",
           verse: "7-9",
-          content: "Por isso deixará o homem  a seu pai e a sua mãe, e se unir-se-á a sua mulher, e  serão os dois uma só carne. De modo que já não são mais dois, mas uma só carne. Portanto o que Deus ajuntou não o separe o homem.",
+          content:
+            "Por isso deixará o homem  a seu pai e a sua mãe, e se unir-se-á a sua mulher, e  serão os dois uma só carne. De modo que já não são mais dois, mas uma só carne. Portanto o que Deus ajuntou não o separe o homem.",
         },
       ],
       previous: "/catequese/a-familia/qual-e-o-proposito-da-familia",
@@ -759,7 +767,8 @@ export const THE_FAMILY_CATECHESIS = {
           book: "1Co",
           chapter: "11",
           verse: "3",
-          content: "Quero, entretanto, que saibais ser Cristo o cabeça de todo homem, e o homem o cabeça da mulher, e Deus o cabeça de Cristo.",
+          content:
+            "Quero, entretanto, que saibais ser Cristo o cabeça de todo homem, e o homem o cabeça da mulher, e Deus o cabeça de Cristo.",
         },
         {
           book: "Gn",
@@ -795,21 +804,22 @@ export const THE_FAMILY_CATECHESIS = {
       pathname:
         "/catequese/a-familia/qual-e-o-mandamento-de-deus-para-o-marido",
       title: "Qual a ordem de Deus para o marido?",
-      subtitle: "O marido deve amar a esposa, como Cristo amou a igreja, tratá-la com dignidade e não asperamente.",
+      subtitle:
+        "O marido deve amar a esposa, como Cristo amou a igreja, tratá-la com dignidade e não asperamente.",
       lesson: "5",
       verses: [
         {
           book: "Ef",
           chapter: "5",
           verse: "25",
-          content: "Maridos, amai vossa mulher, como também Cristo amou a igreja e a si mesmo se entregou por ela.",
+          content:
+            "Maridos, amai vossa mulher, como também Cristo amou a igreja e a si mesmo se entregou por ela.",
         },
         {
           book: "Cl",
           chapter: "3",
           verse: "19",
-          content:
-            "Maridos, amai vossa esposa e não a trateis asperamente.",
+          content: "Maridos, amai vossa esposa e não a trateis asperamente.",
         },
       ],
       previous: "/catequese/a-familia/qual-e-a-ordem-de-deus-para-a-esposa",
@@ -819,8 +829,7 @@ export const THE_FAMILY_CATECHESIS = {
       pathname:
         "/catequese/a-familia/o-que-e-necessario-para-uma-boa-comunicacao",
       title: "O que é necessário para uma boa comunicação?",
-      subtitle:
-        "É necessário ouvir com paciência e falar em amor.",
+      subtitle: "É necessário ouvir com paciência e falar em amor.",
       lesson: "6",
       verses: [
         {
@@ -844,7 +853,8 @@ export const THE_FAMILY_CATECHESIS = {
     {
       pathname: "/catequese/a-familia/qual-e-o-proposito-da-intimidade-sexual",
       title: "Qual o propósito da intimidade sexual?",
-      subtitle: "A intimidade sexual foi criada para procriação e prazer do casal. E cada um deve procurar a satisfação do outro.",
+      subtitle:
+        "A intimidade sexual foi criada para procriação e prazer do casal. E cada um deve procurar a satisfação do outro.",
       lesson: "7",
       verses: [
         {
@@ -888,8 +898,7 @@ export const THE_FAMILY_CATECHESIS = {
           book: "1Jn",
           chapter: "4",
           verse: "9",
-          content:
-            "",
+          content: "",
         },
       ],
       previous:
@@ -899,7 +908,8 @@ export const THE_FAMILY_CATECHESIS = {
     {
       pathname: "/catequese/a-familia/o-que-a-instrucao-produz",
       title: "O que a instrução produz?",
-      subtitle: "A instrução levará os filhos a conhecerem a Deus e Sua vontade.",
+      subtitle:
+        "A instrução levará os filhos a conhecerem a Deus e Sua vontade.",
       lesson: "10",
       verses: [
         {
@@ -953,8 +963,7 @@ export const THE_FAMILY_CATECHESIS = {
       pathname:
         "/catequese/a-familia/o-que-deus-espera-dos-filhos-em-relacao-aos-pais",
       title: "O que Deus espera dos filhos em relação aos pais?",
-      subtitle:
-        "Que os filhos obedeçam e honrem aos seus pais.",
+      subtitle: "Que os filhos obedeçam e honrem aos seus pais.",
       lesson: "13",
       verses: [
         {
@@ -972,8 +981,7 @@ export const THE_FAMILY_CATECHESIS = {
       pathname:
         "/catequese/a-familia/qual-e-a-vontade-de-deus-para-o-relacionamento-dos-solteiros",
       title: "Qual a vontade de Deus para o relacionamento dos solteiros?",
-      subtitle:
-        "Que desenvolvam boas amizades com santidade e pureza.",
+      subtitle: "Que desenvolvam boas amizades com santidade e pureza.",
       lesson: "14",
       verses: [
         {
@@ -991,9 +999,9 @@ export const THE_FAMILY_CATECHESIS = {
     {
       pathname:
         "/catequese/a-familia/quais-principios-estao-envolvidos-no-relacionamento-dos-comprometidos",
-      title:
-        "Que princípios o relacionamento dos comprometidos envolve?",
-      subtitle: "O relacionamento dos comprometidos envolve dois princípios: O compromisso para o casamento e a santidade.",
+      title: "Que princípios o relacionamento dos comprometidos envolve?",
+      subtitle:
+        "O relacionamento dos comprometidos envolve dois princípios: O compromisso para o casamento e a santidade.",
       lesson: "15",
       verses: [
         {
@@ -1012,7 +1020,8 @@ export const THE_FAMILY_CATECHESIS = {
       pathname:
         "/catequese/a-familia/o-que-os-pais-devem-fazer-como-sacerdotes",
       title: "O que os pais devem fazer, como sacerdotes?",
-      subtitle: "Os pais devem falar dos filhos ao Senhor e falar do Senhor aos filhos.",
+      subtitle:
+        "Os pais devem falar dos filhos ao Senhor e falar do Senhor aos filhos.",
       lesson: "16",
       verses: [
         {
