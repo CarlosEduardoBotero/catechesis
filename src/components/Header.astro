@@ -25,8 +25,15 @@ const teachingRouteEnglish = routes["en"]["/teaching"];
 <header class="border border-gray-200 flex items-center gap-4 md:justify-between p-4 bg-white">
   <div class="flex items-center gap-4">
     <a href={translatePath("/")} aria-label={t("home.title")}>
-      <img src="/main-icon-lg.webp" class="hidden h-10 sm:block md:h-16" alt="catechesis book" width="261" height="64" />
-      <img src="/main-icon-sm.webp" class="h-10 sm:hidden" alt="in jesus likeness" width="40" height="40" />
+      <div class="hidden md:block aspect-[4.08] w-[261px]">
+        <img
+          src="/main-icon-lg.webp"
+          alt="catechesis book"
+          class="h-full w-full object-contain"
+          width="261"
+        />
+      </div>
+      <img src="/main-icon-sm_6_cropped.webp" class="h-10 md:hidden" alt="in jesus likeness" width="40" height="40" />
     </a>
   </div>
   <nav class="hidden md:block" id="drawer-nav">
