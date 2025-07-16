@@ -22,7 +22,7 @@ const { previousLink, nextLink } = Astro.props;
       >
         <Fragment set:html={LeftChevron} />
         <div class="flex flex-col gap-2">
-          <p class="font-semibold text-gray-500">{t("previous")}</p>
+          <p class="font-semibold text-gray-600">{t("previous")}</p>
           <p class="text-lg font-semibold text-gray-700 group-hover:text-blue-600">
             {previousLink.split("/").at(-1).replace(/-/g, " ")}
           </p>
@@ -37,7 +37,7 @@ const { previousLink, nextLink } = Astro.props;
         href={translatePath(nextLink)}
       >
         <div class="flex flex-col gap-2">
-          <p class="font-semibold text-gray-500 self-end">{t("next")}</p>
+          <p class="font-semibold text-gray-600 self-end">{t("next")}</p>
           <p class="text-lg font-semibold text-gray-700 text-right group-hover:text-blue-600">
             {nextLink.split("/").at(-1).replace(/-/g, " ")}
           </p>
