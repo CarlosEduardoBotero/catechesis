@@ -1,18 +1,18 @@
 export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
   en: [
-    {
+    { 
       pathname:
         "/catechesis/the-gospel-of-the-kingdom/what-is-the-only-preaching-that-makes-disciples",
       title: "What is the only preaching that makes disciples?",
-      subtitle: "Jesus is life itself in us..",
+      subtitle: "The only preaching that makes disciples is the preaching of the gospel of the kingdom.",
       lesson: "1",
       verses: [
         {
-          book: "Joh",
-          chapter: "14",
-          verse: "6",
+          book: "Mat",
+          chapter: "24",
+          verse: "14",
           content:
-            "Jesus said to him, “I am the way, the truth, and the life. No one comes to the Father except through Me.",
+            "And this gospel of the kingdom will be preached in all the world as a witness to all the nations, and then the end will come.",
         },
       ],
       previous: null,
@@ -23,14 +23,14 @@ export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
         "/catechesis/the-gospel-of-the-kingdom/what-does-it-mean-to-confess-jesus-as-lord",
       title: "What does it mean to confess Jesus as Lord?",
       subtitle:
-        "The three aspects of sin in man are: condemnation, slavery, and indwelling.",
+        "To confess Jesus as Lord means a total surrender of one’s life to Him. There is no such thing as conversion without consecration.",
       lesson: "2",
       verses: [
         {
-          book: "",
-          chapter: "",
-          verse: "",
-          content: "",
+          book: "Rom",
+          chapter: "10",
+          verse: "9",
+          content: "That if you confess with your mouth the Lord Jesus and believe in your heart that God has raised Him from the dead, you will be saved.",
         },
       ],
       previous:
@@ -42,14 +42,14 @@ export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
         "/catechesis/the-gospel-of-the-kingdom/what-must-a-disciple-seek-first-above-other-things",
       title: "What must a disciple seek first above other things?",
       subtitle:
-        "In Christ we have complete salvation: forgiveness, freedom, and glorification.",
+        "A disciple seeks first to please His Lord, and not his own happiness.",
       lesson: "3",
       verses: [
         {
-          book: "",
-          chapter: "",
-          verse: "",
-          content: "",
+          book: "Mat",
+          chapter: "6",
+          verse: "33",
+          content: "But seek first the kingdom of God and His righteousness, and all these things shall be added to you.",
         },
       ],
       previous:
@@ -60,53 +60,36 @@ export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
       pathname: "/catechesis/the-gospel-of-the-kingdom/what-is-a-disciple",
       title: "What is a disciple?",
       subtitle:
-        "God is holy and just. He loves the sinner, but abhors the sin.",
+        "A disciple is someone that believes in everything that Christ said and does everything that Christ commanded.",
       lesson: "4",
       verses: [
         {
-          book: "Rom",
-          chapter: "1",
-          verse: "18",
+          book: "Mat",
+          chapter: "7",
+          verse: "21",
           content:
-            "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who suppress the truth in unrighteousness.",
+            "Not everyone who says to Me, ‘Lord, Lord,’ shall enter the kingdom of heaven, but he who does the will of My Father in heaven.",
         },
       ],
       previous:
         "/catechesis/the-gospel-of-the-kingdom/what-must-a-disciple-seek-first-above-other-things",
-      next: "/catechesis/the-gospel-of-the-kingdom/why-in-jesus-likeness",
-    },
-    {
-      pathname: "/catechesis/the-gospel-of-the-kingdom/why-in-jesus-likeness",
-      title: "Why in Jesus likeness?",
-      subtitle: "Every man is condemned to eternal punishment.",
-      lesson: "5",
-      verses: [
-        {
-          book: "Rom",
-          chapter: "1",
-          verse: "32",
-          content:
-            "Who, knowing the righteous judgment of God, that those who practice such things are deserving of death, not only do the same but also approve of those who practice them.",
-        },
-      ],
-      previous: "/catechesis/the-gospel-of-the-kingdom/what-is-a-disciple",
       next: "/catechesis/the-gospel-of-the-kingdom/what-is-the-only-preaching-that-makes-disciples",
     },
   ],
   es: [
     {
-      pathname:
+     pathname:
         "/catequesis/el-evangelio-del-reino/cual-es-la-unica-predicacion-que-hace-discipulos",
-      title: "¿Cuál es la única predicación que hace discípulos?",
-      subtitle: "Jesus is life itself in us..",
+      title: "¿Cuál es la única predicación que forma discípulos?",
+      subtitle: "La única predicación que forma discípulos es la predicación del Evangelio del Reino.",
       lesson: "1",
       verses: [
         {
-          book: "Joh",
-          chapter: "14",
-          verse: "6",
+          book: "Mt",
+          chapter: "24",
+          verse: "14",
           content:
-            "Jesus said to him, “I am the way, the truth, and the life. No one comes to the Father except through Me.",
+            "Y será predicado este evangelio del reino en todo el mundo, para testimonio a todas las naciones; y entonces vendrá el fin.",
         },
       ],
       previous: null,
@@ -117,14 +100,14 @@ export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
         "/catequesis/el-evangelio-del-reino/que-significa-confesar-a-jesus-como-senor",
       title: "¿Qué significa confesar a Jesús como Señor?",
       subtitle:
-        "The three aspects of sin in man are: condemnation, slavery, and indwelling.",
+        "Confesar a Jesús como Señor significa una entrega total de la vida a Él. No hay conversión sin consagración.",
       lesson: "2",
       verses: [
         {
-          book: "",
-          chapter: "",
-          verse: "",
-          content: "",
+          book: "Ro",
+          chapter: "10",
+          verse: "9",
+          content: "Que si confesares con tu boca que Jesús es el Señor, y creyeres en tu corazón que Dios le levantó de los muertos, serás salvo.",
         },
       ],
       previous:
@@ -134,16 +117,16 @@ export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
     {
       pathname:
         "/catequesis/el-evangelio-del-reino/que-debe-buscar-primero-un-discipulo-por-encima-de-otras-cosas",
-      title: "¿Qué debe buscar primero un discípulo por encima de otras cosas?",
+      title: "¿Qué busca primero un discípulo?",
       subtitle:
-        "In Christ we have complete salvation: forgiveness, freedom, and glorification.",
+        "Un discípulo busca primero agradar a su Señor, no su propia felicidad.",
       lesson: "3",
       verses: [
         {
-          book: "",
-          chapter: "",
-          verse: "",
-          content: "",
+          book: "Mat",
+          chapter: "6",
+          verse: "33",
+          content: "Mas buscad primeramente el reino de Dios y su justicia, y todas estas cosas os serán añadidas.",
         },
       ],
       previous:
@@ -154,37 +137,19 @@ export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
       pathname: "/catequesis/el-evangelio-del-reino/que-es-un-discipulo",
       title: "¿Qué es un discípulo?",
       subtitle:
-        "God is holy and just. He loves the sinner, but abhors the sin.",
+        "Un discípulo es alguien que cree todo lo que Cristo dice y hace todo lo que Cristo manda.",
       lesson: "4",
       verses: [
         {
-          book: "Rom",
-          chapter: "1",
-          verse: "18",
+          book: "Mt",
+          chapter: "7",
+          verse: "21",
           content:
-            "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who suppress the truth in unrighteousness.",
+            "No todo el que me dice: Señor, Señor, entrará en el reino de los cielos, sino el que hace la voluntad de mi Padre que está en los cielos.",
         },
       ],
       previous:
         "/catequesis/el-evangelio-del-reino/que-debe-buscar-primero-un-discipulo-por-encima-de-otras-cosas",
-      next: "/catequesis/el-evangelio-del-reino/por-que-a-la-semejanza-de-jesus",
-    },
-    {
-      pathname:
-        "/catequesis/el-evangelio-del-reino/por-que-a-la-semejanza-de-jesus",
-      title: "¿Por qué a la semejanza de Jesús?",
-      subtitle: "Every man is condemned to eternal punishment.",
-      lesson: "5",
-      verses: [
-        {
-          book: "Rom",
-          chapter: "1",
-          verse: "32",
-          content:
-            "Who, knowing the righteous judgment of God, that those who practice such things are deserving of death, not only do the same but also approve of those who practice them.",
-        },
-      ],
-      previous: "/catequesis/el-evangelio-del-reino/que-es-un-discipulo",
       next: "/catequesis/el-evangelio-del-reino/cual-es-la-unica-predicacion-que-hace-discipulos",
     },
   ],
@@ -192,16 +157,16 @@ export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
     {
       pathname:
         "/catequese/o-evangelho-do-reino/qual-e-a-unica-pregacao-que-faz-discipulos",
-      title: "Qual é a única pregação que faz discípulos?",
-      subtitle: "Jesus is life itself in us..",
+      title: "Qual é a única pregação que forma discípulos?",
+      subtitle: "A única pregação que forma discípulos é a pregação do Evangelho do Reino.",
       lesson: "1",
       verses: [
         {
-          book: "Joh",
-          chapter: "14",
-          verse: "6",
+          book: "Mt",
+          chapter: "24",
+          verse: "14",
           content:
-            "Jesus said to him, “I am the way, the truth, and the life. No one comes to the Father except through Me.",
+            "E será pregado este Evangelho do Reino por todo o mundo, para tes-temunho a todas as nações. Então, virá o fim.",
         },
       ],
       previous: null,
@@ -212,14 +177,14 @@ export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
         "/catequese/o-evangelho-do-reino/o-que-significa-confessar-jesus-como-senhor",
       title: "O que significa confessar Jesus como Senhor?",
       subtitle:
-        "The three aspects of sin in man are: condemnation, slavery, and indwelling.",
+        "Confessar Jesus como Senhor significa uma entrega total da vida a ele. Não existe conversão sem consagração.",
       lesson: "2",
       verses: [
         {
-          book: "",
-          chapter: "",
-          verse: "",
-          content: "",
+          book: "Rom",
+          chapter: "10",
+          verse: "9",
+          content: "Se, com a tua boca, confessares Jesus como Senhor e, em teu cora-ção, creres que Deus o ressuscitou dentre os mortos, serás salvo.",
         },
       ],
       previous:
@@ -230,16 +195,16 @@ export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
       pathname:
         "/catequese/o-evangelho-do-reino/o-que-um-discipulo-deve-buscar-primeiro-acima-de-todas-as-coisas",
       title:
-        "O que um discípulo deve buscar primeiro acima de todas as coisas?",
+        "O que um discípulo busca em primeiro lugar?",
       subtitle:
-        "In Christ we have complete salvation: forgiveness, freedom, and glorification.",
+        "Um Discípulo busca em primeiro lugar agradar ao seu Senhor, e não a sua própria felicidade.",
       lesson: "3",
       verses: [
         {
-          book: "",
-          chapter: "",
-          verse: "",
-          content: "",
+          book: "Mt",
+          chapter: "6",
+          verse: "33",
+          content: "Buscai, pois, em primeiro lugar, o seu reino e a sua justiça, e todas estas coisas vos serão acrescentadas.",
         },
       ],
       previous:
@@ -247,39 +212,22 @@ export const THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS = {
       next: "/catequese/o-evangelho-do-reino/o-que-e-um-discipulo",
     },
     {
-      pathname: "/catequese/o-evangelho-do-reino/o-que-e-um-discipulo",
+     pathname: "/catequese/o-evangelho-do-reino/o-que-e-um-discipulo",
       title: "O que é um discípulo?",
       subtitle:
-        "God is holy and just. He loves the sinner, but abhors the sin.",
+        "Um discípulo é alguém que crê em tudo que Cristo diz e faz tudo o que Cristo manda.",
       lesson: "4",
       verses: [
         {
-          book: "Rom",
-          chapter: "1",
-          verse: "18",
+          book: "Mt",
+          chapter: "7",
+          verse: "21",
           content:
-            "For the wrath of God is revealed from heaven against all ungodliness and unrighteousness of men, who suppress the truth in unrighteousness.",
+            "Nem todo o que me diz: Senhor, Senhor, entrará no reino dos céus, mas aquele que faz a vontade de meu Pai, que está nos céus.",
         },
       ],
       previous:
         "/catequese/o-evangelho-do-reino/o-que-um-discipulo-deve-buscar-primeiro-acima-de-todas-as-coisas",
-      next: "/catequese/o-evangelho-do-reino/por-que-a-semelhanca-de-jesus",
-    },
-    {
-      pathname: "/catequese/o-evangelho-do-reino/por-que-a-semelhanca-de-jesus",
-      title: "Por que à semelhança de Jesus?",
-      subtitle: "Every man is condemned to eternal punishment.",
-      lesson: "5",
-      verses: [
-        {
-          book: "Rom",
-          chapter: "1",
-          verse: "32",
-          content:
-            "Who, knowing the righteous judgment of God, that those who practice such things are deserving of death, not only do the same but also approve of those who practice them.",
-        },
-      ],
-      previous: "/catequese/o-evangelho-do-reino/o-que-e-um-discipulo",
       next: "/catequese/o-evangelho-do-reino/qual-e-a-unica-pregacao-que-faz-discipulos",
     },
   ],
