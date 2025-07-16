@@ -11,6 +11,8 @@ export const ui = {
   en: {
     "home.title": "Disciples in NJ",
     "home.lesson": "Lesson",
+    "home.meta.description":
+      "We believe God’s purpose is to form a united family of many children in Jesus’ likeness—marked by unity, multiplication, and spiritual maturity through discipleship and Christlike living.",
     "footer.createWith": "Created with",
     "footer.by": "by",
     "nav.teaching": "Teaching",
@@ -84,6 +86,8 @@ export const ui = {
   es: {
     "home.title": "Discípulos en NJ",
     "home.lesson": "Lección",
+    "home.meta.description":
+      "Creemos que el propósito de Dios es formar una familia unida de muchos hijos a la semejanza de Jesús, marcada por la unidad, la multiplicación y la madurez espiritual.",
     "footer.createWith": "Creado con",
     "footer.by": "por",
     "nav.teaching": "Enseñanza",
@@ -157,6 +161,8 @@ export const ui = {
   pt: {
     "home.title": "Discípulos em NJ",
     "home.lesson": "Lição",
+    "home.meta.description":
+      "Cremos que o propósito de Deus é formar uma família unida de muitos filhos à semelhança de Jesus, marcada pela unidade, multiplicação e maturidade espiritual.",
     "footer.createWith": "Criado com",
     "footer.by": "por",
     "nav.teaching": "Ensino",
