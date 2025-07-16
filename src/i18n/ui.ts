@@ -16,6 +16,8 @@ export const ui = {
     "footer.createWith": "Created with",
     "footer.by": "by",
     "nav.teaching": "Teaching",
+    "nav.teaching.meta.description":
+      "Explore foundational teachings for disciple-makers: unity, spiritual growth, God's eternal purpose, and more. Equip yourself to teach—start your journey today.",
     "nav.catechesis": "Catechesis",
     "nav.whoWeAre": "Who we are",
     "who-we-are.title": "Who we are",
@@ -91,6 +93,8 @@ export const ui = {
     "footer.createWith": "Creado con",
     "footer.by": "por",
     "nav.teaching": "Enseñanza",
+    "nav.teaching.meta.description":
+      "Explora enseñanzas fundamentales para formadores de discípulos: unidad, crecimiento espiritual, el propósito eterno de Dios y más. Prepárate para enseñar—comienza hoy tu camino.",
     "nav.catechesis": "Catequesis",
     "nav.whoWeAre": "Quienes somos",
     "who-we-are.title": "Quienes somos",
@@ -166,6 +170,8 @@ export const ui = {
     "footer.createWith": "Criado com",
     "footer.by": "por",
     "nav.teaching": "Ensino",
+    "nav.teaching.meta.description":
+      "Explore ensinamentos fundamentais para formadores de discípulos: unidade, crescimento espiritual, o propósito eterno de Deus e muito mais. Prepare-se para ensinar—comece sua jornada hoje.",
     "nav.catechesis": "Catequese",
     "nav.whoWeAre": "Quem nós somos",
     "who-we-are.title": "Quem nós somos",
