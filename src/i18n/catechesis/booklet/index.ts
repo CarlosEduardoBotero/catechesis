@@ -12,6 +12,10 @@ export const BOOKLETS = {
       pathname: "/catechesis/the-life-in-christ",
       title: "The Life in Christ",
     },
+    {
+      pathname: "/catechesis/the-family",
+      title: "The Family",
+    },
   ],
   es: [
     {
@@ -26,6 +30,10 @@ export const BOOKLETS = {
       pathname: "/catequesis/la-vida-en-cristo",
       title: "La Vida en Cristo",
     },
+    {
+      pathname: "/catequesis/la-familia",
+      title: "La Familia",
+    },
   ],
   pt: [
     {
@@ -39,6 +47,10 @@ export const BOOKLETS = {
     {
       pathname: "/catequese/a-vida-em-cristo",
       title: "A Vida em Cristo",
+    },
+    {
+      pathname: "/catequese/a-familia",
+      title: "A Família",
     },
   ],
 };
