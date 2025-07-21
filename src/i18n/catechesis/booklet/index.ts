@@ -12,6 +12,14 @@ export const BOOKLETS = {
       pathname: "/catechesis/the-life-in-christ",
       title: "The Life in Christ",
     },
+    {
+      pathname: "/catechesis/the-family",
+      title: "The Family",
+    },
+    {
+      pathname: "/catechesis/the-gospel-of-the-kingdom",
+      title: "The Gospel of the Kingdom",
+    },
   ],
   es: [
     {
@@ -26,6 +34,14 @@ export const BOOKLETS = {
       pathname: "/catequesis/la-vida-en-cristo",
       title: "La Vida en Cristo",
     },
+    {
+      pathname: "/catequesis/la-familia",
+      title: "La Familia",
+    },
+    {
+      pathname: "/catequesis/el-evangelio-del-reino",
+      title: "El Evangelio del Reino",
+    },
   ],
   pt: [
     {
@@ -39,6 +55,14 @@ export const BOOKLETS = {
     {
       pathname: "/catequese/a-vida-em-cristo",
       title: "A Vida em Cristo",
+    },
+    {
+      pathname: "/catequese/a-familia",
+      title: "A Família",
+    },
+    {
+      pathname: "/catequese/o-evangelho-do-reino",
+      title: "O Evangelho do Reino",
     },
   ],
 };

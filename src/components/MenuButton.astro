@@ -1,0 +1,27 @@
+---
+import clsx from "clsx";
+
+interface Props {
+  href: string;
+  title: string;
+  shouldHighlight: boolean | undefined;
+}
+
+const { href, title, shouldHighlight } = Astro.props;
+---
+
+<div class="bg-white flex flex-col">
+  <div class="flex items-center justify-center">
+    <div class="relative inline-block text-left">
+      <span class="rounded-md">
+        <a
+          class={clsx(
+            "inline-flex justify-center w-full px-4 py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out rounded-md hover:bg-gray-100 focus:outline-none focus:border-blue-300 active:bg-gray-100 active:text-gray-800",
+            shouldHighlight ? "bg-gray-100" : "bg-white"
+          )}
+          href={href}>{title}</a
+        >
+      </span>
+    </div>
+  </div>
+</div>

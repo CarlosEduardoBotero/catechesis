@@ -6,7 +6,7 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
-<Layout title={t("teaching.title")}>
+<Layout title={t("teaching.title")} description={t("nav.teaching.meta.description")}>
   <section
     id="teaching"
     class="mx-4 my-4 flex flex-col gap-8 text-xl text-gray-600 sm:mx-12 md:mx-28"

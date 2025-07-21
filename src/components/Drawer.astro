@@ -6,7 +6,8 @@ import {
   getRouteFromUrl,
 } from "../i18n/utils";
 import { routes } from "../i18n/routes/routes";
-import clsx from "clsx";
+import MenuButton from "./MenuButton.astro";
+import MultiLevelMenu from "./MultiLevelMenu.astro";
 
 const lang = getLangFromUrl(Astro.url);
 const translatePath = useTranslatedPath(lang);
@@ -15,7 +16,6 @@ const t = useTranslations(lang);
 
 const route = getRouteFromUrl(Astro.url);
 
-const catechesisRoute = routes[lang]["/catechesis"];
 const teachingRoute = routes[lang]["/teaching"];
 const catechesisRouteEnglish = routes["en"]["/catechesis"];
 const teachingRouteEnglish = routes["en"]["/teaching"];
@@ -32,31 +32,34 @@ const teachingRouteEnglish = routes["en"]["/teaching"];
     class="fixed invisible inset-0 transition-transform w-72 h-full z-50 bg-white -translate-x-72 shadow-md p-4"
   >
     <div class="mb-6">
-      <img src="/main-icon-lg.webp" class="h-16" alt="catechesis book" width="261" height="64" />
+      <img
+        src="/main-icon-lg.webp"
+        class="h-16"
+        alt="catechesis book"
+        width="261"
+        height="64"
+      />
     </div>
     <nav class="h-full">
-      <ul class="flex flex-col gap-4 ml-auto text-xl">
+      <ul class="flex flex-col gap-4 ml-auto text-xl items-start">
         <li>
-          <a
+          <MenuButton
+            title={t("nav.teaching")}
             href={translatePath(teachingRoute)}
-            aria-label={t("nav.teaching")}
-            class={clsx({ "text-blue-600 bg-blue-50 w-full px-2 py-1 rounded-sm": route?.startsWith(teachingRouteEnglish), "ml-2": !route?.startsWith(teachingRouteEnglish) })}>{t("nav.teaching")}</a
-          >
+            shouldHighlight={route?.startsWith(teachingRouteEnglish)}
+          />
         </li>
         <li>
-          <a
-            href={translatePath(catechesisRoute)}
-            aria-label={t("nav.catechesis")}
-            class={clsx({ "text-blue-600 bg-blue-50 w-full px-2 py-1 rounded-sm": route?.startsWith(catechesisRouteEnglish), "ml-2": !route?.startsWith(catechesisRouteEnglish) })}>{t("nav.catechesis")}</a
-          >
+          <MultiLevelMenu
+            shouldHighlight={route?.startsWith(catechesisRouteEnglish)}
+          />
         </li>
         <li>
-          <a
+          <MenuButton
+            title={t("nav.whoWeAre")}
             href={translatePath("/")}
-            aria-label={t("nav.whoWeAre")}
-            class={clsx({ "text-blue-600 bg-blue-50 w-full px-2 py-1 rounded-sm": route === undefined ,
-            "ml-2": !Boolean(route === undefined)})}>{t("nav.whoWeAre")}</a
-          >
+            shouldHighlight={route === undefined}
+          />
         </li>
       </ul>
     </nav>

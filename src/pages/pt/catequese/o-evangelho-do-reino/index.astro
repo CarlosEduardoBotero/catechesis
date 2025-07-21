@@ -1,0 +1,31 @@
+---
+import Layout from "../../../../layouts/Layout.astro";
+
+import { getLangFromUrl, useTranslations } from "../../../../i18n/utils";
+import { THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS } from "../../../../i18n/catechesis/booklet/the-gospel-of-the-kingdom";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+---
+
+<Layout title={t("home.title")} noFullPage>
+  <section
+    id="catequesis"
+    class="grid grid-cols-auto-fill-300 grid-rows-auto-fill-150 gap-4 w-full"
+  >
+    {
+      THE_GOSPEL_OF_THE_KINGDOM_CATECHESIS[lang].map(({ title, pathname, lesson }) => (
+        <a
+          href={`/${lang}${pathname}`}
+          class="flex flex-col border border-gray-200 p-4 rounded-md shadow-xs hover:shadow-md transition-all duration-200 bg-white"
+        >
+          <span class="text-gray-600 font-semibold">
+            {t("home.lesson")} {lesson}
+          </span>
+          <span class="text-xl font-semibold">{title}</span>
+        </a>
+      ))
+    }
+  </section>
+</Layout>
