@@ -1,0 +1,107 @@
+---
+import clsx from "clsx";
+import { BOOKLETS } from "../i18n/catechesis/booklet";
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+import { routes } from "../i18n/routes/routes";
+
+interface Props {
+  shouldHighlight: boolean | undefined;
+}
+
+const { shouldHighlight } = Astro.props;
+
+const lang = getLangFromUrl(Astro.url);
+const patnameFromUrl = Astro.url.pathname;
+const langCode = lang !== "en" ? "/" + lang : "";
+const t = useTranslations(lang);
+const catechesisRoute = routes[lang]["/catechesis"];
+
+const isBookletOpen = BOOKLETS[lang].some((booklet) =>
+  booklet.pathname.startsWith(catechesisRoute)
+);
+---
+
+<div>
+  <button
+    id="multi-level-btn"
+    type="button"
+    class={clsx(
+      "inline-flex justify-center  px-4 py-2 text-sm font-medium leading-5 text-gray-700 transition duration-150 ease-in-out rounded-md focus:outline-none hover:bg-gray-100 active:text-gray-800",
+      shouldHighlight ? "bg-gray-100" : "bg-white"
+    )}
+  >
+    <span class="flex-1 text-left rtl:text-right whitespace-nowrap"
+      >{t("nav.catechesis")}</span
+    >
+    <svg
+      id="multi-level-icon-down"
+      class={clsx(
+        "w-3 h-3 self-center pl-1 pt-1",
+        isBookletOpen ? "hidden" : ""
+      )}
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 10 6"
+    >
+      <path
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="m1 1 4 4 4-4"></path>
+    </svg>
+    <svg
+      id="multi-level-icon-up"
+      class={clsx("w-3 h-3 self-end pl-1", isBookletOpen ? "" : "hidden")}
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 10 6"
+    >
+      <path
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="m 1 1 l 4 -4 l 4 4"></path>
+    </svg>
+  </button>
+  <ul
+    id="dropdown-content"
+    class={clsx("py-2 space-y-2", isBookletOpen ? "" : "hidden")}
+  >
+    {
+      BOOKLETS[lang].map(({ title, pathname }, i) => (
+        <li>
+          <a
+            href={`${langCode}${pathname}`}
+            class={clsx(
+              patnameFromUrl.startsWith(langCode + pathname)
+                ? "text-blue-600"
+                : "text-gray-700",
+              "flex items-center text-sm font-normal leading-5 pl-6"
+            )}
+            role="menuitem"
+          >
+            {title}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</div>
+
+<script>
+  const multiLevelButton = document.getElementById("multi-level-btn");
+  const dropdownContent = document.getElementById("dropdown-content");
+  const dropdownIconDown = document.getElementById("multi-level-icon-down");
+  const dropdownIconUp = document.getElementById("multi-level-icon-up");
+
+  const handleClickMenuIcon = () => {
+    if (dropdownContent) dropdownContent.classList.toggle("hidden");
+    if (dropdownIconDown) dropdownIconDown.classList.toggle("hidden");
+    if (dropdownIconUp) dropdownIconUp.classList.toggle("hidden");
+  };
+
+  if (multiLevelButton)
+    multiLevelButton.addEventListener("click", handleClickMenuIcon);
+</script>

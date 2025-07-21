@@ -74,7 +74,7 @@ export const THE_LIFE_IN_CHRIST_ROUTES = {
       "/catequesis/la-vida-en-cristo/como-seremos-liberados-de-la-maldad-del-pecado",
   },
   pt: {
-    "/catechesis/the-life-in-christ": "/catequese/a-vida-em-cristo/",
+    "/catechesis/the-life-in-christ": "/catequese/a-vida-em-cristo",
     "/catechesis/the-life-in-christ/who-is-jesus-to-us":
       "/catequese/a-vida-em-cristo/quem-e-jesus-para-nos",
     "/catechesis/the-life-in-christ/what-are-the-three-aspects-of-sin-in-man":
