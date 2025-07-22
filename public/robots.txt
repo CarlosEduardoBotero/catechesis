@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://injesuslikeness.com/sitemap-index.xml
