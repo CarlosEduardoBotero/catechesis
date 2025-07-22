@@ -73,6 +73,7 @@ const isBookletOpen = BOOKLETS[lang].some((booklet) =>
       BOOKLETS[lang].map(({ title, pathname }, i) => (
         <li>
           <a
+            aria-label={title}
             href={`${langCode}${pathname}`}
             class={clsx(
               patnameFromUrl.startsWith(langCode + pathname)
