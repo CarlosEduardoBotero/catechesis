@@ -17,8 +17,10 @@ const t = useTranslations(lang);
 const route = getRouteFromUrl(Astro.url);
 
 const teachingRoute = routes[lang]["/teaching"];
+const songsRoute = routes[lang]["/songs"];
 const catechesisRouteEnglish = routes["en"]["/catechesis"];
 const teachingRouteEnglish = routes["en"]["/teaching"];
+const songsRouteEnglish = routes["en"]["/songs"];
 ---
 
 <div role="presentation" class="fixed z-50 inset-0 invisible">
@@ -41,7 +43,14 @@ const teachingRouteEnglish = routes["en"]["/teaching"];
       />
     </div>
     <nav class="h-full">
-      <ul class="flex flex-col gap-4 ml-auto text-xl items-start">
+      <ul class="flex flex-col gap-2 ml-auto text-xl items-start">
+        <li>
+          <MenuButton
+            title={t("nav.whoWeAre")}
+            href={translatePath("/")}
+            shouldHighlight={route === undefined}
+          />
+        </li>
         <li>
           <MenuButton
             title={t("nav.teaching")}
@@ -56,9 +65,9 @@ const teachingRouteEnglish = routes["en"]["/teaching"];
         </li>
         <li>
           <MenuButton
-            title={t("nav.whoWeAre")}
-            href={translatePath("/")}
-            shouldHighlight={route === undefined}
+            title={t("nav.songs")}
+            href={translatePath(songsRoute)}
+            shouldHighlight={route?.startsWith(songsRouteEnglish)}
           />
         </li>
       </ul>
