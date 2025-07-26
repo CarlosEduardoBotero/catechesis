@@ -1,8 +1,6 @@
-export const LYRICS = [
-  {
-    pathname: "/songs/nome-sobre-todo-nome",
+export const LYRICS = {
+  1:{
     title: "Nome sobre todo nome",
-    songNumber: "1",
     lyrics: [
       [
         "Abriu mão da Sua glória",
@@ -97,10 +95,8 @@ export const LYRICS = [
       ],
     ],
   },
-  {
-    pathname: "/songs/nome-sobre-todo-nome",
+  2:{
     title: "change me",
-    songNumber: "2",
     lyrics: [],
   },
-];
+};
