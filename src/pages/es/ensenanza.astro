@@ -6,7 +6,10 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
-<Layout title={t("teaching.title")} description={t("nav.teaching.meta.description")}>
+<Layout
+  title={t("teaching.title")}
+  description={t("nav.teaching.meta.description")}
+>
   <section
     id="teaching"
     class="mx-4 my-4 flex flex-col gap-8 text-xl text-gray-600 sm:mx-12 md:mx-28"
@@ -132,9 +135,9 @@ const t = useTranslations(lang);
         </a>
       </li>
       <li>
-        <a target="_blank">
+        <span>
           {t("teaching.theGospelOfTheKingdom")}
-        </a>
+        </span>
       </li>
       <li>
         <a
@@ -155,9 +158,9 @@ const t = useTranslations(lang);
         </a>
       </li>
       <li>
-        <a target="_blank">
+        <span>
           {t("teaching.theSpiritualGifts")}
-        </a>
+        </span>
       </li>
       <li>
         <a
@@ -169,9 +172,9 @@ const t = useTranslations(lang);
         </a>
       </li>
       <li>
-        <a target="_blank">
+        <span>
           {t("teaching.work")}
-        </a>
+        </span>
       </li>
     </ul>
   </section>
