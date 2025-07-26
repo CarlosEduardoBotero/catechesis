@@ -41,7 +41,7 @@ export const ELEMENTARY_PRINCIPLES_ROUTES = {
   es: {
     "/catechesis": "/catequesis",
     "/catechesis/elementary-principles": "/catequesis/principios-elementales",
-    "/teaching": "/enseñanza",
+    "/teaching": "/ensenanza",
     "/catechesis/elementary-principles/jesus-exist-before-all-things":
       "/catequesis/principios-elementales/jesus-existia-antes-de-todas-las-cosas",
     "/catechesis/elementary-principles/he-became-a-man":
