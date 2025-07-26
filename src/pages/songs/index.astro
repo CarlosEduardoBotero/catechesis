@@ -1,0 +1,29 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+import { getLangFromUrl, useTranslations } from "../../i18n/utils";
+import { SONGS } from "../../i18n/songs";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<Layout title={t("home.title")} noFullPage>
+  <section
+    id="catequesis"
+    class="grid grid-cols-auto-fill-300 grid-rows-auto-fill-150 gap-4 w-full"
+  >
+    {
+      SONGS[lang].map(({ title, pathname, songNumber }) => (
+        <a
+          href={`${pathname}`}
+          class="flex flex-col border border-gray-200 p-4 rounded-md shadow-xs hover:shadow-md transition-all duration-200 bg-white"
+        >
+          <span class="text-xl font-semibold">
+            {songNumber}. {title}
+          </span>
+        </a>
+      ))
+    }
+  </section>
+</Layout>

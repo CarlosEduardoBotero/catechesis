@@ -18,8 +18,10 @@ const route = getRouteFromUrl(Astro.url);
 const t = useTranslations(lang);
 
 const teachingRoute = routes[lang]["/teaching"];
+const songsRoute = routes[lang]["/songs"];
 const catechesisRouteEnglish = routes["en"]["/catechesis"];
 const teachingRouteEnglish = routes["en"]["/teaching"];
+const songsRouteEnglish = routes["en"]["/songs"];
 ---
 
 <header
@@ -48,9 +50,9 @@ const teachingRouteEnglish = routes["en"]["/teaching"];
     <ul class="flex gap-1 ml-auto text-xl">
       <li>
         <MenuButton
-          title={t("nav.teaching")}
-          href={translatePath(teachingRoute)}
-          shouldHighlight={route?.startsWith(teachingRouteEnglish)}
+          title={t("nav.whoWeAre")}
+          href={translatePath("/")}
+          shouldHighlight={route === undefined}
         />
       </li>
       <li>
@@ -60,9 +62,15 @@ const teachingRouteEnglish = routes["en"]["/teaching"];
       </li>
       <li>
         <MenuButton
-          title={t("nav.whoWeAre")}
-          href={translatePath("/")}
-          shouldHighlight={route === undefined}
+          title={t("nav.teaching")}
+          href={translatePath(teachingRoute)}
+          shouldHighlight={route?.startsWith(teachingRouteEnglish)}
+        />
+      <li>
+        <MenuButton
+          title={t("nav.songs")}
+          href={translatePath(songsRoute)}
+          shouldHighlight={route?.startsWith(songsRouteEnglish)}
         />
       </li>
     </ul>

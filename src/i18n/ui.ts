@@ -19,6 +19,7 @@ export const ui = {
     "nav.teaching.meta.description":
       "Explore foundational teachings for disciple-makers: unity, spiritual growth, God's eternal purpose, and more. Equip yourself to teach—start your journey today.",
     "nav.catechesis": "Catechesis",
+    "nav.songs": "Songs",
     "nav.whoWeAre": "Who we are",
     "who-we-are.title": "Who we are",
     "who-we-are.weBeliveGod":
@@ -96,6 +97,7 @@ export const ui = {
     "nav.teaching.meta.description":
       "Explora enseñanzas fundamentales para formadores de discípulos: unidad, crecimiento espiritual, el propósito eterno de Dios y más. Prepárate para enseñar—comienza hoy tu camino.",
     "nav.catechesis": "Catequesis",
+    "nav.songs": "Canciones",
     "nav.whoWeAre": "Quienes somos",
     "who-we-are.title": "Quienes somos",
     "who-we-are.weBeliveGod":
@@ -173,6 +175,7 @@ export const ui = {
     "nav.teaching.meta.description":
       "Explore ensinamentos fundamentais para formadores de discípulos: unidade, crescimento espiritual, o propósito eterno de Deus e muito mais. Prepare-se para ensinar—comece sua jornada hoje.",
     "nav.catechesis": "Catequese",
+    "nav.songs": "Músicas",
     "nav.whoWeAre": "Quem nós somos",
     "who-we-are.title": "Quem nós somos",
     "who-we-are.weBeliveGod":

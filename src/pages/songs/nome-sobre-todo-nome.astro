@@ -1,0 +1,46 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import {
+  getLangFromUrl,
+  getRouteFromUrl,
+  useTranslations,
+  useTranslatedPath,
+  type LangType,
+} from "../../i18n/utils";
+
+import { SONGS } from "../../i18n/songs";
+
+const lang = getLangFromUrl(Astro.url);
+const route = getRouteFromUrl(Astro.url);
+const translatePath = useTranslatedPath(lang);
+const path = translatePath(`${route ? route : ""}`, lang as LangType);
+
+const song = SONGS[lang].find(({ pathname }) => pathname === path);
+
+const t = useTranslations(lang);
+---
+
+<Layout
+  title={t("home.title") + " | " + song?.title}
+  description={t("home.title") +
+    " - Nome Sobre Todo Nome (Letra) - Ao nome de Jesus / Todo joelho se dobrará / E toda língua confessará / Que Ele é o Senhor"}
+  keywords="NOME SOBRE TODO NOME, NOME SOBRE TODO NOME discipulos em NJ, NOME SOBRE TODO NOME letra"
+>
+  <div class="mx-auto">
+    <h1 class="text-3xl mb-8 font-bold">{song?.title}</h1>
+    <div class="flex justify-center gap-4 flex-col">
+      {
+        song?.lyrics.map((stanza) => (
+          <p class="text-lg font-semibold">
+            {stanza.map((verse) => (
+              <>
+                {verse}
+                <br />
+              </>
+            ))}
+          </p>
+        ))
+      }
+    </div>
+  </div>
+</Layout>
