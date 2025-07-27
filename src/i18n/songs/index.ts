@@ -1,27 +1,23 @@
 import { LYRICS } from "../lyrics";
+import { toAsciiSlug } from "../../utils/toAsciiSlug";
+
 export const SONGS = {
-  en: [
-    {
-      pathname: "/songs/nome-sobre-todo-nome",
-      title: "Nome sobre todo nome",
-      songNumber: 1,
-      lyrics: LYRICS[1].lyrics,
-    },
-  ],
-  es: [
-    {
-      pathname: "/canciones/nome-sobre-todo-nome",
-      title: "Nome sobre todo nome",
-      songNumber: 1,
-      lyrics: LYRICS[1].lyrics,
-    },
-  ],
-  pt: [
-    {
-      pathname: "/musicas/nome-sobre-todo-nome",
-      title: "Nome sobre todo nome",
-      songNumber: 1,
-      lyrics: LYRICS[1].lyrics,
-    },
-  ],
+  en: Object.entries(LYRICS).map(([number, song]) => ({
+    pathname: `/songs/${toAsciiSlug(song.title)}`,
+    title: song.title,
+    songNumber: Number(number),
+    lyrics: song.lyrics,
+  })),
+  es: Object.entries(LYRICS).map(([number, song]) => ({
+    pathname: `/canciones/${toAsciiSlug(song.title)}`,
+    title: song.title,
+    songNumber: Number(number),
+    lyrics: song.lyrics,
+  })),
+  pt: Object.entries(LYRICS).map(([number, song]) => ({
+    pathname: `/musicas/${toAsciiSlug(song.title)}`,
+    title: song.title,
+    songNumber: Number(number),
+    lyrics: song.lyrics,
+  })),
 };
