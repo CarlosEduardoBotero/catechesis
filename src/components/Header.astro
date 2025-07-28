@@ -19,9 +19,11 @@ const t = useTranslations(lang);
 
 const teachingRoute = routes[lang]["/teaching"];
 const songsRoute = routes[lang]["/songs"];
+const contactRoute = routes[lang]["/contact"];
 const catechesisRouteEnglish = routes["en"]["/catechesis"];
 const teachingRouteEnglish = routes["en"]["/teaching"];
 const songsRouteEnglish = routes["en"]["/songs"];
+const contactRouteEnglish = routes["en"]["/contact"];
 ---
 
 <header
@@ -66,11 +68,19 @@ const songsRouteEnglish = routes["en"]["/songs"];
           href={translatePath(teachingRoute)}
           shouldHighlight={route?.startsWith(teachingRouteEnglish)}
         />
+      </li>
       <li>
         <MenuButton
           title={t("nav.songs")}
           href={translatePath(songsRoute)}
           shouldHighlight={route?.startsWith(songsRouteEnglish)}
+        />
+      </li>
+      <li>
+        <MenuButton
+          title={t("nav.contact")}
+          href={translatePath(contactRoute)}
+          shouldHighlight={route?.startsWith(contactRouteEnglish)}
         />
       </li>
     </ul>

@@ -20,7 +20,12 @@ export const ui = {
       "Explore foundational teachings for disciple-makers: unity, spiritual growth, God's eternal purpose, and more. Equip yourself to teach—start your journey today.",
     "nav.catechesis": "Catechesis",
     "nav.songs": "Songs",
+    "nav.songs.meta.description":
+      "Browse a multilingual worship song list in English, Spanish, and Portuguese. Find titles by number and explore lyrics that glorify Jesus.",
     "nav.whoWeAre": "Who we are",
+    "nav.contact": "Contact",
+    "nav.contact.meta.description":
+      "Get in touch with the In Jesus Likeness ministry team — including the pastor, leaders, and tech support — through our contact directory.",
     "who-we-are.title": "Who we are",
     "who-we-are.weBeliveGod":
       "We believe that God created the man with a purpose very clear.",
@@ -83,6 +88,11 @@ export const ui = {
     "teaching.theSpiritualGifts": "The Spiritual Gifts",
     "teaching.walkInTheLight": "Walk in The Light",
     "teaching.work": "Work",
+    "contact.leader": "Leader",
+    "contact.technicalSupport": "Technical Support",
+    "contact.ministryContacts": "Ministry Contacts",
+    "contact.needToReachAStaffMember":
+      "Need to reach a staff member? Here's who to contact",
     next: "Next",
     previous: "Previous",
   },
@@ -98,7 +108,12 @@ export const ui = {
       "Explora enseñanzas fundamentales para formadores de discípulos: unidad, crecimiento espiritual, el propósito eterno de Dios y más. Prepárate para enseñar—comienza hoy tu camino.",
     "nav.catechesis": "Catequesis",
     "nav.songs": "Canciones",
+    "nav.songs.meta.description":
+      "Descubre canciones de adoración en inglés, español y portugués. Encuentra títulos por número y accede a letras que exaltan a Jesús.",
     "nav.whoWeAre": "Quienes somos",
+    "nav.contact": "Contacto",
+    "nav.contact.meta.description":
+      "Ponte en contacto con el equipo ministerial de In Jesus Likeness — incluyendo al pastor, líderes y soporte técnico — a través de nuestro directorio de contactos.",
     "who-we-are.title": "Quienes somos",
     "who-we-are.weBeliveGod":
       "Creemos que Dios creó al hombre con un propósito muy claro.",
@@ -161,6 +176,11 @@ export const ui = {
     "teaching.theSpiritualGifts": "Los dones espirituales",
     "teaching.walkInTheLight": "Camina en la luz",
     "teaching.work": "Trabajo",
+    "contact.leader": "Líder",
+    "contact.technicalSupport": "Soporte técnico",
+    "contact.ministryContacts": "Contactos del Ministerio",
+    "contact.needToReachAStaffMember":
+      "¿Necesitas contactar a un miembro del personal? Aquí te indicamos a quién contactar.",
     next: "Próximo",
     previous: "Anterior",
   },
@@ -176,7 +196,12 @@ export const ui = {
       "Explore ensinamentos fundamentais para formadores de discípulos: unidade, crescimento espiritual, o propósito eterno de Deus e muito mais. Prepare-se para ensinar—comece sua jornada hoje.",
     "nav.catechesis": "Catequese",
     "nav.songs": "Músicas",
+    "nav.songs.meta.description":
+      "Veja uma lista de músicas de adoração em inglês, espanhol e português. Encontre pelo número e explore letras que glorificam a Jesus.",
     "nav.whoWeAre": "Quem nós somos",
+    "nav.contact": "Contato",
+    "nav.contact.meta.description":
+      "Entre em contato com a equipe ministerial da In Jesus Likeness — incluindo o pastor, líderes e suporte técnico — através do nosso diretório de contatos.",
     "who-we-are.title": "Quem nós somos",
     "who-we-are.weBeliveGod":
       "Acreditamos que Deus criou o homem com um propósito muito claro.",
@@ -239,6 +264,11 @@ export const ui = {
     "teaching.theSpiritualGifts": "Os Dons Espirituais",
     "teaching.walkInTheLight": "Ande na Luz",
     "teaching.work": "Trabalho",
+    "contact.leader": "Líder",
+    "contact.technicalSupport": "Suporte técnico",
+    "contact.ministryContacts": "Contatos do Ministério",
+    "contact.needToReachAStaffMember":
+      "Precisa falar com um membro da equipe? Veja quem contatar",
     next: "Próximo",
     previous: "Anterior",
   },

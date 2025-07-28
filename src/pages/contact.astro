@@ -1,0 +1,149 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<Layout
+  title={t("contact.ministryContacts")}
+  description={t("nav.contact.meta.description")}
+>
+  <section id="prayer" class="mx-auto">
+    <div class="container">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">
+          {t("contact.ministryContacts")}
+        </h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          {t("contact.needToReachAStaffMember")}
+        </p>
+      </div>
+
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto"
+      >
+        <div class="bg-white p-6 rounded-lg shadow-sm">
+          <h3 class="text-xl font-bold mb-2">
+            Raymundo - <span class="text-gray-700 font-normal"> Pastor </span>
+          </h3>
+
+          <div class="flex items-center text-gray-700">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 mr-2 text-primary-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              ></path>
+            </svg>
+            <a
+              href="mailto:churchinunion@gmail.com"
+              class="text-primary-600 hover:text-primary-700"
+            >
+              churchinunion@gmail.com
+            </a>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-sm">
+          <h3 class="text-xl font-bold mb-2">
+            Fredy - <span class="text-gray-700 font-normal"
+              >{t("contact.leader")}</span
+            >
+          </h3>
+
+          <div class="flex items-center text-gray-700">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 mr-2 text-primary-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              ></path>
+            </svg>
+            <a
+              href="mailto:fredyargueta31@gmail.com"
+              class="text-primary-600 hover:text-primary-700"
+            >
+              fredyargueta31@gmail.com
+            </a>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-sm">
+          <h3 class="text-xl font-bold mb-2">
+            Lisandro - <span class="text-gray-700 font-normal"
+              >{t("contact.leader")}</span
+            >
+          </h3>
+          <div class="flex items-center text-gray-700">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 mr-2 text-primary-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              ></path>
+            </svg>
+            <a
+              href="mailto:lisandro2171@gmail.com"
+              class="text-primary-600 hover:text-primary-700"
+            >
+              lisandro2171@gmail.com
+            </a>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-sm">
+          <h3 class="text-xl font-bold mb-2">
+            Carlos - <span class="text-gray-700 font-normal"
+              >{t("contact.technicalSupport")}</span
+            >
+          </h3>
+          <div class="flex items-center text-gray-700">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 mr-2 text-primary-600"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              ></path>
+            </svg>
+            <a
+              href="mailto:boterocevusa@gmail.com"
+              class="text-primary-600 hover:text-primary-700"
+            >
+              boterocevusa@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
