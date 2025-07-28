@@ -8,11 +8,12 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
-<Layout title={t("home.title")} noFullPage>
-  <section
-    id="catequesis"
-    class="grid grid-cols-auto-fill-300 gap-4 w-full"
-  >
+<Layout
+  title={t("nav.songs")}
+  description={t("nav.songs.meta.description")}
+  noFullPage
+>
+  <section id="songs" class="grid grid-cols-auto-fill-300 gap-4 w-full">
     {
       SONGS[lang].map(({ title, pathname, songNumber }) => (
         <a
