@@ -4,28 +4,29 @@ export const LYRICS = {
         lyrics: 
         [
           [
-            "This is the Air I Breathe | 2x",
+            "This is the Air I Breathe (2x)",
             "Your holy presence living in me",
           ],      
           [
-            "This is my daily bread | 2x",
+            "This is my daily bread (2x)",
             "Your very word spoken to me",
           ],      
           [
             "And I, I'm desperate for you",
-            "And I, Im lost without you",
+            "And I, I'm lost without you",
           ],
           [
             "",
             "-------------",
             "Este é o meu respirar",
+            "-------------",
           ],      
           [
-            "Este é o meu respirar | 2x",
+            "Este é o meu respirar (2x)",
             "Teu Santo Espírito vivendo em mim",
           ],      
           [
-            "E este é o meu pão | 2x",
+            "E este é o meu pão (2x)",
             "Tua vontade feita em mim",
           ],      
           [
@@ -36,13 +37,14 @@ export const LYRICS = {
             "",
             "-------------",
             "Tu eres mi respirar",
+            "-------------",
           ],      
           [
-            "Tu eres mi respirar | 2x",
+            "Tu eres mi respirar (2x)",
             "Dios tu presencia vive en mi",
           ],      
           [
-            "Tu eres mi pan Señor | 2x",
+            "Tu eres mi pan Señor (2x)",
             "Dios tus palabras son para mi",
           ],      
           [
@@ -80,7 +82,7 @@ export const LYRICS = {
             "A Ele ministramos o louvor",
           ],
           [
-            "Coroamos a Ti, oh Rei Jesus | 2x",
+            "Coroamos a Ti, oh Rei Jesus (2x)",
             "Adoramos o Teu nome",
             "Nos rendemos aos Teus pés",
             "Consagramos todo nosso ser a Ti.",
@@ -89,6 +91,7 @@ export const LYRICS = {
             "",
             "-------------",
             "Al unico que es digno",
+            "-------------",
           ],      
           [
             "Al unico que es digno de recibir",
@@ -97,7 +100,7 @@ export const LYRICS = {
             "A Él le ministramos el loor",
           ],
           [
-            "Coronamos a Ti, oh Rey Jesus | 2x",
+            "Coronamos a Ti, oh Rey Jesus (2x)",
             "Adoramos a Tu nombre",
             "Nos rindimos a Tus piés",
             "Consagramos todo nuestro ser a Ti.",
@@ -174,6 +177,7 @@ export const LYRICS = {
             "",
             "------------",
             "Shout to the Lord",
+            "-------------",
           ],      
           [
             "My Jesus, my Savior",
@@ -220,7 +224,7 @@ export const LYRICS = {
           [
             "//Ven Espíritu ven",
             "Y llename Señor",
-            "Con tu preciosa unción// | 2x",
+            "Con tu preciosa unción// (2x)",
           ],
           [
             "Purifícame y lávame",
@@ -257,10 +261,10 @@ export const LYRICS = {
         lyrics: 
         [
           [ 
-            "Maravilhoso  | 4x",
-            "Doce Presença  | 4x",
-            "Tu és Santo  | 4x",
-            "Tu és Digno  | 4x",  
+            "Maravilhoso  (4x)",
+            "Doce Presença  (4x)",
+            "Tu és Santo  (4x)",
+            "Tu és Digno  (4x)",  
           ],
         ], 
     },
@@ -289,6 +293,7 @@ export const LYRICS = {
             "",
             "------------",
             "Pour Out My Heart",
+            "-------------",
           ],      
           [
             "Here I am, once again",
@@ -416,7 +421,7 @@ export const LYRICS = {
           [
             "Porque grande és Tu",
             "Maravilhas fazes Tu",
-            "Não há outro igual a Ti  | 2x",
+            "Não há outro igual a Ti  (2x)",
           ],
         
         ], 
@@ -447,7 +452,7 @@ export const LYRICS = {
         "E toda língua confessará",
         "Que Ele é o Senhor",
       ],
-      ["//Jesus, Nome sobre Todo nome,", "Nome sobre Todo nome// - 4x"],
+      ["//Jesus, Nome sobre Todo nome,", "Nome sobre Todo nome// (4x)"],
       [
         "Seu nome é",
         "Maravilhoso Conselheiro",
