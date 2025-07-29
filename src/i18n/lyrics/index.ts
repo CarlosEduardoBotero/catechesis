@@ -337,7 +337,7 @@ export const LYRICS = {
             "Tu és, tremendo",
           ],        
         ] 
-    },,
+    },
   13: { 
         title: "Creo en Ti", 
         lyrics: 
