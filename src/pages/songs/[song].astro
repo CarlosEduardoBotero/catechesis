@@ -1,10 +1,16 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import { getLangFromUrl, useTranslations } from "../../i18n/utils";
+import {
+  getLangFromUrl,
+  useTranslatedPath,
+  useTranslations,
+} from "../../i18n/utils";
 
 import { SONGS } from "../../i18n/songs";
 import { LYRICS } from "../../i18n/lyrics";
 import { toAsciiSlug } from "../../utils/toAsciiSlug";
+import { routes } from "../../i18n/routes/routes";
+import BackArrow from "../../assets/svg/backArrow.svg";
 
 export function getStaticPaths() {
   return Object.values(LYRICS).map((song) => ({
@@ -19,24 +25,37 @@ const lang = getLangFromUrl(Astro.url);
 const songData = SONGS[lang].find(({ pathname }) => pathname.endsWith(song));
 
 const t = useTranslations(lang);
+const translatePath = useTranslatedPath(lang);
+const songsRoute = routes[lang]["/songs"];
 ---
 
 <Layout title={t("home.title") + " | " + songData?.title}>
-  <div class="mx-auto">
-    <h1 class="text-3xl mb-8 font-bold">{songData?.title}</h1>
-    <div class="flex justify-center gap-4 flex-col">
-      {
-        songData?.lyrics.map((stanza) => (
-          <p class="text-lg font-semibold">
-            {stanza.map((verse) => (
-              <>
-                {verse}
-                <br />
-              </>
-            ))}
-          </p>
-        ))
-      }
+  <div class="w-full flex flex-col gap-4">
+    <div>
+      <a
+        href={translatePath(songsRoute)}
+        class="inline-flex items-center px-3 py-1.5 rounded-md text-gray-600 hover:bg-gray-50"
+      >
+        <BackArrow />
+        <span class="ml-1 font-bold text-lg">{t("nav.songs")}</span>
+      </a>
+    </div>
+    <div class="mx-auto">
+      <h1 class="text-3xl mb-8 font-bold">{songData?.title}</h1>
+      <div class="flex justify-center gap-4 flex-col">
+        {
+          songData?.lyrics.map((stanza) => (
+            <p class="text-lg font-semibold">
+              {stanza.map((verse) => (
+                <>
+                  {verse}
+                  <br />
+                </>
+              ))}
+            </p>
+          ))
+        }
+      </div>
     </div>
   </div>
 </Layout>
