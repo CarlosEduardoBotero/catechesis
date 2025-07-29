@@ -119,7 +119,7 @@ export const ETERNAL_PURPOSE_CATECHESIS = {
           content: "",
         },
       ],
-      previous: "/catechesis/he-died-for-our-sins",
+      previous: "/catechesis/eternal-purpose/what-is-gods-purpose-today",
       next: "/catechesis/eternal-purpose/why-many-children",
     },
     {

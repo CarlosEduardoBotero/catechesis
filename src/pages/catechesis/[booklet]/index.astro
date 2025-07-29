@@ -1,20 +1,33 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
-
 import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
-import { THE_FAMILY_CATECHESIS } from "../../../i18n/catechesis/booklet/the-family";
+
+import { BOOKLETS } from "../../../i18n/catechesis/booklet/booklets";
+
+export function getStaticPaths() {
+  return BOOKLETS["en"].map(({ bookletId }) => ({
+    params: { booklet: bookletId },
+  }));
+}
+
+const { booklet } = Astro.params;
 
 const lang = getLangFromUrl(Astro.url);
+
+const data = BOOKLETS[lang].find(
+  ({ bookletId }) => bookletId === booklet
+)?.booklet;
+
 const t = useTranslations(lang);
 ---
 
-<Layout title={t("home.title")} noFullPage>
+<Layout title={t("home.title") + " | " + t("nav.catechesis") + " | " + booklet} noFullPage>
   <section
     id="catequesis"
     class="grid grid-cols-auto-fill-300 grid-rows-auto-fill-150 gap-4 w-full"
   >
     {
-      THE_FAMILY_CATECHESIS[lang].map(({ title, pathname, lesson }) => (
+      data?.map(({ title, pathname, lesson }) => (
         <a
           href={`${pathname}`}
           class="flex flex-col border border-gray-200 p-4 rounded-md shadow-xs hover:shadow-md transition-all duration-200 bg-white"
