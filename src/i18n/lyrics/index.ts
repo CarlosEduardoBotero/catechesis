@@ -1,5 +1,5 @@
 export const LYRICS = {
-  1: { 
+   1: { 
         title: "This is the air I breathe", 
         lyrics: 
         [
@@ -17,9 +17,9 @@ export const LYRICS = {
           ],
           [
             "",
-            "-------------",
+            "---------------------",
             "Este é o meu respirar",
-            "-------------",
+            "---------------------",
           ],      
           [
             "Este é o meu respirar (2x)",
@@ -35,9 +35,9 @@ export const LYRICS = {
           ],
           [
             "",
-            "-------------",
+            "-------------------",
             "Tu eres mi respirar",
-            "-------------",
+            "-------------------",
           ],      
           [
             "Tu eres mi respirar (2x)",
@@ -89,9 +89,9 @@ export const LYRICS = {
           ],
           [
             "",
-            "-------------",
+            "---------------------",
             "Al unico que es digno",
-            "-------------",
+            "---------------------",
           ],      
           [
             "Al unico que es digno de recibir",
@@ -146,7 +146,7 @@ export const LYRICS = {
         ], 
     },
   6: { 
-        title: "Acalme ao Senhor", 
+        title: "Acalme ao Senhor (Shout to the Lord)", 
         lyrics: 
         [
           [
@@ -175,9 +175,9 @@ export const LYRICS = {
           ],
           [
             "",
-            "------------",
+            "-----------------",
             "Shout to the Lord",
-            "-------------",
+            "-----------------",
           ],      
           [
             "My Jesus, my Savior",
@@ -269,7 +269,7 @@ export const LYRICS = {
         ], 
     },
   11: { 
-        title: "Me derramar", 
+        title: "Me derramar (Pour Out My Heart)", 
         lyrics: 
         [
           [
@@ -291,9 +291,9 @@ export const LYRICS = {
           ],
           [
             "",
-            "------------",
+            "-----------------",
             "Pour Out My Heart",
-            "-------------",
+            "-----------------",
           ],      
           [
             "Here I am, once again",
@@ -427,41 +427,42 @@ export const LYRICS = {
         ], 
     },
   16: {
-    title: "Nome sobre todo Nome",
-    lyrics: [
-      [
-        "Abriu mão da Sua glória",
-        "E semelhante a um homem",
-        "Se esvaziou, servo tornou",
-      ],
-      [
-        "E a si mesmo Se humilhou",
-        "E como filho obedeceu",
-        "Até a morte, e morte de cruz",
-      ],
-      [
-        "Mas o Grande Deus",
-        "O nosso Pai, O exaltou",
-        "E lhe deu o nome",
-        "Que é sobre todo nome",
-        "No céu e na terra, e debaixo da terra",
-      ],
-      [
-        "Ao nome de Jesus",
-        "Todo joelho se dobrará",
-        "E toda língua confessará",
-        "Que Ele é o Senhor",
-      ],
-      ["//Jesus, Nome sobre Todo nome,", "Nome sobre Todo nome// (4x)"],
-      [
-        "Seu nome é",
-        "Maravilhoso Conselheiro",
-        "Deus forte",
-        "Pai da eternidade",
-        "Príncipe da Paz.",
-      ],
-    ],
-  },
+        title: "Nome sobre todo Nome",
+        lyrics: 
+        [
+          [
+            "Abriu mão da Sua glória",
+            "E semelhante a um homem",
+            "Se esvaziou, servo tornou",
+          ],
+          [
+            "E a si mesmo Se humilhou",
+            "E como filho obedeceu",
+            "Até a morte, e morte de cruz",
+          ],
+          [
+            "Mas o Grande Deus",
+            "O nosso Pai, O exaltou",
+            "E lhe deu o nome",
+            "Que é sobre todo nome",
+            "No céu e na terra, e debaixo da terra",
+          ],
+          [
+            "Ao nome de Jesus",
+            "Todo joelho se dobrará",
+            "E toda língua confessará",
+            "Que Ele é o Senhor",
+          ],
+          ["//Jesus, Nome sobre Todo nome,", "Nome sobre Todo nome// (4x)"],
+          [
+            "Seu nome é",
+            "Maravilhoso Conselheiro",
+            "Deus forte",
+            "Pai da eternidade",
+            "Príncipe da Paz.",
+          ],
+        ],
+    },
   17: { 
         title: "Teu Nome é santo", 
         lyrics: 
@@ -487,7 +488,7 @@ export const LYRICS = {
         ], 
     },
   18: { 
-        title: "Dame tus ojos", 
+        title: "Dame tus ojos (Give me Your eyes)", 
         lyrics: 
         [
           [    
@@ -523,9 +524,9 @@ export const LYRICS = {
           ],
           [
             "",
-            "------------",
+            "-----------------",
             "Give me Your eyes",
-            "-------------",
+            "-----------------",
           ],      
           [
             "Give me Your eyes, I want to see",
@@ -581,7 +582,7 @@ export const LYRICS = {
         ], 
     },
   20: { 
-        title: "Way Maker", 
+        title: "Way Maker (Aquí estás)", 
         lyrics: 
         [
           [ 
@@ -621,9 +622,9 @@ export const LYRICS = {
           ],
           [
             "",
-            "------------",
+            "----------",
             "Aquí estás",
-            "-------------",
+            "----------",
           ],      
           [
             "Te vemos mover",
@@ -701,7 +702,7 @@ export const LYRICS = {
         ], 
     },
   23: { 
-        title: "Great is the Lord", 
+        title: "Great is the Lord (Grande é o Senhor)", 
         lyrics: 
         [
           [
@@ -729,9 +730,9 @@ export const LYRICS = {
           ],
           [
             "",
-            "------------",
+            "-----------------",
             "Grande é o Senhor",
-            "-------------",
+            "-----------------",
           ],      
           [
             "Grande é o Senhor",
@@ -893,9 +894,9 @@ export const LYRICS = {
           ],      
           [
             "",
-            "------------",
+            "------------------",
             "A Él sea la gloria",
-            "-------------",
+            "------------------",
           ],      
           [
             "//Todo es de mi Cristo", 
@@ -916,9 +917,9 @@ export const LYRICS = {
           ],      
           [
             "",
-            "------------",
+            "-------------------",
             "For him to be glory",
-            "-------------",
+            "-------------------",
           ],      
           [
             "//For of him and through him",
@@ -1039,9 +1040,9 @@ export const LYRICS = {
           ],  
           [
             "",
-            "------------",
+            "----------------------",
             "I woke up this morning (Spanish version)",
-            "-------------",
+            "----------------------",
           ],      
           [
             "Me desperte esta manana con la mente",
@@ -1124,16 +1125,533 @@ export const LYRICS = {
           ],      
         ], 
     },
-  32: { title: "Great are You Lord", lyrics: [] },
-  33: { title: "Nos braços do meu Pai!", lyrics: [] },
-  34: { title: "Living Hope", lyrics: [] },
-  35: { title: "I love You Lord/I exalt Thee", lyrics: [] },
-  36: { title: "Tributo a Iehovah (Jeová)", lyrics: [] },
-  37: { title: "Hermoso Nombre", lyrics: [] },
-  38: { title: "Blessed be Your Name", lyrics: [] },
-  39: { title: "Jesucristo basta", lyrics: [] },
-  40: { title: "He is exalted", lyrics: [] },
-  41: { title: "He will hold me fast", lyrics: [] },
-  42: { title: "Goodness of God", lyrics: [] },
-  43: { title: "You are worthy of it all", lyrics: [] },
+  32: { 
+        title: "Great are You Lord", 
+        lyrics: 
+        [
+          [
+            "You give life, You are love", 
+            "You bring light to the darkness",
+            "You give hope, You restore", 
+            "Every heart that is broken", 
+            "And great are You, Lord", 
+          ],      
+          [
+            "It's Your breath in our lungs", 
+            "So we pour out our praise", 
+            "We pour out our praise", 
+            "It's Your breath in our lungs", 
+            "So we pour out our praise to You only", 
+          ],      
+          [
+            "You give life, You are love", 
+            "You bring light to the darkness", 
+            "You give hope, You restore",  
+            "Every heart that is broken", 
+            "Great are You, Lord", 
+          ],      
+          [
+            "It's Your breath in our lungs…", 
+          ],      
+          [
+            "//And all the earth will shout Your praise", 
+            "Our hearts will cry, these bones will sing", 
+            "Great are You, Lord//  (3x)", 
+          ],      
+          [
+            "It's Your breath in our lungs…",
+          ],      
+        ], 
+    },
+  33: { 
+        title: "Nos braços do meu Pai!", 
+        lyrics: 
+        [
+          [
+            "Não há lugar melhor, com tamanha paz",
+            "Paz igual eu nunca encontrei jamais",
+            "É o lugar do meu prazer",
+            "Onde todo o medo se vai",
+            "É o lugar do meu descanso",
+            "Os braços do meu Pai",
+          ],      
+          [
+             "Os braços do meu Pai",
+            "São os braços de Jesus",
+            "Quando foram estendidos",
+            "Eu fui recebido lá na cruz, lá na cruz",
+            "Nos braços do meu Pai (2x)",
+          ],      
+          [
+             "Outrora eu era triste",
+            "Sem lugar para onde ir",
+            "Mais o Pai, com seus braços de amor",
+            "Restaurou-me o meu sorrir",
+            "Deu-me parte em sua herança",
+            "Vestimenta, vinho e pão",
+            "Porque tinha um lugar para mim",
+            "No seu coração",
+          ],      
+        ], 
+    },
+  34: { 
+        title: "Living Hope", 
+        lyrics: 
+        [
+          [
+            "How great the chasm that lay between us",
+            "How high the mountain I could not climb",
+            "In desperation, I turned to heaven",
+            "And spoke Your name into the night",
+            "Then through the darkness, Your loving-kindness",
+            "Tore through the shadows of my soul",
+            "The work is finished, the end is written",
+            "Jesus Christ, my living hope",
+          ],      
+          [
+            "Who could imagine so great a mercy",
+            "What heart could fathom such boundless grace",
+            "The God of ages stepped down from glory",
+            "To wear my sin and bear my shame",
+          ],      
+          [
+            "The cross has spoken, I am forgiven",
+            "The King of kings calls me His own",
+            "Beautiful Savior, I'm Yours forever",
+            "Jesus Christ, my living hope",
+          ],      
+          [
+            "Hallelujah, praise the One who set me free",
+            "Hallelujah, death has lost its grip on me",
+            "You have broken every chain",
+            "There's salvation in Your name",
+            "Jesus Christ, my living hope",
+          ],      
+          [
+            "Then came the morning that sealed the promise",
+            "Your buried body began to breathe",
+            "Out of the silence, the Roaring Lion",
+            "Declared the grave has no claim on me",
+            "Jesus, Yours is the victory",
+          ],      
+          [
+            "Hallelujah, praise the One who set me free…",
+          ],      
+          [
+            "Jesus Christ, my living hope",
+            "Oh God, You are my living hope",
+          ],      
+        ], 
+    },
+  35: { 
+        title: "I love You Lord/I exalt Thee", 
+        lyrics: 
+        [
+          [
+            "I love you, Lord",
+            "And I lift my voice",
+            "To worship you",
+            "Oh my soul rejoice",
+            "Take joy, my king",
+            "In what you hear",
+            "Let it be a sweet sweet sound",
+            "In your ear",
+          ],      
+          [
+            "I love you, Lord…",
+          ],      
+          [
+            "I exalt Thee",
+            "I exalt Thee",
+            "I exalt Thee, O Lord",
+          ],      
+        ], 
+    },
+  36: { 
+        title: "Tributo a Iehovah (Jeová)", 
+        lyrics: 
+        [
+          [
+            "Iê, iê-ê, Iehovah (4x)",
+          ],      
+          [
+            "Sou grato por tudo que tenho",
+            "O tesouro maior deste mundo",
+            "Me foi dado como herança eterna",
+            "Maior prova de um amor tão profundo",
+          ],      
+          [
+            "Tenho vida, alegria todo o tempo",
+            "Tenho amigos, família, muitos irmãos",
+            "Foi Jesus, meu amigo verdadeiro",
+            "Que fez tudo ao me dar a salvação",
+          ],      
+          [
+            "Louvarei ao Senhor em todo o tempo",
+            "Seu louvor estará continuamente",
+            "Em meus lábios e também no coração",
+            "Jesus Cristo será sempre minha canção",
+          ],      
+        ], 
+    },
+  37: { 
+        title: "Hermoso Nombre(What a Beautiful Name)", 
+        lyrics: 
+        [
+          [
+            "Tú fuiste el verbo en el principio", 
+            "Unigénito de Dios", 
+            "El misterio de tu gloria", 
+            "Revelado en tu amor", 
+          ],      
+          [
+            "Cuán hermoso su nombre es  (2x)",
+            "El nombre de Jesús mi Rey", 
+            "Cuán hermoso su nombre es", 
+            "Nada se iguala a Él", 
+            "Cuán hermoso su nombre es", 
+            "No hay otro nombre",
+          ],      
+          [
+            "Dejaste el cielo por salvarme", 
+            "Me viniste a rescatar", 
+            "Mi transgresión tú perdonaste",
+            "Nada nos separará", 
+          ],      
+          [
+            "Majestuoso su nombre es  (2x)",
+            "El nombre de Jesús mi Rey", 
+            "Majestuoso su nombre es", 
+            "Nada se iguala a Él", 
+            "Majestuoso su nombre es", 
+            "No hay otro nombre",
+          ],      
+          [
+            "La muerte venciste", 
+            "El velo partiste", 
+            "La tumba vacía ahora está", 
+            "Los cielos declaran", 
+            "Tu gloria proclaman", 
+            "Resucitaste en majestad",
+          ],      
+          [
+            "Inigualable, Incomparable", 
+            "Hoy y por siempre reinarás", 
+            "Tuyo es el reino, Tuya es la gloria", 
+            "Tuyo el poder y autoridad",
+          ],      
+          [
+            "Poderoso su nombre es  (2x)",
+            "El nombre de Jesús mi Rey", 
+            "Poderoso su nombre es", 
+            "Incomparable es Él", 
+            "//Poderoso su nombre es", 
+            "No hay otro nombre//  (2x)",
+          ],      
+          [
+            "",
+            "---------------------",
+            "What a Beautiful Name",
+            "---------------------",
+          ],      
+          [
+            "You were the Word at the beginning",
+            "One With God the Lord Most High",
+            "Your hidden glory in creation",
+            "Now revealed in You our Christ",
+          ],      
+          [
+            "What a [beautiful] Name it is  (2x)",
+            "The Name of Jesus Christ my King",
+            "What a [beautiful]Name it is",
+            "Nothing compares to this",
+            "What a [beautiful] Name it is",
+            "The Name of Jesus",
+          ],      
+          [
+            "You didn't want heaven without us",
+            "So Jesus, You brought heaven down",
+            "My sin was great", 
+            "Your love was greater",
+            "What could separate us now",
+          ],      
+          [
+            "What a [wonderful] Name it is…",
+          ],      
+          [
+            "Death could not hold You",
+            "The veil tore before You",
+            "You silenced the boast",
+            "Of sin and grave",
+            "The heavens are roaring",
+            The praise of Your glory",
+            "For You are raised to life again",
+          ],      
+          [
+            "You have no rival, You have no equal",
+            "Now and forever, Our God reigns",
+            "Yours is the Kingdom",
+            "Yours is the glory",
+            "Yours is the Name, above all names",
+          ],      
+          [
+            "What a [powerful] Name it is…",
+          ],      
+        ], 
+    },
+  38: { 
+        title: "Blessed be Your Name", 
+        lyrics: 
+        [
+          [
+            "Blessed be Your name",
+            "In the land that is plentiful",
+            "Where Your streams of abundance flow",
+            "Blessed be Your name",
+          ],      
+          [
+            "Blessed be Your name",
+            "When I'm found in the desert place",
+            "Though I walk through the wilderness",
+            "Blessed be Your name",
+          ],      
+          [
+            "Every blessing You pour out",
+            "I'll turn back to praise",
+            "When the darkness closes in, Lord",
+            "Still I will say",
+          ],      
+          [
+            "Blessed be the name of the Lord",
+            "Blessed be Your name",
+            "Blessed be the name of the Lord",
+            "Blessed be Your glorious name",
+          ],      
+          [
+            "Blessed be Your name",
+            "When the sun's shining down on me",
+            "When the world's all as it should be",
+            "Blessed be Your name",
+          ],      
+          [
+            "Blessed be Your name",
+            "On the road marked with suffering",
+            "Though there's pain in the offering",
+            "Blessed be Your name",
+          ],      
+          [
+            "Every blessing You pour out…",
+          ],      
+          [
+            "You give and take away  (2x)",
+            "My heart will choose to say",
+            "Lord blessed be Your name",
+          ],      
+          [
+            "Every blessing You pour out…",
+          ],      
+        ], 
+    },
+  39: { 
+        title: "Jesucristo basta", 
+        lyrics: 
+        [
+          [
+            "Nuestros corazones insaciables son",
+            "Hasta que conocen a su Salvador",
+            "Tal y cómo somos nos amó",
+            "Hoy nos acercamos sin temor",
+          ],      
+          [
+            "Él es el agua que al beber",
+            "Nunca más tendremos sed",
+            "Jesucristo basta, Jesucristo basta",
+            "Mi castigo recibió",
+            "Y su herencia me entrego",
+            "Jesucristo basta, Jesucristo basta",
+            "Fuimos alcanzados",
+            "Por su gran amor",
+            "Con brazos abiertos",
+            "Nos recibe hoy",
+          ],      
+          [
+            "Tal y cómo somos nos amó…",
+          ],      
+          [
+            "Tal y cómo somos nos amó, oh",
+            "Hoy nos acercamos sin temor, sin temor",
+            "Tal y cómo somos nos amó",
+            "Hoy nos acercamos sin temor", 
+          ],      
+          [
+            "Él es el agua que al beber…",
+          ],      
+          [
+            "Ahora hay un futuro",
+            "Y esperanza fiel",
+            "En su amor confiamos",
+            "Hay descanso en Él",
+          ],      
+        ], 
+    },
+  40: {    
+        title: "He is exalted (Ele é exaltado)", 
+        lyrics: 
+        [
+          [
+            "He is exalted the King is exalted on High",
+            "I will praise Him",
+            "He is exalted forever exalted",
+            "And I will praise His name",
+          ],      
+          [
+            "He is the Lord",
+            "Forever His truth shall reign",
+            "Heaven and Earth",
+            "Rejoice in His holy name",
+            "He is exalted the King is exalted on high",
+          ],  
+          [
+            "",
+            "--------------",
+            "Ele é exaltado",
+            "--------------",
+          ],      
+          [
+            "Ele é exaltado, o Rei é exaltado nos céus",
+            "Eu o louvarei",
+            "Ele é exaltado, pra sempre exaltado",
+            "O Seu nome louvarei",
+          ],      
+          [
+            "Ele é o Senhor",
+            "Sua verdade vai sempre reinar",
+            "Terra e céus",
+            "Glorificam seu Santo nome",
+            "Ele é exaltado, o Rei é exaltado nos céus",
+         ],
+        ], 
+    },
+  41: { 
+        title: "He will hold me fast", 
+        lyrics: 
+        [
+          [
+            "When I fear my faith will fail",
+            "Christ will hold me fast",
+            "When the tempter would prevail",
+            "He will hold me fast",
+          ],      
+          [
+            "I could never keep my hold",
+            "Through life's fearful path",
+            "For my love is often cold",
+            "He must hold me fast",
+          ],      
+          [
+            "He will hold me fast",
+            "He will hold me fast",
+            "For my Saviour loves me so",
+            "He will hold me fast",
+          ],      
+          [
+            "Those He saves are His delight",
+            "Christ will hold me fast",
+            "Precious in His holy sight",
+            "He will hold me fast",
+          ],      
+          [
+            "He'll not let my soul be lost",
+            "His promises shall last",
+            "Bought by Him at such a cost",
+            "He will hold me fast",
+          ],      
+          [
+            "He will hold me fast...",
+          ],      
+          [
+            "For my life He bled and died",
+            "Christ will hold me fast",
+            "Justice has been satisfied",
+            "He will hold me fast",
+          ],      
+          [
+            "Raised with Him to endless life",
+            "He will hold me fast",
+            "'Til our faith is turned to sight",
+            "When He comes at last",
+          ],      
+          [
+            "He will hold me fast...",
+          ],      
+        ], 
+    },
+  42: { 
+        title: "Goodness of God", 
+        lyrics: 
+        [
+          [
+            "I love You Lord",
+            "Oh Your mercy never fails me",
+            "All my days", 
+            "I've been held in Your hands",
+            "From the moment that I wake up",
+            "Until I lay my head",
+            "I will sing of the goodness of God",
+          ],      
+          [
+            "All my life You have been faithful",
+            "All my life You have been so, so good",
+            "With every breath that I am able",
+            "I will sing of the goodness of God",
+          ],      
+          [
+            "I love Your voice",
+            "You have led me through the fire",
+            "In darkest nights",
+            "You are close like no other",
+            "I've known You as a father",
+            "I've known You as a friend",
+            "I have lived in the goodness of God",
+          ],      
+          [
+            "Your goodness is running after, it’s running after me", 
+            "Your goodness is running after, it’s running after me", 
+            "With my life laid down", 
+            "I’m surrendered now",
+            "I give You everything",
+            "Your goodness is running after, it’s running after me",
+          ],      
+        ], 
+    },
+  43: { 
+        title: "You are worthy of it all", 
+        lyrics: 
+        [
+          [
+            "All the saints and angels",
+            "They bow before Your throne",
+            "All the elders cast their crowns",
+            "Before the Lamb of God and sing",
+          ],      
+          [
+            "You are worthy of it all", 
+            "You are worthy of it all", 
+            "For from You are all things", 
+            "And to You are all things",
+            "You deserve the glory",
+          ],      
+          [
+            "Day and night, night and day, let incense arise", 
+            "Day and night, night and day, let incense arise", 
+            "Day and night, night and day, let incense arise", 
+            "Day and night, night and day, let incense arise", 
+          ],      
+          [
+            "I exalt Thee",
+            "I exalt Thee",
+            "I exalt Thee oh Lord",
+          ],      
+        ], 
+    },
 };
