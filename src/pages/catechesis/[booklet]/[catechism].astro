@@ -1,10 +1,6 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
 import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
-
-import { SONGS } from "../../../i18n/songs";
-import { LYRICS } from "../../../i18n/lyrics";
-import { toAsciiSlug } from "../../../utils/toAsciiSlug";
 import { BOOKLETS } from "../../../i18n/catechesis/booklet/booklets";
 import PreviousNextButtons from "../../../components/PreviousNextButtons.astro";
 import VerseCard from "../../../components/VerseCard.astro";
@@ -31,7 +27,7 @@ const data = BOOKLETS[lang].find(
 const t = useTranslations(lang);
 ---
 
-<Layout title={t("home.title") + " | " + data?.title}>
+<Layout title={t("home.title") + " | " + t("nav.catechesis") + " | " + booklet + " | " + catechism}>
   <div class="flex flex-col w-full justify-between gap-4 md:gap-12">
     <div class="flex justify-center gap-4 flex-wrap">
       {
