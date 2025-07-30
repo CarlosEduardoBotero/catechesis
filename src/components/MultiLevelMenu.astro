@@ -1,7 +1,11 @@
 ---
 import clsx from "clsx";
 import { BOOKLETS } from "../i18n/catechesis/booklet/booklets";
-import { getLangFromUrl, useTranslations } from "../i18n/utils";
+import {
+  getLangFromUrl,
+  getRouteFromUrl,
+  useTranslations,
+} from "../i18n/utils";
 import { routes } from "../i18n/routes/routes";
 
 interface Props {
@@ -13,12 +17,11 @@ const { shouldHighlight } = Astro.props;
 const lang = getLangFromUrl(Astro.url);
 const patnameFromUrl = Astro.url.pathname;
 const langCode = lang !== "en" ? "/" + lang : "";
+const route = getRouteFromUrl(Astro.url);
 const t = useTranslations(lang);
-const catechesisRoute = routes[lang]["/catechesis"];
+const catechesisRouteEnglish = routes["en"]["/catechesis"];
 
-const isBookletOpen = BOOKLETS[lang].some((booklet) =>
-  booklet.pathname.startsWith(catechesisRoute)
-);
+const isBookletOpen = route?.startsWith(catechesisRouteEnglish);
 ---
 
 <div>
