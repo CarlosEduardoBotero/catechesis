@@ -12,14 +12,43 @@ const { title, noFullPage, description, keywords } = Astro.props;
 <html lang={lang}>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title}</title>
+
     <link rel="icon" type="image/svg+xml" href="/favicon-16x16.png" />
     <link rel="icon" type="image/svg+xml" href="/favicon-32x32.png" />
     <link rel="sitemap" href="/sitemap-index.xml" />
-    <meta name="viewport" content="width=device-width" />
+
     <meta name="author" content="Carlos Eduardo Botero Viloria" />
     <meta name="description" content={description} />
     <meta name="keywords" content={keywords} />
-    <title>{title}</title>
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://injesuslikeness.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Who we are" />
+    <meta
+      property="og:description"
+      content="We believe God’s purpose is to form a united family of many children in Jesus’ likeness—marked by unity, multiplication, and spiritual maturity through discipleship and Christlike living."
+    />
+    <meta
+      property="og:image"
+      content="https://injesuslikeness.com/InJesusLikeness_OG_Image.png"
+    />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="injesuslikeness.com" />
+    <meta property="twitter:url" content="https://injesuslikeness.com/" />
+    <meta name="twitter:title" content="Who we are" />
+    <meta
+      name="twitter:description"
+      content="We believe God’s purpose is to form a united family of many children in Jesus’ likeness—marked by unity, multiplication, and spiritual maturity through discipleship and Christlike living."
+    />
+    <meta
+      name="twitter:image"
+      content="https://injesuslikeness.com/InJesusLikeness_OG_Image.png"
+    />
   </head>
   <body class="bg-slate-100 text-gray-800 min-h-screen-svh flex flex-col">
     <Header />

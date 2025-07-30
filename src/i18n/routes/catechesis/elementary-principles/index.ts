@@ -2,7 +2,6 @@ export const ELEMENTARY_PRINCIPLES_ROUTES = {
   en: {
     "/catechesis": "/catechesis",
     "/catechesis/elementary-principles": "/catechesis/elementary-principles",
-    "/teaching": "/teaching",
     "/catechesis/elementary-principles/jesus-exist-before-all-things":
       "/catechesis/elementary-principles/jesus-exist-before-all-things",
     "/catechesis/elementary-principles/he-became-a-man":
@@ -41,7 +40,6 @@ export const ELEMENTARY_PRINCIPLES_ROUTES = {
   es: {
     "/catechesis": "/catequesis",
     "/catechesis/elementary-principles": "/catequesis/principios-elementales",
-    "/teaching": "/enseñanza",
     "/catechesis/elementary-principles/jesus-exist-before-all-things":
       "/catequesis/principios-elementales/jesus-existia-antes-de-todas-las-cosas",
     "/catechesis/elementary-principles/he-became-a-man":
@@ -80,7 +78,6 @@ export const ELEMENTARY_PRINCIPLES_ROUTES = {
   pt: {
     "/catechesis": "/catequese",
     "/catechesis/elementary-principles": "/catequese/principios-elementares",
-    "/teaching": "/ensino",
     "/catechesis/elementary-principles/jesus-exist-before-all-things":
       "/catequese/principios-elementares/jesus-existia-antes-de-todas-as-coisas",
     "/catechesis/elementary-principles/he-became-a-man":

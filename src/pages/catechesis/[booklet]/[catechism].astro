@@ -1,0 +1,49 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import { getLangFromUrl, useTranslations } from "../../../i18n/utils";
+import { BOOKLETS } from "../../../i18n/catechesis/booklet/booklets";
+import PreviousNextButtons from "../../../components/PreviousNextButtons.astro";
+import VerseCard from "../../../components/VerseCard.astro";
+
+export function getStaticPaths() {
+  return BOOKLETS["en"]
+    .map(({ bookletId, booklet }) => {
+      return booklet.map((item) => {
+        const pathSplited = item.pathname.split("/");
+        const bookletPath = pathSplited[pathSplited.length - 1];
+        return { params: { booklet: bookletId, catechism: bookletPath } };
+      });
+    })
+    .flat();
+}
+
+const { booklet, catechism } = Astro.params;
+const lang = getLangFromUrl(Astro.url);
+
+const data = BOOKLETS[lang].find(
+  ({ bookletId }) => bookletId === booklet
+)?.booklet.find((item)=>item.pathname.endsWith(catechism));
+
+const t = useTranslations(lang);
+---
+
+<Layout title={t("home.title") + " | " + t("nav.catechesis") + " | " + booklet + " | " + catechism}>
+  <div class="flex flex-col w-full justify-between gap-4 md:gap-12">
+    <div class="flex justify-center gap-4 flex-wrap">
+      {
+        data?.verses.map(({ book, chapter, verse, content }) => (
+          <VerseCard
+            title={data?.title}
+            subtitle={data?.subtitle}
+            book={book}
+            chapter={chapter}
+            verse={verse}
+            content={content}
+          />
+        ))
+      }
+    </div>
+
+    <PreviousNextButtons previousLink={data?.previous} nextLink={data?.next} />
+  </div>
+</Layout>

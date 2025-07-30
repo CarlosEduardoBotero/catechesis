@@ -1,7 +1,7 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import Layout from "../../layouts/Layout.astro";
 
-import { getLangFromUrl, useTranslations } from "../i18n/utils";
+import { getLangFromUrl, useTranslations } from "../../i18n/utils";
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
@@ -45,9 +45,13 @@ const t = useTranslations(lang);
         </a>
       </li>
       <li>
-        <span>
+        <a
+          class="text-blue-600 hover:underline cursor-pointer"
+          target="_blank"
+          href={`/teaching/${lang}/communion-with-god-v1.pdf`}
+        >
           {t("teaching.communionWithGod")}
-        </span>
+        </a>
       </li>
       <li>
         <a
@@ -131,13 +135,9 @@ const t = useTranslations(lang);
         </a>
       </li>
       <li>
-        <a
-          class="text-blue-600 hover:underline cursor-pointer"
-          target="_blank"
-          href={`/teaching/${lang}/the-gospel-of-the-kingdom-2013-v2.pdf`}
-        >
+        <span>
           {t("teaching.theGospelOfTheKingdom")}
-        </a>
+        </span>
       </li>
       <li>
         <a
@@ -158,13 +158,9 @@ const t = useTranslations(lang);
         </a>
       </li>
       <li>
-        <a
-          class="text-blue-600 hover:underline cursor-pointer"
-          target="_blank"
-          href={`/teaching/${lang}/15-the-spiritual-gifts-v1.pdf`}
-        >
+        <span>
           {t("teaching.theSpiritualGifts")}
-        </a>
+        </span>
       </li>
       <li>
         <a
@@ -176,13 +172,9 @@ const t = useTranslations(lang);
         </a>
       </li>
       <li>
-        <a
-          class="text-blue-600 hover:underline cursor-pointer"
-          target="_blank"
-          href={`/teaching/${lang}/12-work-v1.1.pdf`}
-        >
+        <span>
           {t("teaching.work")}
-        </a>
+        </span>
       </li>
     </ul>
   </section>

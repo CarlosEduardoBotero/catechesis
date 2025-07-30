@@ -4,6 +4,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catechesis/elementary-principles/jesus-exist-before-all-things",
       title: "Jesus exist before all things",
+      lesson: "1",
       verses: [
         {
           book: "Jonh",
@@ -19,6 +20,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catechesis/elementary-principles/he-became-a-man",
       title: "He became a man",
+      lesson: "2",
       verses: [
         {
           book: "Philippians",
@@ -36,6 +38,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catechesis/elementary-principles/his-life-was-perfect-and-blameless",
       title: "His life was perfect and blameless",
+      lesson: "3",
       verses: [
         {
           book: "1 Peter",
@@ -51,6 +54,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catechesis/elementary-principles/his-work-was-great-and-glorious",
       title: "His work was great and glorious",
+      lesson: "4",
       verses: [
         {
           book: "Acts",
@@ -67,6 +71,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catechesis/elementary-principles/he-died-for-our-sins",
       title: "He died for our sins",
+      lesson: "5",
       verses: [
         {
           book: "2 Corinthians",
@@ -90,6 +95,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catechesis/elementary-principles/he-rose-again",
       title: "He rose again",
+      lesson: "6",
 
       verses: [
         {
@@ -106,6 +112,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catechesis/elementary-principles/he-was-exalted",
       title: "He was exalted",
+      lesson: "7",
       verses: [
         {
           book: "Acts",
@@ -128,6 +135,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catechesis/elementary-principles/he-will-return",
       title: "He will return",
+      lesson: "8",
       verses: [
         {
           book: "Matthew",
@@ -144,6 +152,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catechesis/elementary-principles/what-did-jesus-command-us-to-do",
       title: "What did Jesus command us to do?",
+      lesson: "9",
       subtitle: "Jesus commanded us to make disciples.",
       verses: [
         {
@@ -161,6 +170,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catechesis/elementary-principles/what-should-we-talk-about-to-make-disciples",
       title: "What should we talk about to make disciples?",
+      lesson: "10",
       subtitle: "We should talk about Jesus and the door to the kingdom.",
       verses: [
         {
@@ -179,6 +189,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catechesis/elementary-principles/what-is-the-door-to-the-kingdom",
       title: "What is the door to the kingdom?",
+      lesson: "11",
       subtitle:
         "Repentance, Baptism in Christ, and the gift of the Holy Spirit.",
       verses: [
@@ -198,6 +209,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catechesis/elementary-principles/what-is-the-way-of-the-kingdom",
       title: "What is the way (road) of the kingdom?",
+      lesson: "12",
       subtitle: "To obey everything Jesus commanded.",
       verses: [
         {
@@ -215,6 +227,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catechesis/elementary-principles/what-is-repentance",
       title: "What is repentance?",
+      lesson: "13",
       subtitle: "Repentance is an inner change of attitude.",
       verses: [
         {
@@ -233,6 +246,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catechesis/elementary-principles/what-is-the-inner-change-that-happens-in-repentance",
       title: "What is the inner change that happens in repentance?",
+      lesson: "14",
       subtitle: "To give up being independent to become dependent on God.",
       verses: [
         {
@@ -250,6 +264,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catechesis/elementary-principles/what-is-necessary-for-change-of-attitude",
       title: "What is necessary for change of attitude?",
+      lesson: "15",
       subtitle:
         "Deny yourself, Take up your cross, Lose your life and Give up everything.",
       verses: [
@@ -268,6 +283,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catechesis/elementary-principles/what-happens-in-baptism",
       title: "What happens in baptism?",
+      lesson: "16",
       subtitle: "We are put into Christ.",
       verses: [
         {
@@ -286,6 +302,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catechesis/elementary-principles/what-happens-in-baptism-with-the-holy-spirit",
       title: "What happens in baptism with the Holy Spirit?",
+      lesson: "17",
       subtitle: "We receive power to witness and we can manifest the gifts.",
       verses: [
         {
@@ -305,6 +322,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catequesis/principios-elementales/jesus-existia-antes-de-todas-las-cosas",
       title: "Jesús existía antes de todas las cosas",
+      lesson: "1",
       verses: [
         {
           book: "Juan",
@@ -320,6 +338,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catequesis/principios-elementales/el-se-hizo-hombre",
       title: "Él se hizo hombre",
+      lesson: "2",
       verses: [
         {
           book: "Filipenses",
@@ -337,6 +356,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catequesis/principios-elementales/su-vida-fue-perfecta-e-inrreprensible",
       title: "Su vida fue perfecta e inrreprensible",
+      lesson: "3",
       verses: [
         {
           book: "1 Pedro",
@@ -352,6 +372,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catequesis/principios-elementales/su-obra-fue-tremenda-y-grandiosa",
       title: "Su obra fue tremenda y grandiosa",
+      lesson: "4",
       verses: [
         {
           book: "Hechos",
@@ -368,6 +389,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catequesis/principios-elementales/murio-por-nuestros-pecados",
       title: "Murió por nuestros pecados",
+      lesson: "5",
       verses: [
         {
           book: "2 Corintios",
@@ -391,6 +413,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catequesis/principios-elementales/resucito",
       title: "Resucitó",
+      lesson: "6",
 
       verses: [
         {
@@ -407,6 +430,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catequesis/principios-elementales/fue-exaltado",
       title: "Fue exaltado",
+      lesson: "7",
       verses: [
         {
           book: "Hechos",
@@ -429,6 +453,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catequesis/principios-elementales/el-volvera",
       title: "Él Volverá",
+      lesson: "8",
       verses: [
         {
           book: "Mateos",
@@ -444,6 +469,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catequesis/principios-elementales/que-nos-mando-hacer-jesus",
       title: "Que nos mandó a hacer Jesús?",
+      lesson: "9",
       subtitle: "Jesús nos mandó a hacer discípulos.",
       verses: [
         {
@@ -461,6 +487,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catequesis/principios-elementales/que-debemos-hablar-para-hacer-discipulos",
       title: "Qué debemos hablar para hacer discípulos?",
+      lesson: "10",
       subtitle: "Hablar de Jesús y de la puerta del reino.",
       verses: [
         {
@@ -478,6 +505,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catequesis/principios-elementales/cual-es-la-puerta-del-reino",
       title: "Cuál es la puerta del reino?",
+      lesson: "11",
       subtitle: "Arrepentimiento, bautismo en Cristo y don del Espíritu Santo.",
       verses: [
         {
@@ -496,6 +524,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catequesis/principios-elementales/cual-es-el-camino-del-reino",
       title: "Cuál es el camino del reino?",
+      lesson: "12",
       subtitle: "Guardar todas las cosas que Jesús ordenó.",
       verses: [
         {
@@ -513,6 +542,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catequesis/principios-elementales/que-es-el-arrepentimiento",
       title: "Qué es el arrepentimiento?",
+      lesson: "13",
       subtitle: "Arrepentimiento es un cambio de actitud interior.",
       verses: [
         {
@@ -531,6 +561,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catequesis/principios-elementales/cual-es-el-cambio-interior-que-acontece-en-el-arrepentimiento",
       title: "Cuál es el cambio interior que acontece en el arrepentimiento?",
+      lesson: "14",
       subtitle: "Dejar de ser independiente para ser dependiente de Dios.",
       verses: [
         {
@@ -548,6 +579,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catequesis/principios-elementales/que-es-necesario-para-cambiar-de-actitud",
       title: "Qué es necesario para cambiar de actitud?",
+      lesson: "15",
       subtitle:
         "Negarse a sí mismo, tomar la cruz, perder la vida y renunciar a todo.",
       verses: [
@@ -566,6 +598,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catequesis/principios-elementales/que-sucede-en-el-bautismo",
       title: "Qué sucede en el bautismo?",
+      lesson: "16",
       subtitle: "Somos colocados en Cristo.",
       verses: [
         {
@@ -584,6 +617,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catequesis/principios-elementales/que-acontece-en-el-bautismo-con-el-espiritu-santo",
       title: "Qué acontece en el bautismo con el Espíritu Santo?",
+      lesson: "17",
       subtitle:
         "Recibimos poder para testimoniar y podemos manifestar los dones.",
       verses: [
@@ -604,6 +638,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catequese/principios-elementares/jesus-existia-antes-de-todas-as-coisas",
       title: "Jesus existia antes de todas as coisas",
+      lesson: "1",
       verses: [
         {
           book: "João",
@@ -619,6 +654,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catequese/principios-elementares/tornou-se-homem",
       title: "Tornou-se homem",
+      lesson: "2",
       verses: [
         {
           book: "Filipenses",
@@ -636,6 +672,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catequese/principios-elementares/sua-vida-foi-perfeita-e-irrepreensivel",
       title: "Sua vida foi perfeita e irrepreensível ",
+      lesson: "3",
       verses: [
         {
           book: "1 Pedro",
@@ -652,6 +689,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catequese/principios-elementares/sua-obra-foi-tremenda-e-grandiosa",
       title: "Sua obra foi tremenda e grandiosa",
+      lesson: "4",
       verses: [
         {
           book: "Atos",
@@ -668,6 +706,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catequese/principios-elementares/morreu-pelos-nossos-pecados",
       title: "Morreu pelos nossos pecados",
+      lesson: "5",
       verses: [
         {
           book: "2 Coríntios",
@@ -691,6 +730,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catequese/principios-elementares/ressuscitou",
       title: "Ressuscitou",
+      lesson: "6",
 
       verses: [
         {
@@ -706,6 +746,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catequese/principios-elementares/foi-exaltado",
       title: "Foi exaltado",
+      lesson: "7",
       verses: [
         {
           book: "Atos",
@@ -728,6 +769,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catequese/principios-elementares/e-voltara",
       title: "E voltará",
+      lesson: "8",
       verses: [
         {
           book: "Mateus",
@@ -744,6 +786,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catequese/principios-elementares/o-que-jesus-nos-mandou-fazer",
       title: "O que Jesus nos mandou fazer?",
+      lesson: "9",
       subtitle: "Jesus nos mandou fazer discípulos.",
       verses: [
         {
@@ -761,6 +804,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catequese/principios-elementares/do-que-devemos-falar-para-fazer-discipulos",
       title: "Do que devemos falar para fazer discípulos?",
+      lesson: "10",
       subtitle: "Falar de Jesus e da porta do reino.",
       verses: [
         {
@@ -778,6 +822,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catequese/principios-elementares/qual-e-a-porta-do-reino",
       title: "Qual é a porta do reino?",
+      lesson: "11",
       subtitle: "Arrependimento, Batismo em Cristo e o Dom do Espírito Santo.",
       verses: [
         {
@@ -795,6 +840,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catequese/principios-elementares/qual-e-o-caminho-do-reino",
       title: "Qual é o caminho do reino?",
+      lesson: "12",
       subtitle: "Guardar todas as coisas que Jesus ordenou.",
       verses: [
         {
@@ -811,6 +857,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catequese/principios-elementares/o-que-e-arrependimento",
       title: "O que é arrependimento?",
+      lesson: "13",
       subtitle: "Arrependimento é uma mudança de atitude interior.",
       verses: [
         {
@@ -828,6 +875,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catequese/principios-elementares/qual-a-mudanca-interior-que-acontece-no-arrependimento",
       title: "Qual a mudança interior que acontece no arrependimento?",
+      lesson: "14",
       subtitle: "Deixar de ser independente para ser dependente de Deus.",
       verses: [
         {
@@ -845,6 +893,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catequese/principios-elementares/o-que-e-necessario-para-mudar-de-atitude",
       title: "O que é necessário para mudar de atitude?",
+      lesson: "15",
       subtitle:
         "Negar a si mesmo, tomar a cruz, perder a vida e renunciar a tudo.",
       verses: [
@@ -863,6 +912,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
     {
       pathname: "/catequese/principios-elementares/o-que-acontece-no-batismo",
       title: "O que acontece no batismo?",
+      lesson: "16",
       subtitle: "Somos colocados em Cristo.",
       verses: [
         {
@@ -881,6 +931,7 @@ export const ELEMENTARY_PRINCIPLES_CATECHESIS = {
       pathname:
         "/catequese/principios-elementares/o-que-acontece-no-batismo-com-o-espiritu-santo",
       title: "O que acontece no Batismo com o Espírito Santo?",
+      lesson: "17",
       subtitle:
         "Recebemos poder para testemunhar e podemos manifestar os dons.",
       verses: [

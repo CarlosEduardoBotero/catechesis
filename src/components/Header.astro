@@ -18,8 +18,12 @@ const route = getRouteFromUrl(Astro.url);
 const t = useTranslations(lang);
 
 const teachingRoute = routes[lang]["/teaching"];
+const songsRoute = routes[lang]["/songs"];
+const contactRoute = routes[lang]["/contact"];
 const catechesisRouteEnglish = routes["en"]["/catechesis"];
 const teachingRouteEnglish = routes["en"]["/teaching"];
+const songsRouteEnglish = routes["en"]["/songs"];
+const contactRouteEnglish = routes["en"]["/contact"];
 ---
 
 <header
@@ -44,13 +48,13 @@ const teachingRouteEnglish = routes["en"]["/teaching"];
       />
     </a>
   </div>
-  <nav class="hidden md:block" id="drawer-nav">
+  <nav class="hidden lg:block" id="drawer-nav">
     <ul class="flex gap-1 ml-auto text-xl">
       <li>
         <MenuButton
-          title={t("nav.teaching")}
-          href={translatePath(teachingRoute)}
-          shouldHighlight={route?.startsWith(teachingRouteEnglish)}
+          title={t("nav.whoWeAre")}
+          href={translatePath("/")}
+          shouldHighlight={route === undefined}
         />
       </li>
       <li>
@@ -60,9 +64,23 @@ const teachingRouteEnglish = routes["en"]["/teaching"];
       </li>
       <li>
         <MenuButton
-          title={t("nav.whoWeAre")}
-          href={translatePath("/")}
-          shouldHighlight={route === undefined}
+          title={t("nav.teaching")}
+          href={translatePath(teachingRoute)}
+          shouldHighlight={route?.startsWith(teachingRouteEnglish)}
+        />
+      </li>
+      <li>
+        <MenuButton
+          title={t("nav.songs")}
+          href={translatePath(songsRoute)}
+          shouldHighlight={route?.startsWith(songsRouteEnglish)}
+        />
+      </li>
+      <li>
+        <MenuButton
+          title={t("nav.contact")}
+          href={translatePath(contactRoute)}
+          shouldHighlight={route?.startsWith(contactRouteEnglish)}
         />
       </li>
     </ul>
