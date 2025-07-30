@@ -762,7 +762,7 @@ export const LYRICS = {
         lyrics: 
         [
           [
-            "In the morning, when I rise – 3x",
+            "In the morning, when I rise  (3x)",
             "Give me Jesus",
           ],      
           [
@@ -771,14 +771,14 @@ export const LYRICS = {
             "Just give me Jesus",
           ],      
           [
-            "And when I am alone  – 3x",
+            "And when I am alone  (3x)",
             "Give me Jesus",
           ],      
           [
             "Give me Jesus...",
           ],      
           [
-            "And when I come to die – 3x",
+            "And when I come to die  (3x)",
             "Give me Jesus",
           ],      
           [
@@ -1176,14 +1176,14 @@ export const LYRICS = {
             "Os braços do meu Pai",
           ],      
           [
-             "Os braços do meu Pai",
+            "Os braços do meu Pai",
             "São os braços de Jesus",
             "Quando foram estendidos",
             "Eu fui recebido lá na cruz, lá na cruz",
             "Nos braços do meu Pai (2x)",
           ],      
           [
-             "Outrora eu era triste",
+            "Outrora eu era triste",
             "Sem lugar para onde ir",
             "Mais o Pai, com seus braços de amor",
             "Restaurou-me o meu sorrir",
@@ -1384,7 +1384,7 @@ export const LYRICS = {
             "You silenced the boast",
             "Of sin and grave",
             "The heavens are roaring",
-            The praise of Your glory",
+            "The praise of Your glory",
             "For You are raised to life again",
           ],      
           [
