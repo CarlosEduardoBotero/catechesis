@@ -955,7 +955,7 @@ export const LYRICS = {
           [
             "You are God Alone",
             "From before time began",
-            "You were are Your Throne",
+            "You are Your Throne",
             "You are God Alone",
             "And right now",
             "In the good times and bad",
