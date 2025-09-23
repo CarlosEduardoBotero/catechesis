@@ -1654,4 +1654,80 @@ export const LYRICS = {
           ],      
         ], 
     },
+  44: { 
+        title: "Praise", 
+        lyrics: 
+        [
+          [
+            "I'll praise in the valley",
+            "Praise on the mountain", 
+            "I'll praise when I'm sure",
+            "And praise when I'm doubting", 
+          ],      
+          [
+            "I'll praise when outnumbered",
+            "Praise when surrounded",
+            "'Cause praise is the water",
+            "My enemies drown in",
+          ],      
+          [
+            "As long as I'm breathing",
+            "I've got a reason to",
+          ],      
+          [
+            "Praise the Lord",
+            "Oh, my soul", 
+            "Praise the Lord",
+            "Oh, my soul ",
+          ],      
+          [
+            "I'll praise when I feel it",
+            "And I'll praise when I don't",
+            "I'll praise 'cause I know",
+            "You're still in control",
+          ],      
+          [
+            "(Because) my praise is a weapon",
+            "It's more than a sound", 
+            "Oh, my praise is the shout",
+            "That brings Jericho down", 
+          ],      
+          [
+            "As long as I'm breathing",
+            "I've got a reason to",
+          ],      
+          [
+            "Praise the Lord", 
+            "Oh, my soul",
+            "praise the Lord",
+            "Oh, my soul", 
+          ],      
+          [
+            "I won't be quiet, my God is alive",
+            "So how could I keep it inside?",
+            "Praise the Lord",
+            "Oh, my soul", 
+          ],      
+          [
+            "//I'll praise 'cause You're sovereign",
+            "Praise 'cause You reign",
+            "Praise 'cause You rose and defeated the grave",
+            "I'll praise 'cause You're faithful",
+            "Praise 'cause You're true",
+            "Praise 'cause there's nobody greater than You// 2x", 
+          ],      
+          [
+            "//Praise the Lord",
+            "Oh, my soul// 4x", 
+          ],      
+          [
+            "//I won't be quiet, my God is alive",
+            "How could I keep it inside?// 3x",
+          ],      
+          [
+            "Praise the Lord",
+            "Oh, my soul",
+          ], 
+        ],
+    },
 };
