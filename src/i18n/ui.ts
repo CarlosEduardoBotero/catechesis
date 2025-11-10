@@ -271,7 +271,7 @@ export const ui = {
     "teaching.theLifeInChrist": "A Vida em Cristo",
     "teaching.theLordsSupper": "A Ceia do Senhor",
     "teaching.theSpiritualGifts": "Os Dons Espirituais",
-    "teaching.walkInTheLight": "Ande na Luz",
+    "teaching.walkInTheLight": "Andar na Luz",
     "teaching.work": "Trabalho",
     "contact.leader": "Líder",
     "contact.technicalSupport": "Suporte técnico",
