@@ -173,7 +173,7 @@ export const ui = {
     "teaching.proclamation": "Proclamación",
     "teaching.relationshipAmongstBrothers": "Relación entre hermanos...",
     "teaching.restorationOfTheTruth": "Restauración de la verdad",
-    "teaching.theCharacterOfADisciple": "El personaje de un discípulo",
+    "teaching.theCharacterOfADisciple": "El carácter de un discípulo",
     "teaching.theFamily": "La Família",
     "teaching.theGodsEternalPurpose": "El propósito eterno de Dios…",
     "teaching.theGospelOfTheKingdom": "El Evangelio del Reino",
