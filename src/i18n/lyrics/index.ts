@@ -973,6 +973,8 @@ export const LYRICS = {
           ],      
           [
             "You are God Alone…",
+          ],      
+          [
             "Unchangeable, Unshakeable, Unstoppable",
             "That’s what You are   (2x)",
           ],      
