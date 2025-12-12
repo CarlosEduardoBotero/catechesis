@@ -71,7 +71,7 @@ export const ui = {
     "who-we-are.seventhReference": "Eph 4:12.",
     "teaching.title": "Teaching",
     "teaching.basicMaterialToSupport":
-      "Basic material to support the disciplers’ service",
+      "Basic material to support the disciplers’ service:",
     "teaching.aGeneralView": "A General View",
     "teaching.absolutePrinciples": "Absolute Principles of God’s Work",
     "teaching.churchUnity": "Church Unity",
@@ -161,7 +161,7 @@ export const ui = {
     "who-we-are.seventhReference": "Ef 4:12.",
     "teaching.title": "Enseñanza",
     "teaching.basicMaterialToSupport":
-      "Material básico para apoyar el servicio de los discipuladores",
+      "Material básico para apoyar el servicio de los discipuladores:",
     "teaching.aGeneralView": "Una Visión General",
     "teaching.absolutePrinciples": "Principios absolutos de la obra de Dios",
     "teaching.churchUnity": "Unidad de la Iglesia",
@@ -253,7 +253,7 @@ export const ui = {
     "who-we-are.seventhReference": "Ef 4:12.",
     "teaching.title": "Ensino",
     "teaching.basicMaterialToSupport":
-      "Material básico para apoiar o serviço dos discipuladores",
+      "Material básico para apoiar o serviço dos discipuladores:",
     "teaching.aGeneralView": "Uma visão geral",
     "teaching.absolutePrinciples": "Princípios Absolutos da Obra de Deus",
     "teaching.churchUnity": "Unidade da Igreja",
