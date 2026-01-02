@@ -78,7 +78,7 @@ export const ui = {
     "teaching.communionWithGod": "Communion with God",
     "teaching.elementaryPrinciples": "Elementary Principles",
     "teaching.financesGenerosity": "Finances Generosity",
-    "teaching.ministryTeachingInTheChurch": "Ministry Teaching in the Church",
+    "teaching.ministryTeachingInTheChurch": "Ministry of Teaching in the Church",
     "teaching.proclamation": "Proclamation",
     "teaching.relationshipAmongstBrothers": "Relationship amongst Brothers...",
     "teaching.restorationOfTheTruth": "Restoration of the Truth",
