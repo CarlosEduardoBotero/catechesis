@@ -1757,4 +1757,31 @@ export const LYRICS = {
           ],      
         ], 
     },
+46: {
+    title: "Salmo 100",
+    lyrics:
+        [
+            [
+                "Ah...",
+            ],
+            [
+                "Celebrai com júbilo ao Senhor",
+                "Todos os moradores da terra",
+                "Servi ao Senhor com alegria",
+                "Apresentai-vos a Ele com cânticos",
+            ],
+            [
+                "Sabei que o Senhor é Deus",
+                "E eterna a sua bondade",
+                "E a sua fidelidade",
+                "De geração a geração",
+            ],
+            [
+                "Aleluia, glória e aleluia",
+                "Aleluia, glória e aleluia",
+                "Aleluia, glória e aleluia",
+                "Aleluia, glória e aleluia",
+            ],
+        ],
+   },   
 };
