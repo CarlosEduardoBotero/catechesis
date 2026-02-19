@@ -1775,7 +1775,7 @@ export const LYRICS = {
                 "Sabei que o Senhor é Deus",
                 "E eterna a sua bondade",
                 "E a sua fidelidade",
-                "De geração a geração",
+                "De geração a geração!",
             ],
             [
                 "Aleluia, glória e aleluia!",
