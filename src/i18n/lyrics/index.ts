@@ -1762,7 +1762,8 @@ export const LYRICS = {
     lyrics:
         [
             [
-                "Ah ah ah ah (4x)",
+                "Ah....",
+                "Ah ah ah (3x)",
             ],
             [
                 "Celebrai com júbilo ao Senhor",
