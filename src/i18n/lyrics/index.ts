@@ -643,21 +643,21 @@ export const LYRICS = {
       lyrics: 
       [
         [
-          "Great, is the Lord", 
+          "Great is the Lord", 
           "And most worthy of praise",
           "The city of our God,", 
           "The Holy place",
           "The Joy of the whole world",
         ],      
         [
-          "Great, is the Lord", 
+          "Great is the Lord", 
           "In whom we have the victory",
           "He aids us against the enemy",
           "We bow down on our knees",
-          "And Lord we want to lift", 
-          "Your name on high",
         ],      
         [
+          "And Lord we want to lift", 
+          "Your name on high",
           "And Lord we want to thank you",
           "For the works you've done in our lives",
           "And Lord we trust in Your", 
@@ -1775,7 +1775,7 @@ export const LYRICS = {
                 "Sabei que o Senhor é Deus",
                 "E eterna a sua bondade",
                 "E a sua fidelidade",
-                "De geração a geração",
+                "De geração a geração!",
             ],
             [
                 "Aleluia, glória e aleluia!",
