@@ -1508,7 +1508,7 @@ export const LYRICS = {
       ], 
     },
   42: { 
-        title: "What a Beautiful Name (Hermoso Nombre))", 
+        title: "What a Beautiful Name (Hermoso Nombre)", 
         lyrics: 
         [
           [
