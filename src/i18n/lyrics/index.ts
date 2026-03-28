@@ -1785,4 +1785,51 @@ export const LYRICS = {
             ],
         ],
    },   
+  47: { 
+        title: "Because He Lives", 
+        lyrics: 
+        [
+          [
+            "God sent His son",
+            "They called Him, Jesus",
+            "He came to love",
+            "Heal and forgive",
+            "He lived and died",
+            "To buy my pardon",
+            "An empty grave is there",
+            "To prove my Savior lives!",
+          ],      
+          [
+            "Chorus"
+            "Because He lives",
+            "I can face tomorrow!",
+            "Because He lives",
+            "All fear is gone",
+            "Because I know",
+            "He holds the future",
+            "And life is worth the living",
+            "Just because He lives!",
+          ],      
+          [
+            "How sweet to hold",
+            "A newborn baby",
+            "And feel the pride",
+            "And joy he brings",
+            "But greater still",
+            "The calm assurance",
+            "This child can face",
+            "Uncertain days because He Lives!",
+          ],      
+          [
+            "And then one day",
+            "I'll cross the river",
+            "I'll fight life's final",
+            "War with pain",
+            "And then, as death",
+            "Gives way to victory",
+            "I'll see the lights of glory",
+            "And I'll know He lives!",
+          ],      
+        ], 
+    },   
 };
