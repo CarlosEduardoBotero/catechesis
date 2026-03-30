@@ -1800,7 +1800,7 @@ export const LYRICS = {
             "To prove my Savior lives!",
           ],      
           [
-            "Chorus"
+            "Chorus",
             "Because He lives",
             "I can face tomorrow!",
             "Because He lives",
