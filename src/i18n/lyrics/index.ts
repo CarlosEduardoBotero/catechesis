@@ -1473,7 +1473,7 @@ export const LYRICS = {
     title: "Because He Lives",
     lyrics: [
       [
-        "God sent His son TEST",
+        "God sent His son",
         "They called Him, Jesus",
         "He came to love",
         "Heal and forgive",
