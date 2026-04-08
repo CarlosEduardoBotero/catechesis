@@ -1,0 +1,35 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<Layout
+  title={t("contact.ministryContacts")}
+  description={t("nav.contact.meta.description")}
+>
+  <section id="prayer" class="mx-auto">
+    <div class="container">
+      <p>
+        “So let each one give as he purposes in his heart, not grudgingly or of
+        necessity; for God loves a cheerful giver.” (2 Corinthians 9:7)
+      </p>
+
+      <button
+        class="tithely-give-button my-4"
+        data-form="65c4f1a1-3f22-44a3-841e-4bb479898457"
+        style="background-color: #00DB72; font-family: inherit; font-weight: bold; font-size: 19px; padding: 15px 70px; border-radius: 4px; cursor: pointer; background-image: none; color: white; text-shadow: none; display: inline-block; float: none; border: none;"
+        >Give</button
+      ><script is:inline src="https://static.tithely.com/give/give.js" defer
+      ></script>
+      <p class="text-sm">
+        * Tithe.ly charges a small fee to process transactions; to ensure your
+        full donation is given to the church, please check Cover Fees when
+        giving. Donating with a bank account will result in lower fees than
+        using a credit or debit card.
+      </p>
+    </div>
+  </section>
+</Layout>
