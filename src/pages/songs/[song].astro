@@ -41,7 +41,7 @@ const songsRoute = routes[lang]["/songs"];
       </a>
     </div>
     <div class="mx-auto">
-      <h1 class="text-3xl mb-8 font-bold">{songData?.title}</h1>
+      <h1 class="text-3xl mb-8 font-bold">{songData?.songNumber}. {songData?.title}</h1>
       <div class="flex justify-center gap-4 flex-col">
         {
           songData?.lyrics.map((stanza) => (
