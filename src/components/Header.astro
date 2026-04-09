@@ -20,10 +20,14 @@ const t = useTranslations(lang);
 const teachingRoute = routes[lang]["/teaching"];
 const songsRoute = routes[lang]["/songs"];
 const contactRoute = routes[lang]["/contact"];
+const booksRoute = routes[lang]["/books"];
+const giveRoute = routes[lang]["/give"];
 const catechesisRouteEnglish = routes["en"]["/catechesis"];
 const teachingRouteEnglish = routes["en"]["/teaching"];
 const songsRouteEnglish = routes["en"]["/songs"];
 const contactRouteEnglish = routes["en"]["/contact"];
+const booksRouteEnglish = routes["en"]["/books"];
+const giveRouteEnglish = routes["en"]["/give"];
 ---
 
 <header
@@ -74,6 +78,21 @@ const contactRouteEnglish = routes["en"]["/contact"];
           title={t("nav.songs")}
           href={translatePath(songsRoute)}
           shouldHighlight={route?.startsWith(songsRouteEnglish)}
+        />
+      </li>
+      <!-- todo: Add book page -->
+      <!-- <li>
+        <MenuButton
+          title={t("nav.books")}
+          href={translatePath(booksRoute)}
+          shouldHighlight={route?.startsWith(booksRouteEnglish)}
+        />
+      </li> -->
+      <li>
+        <MenuButton
+          title={t("nav.give")}
+          href={translatePath(giveRoute)}
+          shouldHighlight={route?.startsWith(giveRouteEnglish)}
         />
       </li>
       <li>

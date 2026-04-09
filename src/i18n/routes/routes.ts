@@ -7,8 +7,10 @@ import { SONGS_ROUTES } from "./songs";
 
 export const routes = {
   en: {
-        "/teaching": "/teaching",
-        "/contact":"/contact",
+    "/teaching": "/teaching",
+    "/contact": "/contact",
+    "/books": "/books",
+    "/give": "/give",
     ...ELEMENTARY_PRINCIPLES_ROUTES.en,
     ...ETERNAL_PURPOSE_ROUTES.en,
     ...THE_LIFE_IN_CHRIST_ROUTES.en,
@@ -17,8 +19,10 @@ export const routes = {
     ...SONGS_ROUTES.en,
   },
   es: {
-        "/teaching": "/ensenanza",
-        "/contact":"/contacto",
+    "/teaching": "/ensenanza",
+    "/contact": "/contacto",
+    "/books": "/libros",
+    "/give": "/dar",
     ...ELEMENTARY_PRINCIPLES_ROUTES.es,
     ...ETERNAL_PURPOSE_ROUTES.es,
     ...THE_LIFE_IN_CHRIST_ROUTES.es,
@@ -27,8 +31,10 @@ export const routes = {
     ...SONGS_ROUTES.es,
   },
   pt: {
-        "/teaching": "/ensino",
-        "/contact":"/contato",
+    "/teaching": "/ensino",
+    "/contact": "/contato",
+    "/books": "/books",
+    "/give": "/dar",
     ...ELEMENTARY_PRINCIPLES_ROUTES.pt,
     ...ETERNAL_PURPOSE_ROUTES.pt,
     ...THE_LIFE_IN_CHRIST_ROUTES.pt,
