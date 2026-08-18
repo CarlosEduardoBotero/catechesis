@@ -215,7 +215,7 @@ export const ui = {
     "nav.give": "Dar",
     "nav.songs.meta.description":
       "Veja uma lista de músicas de adoração em inglês, espanhol e português. Encontre pelo número e explore letras que glorificam a Jesus.",
-    "nav.whoWeAre": "Quem nós somos",
+    "nav.whoWeAre": "Quem somos",
     "nav.contact": "Contato",
     "nav.contact.meta.description":
       "Entre em contato com a equipe ministerial da In Jesus Likeness — incluindo o pastor, líderes e suporte técnico — através do nosso diretório de contatos.",
