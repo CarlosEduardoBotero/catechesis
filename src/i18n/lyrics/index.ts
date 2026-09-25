@@ -77,71 +77,6 @@ export const LYRICS = {
     ],
   },
   3: {
-    title: "Acalme ao Senhor (Shout to the Lord)",
-    lyrics: [
-      [
-        "Meu Jesus, salvador",
-        "Outro igual não há",
-        "Todos os dias quero louvar",
-        "As maravilhas de teu amor",
-      ],
-      [
-        "Consolo, abrigo",
-        "Força e refúgio é o Senhor",
-        "Com todo o meu ser",
-        "Com tudo o que sou",
-        "Sempre te adorarei",
-      ],
-      [
-        "Aclame ao senhor toda a terra e cantemos",
-        "Poder, majestade e louvores ao rei",
-        "Montanhas se prostrem e rujam os mares",
-        "Ao som de teu nome",
-      ],
-      [
-        "Alegre te louvo por teus grandes feitos",
-        "Firmado estarei, sempre te amarei",
-        "Incomparáveis são tuas promessas pra mim",
-      ],
-      ["", "-----------------", "Shout to the Lord", "-----------------"],
-      [
-        "My Jesus, my Savior",
-        "Lord, there is none like You",
-        "All of my days, I want to praise",
-        "The wonders of Your mighty love",
-      ],
-      [
-        "My comfort, my shelter",
-        "Tower of refuge and strength",
-        "Let every breath, all that I am",
-        "Never cease to worship You",
-      ],
-      [
-        "Shout to the Lord, all the earth, let us sing",
-        "Power and majesty, praise to the King",
-        "Mountains bow down and the seas will roar",
-        "At the sound of Your name",
-      ],
-      [
-        "I sing for joy at the work of Your hands",
-        "Forever I'll love You, forever I'll stand",
-        "Nothing compares to the promise I have in You",
-      ],
-    ],
-  },
-  4: {
-    title: "Alegre, alegre",
-    lyrics: [
-      ["//Alegre, alegre es la gente que ama a Dios//  (2x)"],
-      [
-        "Pronto yo le seguiré",
-        "En su glória estaré",
-        "Voy a confiar en Él",
-        "Pronto le veré",
-      ],
-    ],
-  },
-  5: {
     title: "Amado meu",
     lyrics: [
       [
@@ -158,7 +93,7 @@ export const LYRICS = {
       ],
     ],
   },
-  6: {
+  4: {
     title: "Ao único que é digno",
     lyrics: [
       [
@@ -193,7 +128,53 @@ export const LYRICS = {
       ],
     ],
   },
-  7: {
+  5: {
+    title: "Because He Lives",
+    lyrics: [
+      [
+        "God sent His son",
+        "They called Him, Jesus",
+        "He came to love",
+        "Heal and forgive",
+        "He lived and died",
+        "To buy my pardon",
+        "An empty grave is there",
+        "To prove my Savior lives!",
+      ],
+      [
+        "Chorus",
+        "Because He lives",
+        "I can face tomorrow!",
+        "Because He lives",
+        "All fear is gone",
+        "Because I know",
+        "He holds the future",
+        "And life is worth the living",
+        "Just because He lives!",
+      ],
+      [
+        "How sweet to hold",
+        "A newborn baby",
+        "And feel the pride",
+        "And joy he brings",
+        "But greater still",
+        "The calm assurance",
+        "This child can face",
+        "Uncertain days because He Lives!",
+      ],
+      [
+        "And then one day",
+        "I'll cross the river",
+        "I'll fight life's final",
+        "War with pain",
+        "And then, as death",
+        "Gives way to victory",
+        "I'll see the lights of glory",
+        "And I'll know He lives!",
+      ],
+    ],
+  },
+  6: {
     title: "Bendito seja Deus",
     lyrics: [
       [
@@ -210,7 +191,7 @@ export const LYRICS = {
       ],
     ],
   },
-  8: {
+  7: {
     title: "Blessed be Your Name",
     lyrics: [
       [
@@ -258,7 +239,7 @@ export const LYRICS = {
       ["Every blessing You pour out…"],
     ],
   },
-  9: {
+  8: {
     title: "Cantaré de Tu Amor",
     lyrics: [
       [
@@ -283,7 +264,7 @@ export const LYRICS = {
       ],
     ],
   },
-  10: {
+  9: {
     title: "Creo en Ti",
     lyrics: [
       [
@@ -302,74 +283,7 @@ export const LYRICS = {
       ],
     ],
   },
-  11: {
-    title: "Dame tus ojos (Give me Your eyes)",
-    lyrics: [
-      [
-        "Dame tus ojos quiero ver",
-        "Dame tus palabras quiero hablar",
-        "Dame tu parecer",
-        "Dame tus pies yo quiero ir",
-        "Dame tus deseos para sentir",
-        "Dame tu parecer",
-        "Dame lo que necesito",
-        "Para ser como tú",
-      ],
-      [
-        "Dame tu voz dame tu aliento",
-        "Toma mi tiempo es para ti",
-        "Dame el camino que debo seguir",
-        "Dame tus sueños tus anhelos",
-        "Tus pensamientos",
-        "Tu sentir",
-        "Dame tu vida para vivir",
-      ],
-      [
-        "Dejame ver lo que tu ves",
-        "Dame de tu gracia, tu poder",
-        "Dame tu corazón",
-        "Dejame ver en tu interior",
-        "Para ser cambiado",
-        "Por tu amor",
-        "Dame tu corazón",
-        "Dame lo que necesito",
-        "Para ser como tú",
-        "Dame tu voz dame tu aliento…",
-      ],
-      ["", "-----------------", "Give me Your eyes", "-----------------"],
-      [
-        "Give me Your eyes, I want to see",
-        "Give me Your Words, Lord, so I can speak",
-        "I want to be like You",
-        "Give me Your feet, I want to go",
-        "Give me Your heart, Lord, so I can feel",
-        "I want to be like You",
-        "Give me what I need Lord Jesus,",
-        "So I can be like You",
-      ],
-      [
-        "Give me Your voice",
-        "Give me Your breath Lord",
-        "Take all my time, Lord make it yours",
-        "Show me the way to follow You",
-        "Give me Your dreams, Lord, Your desires",
-        "Give me Your thoughts and what You feel",
-        "Give me Your life so I can live",
-      ],
-      [
-        "Let me see Lord, what You see",
-        "I need Your grace Lord, and Your strength",
-        "Jesus give me Your heart",
-        "Help me see that You are love",
-        "and change me from the inside out",
-        "Jesus give me Your hear",
-        "Give me what I need Lord Jesus",
-        "So I can be like You",
-        "Give me Your voice…",
-      ],
-    ],
-  },
-  12: {
+  10: {
     title: "Deus é fiel",
     lyrics: [
       [
@@ -401,7 +315,7 @@ export const LYRICS = {
       ],
     ],
   },
-  13: {
+  11: {
     title: "Digno de glória",
     lyrics: [
       [
@@ -416,7 +330,7 @@ export const LYRICS = {
       ],
     ],
   },
-  14: {
+  12: {
     title: "Do it again",
     lyrics: [
       [
@@ -453,7 +367,74 @@ export const LYRICS = {
       ["Your promise still stands..."],
     ],
   },
-  15: {
+  13: {
+    title: "Give me Your eyes (Dame tus ojos)",
+    lyrics: [
+       [
+        "Give me Your eyes, I want to see",
+        "Give me Your Words, Lord, so I can speak",
+        "I want to be like You",
+        "Give me Your feet, I want to go",
+        "Give me Your heart, Lord, so I can feel",
+        "I want to be like You",
+        "Give me what I need Lord Jesus,",
+        "So I can be like You",
+      ],
+      [
+        "Give me Your voice",
+        "Give me Your breath Lord",
+        "Take all my time, Lord make it yours",
+        "Show me the way to follow You",
+        "Give me Your dreams, Lord, Your desires",
+        "Give me Your thoughts and what You feel",
+        "Give me Your life so I can live",
+      ],
+      [
+        "Let me see Lord, what You see",
+        "I need Your grace Lord, and Your strength",
+        "Jesus give me Your heart",
+        "Help me see that You are love",
+        "and change me from the inside out",
+        "Jesus give me Your hear",
+        "Give me what I need Lord Jesus",
+        "So I can be like You",
+        "Give me Your voice…",
+      ],
+      ["", "-----------------", "Dame tus ojos", "-----------------"],
+     [
+        "Dame tus ojos quiero ver",
+        "Dame tus palabras quiero hablar",
+        "Dame tu parecer",
+        "Dame tus pies yo quiero ir",
+        "Dame tus deseos para sentir",
+        "Dame tu parecer",
+        "Dame lo que necesito",
+        "Para ser como tú",
+      ],
+      [
+        "Dame tu voz dame tu aliento",
+        "Toma mi tiempo es para ti",
+        "Dame el camino que debo seguir",
+        "Dame tus sueños tus anhelos",
+        "Tus pensamientos",
+        "Tu sentir",
+        "Dame tu vida para vivir",
+      ],
+      [
+        "Dejame ver lo que tu ves",
+        "Dame de tu gracia, tu poder",
+        "Dame tu corazón",
+        "Dejame ver en tu interior",
+        "Para ser cambiado",
+        "Por tu amor",
+        "Dame tu corazón",
+        "Dame lo que necesito",
+        "Para ser como tú",
+        "Dame tu voz dame tu aliento…",
+      ],
+    ],
+  },
+  14: {
     title: "Give Me Jesus",
     lyrics: [
       ["In the morning, when I rise  (3x)", "Give me Jesus"],
@@ -468,7 +449,7 @@ export const LYRICS = {
       ["Give me Jesus..."],
     ],
   },
-  16: {
+  15: {
     title: "Goodness of God",
     lyrics: [
       [
@@ -505,7 +486,7 @@ export const LYRICS = {
       ],
     ],
   },
-  17: {
+  16: {
     title: "Great are You Lord",
     lyrics: [
       [
@@ -538,7 +519,7 @@ export const LYRICS = {
       ["It's Your breath in our lungs…"],
     ],
   },
-  18: {
+  17: {
     title: "Great is the Lord (Grande é o Senhor)",
     lyrics: [
       [
@@ -560,7 +541,7 @@ export const LYRICS = {
         "And Lord we want to thank you",
         "For the works you've done in our lives",
         "And Lord we trust in Your",
-        "unfailing love",
+        "   unfailing love",
         "For you alone are God eternal",
         "Throughout earth and heaven above",
       ],
@@ -586,6 +567,59 @@ export const LYRICS = {
         "Pois só Tu és o Deus eterno",
         "Sobre toda terra e céus",
       ],
+    ],
+  },
+  18: {
+    title: "Happy, happy/Alegre, alegre *",
+    lyrics:
+    [
+        [
+            "Happy Happy (Happy Is the People)",
+        ],
+        [
+            "Happy happy is the people",
+            "Whose God is the Lord",
+            "Happy happy is the people",
+            "Whose God is the Lord",
+        ],
+        [
+            "Early will I sing his praise",
+            "Serve him till the end of days",
+            "I will trust in God Jehovah",
+            "He will guide my ways",
+        ],
+        [
+            "",
+            "------------------------------",
+            "Alegre é o povo que ama a Deus",
+            "------------------------------",
+        ],      
+        [
+            "Alegre, alegre é o povo que ama a Deus",
+            "Alegre, alegre é o povo que ama a Deus",
+        ],
+        [
+            "Cedo eu buscarei Sua face",
+            "Até o fim o seguirei",
+            "Confiarei em Deus, meu Pai",
+            "Que me guiará",
+        ],
+        [
+            "",
+            "---------------------------------",
+            "Alegre es la gente que ama a Dios",
+            "---------------------------------",
+        ],
+        [
+            "Alegre, alegre es la gente que ama a Dios",
+            "Alegre, alegre es la gente que ama a Dios",
+        ],
+        [
+            "Pronto yo le seguiré ",
+            "Y su rostro le veré",
+            "Voy a confiar en Dios", 
+            "Pronto lo veré",
+        ],
     ],
   },
   19: {
@@ -741,9 +775,9 @@ export const LYRICS = {
       ["Hallelu (Hallelu)..."],
       [
         "",
-        "----------------------",
+        "----------------------------------------",
         "I woke up this morning (Spanish version)",
-        "----------------------",
+        "----------------------------------------",
       ],
       ["Me desperte esta manana con la mente", "Puesta en jesucristo (3x)"],
       ["Alelu (alelu)", "Alelu (alelu)", "Alelu, aleluya"],
@@ -910,54 +944,6 @@ export const LYRICS = {
     ],
   },
   30: {
-    title: "Me derramar (Pour Out My Heart)",
-    lyrics: [
-      [
-        "Eis-me aqui outra vez",
-        "Diante de Ti abro meu coração",
-        "Meu clamor Tu escutas",
-        "E fazes cair as barreiras em mim",
-        "És fiel, Senhor, e dizes",
-        "Palavras de amor e esperança sem fim",
-        "Ao sentir Teu toque",
-        "Por Tua bondade libertas meu ser",
-        "No calor deste lugar, eu venho",
-      ],
-      [
-        "Me derramar, dizer que Te amo",
-        "Me derramar, dizer Te preciso",
-        "Me derramar, dizer que sou grato",
-        "Me derramar, dizer que És formoso",
-      ],
-      ["", "-----------------", "Pour Out My Heart", "-----------------"],
-      [
-        "Here I am, once again",
-        "I pour out my heart",
-        "For I know that you hear",
-        "Every cry, You are listening",
-        "No matter what state my heart is in",
-        "You are faithful to answer",
-        "With words that are true",
-        "And a hope that is real",
-        "As I feel your touch",
-        "You bring a freedom",
-        "To all that's within",
-        "In the safety of this place",
-        "I'm longing to...",
-      ],
-      [
-        "Pour out my heart",
-        "To say that I love you",
-        "Pour out my heart",
-        "To say that I need you",
-        "Pour out my heart",
-        "To say that I'm thankful",
-        "Pour out my heart",
-        "To say that you're wonderful",
-      ],
-    ],
-  },
-  31: {
     title: "Mi herencia",
     lyrics: [
       [
@@ -986,7 +972,7 @@ export const LYRICS = {
       ],
     ],
   },
-  32: {
+  31: {
     title: "Nome sobre todo Nome",
     lyrics: [
       [
@@ -1022,7 +1008,7 @@ export const LYRICS = {
       ],
     ],
   },
-  33: {
+  32: {
     title: "Nos braços do meu Pai!",
     lyrics: [
       [
@@ -1052,7 +1038,125 @@ export const LYRICS = {
       ],
     ],
   },
+  33: {
+    title: "Pour Out My Heart (Me derramar)",
+    lyrics: [
+      [
+        "Here I am, once again",
+        "I pour out my heart",
+        "For I know that you hear",
+        "Every cry, You are listening",
+        "No matter what state my heart is in",
+        "You are faithful to answer",
+        "With words that are true",
+        "And a hope that is real",
+        "As I feel your touch",
+        "You bring a freedom",
+        "To all that's within",
+        "In the safety of this place",
+        "I'm longing to...",
+      ],
+      [
+        "Pour out my heart",
+        "To say that I love you",
+        "Pour out my heart",
+        "To say that I need you",
+        "Pour out my heart",
+        "To say that I'm thankful",
+        "Pour out my heart",
+        "To say that you're wonderful",
+      ],
+      ["", "-----------------", "Me derramar", "-----------------"],
+      [
+        "Eis-me aqui outra vez",
+        "Diante de Ti abro meu coração",
+        "Meu clamor Tu escutas",
+        "E fazes cair as barreiras em mim",
+        "És fiel, Senhor, e dizes",
+        "Palavras de amor e esperança sem fim",
+        "Ao sentir Teu toque",
+        "Por Tua bondade libertas meu ser",
+        "No calor deste lugar, eu venho",
+      ],
+      [
+        "Me derramar, dizer que Te amo",
+        "Me derramar, dizer Te preciso",
+        "Me derramar, dizer que sou grato",
+        "Me derramar, dizer que És formoso",
+      ],
+    ],
+  },
   34: {
+    title: "Overwhelmed *",
+    lyrics:
+        [
+            [
+                "I see the work of Your hands",
+                "Galaxies spin in a heavenly dance, oh God",
+                "All that You are is so overwhelming",
+            ],
+            [
+                "And I hear the sound of Your voice",
+                "All at once it's a gentle and thundering noise, oh God",
+                "All that You are is so overwhelming",     
+            ],
+            [
+                "I delight myself in You",
+                "Captivated by Your beauty",
+                "I'm overwhelmed",
+                "I'm overwhelmed by You",
+            ],
+            [
+                "And God, I run into Your arms",
+                "Unashamed because of mercy",
+                "I'm overwhelmed",
+                "I'm overwhelmed by You",     
+            ],
+            [
+                "I delight myself in You",
+                "In the glory of Your presence",
+                "I'm overwhelmed",
+                "I'm overwhelmed by You",
+            ],
+            [
+                "God, I run into Your arms",
+                "Unashamed because of mercy",
+                "I'm overwhelmed",
+                "I'm overwhelmed by You",            
+            ],
+            [
+                "You are beautiful, You are beautiful",
+                "Oh God, there is no one more Beautiful",
+                "You are Beautiful",
+                "God, You are the most beautiful",            
+            ],
+            [
+                "And You are wonderful, You are wonderful",
+                "Oh God, there is no one more wonderful",
+                "You are wonderful",
+                "God, You are the most wonderful",          
+            ],
+            [
+                "You are glorious, You are glorious",
+                "Oh God, there is no one more glorious",
+                "You are glorious",
+                "God, you are the most glorious",
+            ],
+            [
+                "I delight myself in You",
+                "In the glory of Your presence",
+                "I'm overwhelmed",
+                "I'm overwhelmed by You",
+            ],
+            [
+                "And God, I run into Your arms",
+                "Unashamed because of mercy",
+                "I'm overwhelmed",
+                "I'm overwhelmed by You",
+            ],
+        ],
+   },   
+35: {
     title: "Praise",
     lyrics: [
       [
@@ -1105,7 +1209,126 @@ export const LYRICS = {
       ["Praise the Lord", "Oh, my soul"],
     ],
   },
-  35: {
+36: {
+    title: "Revelation Song *",
+    lyrics:
+        [
+            [
+                "Worthy is the Lamb who was slain",
+                "Holy, holy is He",
+                "Sing a new song to Him who sits on",
+                "Heaven's mercy seat",
+            ],
+            [
+                "Holy, holy, holy is the Lord God Almighty",
+                "Who was and is and is to come",
+                "With all creation I sing praise to the King of kings",
+                "You are my everything and I will adore You",
+            ],
+            [
+                "Clothed in rainbows of living color",
+                "Flashes of lightning, rolls of thunder",
+                "Blessing and honor strength and glory and power be",
+                "To You: the only wise King",
+            ],
+            [
+                "Holy, holy, holy is the Lord God Almighty",
+                "Who was and is and is to come",
+                "With all creation I sing praise to the King of kings",
+                "You are my everything and I will adore You",
+            ],
+            [
+                "Filled with wonder, awestruck wonder",
+                "At the mention of Your name",
+                "Jesus, Your name is power, breath and living water",
+                "Such a marvelous mystery",
+            ],
+             [
+                "Holy, holy, holy is the Lord God Almighty",
+                "Who was and is and is to come",
+                "With all creation I sing praise to the King of kings",
+                "You are my everything and I will adore You",
+            ],
+       ],
+   },   
+37: {
+    title: "Salmo 100",
+    lyrics: [
+      ["Ah....", "Ah ah ah (3x)"],
+      [
+        "Celebrai com júbilo ao Senhor",
+        "Todos os moradores da terra",
+        "Servi ao Senhor com alegria",
+        "Apresentai-vos a Ele com cânticos",
+      ],
+      [
+        "Sabei que o Senhor é Deus",
+        "E eterna a sua bondade",
+        "E a sua fidelidade",
+        "De geração a geração!",
+      ],
+      [
+        "Aleluia, glória e aleluia!",
+        "Aleluia, glória e aleluia!",
+        "Aleluia, glória e aleluia!",
+        "Aleluia, glória e aleluia!",
+      ],
+    ],
+  },
+38: {
+    title: "Shout to the Lord (Acalme ao Senhor)",
+    lyrics: [
+      [
+        "Meu Jesus, salvador",
+        "Outro igual não há",
+        "Todos os dias quero louvar",
+        "As maravilhas de teu amor",
+      ],
+      [
+        "Consolo, abrigo",
+        "Força e refúgio é o Senhor",
+        "Com todo o meu ser",
+        "Com tudo o que sou",
+        "Sempre te adorarei",
+      ],
+      [
+        "Aclame ao senhor toda a terra e cantemos",
+        "Poder, majestade e louvores ao rei",
+        "Montanhas se prostrem e rujam os mares",
+        "Ao som de teu nome",
+      ],
+      [
+        "Alegre te louvo por teus grandes feitos",
+        "Firmado estarei, sempre te amarei",
+        "Incomparáveis são tuas promessas pra mim",
+      ],
+      ["", "-----------------", "Shout to the Lord", "-----------------"],
+      [
+        "My Jesus, my Savior",
+        "Lord, there is none like You",
+        "All of my days, I want to praise",
+        "The wonders of Your mighty love",
+      ],
+      [
+        "My comfort, my shelter",
+        "Tower of refuge and strength",
+        "Let every breath, all that I am",
+        "Never cease to worship You",
+      ],
+      [
+        "Shout to the Lord, all the earth, let us sing",
+        "Power and majesty, praise to the King",
+        "Mountains bow down and the seas will roar",
+        "At the sound of Your name",
+      ],
+      [
+        "I sing for joy at the work of Your hands",
+        "Forever I'll love You, forever I'll stand",
+        "Nothing compares to the promise I have in You",
+      ],
+    ],
+  },
+39: {
     title: "Teu Nome é santo",
     lyrics: [
       [
@@ -1124,7 +1347,7 @@ export const LYRICS = {
       ["Teu nome é Santo", "O Teu nome é Santo", "Teu nome é Santo, Santo"],
     ],
   },
-  36: {
+40: {
     title: "This is the air I breathe",
     lyrics: [
       ["This is the Air I Breathe (2x)", "Your holy presence living in me"],
@@ -1145,7 +1368,7 @@ export const LYRICS = {
       ["Y yo.. oh oooh te anhelo Señor", "Y estoooy perdido sin ti"],
     ],
   },
-  37: {
+41: {
     title: "Tributo a Iehovah (Jeová)",
     lyrics: [
       ["Iê, iê-ê, Iehovah (4x)"],
@@ -1169,7 +1392,7 @@ export const LYRICS = {
       ],
     ],
   },
-  38: {
+42: {
     title: "Tu és bem vindo aqui",
     lyrics: [
       [
@@ -1186,7 +1409,7 @@ export const LYRICS = {
       ],
     ],
   },
-  39: {
+43: {
     title: "Tu és soberano",
     lyrics: [
       [
@@ -1206,7 +1429,7 @@ export const LYRICS = {
       ],
     ],
   },
-  40: {
+44: {
     title: "Tu fidelidad",
     lyrics: [
       [
@@ -1218,7 +1441,7 @@ export const LYRICS = {
       ],
     ],
   },
-  41: {
+45: {
     title: "Ven Espiritu ven",
     lyrics: [
       [
@@ -1234,7 +1457,64 @@ export const LYRICS = {
       ],
     ],
   },
-  42: {
+46: {
+    title: "Way Maker (Aquí estás)",
+    lyrics: [
+      ["You are here", "Moving in our midst", "I worship You, I worship You"],
+      ["You are here", "Working in this place", "I worship You, I worship You"],
+      [
+        "Way maker, miracle worker",
+        "Promise keeper",
+        "Light in the darkness",
+        "My God, that is who You are",
+      ],
+      [
+        "You are here touching every heart",
+        "I worship You, I worship You",
+        "You are here healing every heart",
+        "I worship You, I worship You",
+        "You are here mending every heart",
+        "I worship You, I worship You",
+        "You are here turning lives around",
+        "I worship You, I worship You",
+      ],
+      ["Way maker…"],
+      [
+        "Even when I don’t see it You’re working",
+        "Even when I don’t feel it You’re working",
+        "You never stop, You never stop working",
+        "You never stop, You never stop working",
+      ],
+      ["", "----------", "Aquí estás", "----------"],
+      [
+        "Te vemos mover",
+        "Te adoraré, Te adoraré",
+        "Aquí estás",
+        "Obrando en mi",
+        "Te adoraré, Te adoraré",
+      ],
+      [
+        "Milagroso, abres camino",
+        "Cumples promesas",
+        "Luz en tinieblas",
+        "Mi Dios así eres tu",
+      ],
+      [
+        "Aquí estás tocando mi corazón",
+        "Te adoraré, Te adoraré",
+        "Aquí estás sanando mi corazón",
+        "Te adoraré, Te adoraré",
+      ],
+      ["Milagroso…"],
+      [
+        "Aunque no pueda ver estas obrando",
+        "Aunque no pueda ver estas obrando",
+        "Siempre estas, siempre estas obrando",
+        "Siempre estas, siempre estas obrando",
+      ],
+    ],
+  },
+47: {
     title: "What a Beautiful Name (Hermoso Nombre)",
     lyrics: [
       [
@@ -1329,64 +1609,7 @@ export const LYRICS = {
       ],
     ],
   },
-  43: {
-    title: "Way Maker (Aquí estás)",
-    lyrics: [
-      ["You are here", "Moving in our midst", "I worship You, I worship You"],
-      ["You are here", "Working in this place", "I worship You, I worship You"],
-      [
-        "Way maker, miracle worker",
-        "Promise keeper",
-        "Light in the darkness",
-        "My God, that is who You are",
-      ],
-      [
-        "You are here touching every heart",
-        "I worship You, I worship You",
-        "You are here healing every heart",
-        "I worship You, I worship You",
-        "You are here mending every heart",
-        "I worship You, I worship You",
-        "You are here turning lives around",
-        "I worship You, I worship You",
-      ],
-      ["Way maker…"],
-      [
-        "Even when I don’t see it You’re working",
-        "Even when I don’t feel it You’re working",
-        "You never stop, You never stop working",
-        "You never stop, You never stop working",
-      ],
-      ["", "----------", "Aquí estás", "----------"],
-      [
-        "Te vemos mover",
-        "Te adoraré, Te adoraré",
-        "Aquí estás",
-        "Obrando en mi",
-        "Te adoraré, Te adoraré",
-      ],
-      [
-        "Milagroso, abres camino",
-        "Cumples promesas",
-        "Luz en tinieblas",
-        "Mi Dios así eres tu",
-      ],
-      [
-        "Aquí estás tocando mi corazón",
-        "Te adoraré, Te adoraré",
-        "Aquí estás sanando mi corazón",
-        "Te adoraré, Te adoraré",
-      ],
-      ["Milagroso…"],
-      [
-        "Aunque no pueda ver estas obrando",
-        "Aunque no pueda ver estas obrando",
-        "Siempre estas, siempre estas obrando",
-        "Siempre estas, siempre estas obrando",
-      ],
-    ],
-  },
-  44: {
+48: {
     title: "You are God alone",
     lyrics: [
       [
@@ -1420,7 +1643,7 @@ export const LYRICS = {
       ["Unchangeable, Unshakeable, Unstoppable", "That’s what You are   (2x)"],
     ],
   },
-  45: {
+49: {
     title: "You are worthy of it all",
     lyrics: [
       [
@@ -1443,76 +1666,6 @@ export const LYRICS = {
         "Day and night, night and day, let incense arise",
       ],
       ["I exalt Thee", "I exalt Thee", "I exalt Thee oh Lord"],
-    ],
-  },
-  46: {
-    title: "Salmo 100",
-    lyrics: [
-      ["Ah....", "Ah ah ah (3x)"],
-      [
-        "Celebrai com júbilo ao Senhor",
-        "Todos os moradores da terra",
-        "Servi ao Senhor com alegria",
-        "Apresentai-vos a Ele com cânticos",
-      ],
-      [
-        "Sabei que o Senhor é Deus",
-        "E eterna a sua bondade",
-        "E a sua fidelidade",
-        "De geração a geração!",
-      ],
-      [
-        "Aleluia, glória e aleluia!",
-        "Aleluia, glória e aleluia!",
-        "Aleluia, glória e aleluia!",
-        "Aleluia, glória e aleluia!",
-      ],
-    ],
-  },
-  47: {
-    title: "Because He Lives",
-    lyrics: [
-      [
-        "God sent His son",
-        "They called Him, Jesus",
-        "He came to love",
-        "Heal and forgive",
-        "He lived and died",
-        "To buy my pardon",
-        "An empty grave is there",
-        "To prove my Savior lives!",
-      ],
-      [
-        "Chorus",
-        "Because He lives",
-        "I can face tomorrow!",
-        "Because He lives",
-        "All fear is gone",
-        "Because I know",
-        "He holds the future",
-        "And life is worth the living",
-        "Just because He lives!",
-      ],
-      [
-        "How sweet to hold",
-        "A newborn baby",
-        "And feel the pride",
-        "And joy he brings",
-        "But greater still",
-        "The calm assurance",
-        "This child can face",
-        "Uncertain days because He Lives!",
-      ],
-      [
-        "And then one day",
-        "I'll cross the river",
-        "I'll fight life's final",
-        "War with pain",
-        "And then, as death",
-        "Gives way to victory",
-        "I'll see the lights of glory",
-        "And I'll know He lives!",
-      ],
     ],
   },
 };
