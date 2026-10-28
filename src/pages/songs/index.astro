@@ -13,12 +13,31 @@ const t = useTranslations(lang);
   description={t("nav.songs.meta.description")}
   noFullPage
 >
+
+<!-- New code to search box -->
+  <div class="w-full mb-4">
+    <label for="song-search" class="sr-only">
+      Search songs
+    </label>
+    <input
+      id="song-search"
+      type="search"
+      placeholder="Search songs by title or lyrics..."
+      class="w-full border border-gray-200 rounded-md p-3 shadow-xs focus:outline-none focus:ring-2 focus:ring-blue-500"
+      autocomplete="off"
+    />
+    <p id="song-count" class="text-sm text-gray-500 mt-2" aria-live="polite">
+      {SONGS[lang].length} songs
+    </p>
+  </div>
+
   <section id="songs" class="grid grid-cols-auto-fill-300 gap-4 w-full">
     {
-      SONGS[lang].map(({ title, pathname, songNumber }) => (
+      SONGS[lang].map(({ title, pathname, songNumber, lyrics }) => (
         <a
-          href={`${pathname}`}
-          class="flex flex-col border border-gray-200 p-4 rounded-md shadow-xs hover:shadow-md transition-all duration-200 bg-white"
+          href={pathname}
+		      data-search={`${songNumber} ${title} ${lyrics}`}
+          class="song-card flex flex-col border border-gray-200 p-4 rounded-md shadow-xs hover:shadow-md transition-all duration-200 bg-white"
         >
           <span class="text-xl font-semibold">
             {songNumber}. {title}
@@ -27,4 +46,71 @@ const t = useTranslations(lang);
       ))
     }
   </section>
+
+  <p id="no-results" class="text-center text-gray-500 mt-6" hidden>
+    No songs found.
+  </p>
+
+  <script>
+    const searchInput =
+      document.querySelector<HTMLInputElement>("#song-search");
+
+    const songCards =
+      document.querySelectorAll<HTMLAnchorElement>(".song-card");
+
+    const songCount =
+      document.querySelector<HTMLParagraphElement>("#song-count");
+
+    const noResults =
+      document.querySelector<HTMLParagraphElement>("#no-results");
+
+    searchInput?.addEventListener("input", () => {
+      const query = searchInput.value.trim().toLocaleLowerCase();
+
+      let visibleCount = 0;
+
+      songCards.forEach((card) => {
+        const searchableText =
+          card.dataset.search?.toLocaleLowerCase() ?? "";
+
+        const matches = searchableText.includes(query);
+
+        card.hidden = !matches;
+
+        if (matches) visibleCount++;
+      });
+
+      if (songCount) {
+        songCount.textContent =
+          `${visibleCount} ${visibleCount === 1 ? "song" : "songs"}`;
+      }
+
+      if (noResults) {
+        noResults.hidden = visibleCount > 0;
+      }
+    });
+  </script>
+<!-- and code -->
+
+
 </Layout>
+
+<!-- New code to search box -->
+<style>
+  .song-card[hidden] {
+    display: none;
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+</style>
+<!-- and code -->
